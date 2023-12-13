@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+
+<head><title>Article test</title>
+<meta name="description" content="Some desc" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="stylesheet" href="../../../css/main.css">
+  </link>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<style>.button-border-inside-panel{padding:8px 15px 7px;border-radius:300px;border:1px solid #151515;background-color:#151515;color:#faf9f8;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;cursor:pointer;-webkit-transition:0.3s;transition:0.3s;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.button-border-inside-panel .point{width:8px;height:8px;background-color:#faf9f8;border-radius:200px;margin-right:5px}.button-border-inside-panel:hover{background-color:#faf9f8;color:#151515}.button-border-inside-panel:hover .point{background-color:#151515}.container-panel,.container-panel{width:100%;height:calc(100% - 60px);background-color:#faf9f8;position:absolute;top:20px;left:10px;z-index:200;display:-webkit-box;display:-ms-flexbox;display:flex}.infos-feed-panel-header{margin-left:calc(16.66vw - 5px);margin-top:20px}.infos-feed-panel-header .button-border-inside-panel{margin-top:15px}.infos-feed-panel-header .text-info-feed{margin-top:25px;width:250px}.products-feed-showcase-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:calc(40vw + 13px);height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;height:95%;position:absolute;right:20px;top:0px;margin-right:calc(8.33vw + 0px)}.product-feed{height:calc(100% - 10px);width:20vw;margin-left:10px;margin-top:10px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.img-container-pf{height:75%;background-color:#ededed;border-radius:5px}.img-container-pf img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover;border-radius:5px}.about-pf-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.about-pf-header .description-pf-header{margin-top:5px;width:85%;color:#878787}.about-pf-header .link-pf-header{margin-top:20px;color:#878787;-webkit-transition:0.3s ease;transition:0.3s ease;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.about-pf-header .link-pf-header:hover{color:#151515}.infos-collections-panel-header{margin-left:calc(16.66vw - 5px);margin-top:20px}.infos-collections-panel-header .container-double-list-collections{margin-top:4vh;display:-webkit-box;display:-ms-flexbox;display:flex}.column-collections-list{margin-right:40px}.column-collections-list ul{list-style-type:none;margin-top:2vh}.column-collections-list ul a li{color:#878787;margin-top:10px!important;-webkit-transition:0.3s ease;transition:0.3s ease}.column-collections-list ul a li:hover{color:#151515}header{width:100vw;position:fixed;top:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;z-index:100;background-color:#faf9f8;height:50px;padding:0 10px}.logo-header{padding:13px 0px!important;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;margin-left:0px}.logo-header img{height:100%}.line-header-grey{width:100vw;height:1px;background-color:#e3e3e3;position:absolute;bottom:0;left:0}.other-links-header{position:absolute;left:calc(66.64vw - 9px);height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#878787}.other-links-header a{margin-right:20px;-webkit-transition:0.3s ease;transition:0.3s ease}.other-links-header a:hover{color:#151515}.container-sidebar-studiopro{display:-webkit-box;display:-ms-flexbox;display:flex;height:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.burger-sidebar-desk{padding:5px 12px;color:#faf9f8;border-radius:300px;margin-left:10px;background-color:#151515;border:1px solid #151515;-webkit-transition:0.3s ease;transition:0.3s ease;cursor:pointer}.burger-sidebar-desk:hover{background-color:#faf9f8;color:#151515}.studiopro-button-header{padding:5px 12px;border-radius:300px;border:1px solid #151515;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;cursor:pointer;-webkit-transition:0.3s;transition:0.3s}.studiopro-button-header .point{width:8px;height:8px;background-color:#151515;border-radius:200px;margin-right:5px}.studiopro-button-header:hover{background-color:#151515;color:#faf9f8}.studiopro-button-header:hover .point{background-color:red}.container-menu-dropdown-elements{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:1px;position:absolute;left:calc(16.66vw + 10px);z-index:100;height:100%}.container-menu-dropdown-elements .element{padding:20px 0px;margin-right:20px;cursor:pointer;-webkit-transition:0.3s ease;transition:0.3s ease}.container-menu-dropdown-elements .element:hover{color:#878787}.container-panels{height:0vh;width:100%;position:fixed;left:0;top:-58vh;z-index:99;-webkit-transition:0.4s ease;transition:0.4s ease;opacity:0}.active{height:58vh;-webkit-transition:0.25s ease;transition:0.25s ease;opacity:1;top:0}.panel{width:100%;height:100%;position:absolute;top:0;left:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;font-size:45px;background-color:#faf9f8;border-bottom:1px solid #e3e3e3}.container-panel{opacity:0;position:relative;-webkit-transition:opacity 0.3s ease;transition:opacity 0.3s ease}.container-panel.panel-active{opacity:1;-webkit-transition:0.5s ease;transition:0.5s ease}.sidebar-desk{width:44vw;height:100vh;background:rgba(250,249,248,0.62);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);border-left:1px solid #e3e3e3;position:fixed;z-index:150;right:-44vw;top:0;padding:5vh 3vw;-webkit-transition:0.2s ease;transition:0.2s ease}.close-sidebar-desk{padding:5px 12px;color:#faf9f8;border-radius:300px;margin-left:10px;background-color:#151515;border:1px solid #151515;-webkit-transition:0.3s ease;transition:0.3s ease;cursor:pointer;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;position:absolute;right:2vh;top:2vh}.close-sidebar-desk:hover{background-color:transparent;color:#151515}.container-items-sidebar-desk{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-top:3vh;width:100%}.indiction-menu-sidebar-desk{color:#878787}.list-menu-sidebar-desk{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-top:4vh!important}.list-menu-sidebar-desk a{color:#151515;margin-bottom:1.5vh;-webkit-transition:0.3s ease;transition:0.3s ease}.list-menu-sidebar-desk a:hover{color:#878787}.back-invisible-sidebar{position:fixed;background-color:rgba(230,230,230,0);width:100vw;height:100vh;bottom:0;z-index:-10;opacity:0;-webkit-transition:0.2s ease-out;transition:0.2s ease-out;cursor:pointer}.to-back-blur{z-index:149;opacity:1}.to-left-menu{opacity:1;right:0;-webkit-transition:0.2s ease;transition:0.2s ease}html{background:purple}</style></head>
+
+<body>
+  <header>
+  <a class="logo-header" href="">
+    <img src="../../public/media/svg-assets/logo-donzelli-black.svg" alt="">
+  </a>
+  <div class="container-menu-dropdown-elements">
+    <div class="element nav-item-typo" data-panel="1">Feed</div>
+    <div class="element nav-item-typo" data-panel="2">Spaces</div>
+    <div class="element nav-item-typo" data-panel="3">Collections</div>
+    <div class="element nav-item-typo" data-panel="4">Type of Items</div>
+    <div class="element nav-item-typo" data-panel="5">Brands & Studios</div>
+    <div class="element nav-item-typo" data-panel="6">Designers</div>
+  </div>
+  <div class="other-links-header">
+    <a class="nav-item-typo" href="">Guide</a>
+    <a class="nav-item-typo" href="">Project & Features</a>
+  </div>
+  <div class="container-sidebar-studiopro">
+    <a href="" class="studiopro-button-header nav-item-typo">
+      <div class="point"></div>
+      Studio Pro
+    </a>
+    <div class="burger-sidebar-desk nav-item-typo">
+      Menu
+    </div>
+  </div>
+  <div class="line-header-grey"></div>
+</header>
+
+<div class="container-panels">
+  <div class="panel panel1" data-panel="1">
+    <div class="container-panel container-panel1">
+      <div class="infos-feed-panel-header ">
+        <p class="sidebar-item-desk ">Feed <br>
+          by Donzelli®
+        </p>
+        <a class="button-border-inside-panel nav-item-typo">
+          <span class="point"></span>
+          Découvrir le Feed
+        </a>
+        <p class="small-text text-info-feed">Dive into our Inspiration Feed. <br>
+          Legendary products captives, designs inspires. Welcome to a world where elegance meets refinement.</p>
+      </div>
+      <div class="products-feed-showcase-header">
+        <a class="product-feed pf1" href="">
+          <div class="img-container-pf">
+            <img src="../../public/media/products/lamp-taccia-flos-donzelli.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover</p>
+          </div>
+        </a>
+        <a class="product-feed pf2" href="">
+          <div class="img-container-pf">
+            <img src="../../public/media/products/chair-pierre-jeanneret-donzelli.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel2" data-panel="2">
+    <div class="container-panel container-panel2">
+      <div class="infos-feed-panel-header ">
+        <p class="sidebar-item-desk ">Our Spaces
+        </p>
+        <a class="button-border-inside-panel nav-item-typo">
+          <span class="point"></span>
+          Découvrir le Feed
+        </a>
+        <p class="small-text text-info-feed">Dive into our Inspiration Feed. <br>
+          Legendary products captives, designs inspires. Welcome to a world where elegance meets refinement.</p>
+      </div>
+      <div class="products-feed-showcase-header">
+        <a class="product-feed pf1" href="">
+          <div class="img-container-pf">
+            <img src="../../public/media/header-spaces1.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover</p>
+          </div>
+        </a>
+        <a class="product-feed pf2" href="">
+          <div class="img-container-pf">
+            <img src="../../public/media//header-spaces2.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel3" data-panel="3">
+    <div class="container-panel container-panel3">
+      <div class="infos-collections-panel-header">
+        <p class="sidebar-item-desk ">Collections
+        </p>
+
+        <div class="container-double-list-collections">
+          <div class="column-collections-list">
+            <p class="nav-item-typo">Nos Collections Phares</p>
+            <ul class="nav-item-typo">
+              <a href="">
+                <li>Height</li>
+              </a>
+              <a href="">
+                <li>Elven</li>
+              </a>
+              <a href="">
+                <li>Yamaha</li>
+              </a>
+              <a href="">
+                <li>Manhattan</li>
+              </a>
+            </ul>
+          </div>
+          <div class="column-collections-list">
+            <p class="nav-item-typo">All the collections</p>
+            <ul class="nav-item-typo">
+              <a href="">
+                <li>Height</li>
+              </a>
+              <a href="">
+                <li>Elven</li>
+              </a>
+              <a href="">
+                <li>Yamaha</li>
+              </a>
+              <a href="">
+                <li>Manhattan</li>
+              </a>
+              <a href="">
+                <li>Height</li>
+              </a>
+              <a href="">
+                <li>Elven</li>
+              </a>
+              <a href="">
+                <li>Yamaha</li>
+              </a>
+              <a href="">
+                <li>Manhattan</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div class="products-feed-showcase-header">
+        <a class="product-feed pf1" href="">
+          <div class="img-container-pf">
+            <img src="../../public/media/header-spaces1.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover</p>
+          </div>
+        </a>
+        <a class="product-feed pf2" href="">
+          <div class="img-container-pf">
+            <img src="../../public/media//header-spaces2.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel4" data-panel="4">
+    <div class="container-panel container-panel4">
+      Les Gros Items
+    </div>
+  </div>
+  <div class="panel panel5" data-panel="5">
+    <div class="container-panel container-panel5">
+      Les Grosses Marques
+    </div>
+  </div>
+  <div class="panel panel6" data-panel="6">
+    <div class="container-panel container-panel6">
+      Les Gros Designers
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const containerMenu = document.querySelector(".container-menu-dropdown-elements");
+    const containerPanels = document.querySelector(".container-panels");
+    const panels = document.querySelectorAll('.panel');
+
+    containerMenu.addEventListener("mouseover", function () {
+      containerPanels.classList.add("active");
+    });
+    containerMenu.addEventListener("mouseout", function () {
+      containerPanels.classList.remove("active");
+    });
+
+    containerPanels.addEventListener("mouseover", function () {
+      containerPanels.classList.add("active");
+    });
+
+    containerPanels.addEventListener("mouseout", function () {
+      containerPanels.classList.remove("active");
+    });
+
+    const elements = document.querySelectorAll('.element');
+    elements.forEach(element => {
+      element.addEventListener("mouseover", function () {
+        const panelIndex = this.getAttribute('data-panel');
+        panels.forEach((panel, index) => {
+          panel.style.zIndex = index + 1 == panelIndex ? "101" : "99";
+        });
+      });
+    });
+
+    panels.forEach(panel => {
+      panel.addEventListener("mouseover", function () {
+        containerPanels.classList.add("active");
+      });
+    });
+  });
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const panels = document.querySelectorAll('.panel');
+    const elements = document.querySelectorAll('.element');
+    const containerPanels = document.querySelector('.container-panels');
+    let isFirstTabHovered = false;
+    let isFirstElementHovered = false;
+    let timeout;
+
+    containerPanels.addEventListener("mouseleave", function (event) {
+      if (!event.relatedTarget || !containerPanels.contains(event.relatedTarget)) {
+        clearTimeout(timeout);
+        containerPanels.classList.remove('active');
+        containerPanels.dataset.hovered = 'false'; // Réinitialiser la propriété de dataset
+        isFirstTabHovered = false;
+        isFirstElementHovered = false;
+        removePanelActiveClass(); // Retirer panel-active de tous les container-panel
+      }
+    });
+
+    document.addEventListener("mousemove", function (event) {
+      // Réinitialiser les états si la souris quitte la fenêtre
+      if (event.target === document.documentElement) {
+        isFirstTabHovered = false;
+        isFirstElementHovered = false;
+      }
+    });
+
+    function removePanelActiveClass() {
+      const activePanels = document.querySelectorAll('.container-panel.panel-active');
+      activePanels.forEach(panel => {
+        panel.classList.remove('panel-active');
+      });
+    }
+
+    function handleMouseover(target, panelIndex, delay) {
+      if (!containerPanels.classList.contains('active') || (!isFirstTabHovered && !isFirstElementHovered)) {
+        clearTimeout(timeout);
+        containerPanels.classList.add('active');
+        containerPanels.dataset.hovered = 'true'; // Ajouter une propriété de dataset pour indiquer le survol
+
+        timeout = setTimeout(() => {
+          // Vérifier si la souris est toujours sur .container-panels
+          if (containerPanels.dataset.hovered === 'true') {
+            const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+            containerPanel.classList.add('panel-active');
+            isFirstTabHovered = true;
+          }
+        }, 400); // Ajuster le delai de l'arrivée de l'interieur du panneau
+      }
+    }
+    function handleMouseout(panelIndex, relatedTarget) {
+      if (containerPanels.classList.contains('active') && isFirstTabHovered) {
+        clearTimeout(timeout);
+
+        // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
+        if (relatedTarget && relatedTarget.classList.contains('element')) {
+          timeout = setTimeout(() => {
+            const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+            containerPanel.classList.remove('panel-active');
+            isFirstElementHovered = false;
+          }, 0);
+        } else {
+          isFirstElementHovered = true;
+        }
+      }
+    }
+
+    // function handleMouseout(panelIndex, relatedTarget) {
+    //   if (containerPanels.classList.contains('active') && isFirstTabHovered) {
+    //     clearTimeout(timeout);
+
+    //     // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
+    //     if (relatedTarget && relatedTarget.classList.contains('element')) {
+    //       timeout = setTimeout(() => {
+    //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+    //         containerPanel.classList.remove('panel-active');
+    //         isFirstElementHovered = false;
+    //       }, 0);
+    //     } else {
+    //       isFirstElementHovered = true;
+    //     }
+    //   }
+    // }
+
+    elements.forEach(element => {
+      element.addEventListener("mouseover", function () {
+        const panelIndex = this.getAttribute('data-panel');
+        handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 300);
+      });
+
+      element.addEventListener("mouseout", function (event) {
+        const panelIndex = this.getAttribute('data-panel');
+        handleMouseout(panelIndex, event.relatedTarget);
+      });
+    });
+
+    panels.forEach(panel => {
+      panel.addEventListener("mouseover", function () {
+        const panelIndex = this.getAttribute('data-panel');
+        if (!isChildOf(event.relatedTarget, containerPanels)) {
+          handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 300);
+        }
+      });
+
+      panel.addEventListener("mouseout", function (event) {
+        const panelIndex = this.getAttribute('data-panel');
+        handleMouseout(panelIndex, event.relatedTarget);
+      });
+    });
+
+    function isChildOf(child, parent) {
+      while (child !== null) {
+        if (child === parent) {
+          return true;
+        }
+        child = child.parentNode;
+      }
+      return false;
+    }
+  });
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const panels = document.querySelectorAll('.panel');
+  //   const elements = document.querySelectorAll('.element');
+  //   const containerPanels = document.querySelector('.container-panels');
+  //   let isFirstTabHovered = false;
+  //   let isFirstElementHovered = false;
+  //   let timeout;
+
+  //   containerPanels.addEventListener("mouseleave", function (event) {
+  //     if (!event.relatedTarget || !containerPanels.contains(event.relatedTarget)) {
+  //       clearTimeout(timeout);
+  //       containerPanels.classList.remove('active');
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //       removePanelActiveClass(); // Retirer panel-active de tous les container-panel
+  //     }
+  //   });
+
+  //   document.addEventListener("mousemove", function (event) {
+  //     // Réinitialiser les états si la souris quitte la fenêtre
+  //     if (event.target === document.documentElement) {
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //     }
+  //   });
+
+  //   function removePanelActiveClass() {
+  //     const activePanels = document.querySelectorAll('.container-panel.panel-active');
+  //     activePanels.forEach(panel => {
+  //       panel.classList.remove('panel-active');
+  //     });
+  //   }
+
+  //   function handleMouseover(target, panelIndex, delay) {
+  //     if (!containerPanels.classList.contains('active') || (!isFirstTabHovered && !isFirstElementHovered)) {
+  //       clearTimeout(timeout);
+  //       containerPanels.classList.add('active');
+  //       timeout = setTimeout(() => {
+  //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //         containerPanel.classList.add('panel-active');
+  //         isFirstTabHovered = true;
+  //       }, 600); // Changer la valeur de délai à 1000 millisecondes (1 seconde)
+  //     }
+  //   }
+
+
+  //   function handleMouseout(panelIndex, relatedTarget) {
+  //     if (containerPanels.classList.contains('active') && isFirstTabHovered) {
+  //       clearTimeout(timeout);
+
+  //       // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
+  //       if (relatedTarget && relatedTarget.classList.contains('element')) {
+  //         timeout = setTimeout(() => {
+  //           const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //           containerPanel.classList.remove('panel-active');
+  //           isFirstElementHovered = false;
+  //         }, 0);
+  //       } else {
+  //         isFirstElementHovered = true;
+  //       }
+  //     }
+  //   }
+
+  //   elements.forEach(element => {
+  //     element.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //     });
+
+  //     element.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   panels.forEach(panel => {
+  //     panel.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       if (!isChildOf(event.relatedTarget, containerPanels)) {
+  //         handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //       }
+  //     });
+
+  //     panel.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   function isChildOf(child, parent) {
+  //     while (child !== null) {
+  //       if (child === parent) {
+  //         return true;
+  //       }
+  //       child = child.parentNode;
+  //     }
+  //     return false;
+  //   }
+  // });
+
+
+
+  // CA MARCHE
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const panels = document.querySelectorAll('.panel');
+  //   const elements = document.querySelectorAll('.element');
+  //   const containerPanels = document.querySelector('.container-panels');
+  //   let isFirstTabHovered = false;
+  //   let isFirstElementHovered = false;
+  //   let timeout;
+
+  //   containerPanels.addEventListener("mouseleave", function (event) {
+  //     if (!event.relatedTarget || !containerPanels.contains(event.relatedTarget)) {
+  //       clearTimeout(timeout);
+  //       containerPanels.classList.remove('active');
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //       removePanelActiveClass(); // Retirer panel-active de tous les container-panel
+  //     }
+  //   });
+
+  //   document.addEventListener("mousemove", function (event) {
+  //     // Réinitialiser les états si la souris quitte la fenêtre
+  //     if (event.target === document.documentElement) {
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //     }
+  //   });
+
+  //   function removePanelActiveClass() {
+  //     const activePanels = document.querySelectorAll('.container-panel.panel-active');
+  //     activePanels.forEach(panel => {
+  //       panel.classList.remove('panel-active');
+  //     });
+  //   }
+
+  //   function handleMouseover(target, panelIndex, delay) {
+  //     if (!containerPanels.classList.contains('active') || (!isFirstTabHovered && !isFirstElementHovered)) {
+  //       clearTimeout(timeout);
+  //       containerPanels.classList.add('active');
+  //       timeout = setTimeout(() => {
+  //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //         containerPanel.classList.add('panel-active');
+  //         isFirstTabHovered = true;
+  //       }, delay);
+  //     }
+  //   }
+
+  //   function handleMouseout(panelIndex, relatedTarget) {
+  //     if (containerPanels.classList.contains('active') && isFirstTabHovered) {
+  //       clearTimeout(timeout);
+
+  //       // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
+  //       if (relatedTarget && relatedTarget.classList.contains('element')) {
+  //         timeout = setTimeout(() => {
+  //           const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //           containerPanel.classList.remove('panel-active');
+  //           isFirstElementHovered = false;
+  //         }, 0);
+  //       } else {
+  //         isFirstElementHovered = true;
+  //       }
+  //     }
+  //   }
+
+  //   elements.forEach(element => {
+  //     element.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //     });
+
+  //     element.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   panels.forEach(panel => {
+  //     panel.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       if (!isChildOf(event.relatedTarget, containerPanels)) {
+  //         handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //       }
+  //     });
+
+  //     panel.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   function isChildOf(child, parent) {
+  //     while (child !== null) {
+  //       if (child === parent) {
+  //         return true;
+  //       }
+  //       child = child.parentNode;
+  //     }
+  //     return false;
+  //   }
+  // });
+
+
+
+  // SANS CLIGNOTEMENT
+
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const panels = document.querySelectorAll('.panel');
+  //   const elements = document.querySelectorAll('.element');
+  //   const containerPanels = document.querySelector('.container-panels');
+  //   let isFirstTabHovered = false;
+  //   let isFirstElementHovered = false;
+  //   let timeout;
+
+  //   containerPanels.addEventListener("mouseleave", function (event) {
+  //     if (!event.relatedTarget || !containerPanels.contains(event.relatedTarget)) {
+  //       clearTimeout(timeout);
+  //       containerPanels.classList.remove('active');
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //     }
+  //   });
+
+  //   // Ajout du gestionnaire d'événements sur le document
+  //   document.addEventListener("mousemove", function (event) {
+  //     // Réinitialiser les états si la souris quitte la fenêtre
+  //     if (event.target === document.documentElement) {
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //     }
+  //   });
+
+  //   function handleMouseover(target, panelIndex, delay) {
+  //     if (!containerPanels.classList.contains('active') || (!isFirstTabHovered && !isFirstElementHovered)) {
+  //       containerPanels.classList.add('active');
+  //       clearTimeout(timeout);
+  //       timeout = setTimeout(() => {
+  //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //         containerPanel.classList.add('panel-active');
+  //         isFirstTabHovered = true;
+  //       }, delay);
+  //     }
+  //   }
+
+  //   function handleMouseout(panelIndex, relatedTarget) {
+  //     if (containerPanels.classList.contains('active') && isFirstTabHovered) {
+  //       clearTimeout(timeout);
+
+  //       // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
+  //       if (relatedTarget && relatedTarget.classList.contains('element')) {
+  //         timeout = setTimeout(() => {
+  //           const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //           containerPanel.classList.remove('panel-active');
+  //           isFirstElementHovered = false;
+  //         }, 0);
+  //       } else {
+  //         isFirstElementHovered = true;
+  //       }
+  //     }
+  //   }
+
+  //   elements.forEach(element => {
+  //     element.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //     });
+
+  //     element.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   panels.forEach(panel => {
+  //     panel.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       // Ajoutons une condition pour éviter de déclencher l'événement lorsque la souris entre dans .container-panel
+  //       if (!isChildOf(event.relatedTarget, containerPanels)) {
+  //         handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //       }
+  //     });
+
+  //     panel.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   function isChildOf(child, parent) {
+  //     while (child !== null) {
+  //       if (child === parent) {
+  //         return true;
+  //       }
+  //       child = child.parentNode;
+  //     }
+  //     return false;
+  //   }
+  // });
+
+
+
+
+
+</script><nav>
+
+</nav><div class="sidebar-desk">
+    <div class="close-sidebar-desk nav-item-typo">
+        Fermer
+    </div>
+    <div class="container-items-sidebar-desk">
+        <p class="indiction-menu-sidebar-desk nav-item-typo">Menu</p>
+        <div class="list-menu-sidebar-desk">
+            <a class="sidebar-item-desk" href="">About us</a>
+            <a class="sidebar-item-desk" href="">Vision</a>
+            <a class="sidebar-item-desk" href="">Project & Features</a>
+            <a class="sidebar-item-desk" href="">Studio Pro</a>
+            <a class="sidebar-item-desk" href="">Engagements</a>
+            <a class="sidebar-item-desk" href="">Magazine</a>
+            <a class="sidebar-item-desk" href="">Contact</a>
+            <a class="sidebar-item-desk" href="">Press</a>
+            <a class="sidebar-item-desk" href="">Careers</a>
+        </div>
+    </div>
+</div>
+
+<div class="back-invisible-sidebar">
+
+</div><h1>Article Test</h1>
+<footer>
+
+</footer>
+  <script src="../../../js/js-build/burger-dist.js"></script>
+  <script src="../../../js/fixed-header.js"></script>
+</body>

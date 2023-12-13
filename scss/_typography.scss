@@ -1,0 +1,57 @@
+@import "./fonts", "./variables";
+
+.nav-item-typo {
+  font-family: "Donzelli Main";
+  letter-spacing: -0.01em;
+  font-size: calc(
+    18px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+  );
+  line-height: 100%;
+  position: relative;
+}
+
+@media (min-width: 1500px) {
+  .nav-item-typo {
+    font-size: calc(
+      16px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+    );
+  }
+}
+
+.small-text {
+  font-family: "Donzelli Main";
+  letter-spacing: -0.01em;
+  font-size: calc(
+    18px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+  );
+  line-height: 140%;
+  position: relative;
+}
+
+@media (min-width: 1500px) {
+  .small-text {
+    font-size: calc(
+      16px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+    );
+  }
+}
+
+.sidebar-item-desk {
+  font-family: "Donzelli Main";
+  letter-spacing: -0.03em;
+  font-size: calc(
+    48px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+  );
+  line-height: 100%;
+  position: relative;
+}
+
+.subtitle {
+  font-family: "Donzelli Main";
+  letter-spacing: -0.02em;
+  font-size: calc(
+    36px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+  );
+  line-height: 120%;
+  position: relative;
+}

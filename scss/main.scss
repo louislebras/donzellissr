@@ -1,0 +1,45 @@
+@import "./fonts", "./reset", "./typography", "./variables";
+
+html,
+body {
+  background-color: $donzelli1 !important;
+}
+
+body {
+  font-family: "Donzelli Main";
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $donzelli3;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.grid {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  // border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  z-index: 999;
+  pointer-events: none;
+  display: none;
+  .column {
+    width: calc(8.33vw - 15px);
+    background-color: rgba(255, 0, 0, 0.188);
+  }
+}
+
+main {
+  width: 100%;
+  margin-top: 50px;
+  // border: 1px solid red;
+  padding: 0px 10px;
+}

@@ -1,0 +1,17 @@
+# Settings in the [build] context are global and are applied to all contexts
+# unless otherwise overridden by more specific contexts.
+[build]
+  publish = "dist"
+
+  # Default build command.
+  command = "npm run build-ssr"
+
+# Specific branch context: all deploys from this specific branch will inherit
+# these settings.
+[context.main.environment] # “preprod” is the branch name
+  NETLIFY_ENV = "production"
+
+# Specific branch context: all deploys from this specific branch will inherit
+# these settings.
+[context.preprod.environment] # “preprod” is the branch name
+  NETLIFY_ENV = "preproduction"

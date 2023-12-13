@@ -1,0 +1,2 @@
+window.addEventListener("load",(function(){var e=document.querySelector(".burger-sidebar-desk"),c=document.querySelector(".close-sidebar-desk"),t=document.querySelector(".sidebar-desk"),o=document.querySelector(".back-invisible-sidebar");e.onclick=function(){t.classList.add("to-left-menu"),o.classList.add("to-back-blur")},c.onclick=function(){t.classList.remove("to-left-menu"),o.classList.remove("to-back-blur")},o.onclick=function(){t.classList.remove("to-left-menu"),o.classList.remove("to-back-blur")}}));
+//# sourceMappingURL=burger-dist.js.map

@@ -1,0 +1,27 @@
+.button-border-inside-panel {
+  padding: 8px 15px 7px;
+  border-radius: 300px;
+  border: 1px solid $donzelli3;
+  background-color: $donzelli3;
+  color: $donzelli1;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  width: fit-content;
+  .point {
+    width: 8px;
+    height: 8px;
+    background-color: $donzelli1;
+    border-radius: 200px;
+    margin-right: 5px;
+  }
+
+  &:hover {
+    background-color: $donzelli1;
+    color: $donzelli3;
+    .point {
+      background-color: $donzelli3;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.heading-home {
+  padding-top: 3vh;
+
+  .logo-heading-home {
+    width: 30vw;
+  }
+
+  .subtitle {
+    margin-left: calc((8.33vw * 2) - 5px);
+    width: 30vw !important;
+    margin-top: 1.5vh;
+  }
+
+  .home-img-heading {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+    margin-top: 14vh;
+    border-radius: 5px;
+    margin-bottom: 100vh;
+  }
+}

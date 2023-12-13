@@ -1,0 +1,88 @@
+@import "../../scss/variables";
+
+.sidebar-desk {
+  width: 44vw;
+  height: 100vh;
+  background: rgba(250, 249, 248, 0.62);
+  backdrop-filter: blur(20px);
+  border-left: 1px solid $donzelli2;
+  position: fixed;
+  z-index: 150;
+  right: -44vw;
+  top: 0;
+  padding: 5vh 3vw;
+  transition: 0.2s ease;
+}
+
+.close-sidebar-desk {
+  padding: 5px 12px;
+  color: $donzelli1;
+  border-radius: 300px;
+  margin-left: 10px;
+  background-color: $donzelli3;
+  border: 1px solid $donzelli3;
+  transition: 0.3s ease;
+  cursor: pointer;
+  width: fit-content;
+  position: absolute;
+  right: 2vh;
+  top: 2vh;
+  // transform: translate(-50%, -50%);
+
+  &:hover {
+    background-color: transparent;
+    color: $donzelli3;
+  }
+}
+
+.container-items-sidebar-desk {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vh;
+  width: 100%;
+  //   border: 1px solid red;
+}
+
+.indiction-menu-sidebar-desk {
+  color: $donzelli4;
+}
+
+.list-menu-sidebar-desk {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh !important;
+  a {
+    color: $donzelli3;
+    margin-bottom: 1.5vh;
+
+    transition: 0.3s ease;
+
+    &:hover {
+      color: $donzelli4;
+    }
+  }
+}
+
+.back-invisible-sidebar {
+  position: fixed;
+  background-color: #e6e6e600;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  z-index: -10;
+  opacity: 0;
+  //   backdrop-filter: blur(15px);
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+.to-back-blur {
+  z-index: 149;
+  opacity: 1;
+}
+
+.to-left-menu {
+  opacity: 1;
+  right: 0;
+  transition: 0.2s ease;
+}
