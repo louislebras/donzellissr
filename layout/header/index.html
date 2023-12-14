@@ -182,7 +182,112 @@
   </div>
   <div class="panel panel4" data-panel="4">
     <div class="container-panel container-panel4">
-      Les Gros Items
+      <div class="panel-container-items-header">
+        <p class="sidebar-item-desk">All Items</p>
+        <div class="container-bycategories-items-header categoryOriginTop">
+          <span class="thirdtitle category1 hover-effect">Sofas & Armchairs</span>
+          <span class="thirdtitle category2 hover-effect">Chairs</span>
+          <span class="thirdtitle category3 hover-effect">Tables</span>
+          <span class="thirdtitle category4 hover-effect">Furniture & Storage</span>
+          <span class="thirdtitle category5 hover-effect">Lamps & Lightning</span>
+          <span class="thirdtitle category6 hover-effect">Objects & Accessories</span>
+          <span class="thirdtitle category7 hover-effect">Art & Frames</span>
+          <span class="thirdtitle category8 hover-effect">Technology</span>
+          <span class="thirdtitle category9 hover-effect">Outdoor</span>
+        </div>
+      </div>
+
+      <div class="subcategories-containers subcategoryNewTop">
+        <div class="subcategory-items category1-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Sofas & Armchairs</a>
+          <a href="">Sofas</a>
+          <a href="">Armchairs</a>
+          <a href="">Corner sofas</a>
+          <a href="">Modular sofas</a>
+          <a href="">Convertible sofas</a>
+          <a href="">Chaise longues / Méridiennes</a>
+          <a href="">Daybeds</a>
+          <a href="">Poufs & Ottomans</a>
+        </div>
+        <div class="subcategory-items category2-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Chairs</a>
+          <a href="">Armchairs</a>
+          <a href="">Sidechairs</a>
+          <a href="">Dining Chairs</a>
+          <a href="">Desk Chairs</a>
+          <a href="">Lounge Chairs</a>
+          <a href="">Stools</a>
+          <a href="">Benches</a>
+          <a href="">Daybeds</a>
+          <a href="">Poufs & Ottomans</a>
+        </div>
+        <div class="subcategory-items category3-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Tables</a>
+          <a href="">Big Tables</a>
+          <a href="">Dining Tables</a>
+          <a href="">Desks</a>
+          <a href="">Lowtables</a>
+          <a href="">Side & End Tables</a>
+          <a href="">Console & sideboard</a>
+
+        </div>
+        <div class="subcategory-items category4-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Furniture & Storage</a>
+          <a href="">Wardrobes, Shelves & Drawers</a>
+          <a href="">Buffets & Consoles</a>
+          <a href="">Libraries</a>
+          <a href="">Office Storage</a>
+          <a href="">TV Furniture</a>
+          <a href="">Dressing and closets</a>
+          <a href="">Beds and accessories</a>
+        </div>
+        <div class="subcategory-items category5-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Lights and Lightning</a>
+          <a href="">Table Lamps</a>
+          <a href="">Floor Lamps</a>
+          <a href="">Suspended Lamps</a>
+          <a href="">Wall & Ceiling Lamps</a>
+          <a href="">Portable Lamps</a>
+          <a href="">Outdoor Lamps</a>
+        </div>
+        <div class="subcategory-items category6-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Objects & Accessories</a>
+          <a href="">Office Accessories</a>
+          <a href="">Kitchen & Vaiselle</a>
+          <a href="">Living room, Cushion, Plaid</a>
+          <a href="">Rugs</a>
+          <a href="">Vases</a>
+          <a href="">Candles</a>
+          <a href="">Books</a>
+          <a href="">Screens</a>
+          <a href="">Mirrors</a>
+        </div>
+        <div class="subcategory-items category7-subcategory nav-item-typo "><a class="all-items-sub" href="">All Art &
+            Paintings</a>
+          <a href="">Art Paintings</a>
+          <a href="">Scultures</a>
+          <a href="">Iconic Pieces</a>
+          <a href="">Statues</a>
+
+        </div>
+        <div class="subcategory-items category8-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Technology</a>
+          <a href="">Electrical Goods, Fridges, Caves</a>
+          <a href="">Speakers, Vinyl, Hi-Fi</a>
+          <a href="">Connected Objects and Lighting</a>
+          <a href="">TV Accessories</a>
+          <a href="">Domestic Accessories</a>
+        </div>
+        <div class="subcategory-items category9-subcategory nav-item-typo">
+          <a class="all-items-sub" href="">All Outdoor</a>
+          <a href="">Tables & Chairs</a>
+          <a href="">Garden furniture</a>
+          <a href="">Lighting</a>
+          <a href="">Accessories</a>
+          <a href="">Loungers & Hammocks</a>
+          <a href="">Barbecues and plancha</a>
+        </div>
+      </div>
     </div>
   </div>
   <div class="panel panel5" data-panel="5">
@@ -660,6 +765,214 @@
 
 
 
+
+
+</script>
+
+<script>
+
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const categories = document.querySelectorAll('.container-bycategories-items-header span');
+  //   const subcategories = document.querySelectorAll('.subcategory-items');
+  //   const containerPanels = document.querySelector('.container-panels');
+
+  //   categories.forEach(category => {
+  //     category.addEventListener('click', function () {
+  //       const categoryNumber = this.classList[1].replace('category', '');
+  //       toggleCategory(categoryNumber);
+  //     });
+  //   });
+
+  //   function toggleCategory(categoryNumber) {
+  //     // Ajoute le style de transition
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.transition = 'opacity 600ms';
+  //     });
+
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.opacity = '0'; // Réinitialise l'opacité pour tous les éléments
+  //       subcategory.style.zIndex = '-1'; // Réinitialise le z-index pour tous les éléments
+  //       subcategory.classList.remove('hovered');
+  //     });
+
+  //     const correspondingSubcategory = document.querySelector(`.category${categoryNumber}-subcategory`);
+  //     correspondingSubcategory.style.opacity = '1'; // Fixe l'opacité pour la sous-catégorie correspondante
+  //     correspondingSubcategory.style.zIndex = '10'; // Définit le z-index à -10 pour la sous-catégorie correspondante
+  //     correspondingSubcategory.classList.add('hovered');
+  //   }
+
+  //   function resetClickLogic() {
+  //     // Supprime le style de transition
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.transition = '';
+  //       subcategory.style.opacity = '0';
+  //       subcategory.style.zIndex = '-1';
+  //       subcategory.classList.remove('hovered');
+  //     });
+  //   }
+
+  //   containerPanels.addEventListener('transitionend', function (event) {
+  //     if (event.propertyName === 'opacity' && !containerPanels.classList.contains('active')) {
+  //       // Si la propriété en transition est l'opacité et la classe .active a été retirée
+  //       resetClickLogic();
+  //     }
+  //   });
+
+  //   // Assurez-vous d'appeler resetClickLogic() si vous retirez la classe .active de .container-panels à un autre endroit de votre code
+  // });
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const categories = document.querySelectorAll('.container-bycategories-items-header span');
+  //   const subcategories = document.querySelectorAll('.subcategory-items');
+  //   const containerPanels = document.querySelector('.container-panels');
+
+  //   let activeCategory = null; // Garde une trace du span actuellement actif
+
+  //   categories.forEach(category => {
+  //     category.addEventListener('click', function () {
+  //       const categoryNumber = this.classList[1].replace('category', '');
+  //       toggleCategory(categoryNumber, this); // Passe l'élément span actuel comme argument
+  //     });
+  //   });
+
+  //   function toggleCategory(categoryNumber, clickedCategory) {
+  //     // Ajoute le style de transition
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.transition = 'opacity 600ms';
+  //     });
+
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.opacity = '0'; // Réinitialise l'opacité pour tous les éléments
+  //       subcategory.style.zIndex = '-1'; // Réinitialise le z-index pour tous les éléments
+  //       subcategory.classList.remove('hovered');
+  //     });
+
+  //     const correspondingSubcategory = document.querySelector(`.category${categoryNumber}-subcategory`);
+  //     correspondingSubcategory.style.opacity = '1'; // Fixe l'opacité pour la sous-catégorie correspondante
+  //     correspondingSubcategory.style.zIndex = '10'; // Définit le z-index à -10 pour la sous-catégorie correspondante
+  //     correspondingSubcategory.classList.add('hovered');
+
+  //     // Retire la classe grey-active du span précédemment actif
+  //     if (activeCategory) {
+  //       activeCategory.classList.remove('grey-active');
+  //     }
+
+  //     // Ajoute la classe grey-active au span cliqué
+  //     clickedCategory.classList.add('grey-active');
+
+  //     // Met à jour le span actuellement actif
+  //     activeCategory = clickedCategory;
+  //   }
+
+  //   function resetClickLogic() {
+  //     // Supprime le style de transition
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.transition = '';
+  //       subcategory.style.opacity = '0';
+  //       subcategory.style.zIndex = '-1';
+  //       subcategory.classList.remove('hovered');
+  //     });
+
+  //     // Supprime la classe grey-active de tous les spans
+  //     categories.forEach(category => {
+  //       category.classList.remove('grey-active');
+  //     });
+
+  //     activeCategory = null; // Réinitialise le span actuellement actif
+  //   }
+
+  //   containerPanels.addEventListener('transitionend', function (event) {
+  //     if (event.propertyName === 'opacity' && !containerPanels.classList.contains('active')) {
+  //       // Si la propriété en transition est l'opacité et la classe .active a été retirée
+  //       resetClickLogic();
+  //     }
+  //   });
+
+  //   // Assurez-vous d'appeler resetClickLogic() si vous retirez la classe .active de .container-panels à un autre endroit de votre code
+  // });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const categories = document.querySelectorAll('.container-bycategories-items-header span');
+    const subcategories = document.querySelectorAll('.subcategory-items');
+    const containerPanels = document.querySelector('.container-panels');
+
+    let activeCategory = null;
+
+    categories.forEach(category => {
+      category.addEventListener('click', function () {
+        const categoryNumber = this.classList[1].replace('category', '');
+        toggleCategory(categoryNumber, this);
+      });
+    });
+
+    function toggleCategory(categoryNumber, clickedCategory) {
+      subcategories.forEach(subcategory => {
+        subcategory.style.transition = 'opacity 600ms';
+      });
+
+      subcategories.forEach(subcategory => {
+        subcategory.style.opacity = '0';
+        subcategory.style.zIndex = '-1';
+        subcategory.classList.remove('hovered');
+      });
+
+      const correspondingSubcategory = document.querySelector(`.category${categoryNumber}-subcategory`);
+      correspondingSubcategory.style.opacity = '1';
+      correspondingSubcategory.style.zIndex = '10';
+      correspondingSubcategory.classList.add('hovered');
+
+      if (activeCategory && activeCategory !== clickedCategory) {
+        activeCategory.classList.remove('grey-active');
+      }
+
+      clickedCategory.classList.add('grey-active');
+      activeCategory = clickedCategory;
+    }
+
+    function resetClickLogic() {
+      subcategories.forEach(subcategory => {
+        subcategory.style.transition = '';
+        subcategory.style.opacity = '0';
+        subcategory.style.zIndex = '-1';
+        subcategory.classList.remove('hovered');
+      });
+
+      categories.forEach(category => {
+        category.classList.remove('grey-active');
+      });
+
+      activeCategory = null;
+    }
+
+    containerPanels.addEventListener('transitionend', function (event) {
+      if (event.propertyName === 'opacity' && !containerPanels.classList.contains('active')) {
+        resetClickLogic();
+      }
+    });
+
+    // Ajoutez le code pour simuler le clic sur .category1 uniquement si aucun span n'est actuellement cliqué
+    containerPanels.addEventListener('transitionstart', function (event) {
+      if (event.propertyName === 'opacity' && containerPanels.classList.contains('active') && !activeCategory) {
+        // Simule un clic sur .category1
+        const category1 = document.querySelector('.category1');
+        category1.click();
+      }
+    });
+  });
+
+
+
+  window.addEventListener('DOMContentLoaded', function () {
+    const categoryOriginTop = document.querySelector('.categoryOriginTop');
+    const subcategoryNewTop = document.querySelector('.subcategoryNewTop');
+
+    // Calcule la distance entre le haut de la fenêtre et categoryOriginTop
+    const distanceFromTop = categoryOriginTop.offsetTop;
+
+    // Applique la distance comme top pour subcategoryNewTop
+    subcategoryNewTop.style.top = distanceFromTop + 'px';
+  });
 
 
 </script>

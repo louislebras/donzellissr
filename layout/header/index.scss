@@ -131,14 +131,14 @@ header {
   // background-color: red;
   position: fixed;
   left: 0;
-  top: -58vh; // remmetre à -58vh
+  top: -65vh; // remmetre à -58vh
   z-index: 99;
   transition: 0.4s ease;
   opacity: 0; // remmetre à zéro
 }
 
 .active {
-  height: 58vh;
+  height: 65vh;
   transition: 0.25s ease; // Ajuster le temps de descente du panneau
   opacity: 1;
   top: 0;

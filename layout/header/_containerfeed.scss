@@ -11,8 +11,8 @@
 }
 
 .infos-feed-panel-header {
-  margin-left: calc((8.33vw * 2) - 5px);
-  margin-top: 20px;
+  margin-left: calc((8.33vw * 2) - 0px);
+  margin-top: 50px;
 
   .button-border-inside-panel {
     margin-top: 15px;
@@ -68,6 +68,7 @@
     margin-top: 5px;
     width: 85%;
     color: $donzelli4;
+    width: fit-content;
   }
 
   .link-pf-header {
@@ -82,7 +83,7 @@
 }
 
 .infos-collections-panel-header {
-  margin-left: calc((8.33vw * 2) - 5px);
+  margin-left: calc((8.33vw * 2) - 0px);
   margin-top: 20px;
 
   .container-double-list-collections {
@@ -93,6 +94,10 @@
 
 .column-collections-list {
   margin-right: 40px;
+
+  p {
+    width: fit-content;
+  }
   ul {
     list-style-type: none;
     margin-top: 2vh;
@@ -105,5 +110,87 @@
         color: $donzelli3;
       }
     }
+  }
+}
+
+.panel-container-items-header {
+  margin-left: calc((8.33vw * 2) - 0px);
+  margin-top: 20px;
+  .sidebar-item-desk {
+    width: fit-content;
+  }
+
+  .container-bycategories-items-header {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+
+    span {
+      margin-bottom: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      &:hover {
+        color: $donzelli4;
+      }
+    }
+  }
+}
+
+.grey-active {
+  color: $donzelli4;
+  transition: 0.3s ease;
+}
+
+.subcategories-containers {
+  width: calc(8.33vw * 2);
+  position: absolute;
+  //   top: 10vh;
+  left: calc((8.33vw * 5) - 2px);
+  //   border: 1px solid red;
+  height: 30vh;
+
+  .subcategory-items {
+    position: absolute;
+    top: 0;
+    left: 0;
+    // border: 1px solid blue;
+    width: 100%;
+    height: 100%;
+    background-color: $donzelli1;
+    opacity: 0;
+    // z-index: -1;
+    transition: opacity 300ms; /* Ajoute la transition d'opacité */
+
+    display: flex;
+    flex-direction: column;
+    a {
+      margin-bottom: 10px;
+      color: $donzelli4;
+      transition: 0.3s ease;
+      position: relative;
+      cursor: pointer;
+      width: fit-content;
+      &:hover {
+        color: $donzelli3;
+      }
+    }
+
+    .all-items-sub {
+      margin-bottom: 20px;
+      color: $donzelli3;
+      height: fit-content;
+      text-underline-offset: 2px;
+
+      text-decoration: normal;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .subcategory-items.hovered {
+    opacity: 1;
+    z-index: 10;
+    // transition: opacity 300ms;
   }
 }
