@@ -194,3 +194,129 @@
     // transition: opacity 300ms;
   }
 }
+
+.panel-container-rooms-header {
+  position: absolute;
+  top: 20px;
+  left: calc((8.33vw * 8) - 19px);
+  width: auto;
+  height: auto;
+  //   border: 1px solid red;
+}
+
+.container-rooms-types {
+  margin-top: 3vh;
+  display: flex;
+}
+
+.room-type-header {
+  margin-right: 40px;
+}
+
+.name-room-header {
+  color: $donzelli3;
+  height: fit-content;
+  text-underline-offset: 2px;
+
+  text-decoration: normal;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.list-items-inner-room {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  a {
+    margin-bottom: 10px;
+    color: $donzelli4;
+    transition: 0.3s ease;
+    position: relative;
+    cursor: pointer;
+    width: fit-content;
+    &:hover {
+      color: $donzelli3;
+    }
+  }
+}
+
+.link-view-more-rooms {
+  margin-top: 40px;
+  text-underline-offset: 2px;
+
+  text-decoration: normal;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.panel-container-brands-header {
+  margin-left: calc((8.33vw * 2) - 0px);
+  margin-top: 20px;
+}
+
+.subtitle-brands-header {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  color: $donzelli4;
+}
+
+.container-main-brands {
+  margin-top: 6vh;
+  display: flex;
+  flex-direction: column;
+  a {
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    &:hover {
+      color: $donzelli4;
+    }
+  }
+}
+
+.container-all-brands {
+  //   width: calc(8.33vw * 2);
+  position: absolute;
+  //   border: 1px solid red;
+  left: calc((8.33vw * 5) - 2px);
+}
+
+.container-all-studios {
+  //   width: calc(8.33vw * 2);
+  position: absolute;
+  //   border: 1px solid red;
+  left: calc((8.33vw * 8) - 19px);
+}
+
+.container-title-all-brands {
+  display: flex;
+}
+
+.discover-more-brands {
+  margin-left: 40px;
+}
+
+.all-brands-items {
+  margin-top: 6vh;
+  display: flex;
+
+  .column-brands {
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid blue;
+    width: 8.33vw;
+  }
+
+  a {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: $donzelli4;
+    &:hover {
+      color: $donzelli3;
+    }
+  }
+}

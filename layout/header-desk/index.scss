@@ -20,6 +20,8 @@ header {
   align-items: center;
   justify-content: flex-start;
   margin-left: 0px;
+  mix-blend-mode: difference;
+  // background-color: $donzelli1;
   img {
     height: 100%;
   }
@@ -131,7 +133,7 @@ header {
   // background-color: red;
   position: fixed;
   left: 0;
-  top: -65vh; // remmetre à -58vh
+  top: -65vh; // remmetre à -65vh
   z-index: 99;
   transition: 0.4s ease;
   opacity: 0; // remmetre à zéro

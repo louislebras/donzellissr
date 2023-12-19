@@ -1,5 +1,18 @@
 @import "./fonts", "./variables";
 
+.arrow-item {
+  width: 10px;
+  margin-left: 5px;
+}
+
+.underlined {
+  text-underline-offset: 2px;
+  text-decoration: normal;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .nav-item-typo {
   font-family: "Donzelli Main";
   letter-spacing: -0.01em;
@@ -13,8 +26,14 @@
 @media (min-width: 1500px) {
   .nav-item-typo {
     font-size: calc(
-      16px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+      13px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
     );
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-item-typo {
+    font-size: 14px;
   }
 }
 
@@ -40,8 +59,26 @@
   font-family: "Donzelli Main";
   letter-spacing: -0.03em;
   font-size: calc(
-    48px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+    45px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
   );
+  line-height: 100%;
+  position: relative;
+  width: fit-content;
+}
+
+.sidebar-item-mobile {
+  font-family: "Donzelli Main";
+  letter-spacing: -0.03em;
+  font-size: 36px;
+  line-height: 100%;
+  position: relative;
+  width: fit-content;
+}
+
+.second-sidebar-item-mobile {
+  font-family: "Donzelli Main";
+  letter-spacing: -0.03em;
+  font-size: 24px;
   line-height: 100%;
   position: relative;
   width: fit-content;
@@ -57,6 +94,12 @@
   position: relative;
 }
 
+@media (max-width: 800px) {
+  .subtitle {
+    font-size: 24px;
+  }
+}
+
 .thirdtitle {
   font-family: "Donzelli Main";
   letter-spacing: -0.02em;
@@ -65,4 +108,10 @@
   );
   line-height: 120%;
   position: relative;
+}
+
+@media (max-width: 800px) {
+  .thirdtitle {
+    font-size: 22px;
+  }
 }

@@ -13,6 +13,9 @@ window.addEventListener("scroll", function () {
     document
       .querySelector(".container-menu-dropdown-elements")
       .classList.add("menu-slide");
+    document
+      .querySelector(".header-mobile")
+      .classList.add("scroll-mobile-header-home");
   } else {
     document
       .querySelector(".logo-header")
@@ -20,6 +23,9 @@ window.addEventListener("scroll", function () {
     document
       .querySelector(".container-menu-dropdown-elements")
       .classList.remove("menu-slide");
+    document
+      .querySelector(".header-mobile")
+      .classList.remove("scroll-mobile-header-home");
   }
 });
 

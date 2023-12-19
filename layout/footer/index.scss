@@ -1,0 +1,119 @@
+@import "../../scss/variables";
+
+footer {
+  padding: 0px 10px;
+  position: relative;
+  background-color: $donzelli1;
+  .line-top-header {
+    position: absolute;
+    width: 100vw;
+    height: 1px;
+    left: 0;
+    top: 0;
+    background-color: $donzelli1bis;
+  }
+}
+
+.heading-header {
+  padding-top: 20px;
+  display: flex;
+  position: relative;
+
+  img {
+    height: 30px;
+    mix-blend-mode: difference;
+  }
+
+  .subtitle {
+    position: absolute;
+    left: calc((8.33vw * 4) - 1px);
+    // border: 1px solid red;
+  }
+}
+
+.container-links-footer {
+  display: flex;
+  position: absolute;
+  left: calc((8.33vw * 4) + 9px);
+  //   border: 1px solid red;
+  margin-top: 10vh;
+  .group-columns-footer {
+    display: flex;
+    // margin-right: 30px;
+  }
+
+  .column-footer-links {
+    display: flex;
+    flex-direction: column;
+
+    .list-link-column {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin-top: 20px;
+      margin-right: 40px;
+      a {
+        color: $donzelli4;
+        margin-bottom: 10px;
+        position: relative;
+        transition: 0.3s ease;
+        &:hover {
+          color: $donzelli3;
+        }
+      }
+    }
+  }
+}
+
+.extra-links-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 50vh;
+  padding-bottom: 10px;
+  p {
+    line-height: 140%;
+    span {
+      color: $donzelli4;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .heading-header {
+    flex-direction: column;
+    align-items: flex-start;
+    img {
+      position: relative;
+    }
+    .subtitle {
+      position: relative;
+      left: 0;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  }
+
+  .container-links-footer {
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    
+    .column-footer-links {
+      width: 40%;
+      .list-link-column {
+        margin-right: 0px;
+      }
+    }
+    .group-columns-footer {
+      margin-bottom: 20px;
+    }
+  }
+
+  .extra-links-footer {
+    margin-top: 10vh;
+  }
+}

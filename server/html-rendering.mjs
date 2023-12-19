@@ -13,11 +13,12 @@ import {
 const dirName = process.env.DIR_NAME;
 
 // Make components in order
-makeComponent("/layout/header");
-makeComponent("/layout/nav");
+makeComponent("/layout/header-desk");
+makeComponent("/layout/header-mobile");
 makeComponent("/layout/sidebar-desk");
+makeComponent("/layout/sidebar-mobile");
 makeComponent(`/pages${dirName}`);
-makeComponent("/layout/footerlight");
+makeComponent("/layout/footer");
 
 const metaFilePath = getComponentPath(`/pages${dirName}`) + "/" + metaFileName;
 

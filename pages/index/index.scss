@@ -14,11 +14,37 @@
 }
 
 .container-menu-dropdown-elements {
-  left: 15px;
+  left: 10px;
   transition: 0.2s ease;
 }
 
 .menu-slide {
   left: calc((8.33vw * 2) + 10px);
   transition: 0.2s ease;
+}
+.header-mobile {
+  background-color: transparent;
+  transition: 0.3s ease;
+  .logo-header-mobile {
+    opacity: 0;
+    transition: 0.3s ease;
+  }
+
+  .line-color-bottom-header-mobile {
+    opacity: 0;
+    transition: 0.3s ease;
+  }
+}
+
+.scroll-mobile-header-home {
+  background-color: $donzelli1;
+  .logo-header-mobile {
+    opacity: 1;
+    transition: 0.3s ease;
+  }
+
+  .line-color-bottom-header-mobile {
+    opacity: 1;
+    transition: 0.3s ease;
+  }
 }

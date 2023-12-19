@@ -1,6 +1,6 @@
-<header>
+<header class="header-desktop">
   <a class="logo-header" href="">
-    <img src="../../public/media/svg-assets/logo-donzelli-black.svg" alt="">
+    <img src="../../public/media/svg-assets/logo-donzelli-white.svg" alt="">
   </a>
   <div class="container-menu-dropdown-elements">
     <div class="element nav-item-typo" data-panel="1">Feed</div>
@@ -8,7 +8,7 @@
     <div class="element nav-item-typo" data-panel="3">Collections</div>
     <div class="element nav-item-typo" data-panel="4">Type of Items</div>
     <div class="element nav-item-typo" data-panel="5">Brands & Studios</div>
-    <div class="element nav-item-typo" data-panel="6">Designers</div>
+    <div class="element nav-item-typo" data-panel="6">Creators</div>
   </div>
   <div class="other-links-header">
     <a class="nav-item-typo" href="">Guide</a>
@@ -26,7 +26,7 @@
   <div class="line-header-grey"></div>
 </header>
 
-<div class="container-panels">
+<div class="container-panels header-desktop">
   <div class="panel panel1" data-panel="1">
     <div class="container-panel container-panel1">
       <div class="infos-feed-panel-header ">
@@ -48,7 +48,8 @@
           <div class="about-pf-header">
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
-            <p class="nav-item-typo link-pf-header">Discover</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
           </div>
         </a>
         <a class="product-feed pf2" href="">
@@ -58,7 +59,8 @@
           <div class="about-pf-header">
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
-            <p class="nav-item-typo link-pf-header">Discover</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
           </div>
         </a>
       </div>
@@ -84,7 +86,8 @@
           <div class="about-pf-header">
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
-            <p class="nav-item-typo link-pf-header">Discover</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
           </div>
         </a>
         <a class="product-feed pf2" href="">
@@ -94,7 +97,8 @@
           <div class="about-pf-header">
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
-            <p class="nav-item-typo link-pf-header">Discover</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
           </div>
         </a>
       </div>
@@ -164,7 +168,8 @@
           <div class="about-pf-header">
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
-            <p class="nav-item-typo link-pf-header">Discover</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
           </div>
         </a>
         <a class="product-feed pf2" href="">
@@ -174,7 +179,8 @@
           <div class="about-pf-header">
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
-            <p class="nav-item-typo link-pf-header">Discover</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
           </div>
         </a>
       </div>
@@ -196,7 +202,6 @@
           <span class="thirdtitle category9 hover-effect">Outdoor</span>
         </div>
       </div>
-
       <div class="subcategories-containers subcategoryNewTop">
         <div class="subcategory-items category1-subcategory nav-item-typo ">
           <a class="all-items-sub" href="">All Sofas & Armchairs</a>
@@ -288,21 +293,200 @@
           <a href="">Barbecues and plancha</a>
         </div>
       </div>
+      <div class="panel-container-rooms-header">
+        <p class="sidebar-item-desk">Rooms</p>
+        <div class="container-rooms-types">
+          <div class="room-type-header nav-item-typo">
+            <a class="nav-item-typo name-room-header" href="">Office</a>
+            <div class="list-items-inner-room">
+              <a class="nav-item-typo" href="">Desks</a>
+              <a class="nav-item-typo" href="">Seating</a>
+              <a class="nav-item-typo" href="">Lights</a>
+              <a class="nav-item-typo" href="">Storage</a>
+              <a class="nav-item-typo" href="">Sofas</a>
+              <a class="nav-item-typo" href="">Tables</a>
+              <a class="nav-item-typo" href="">Pro Furniture</a>
+            </div>
+          </div>
+          <div class="room-type-header nav-item-typo">
+            <a class="nav-item-typo name-room-header" href="">Bedroom</a>
+            <div class="list-items-inner-room">
+              <a class="nav-item-typo" href="">Desks</a>
+              <a class="nav-item-typo" href="">Seating</a>
+              <a class="nav-item-typo" href="">Lights</a>
+              <a class="nav-item-typo" href="">Storage</a>
+              <a class="nav-item-typo" href="">Sofas</a>
+              <a class="nav-item-typo" href="">Tables</a>
+              <a class="nav-item-typo" href="">Pro Furniture</a>
+            </div>
+          </div>
+          <div class="room-type-header nav-item-typo">
+            <a class="nav-item-typo name-room-header" href="">Bathroom</a>
+            <div class="list-items-inner-room">
+              <a class="nav-item-typo" href="">Desks</a>
+              <a class="nav-item-typo" href="">Seating</a>
+              <a class="nav-item-typo" href="">Lights</a>
+              <a class="nav-item-typo" href="">Storage</a>
+              <a class="nav-item-typo" href="">Sofas</a>
+              <a class="nav-item-typo" href="">Tables</a>
+              <a class="nav-item-typo" href="">Pro Furniture</a>
+            </div>
+          </div>
+        </div>
+        <div class="link-view-more-rooms nav-item-typo">
+          <a href="">View more rooms <img class="arrow-item" src="../../public/media/svg-assets/arrow.svg" alt=""></a>
+        </div>
+      </div>
     </div>
   </div>
   <div class="panel panel5" data-panel="5">
     <div class="container-panel container-panel5">
-      Les Grosses Marques
+      <div class="panel-container-brands-header">
+        <p class="sidebar-item-desk">Selected Brands</p>
+        <p class="subtitle-brands-header thirdtitle categoryOriginTop2 categoryOriginTop3 ">Majors</p>
+        <div class="container-main-brands">
+          <a class="thirdtitle" href="">Cassina</a>
+          <a class="thirdtitle" href="">Knoll</a>
+          <a class="thirdtitle" href="">Flos</a>
+          <a class="thirdtitle" href="">B&B Italia</a>
+          <a class="thirdtitle" href="">Ligne Roset</a>
+          <a class="thirdtitle" href="">Rochebobois</a>
+          <a class="thirdtitle" href="">Vitra</a>
+        </div>
+        <div class="container-all-brands subcategoryNewTop2 categoryOriginTop3">
+          <div class="container-title-all-brands">
+            <p class="thirdtitle ">All Brands</p>
+            <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
+                src="../../public/media/svg-assets/arrow.svg" alt=""></a>
+          </div>
+          <div class="all-brands-items">
+            <div class="column-brands nav-item-typo">
+              <a href="">Kartell</a>
+              <a href="">Herman Miller</a>
+              <a href="">Muuto</a>
+              <a href="">Moooi</a>
+              <a href="">Ethnicraft</a>
+              <a href="">Poltrona Frau</a>
+              <a href="">Cinna</a>
+              <a href="">Alessi</a>
+
+            </div>
+            <div class="column-brands nav-item-typo">
+              <a href="">Driade</a>
+              <a href="">Foscarini</a>
+              <a href="">Gubi</a>
+              <a href="">Poliform</a>
+              <a href="">Zanotta</a>
+              <a href="">USM</a>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="container-all-studios subcategoryNewTop3">
+          <div class="container-title-all-brands">
+            <p class="thirdtitle ">Studios & Craftsmen</p>
+            <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
+                src="../../public/media/svg-assets/arrow.svg" alt=""></a>
+          </div>
+          <div class="all-brands-items">
+            <div class="column-brands nav-item-typo">
+              <a href="">Casagitane</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+            <div class="column-brands nav-item-typo">
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="panel panel6" data-panel="6">
     <div class="container-panel container-panel6">
-      Les Gros Designers
+      <div class="panel-container-brands-header">
+        <p class="sidebar-item-desk">Designers & Creators</p>
+        <p class="subtitle-brands-header thirdtitle categoryOriginTop4  ">Majors</p>
+        <div class="container-main-brands">
+          <a class="thirdtitle" href="">Charles & Ray Eames</a>
+          <a class="thirdtitle" href="">Flos</a>
+          <a class="thirdtitle" href="">B&B Italia</a>
+          <a class="thirdtitle" href="">Cassina</a>
+          <a class="thirdtitle" href="">Kartell</a>
+          <a class="thirdtitle" href="">Ligne Roset</a>
+        </div>
+        <div class="container-all-brands subcategoryNewTop4 categoryOriginTop5">
+          <div class="container-title-all-brands">
+            <p class="thirdtitle ">All of them</p>
+            <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
+                src="../../public/media/svg-assets/arrow.svg" alt=""></a>
+          </div>
+          <div class="all-brands-items">
+            <div class="column-brands nav-item-typo">
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+            <div class="column-brands nav-item-typo">
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="container-all-studios subcategoryNewTop5">
+          <div class="container-title-all-brands">
+            <p class="thirdtitle ">Architects</p>
+            <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
+                src="../../public/media/svg-assets/arrow.svg" alt=""></a>
+          </div>
+          <div class="all-brands-items">
+            <div class="column-brands nav-item-typo">
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+            <div class="column-brands nav-item-typo">
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<script>
+<!-- Script Menu Hover Panels -->
+<script class="header-desktop">
   document.addEventListener("DOMContentLoaded", function () {
     const containerMenu = document.querySelector(".container-menu-dropdown-elements");
     const containerPanels = document.querySelector(".container-panels");
@@ -769,7 +953,8 @@
 
 </script>
 
-<script>
+<!-- Script Inner Menu Items -->
+<script class="header-desktop">
 
 
   // document.addEventListener("DOMContentLoaded", function () {
@@ -962,22 +1147,88 @@
   });
 
 
-
   window.addEventListener('DOMContentLoaded', function () {
     const categoryOriginTop = document.querySelector('.categoryOriginTop');
     const subcategoryNewTop = document.querySelector('.subcategoryNewTop');
+    const categoryOriginTop2 = document.querySelector('.categoryOriginTop2');
+    const subcategoryNewTop2 = document.querySelector('.subcategoryNewTop2');
+    const categoryOriginTop3 = document.querySelector('.categoryOriginTop3');
+    const subcategoryNewTop3 = document.querySelector('.subcategoryNewTop3');
+    const categoryOriginTop4 = document.querySelector('.categoryOriginTop4');
+    const subcategoryNewTop4 = document.querySelector('.subcategoryNewTop4');
+    const categoryOriginTop5 = document.querySelector('.categoryOriginTop5');
+    const subcategoryNewTop5 = document.querySelector('.subcategoryNewTop5');
 
     // Calcule la distance entre le haut de la fenêtre et categoryOriginTop
     const distanceFromTop = categoryOriginTop.offsetTop;
+    const distanceFromTop2 = categoryOriginTop2.offsetTop;
+    const distanceFromTop3 = categoryOriginTop2.offsetTop;
+    const distanceFromTop4 = categoryOriginTop3.offsetTop;
+    const distanceFromTop5 = categoryOriginTop4.offsetTop;
 
     // Applique la distance comme top pour subcategoryNewTop
     subcategoryNewTop.style.top = distanceFromTop + 'px';
+    subcategoryNewTop2.style.top = distanceFromTop2 + 'px';
+    subcategoryNewTop3.style.top = distanceFromTop3 + 'px';
+    subcategoryNewTop4.style.top = distanceFromTop4 + 'px';
+    subcategoryNewTop5.style.top = distanceFromTop5 + 'px';
   });
 
 
-</script><nav>
 
-</nav><div class="sidebar-desk">
+
+
+</script><header class="header-mobile">
+    <a class="logo-header-mobile" href="">
+        <img src="../../public/media/svg-assets/logo-donzelli-black.svg" alt="">
+    </a>
+    <div class="close-sidebar-mobile">
+        <p class="nav-item-typo">Close Menu</p>
+        <img src="../../public/media/svg-assets/cross-white.svg" alt="">
+    </div>
+
+    <div class="burger-mobile">
+        <p class="nav-item-typo">Menu</p>
+        <div class="lines-burger-mobile">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+
+    <div class="line-color-bottom-header-mobile"></div>
+
+</header>
+
+
+<script>
+    window.addEventListener("load", function () {
+        var burgerMobile = document.querySelector(".burger-mobile");
+        var closeCrossMobile = document.querySelector(".close-sidebar-mobile");
+        var sidebarMobile = document.querySelector(".sidebar-mobile");
+        var bodyHey = document.querySelector("body");
+        var headerMob = document.querySelector(".header-mobile");
+
+        burgerMobile.onclick = function () {
+
+            burgerMobile.classList.add("diseappearBurger");
+            closeCrossMobile.classList.add("appearClose");
+            sidebarMobile.classList.add("to-left-mobile-menu");
+            bodyHey.classList.add("fix-scroll");
+            headerMob.classList.add("scroll-mobile-header-home");
+
+        };
+
+        closeCrossMobile.onclick = function () {
+            closeCrossMobile.classList.remove("appearClose");
+            sidebarMobile.classList.remove("to-left-mobile-menu");
+            burgerMobile.classList.remove("diseappearBurger");
+            bodyHey.classList.remove("fix-scroll");
+            headerMob.classList.remove("scroll-mobile-header-home");
+
+        };
+    });
+</script><div class="sidebar-desk">
     <div class="close-sidebar-desk nav-item-typo">
         Fermer
     </div>
@@ -987,7 +1238,11 @@
             <a class="sidebar-item-desk" href="">About us</a>
             <a class="sidebar-item-desk" href="">Vision</a>
             <a class="sidebar-item-desk" href="">Project & Features</a>
+            <a class="sidebar-item-desk verified-sidebar-desk" href="">
+                <img src="../../public/media/svg-assets/verified-icon-white.svg" alt="">
+                Verified Program</a>
             <a class="sidebar-item-desk" href="">Studio Pro</a>
+
             <a class="sidebar-item-desk" href="">Engagements</a>
             <a class="sidebar-item-desk" href="">Magazine</a>
             <a class="sidebar-item-desk" href="">Contact</a>
@@ -999,7 +1254,662 @@
 
 <div class="back-invisible-sidebar">
 
-</div><h1>About page</h1>
+</div><div class="sidebar-mobile">
+    <div class="main-container-sidebar-mobile">
+        <div class="main-nav-sidebar-mobile">
+            <p class="nav-item-typo">Discover</p>
+            <div class="container-items-nav-mobile-sidebar">
+                <a class="sidebar-item-mobile" href="">Feed <div class="new-tick nav-item-typo">New <div
+                            class="redpoint"></div>
+                    </div> </a>
+                <a class="sidebar-item-mobile" href="">Spaces</a>
+                <a class="sidebar-item-mobile" href="">Collections</a>
+                <div class="sidebar-item-mobile buttonpanelmobile1">Type of Items <img
+                        src="../../public/media/svg-assets/plus-icon.svg" alt=""></div>
+                <div class="sidebar-item-mobile buttonpanelmobile2">Brands
+                    <img src="../../public/media/svg-assets/plus-icon.svg" alt="">
+                </div>
+                <div class="sidebar-item-mobile buttonpanelmobile3">Creators
+                    <img src="../../public/media/svg-assets/plus-icon.svg" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="studiopro-sidebar-mobile">
+            <a href="">
+                <div class="sidebar-item-mobile ">Studio Pro
+                    <img src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                </div>
+                <p class="nav-item-typo">Design, Management & Consulting Services</p>
+            </a>
+        </div>
+        <div class="secondary-nav-sidebar-mobile">
+            <div class="list-secondary-nav-sidebar-mobile">
+                <a class="nav-item-typo" href="">Guide</a>
+                <a class="nav-item-typo" href="">Magazine</a>
+                <a class="nav-item-typo verified-sidebar" href="">
+                    <img src="../../public/media/svg-assets/verified-icon-white.svg" alt="">
+                    Verified Program</a>
+
+            </div>
+            <div class="list-secondary-nav-sidebar-mobile">
+                <a class="nav-item-typo" href="">About Us / Vision</a>
+                <a class="nav-item-typo grey" href="">Project & Features</a>
+                <a class="nav-item-typo grey" href="">Engagements</a>
+                <a class="nav-item-typo" href="">Contact</a>
+                <a class="nav-item-typo grey" href="">Press</a>
+                <a class="nav-item-typo grey" href="">Careers</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="items-sidebar-submenu-mobile panelmobile1 panelmobilesub">
+        <div class="back nav-item-typo"> <img src="../../public/media/svg-assets/arrow-back.svg" alt=""> Back</div>
+        <p class="sidebar-item-mobile">Type of Items</p>
+        <div class="container-items-dropdown">
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Sofas & Armchairs</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img src="../../public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="../../public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Sofas & Armchairs</a>
+                    <a href="">Sofas</a>
+                    <a href="">Armchairs</a>
+                    <a href="">Corner sofas</a>
+                    <a href="">Modular sofas</a>
+                    <a href="">Convertible sofas</a>
+                    <a href="">Chaise longues / Méridiennes</a>
+                    <a href="">Daybeds</a>
+                    <a href="">Poufs & Ottomans</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Chairs</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img src="../../public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="../../public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Chairs</a>
+                    <a href="">Armchairs</a>
+                    <a href="">Sidechairs</a>
+                    <a href="">Dining Chairs</a>
+                    <a href="">Desk Chairs</a>
+                    <a href="">Lounge Chairs</a>
+                    <a href="">Stools</a>
+                    <a href="">Benches</a>
+                    <a href="">Daybeds</a>
+                    <a href="">Poufs & Ottomans</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Tables</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img src="../../public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="../../public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Tables</a>
+                    <a href="">Big Tables</a>
+                    <a href="">Dining Tables</a>
+                    <a href="">Desks</a>
+                    <a href="">Lowtables</a>
+                    <a href="">Side & End Tables</a>
+                    <a href="">Console & sideboard</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Furniture & Storage</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img src="../../public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="../../public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Furniture & Storage</a>
+                    <a href="">Wardrobes, Shelves & Drawers</a>
+                    <a href="">Buffets & Consoles</a>
+                    <a href="">Libraries</a>
+                    <a href="">Office Storage</a>
+                    <a href="">TV Furniture</a>
+                    <a href="">Dressing and closets</a>
+                    <a href="">Beds and accessories</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Lamps & Lightning</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img src="../../public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="../../public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Lights and Lightning</a>
+                    <a href="">Table Lamps</a>
+                    <a href="">Floor Lamps</a>
+                    <a href="">Suspended Lamps</a>
+                    <a href="">Wall & Ceiling Lamps</a>
+                    <a href="">Portable Lamps</a>
+                    <a href="">Outdoor Lamps</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Objects & Accessories</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img src="../../public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="../../public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Objects & Accessories</a>
+                    <a href="">Office Accessories</a>
+                    <a href="">Kitchen & Vaiselle</a>
+                    <a href="">Living room, Cushion, Plaid</a>
+                    <a href="">Rugs</a>
+                    <a href="">Vases</a>
+                    <a href="">Candles</a>
+                    <a href="">Books</a>
+                    <a href="">Screens</a>
+                    <a href="">Mirrors</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile ">Art & Frames</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img src="../../public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="../../public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Art &
+                        Paintings</a>
+                    <a href="">Art Paintings</a>
+                    <a href="">Scultures</a>
+                    <a href="">Iconic Pieces</a>
+                    <a href="">Statues</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Technology</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img src="../../public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="../../public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Technology</a>
+                    <a href="">Electrical Goods, Fridges, Caves</a>
+                    <a href="">Speakers, Vinyl, Hi-Fi</a>
+                    <a href="">Connected Objects and Lighting</a>
+                    <a href="">TV Accessories</a>
+                    <a href="">Domestic Accessories</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Outdoor</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img src="../../public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="../../public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Outdoor</a>
+                    <a href="">Tables & Chairs</a>
+                    <a href="">Garden furniture</a>
+                    <a href="">Lighting</a>
+                    <a href="">Accessories</a>
+                    <a href="">Loungers & Hammocks</a>
+                    <a href="">Barbecues and plancha</a>
+                </div>
+            </div>
+        </div>
+        <div class="rooms-container-sidebar-menu-items">
+            <p class="sidebar-item-mobile">Rooms</p>
+            <div class="container-rooms-sidebar-mobile">
+                <div class="room-container-mobile">
+                    <p class="second-sidebar-item-mobile">Office</p>
+                    <div class="column-list-room-mobile nav-item-typo">
+                        <a class="nav-item-typo" href="">Desks</a>
+                        <a class="nav-item-typo" href="">Seating</a>
+                        <a class="nav-item-typo" href="">Lights</a>
+                        <a class="nav-item-typo" href="">Storage</a>
+                        <a class="nav-item-typo" href="">Sofas</a>
+                        <a class="nav-item-typo" href="">Tables</a>
+                        <a class="nav-item-typo" href="">Pro Furniture</a>
+                    </div>
+                </div>
+                <div class="room-container-mobile">
+                    <p class="second-sidebar-item-mobile">Bedroom</p>
+                    <div class="column-list-room-mobile nav-item-typo">
+                        <a class="nav-item-typo" href="">Desks</a>
+                        <a class="nav-item-typo" href="">Seating</a>
+                        <a class="nav-item-typo" href="">Lights</a>
+                        <a class="nav-item-typo" href="">Storage</a>
+                        <a class="nav-item-typo" href="">Sofas</a>
+                        <a class="nav-item-typo" href="">Tables</a>
+                        <a class="nav-item-typo" href="">Pro Furniture</a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="" class="view-more-rooms-link nav-item-typo">
+                View more Rooms <img src="../../public/media/svg-assets/arrow-white.svg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="brands-sidebar-submenu-mobile panelmobile2 panelmobilesub">
+        <div class="back nav-item-typo"> <img src="../../public/media/svg-assets/arrow-back.svg" alt=""> Back</div>
+        <p class="sidebar-item-mobile">Selected Brands</p>
+        <div class="container-brands-list-mobile-sidebar">
+            <div class="majors-brands-mobile">
+                <p class="nav-item-typo">Majors</p>
+                <div class="list-majors-mobile">
+                    <a class="second-sidebar-item-mobile" href="">Cassina</a>
+                    <a class="second-sidebar-item-mobile" href="">Knoll</a>
+                    <a class="second-sidebar-item-mobile" href="">Flos</a>
+                    <a class="second-sidebar-item-mobile" href="">B&B Italia</a>
+                    <a class="second-sidebar-item-mobile" href="">Ligne Roset</a>
+                    <a class="second-sidebar-item-mobile" href="">Rochebobois</a>
+                    <a class="second-sidebar-item-mobile" href="">Vitra</a>
+                </div>
+            </div>
+            <div class="all-brands-mobile">
+                <a class="nav-item-typo all-brands-link-mobile" href="">All Brands <img
+                        src=" ../../public/media/svg-assets/arrow-white.svg" alt=""></a>
+                <div class="container-double-list-all-brands">
+                    <div class="column-allbrands-mobile nav-item-typo">
+                        <a href="">Kartell</a>
+                        <a href="">Herman Miller</a>
+                        <a href="">Muuto</a>
+                        <a href="">Moooi</a>
+                        <a href="">Ethnicraft</a>
+                        <a href="">Poltrona Frau</a>
+                        <a href="">Cinna</a>
+                        <a href="">Alessi</a>
+                    </div>
+                    <div class="column-allbrands-mobile nav-item-typo">
+                        <a href="">Driade</a>
+                        <a href="">Foscarini</a>
+                        <a href="">Gubi</a>
+                        <a href="">Poliform</a>
+                        <a href="">Zanotta</a>
+                        <a href="">USM</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="second-sidebar-item-mobile studios-craftmens-title">Studios & Craftsmen</p>
+        <div class="container-list-studios-mobile">
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+        </div>
+        <a class="see-more-studios nav-item-typo">See All <img src="../../public/media/svg-assets/arrow-white.svg"
+                alt=""></a>
+    </div>
+    <div class="creators-sidebar-submenu-mobile panelmobile3 panelmobilesub">
+        <div class="back nav-item-typo"> <img src="../../public/media/svg-assets/arrow-back.svg" alt=""> Back</div>
+        <p class="sidebar-item-mobile">Designers & Creators</p>
+        <div class="container-brands-list-mobile-sidebar">
+            <div class="majors-brands-mobile">
+                <p class="nav-item-typo">Majors</p>
+                <div class="list-majors-mobile">
+                    <a class="second-sidebar-item-mobile" href="">Cassina</a>
+                    <a class="second-sidebar-item-mobile" href="">Knoll</a>
+                    <a class="second-sidebar-item-mobile" href="">Flos</a>
+                    <a class="second-sidebar-item-mobile" href="">B&B Italia</a>
+                    <a class="second-sidebar-item-mobile" href="">Ligne Roset</a>
+                    <a class="second-sidebar-item-mobile" href="">Rochebobois</a>
+                    <a class="second-sidebar-item-mobile" href="">Vitra</a>
+                </div>
+            </div>
+            <div class="all-brands-mobile">
+                <a class="nav-item-typo all-brands-link-mobile" href="">All Designers / Creators <img
+                        src=" ../../public/media/svg-assets/arrow-white.svg" alt=""></a>
+                <div class="container-double-list-all-brands">
+                    <div class="column-allbrands-mobile nav-item-typo">
+                        <a href="">Kartell</a>
+                        <a href="">Herman Miller</a>
+                        <a href="">Muuto</a>
+                        <a href="">Moooi</a>
+                        <a href="">Ethnicraft</a>
+                        <a href="">Poltrona Frau</a>
+                        <a href="">Cinna</a>
+                        <a href="">Alessi</a>
+                    </div>
+                    <div class="column-allbrands-mobile nav-item-typo">
+                        <a href="">Driade</a>
+                        <a href="">Foscarini</a>
+                        <a href="">Gubi</a>
+                        <a href="">Poliform</a>
+                        <a href="">Zanotta</a>
+                        <a href="">USM</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="second-sidebar-item-mobile studios-craftmens-title">Architects</p>
+        <div class="container-list-studios-mobile">
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+        </div>
+        <a class="see-more-studios nav-item-typo">See All <img src="../../public/media/svg-assets/arrow-white.svg"
+                alt=""></a>
+    </div>
+
+</div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var buttons = document.querySelectorAll('.buttonpanelmobile1, .buttonpanelmobile2, .buttonpanelmobile3');
+        var mainContainer = document.querySelector('.main-container-sidebar-mobile');
+
+        buttons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                // Ajoutez une classe avec opacité 0 à .main-container-sidebar-mobile
+                mainContainer.classList.add('hide-container');
+
+                var panelNumber = button.classList[1].replace('buttonpanelmobile', '');
+                var panel = document.querySelector('.panelmobile' + panelNumber);
+
+                // Ajoutez la classe active-panel au panneau correspondant
+                panel.classList.add('active-panel');
+
+                // Ajoutez la classe active-transition après un délai pour la transition d'opacité
+                setTimeout(function () {
+                    panel.classList.add('active-transition');
+                }, 50); // ajustez la durée du délai en fonction de la durée de votre transition
+            });
+        });
+
+        var backButton = document.querySelectorAll('.back');
+
+        backButton.forEach(function (backButton) {
+            backButton.addEventListener('click', function () {
+                var activePanel = document.querySelector('.panelmobilesub.active-panel');
+
+                // Ajoutez la classe pour gérer le z-index après un délai
+                activePanel.classList.add('z-index-transition');
+
+                // Supprimez la classe active-transition pour désactiver la transition d'opacité
+                activePanel.classList.remove('active-transition');
+
+                // Ajoutez un délai avant de supprimer la classe active-panel pour laisser la transition se terminer
+                setTimeout(function () {
+                    activePanel.classList.remove('active-panel', 'z-index-transition');
+                    // Retirez la classe avec opacité 0 à .main-container-sidebar-mobile après la transition
+                    mainContainer.classList.remove('hide-container');
+                }, 0); // ajustez la durée du délai en fonction de la durée de votre transition
+            });
+        });
+
+        var closeSidebarButton = document.querySelector('.close-sidebar-mobile');
+
+        closeSidebarButton.addEventListener('click', function () {
+            var sidebar = document.querySelector('.sidebar-mobile');
+
+            // Retirez la classe "to-left-mobile-menu" du menu latéral
+            sidebar.classList.remove('to-left-mobile-menu');
+
+            // Retirez la classe "active-panel" et "active-transition" de tous les panneaux
+            var activePanels = document.querySelectorAll('.panelmobilesub.active-panel');
+
+            activePanels.forEach(function (panel) {
+                panel.classList.remove('active-panel', 'active-transition', 'z-index-transition');
+            });
+
+            // Retirez la classe avec opacité 0 à .main-container-sidebar-mobile après la transition
+            setTimeout(function () {
+                mainContainer.classList.remove('hide-container');
+            }, 0); // ajustez la durée du délai en fonction de la durée de votre transition
+        });
+
+        var sidebar = document.querySelector('.sidebar-mobile');
+
+        sidebar.addEventListener('transitionend', function (event) {
+            if (event.propertyName === 'left' && !sidebar.classList.contains('to-left-mobile-menu')) {
+                // Retirez la classe "active-panel" et "active-transition" de tous les panneaux
+                var activePanels = document.querySelectorAll('.panelmobilesub.active-panel');
+
+                activePanels.forEach(function (panel) {
+                    panel.classList.remove('active-panel', 'active-transition', 'z-index-transition');
+                });
+
+                // Retirez la classe avec opacité 0 à .main-container-sidebar-mobile après la transition
+                setTimeout(function () {
+                    mainContainer.classList.remove('hide-container');
+                }, 300); // ajustez la durée du délai en fonction de la durée de votre transition
+            }
+        });
+
+    });
+
+    // document.addEventListener('DOMContentLoaded', function () {
+    //     // ... (votre code existant)
+
+    //     var titleItemDrops = document.querySelectorAll('.title-item-drop');
+
+    //     titleItemDrops.forEach(function (titleItemDrop) {
+    //         titleItemDrop.addEventListener('click', function () {
+    //             var dropdownContent = titleItemDrop.nextElementSibling;
+    //             var currentDropdownPlus = titleItemDrop.querySelector('.dropdown-plus');
+    //             var currentDropdownMoins = titleItemDrop.querySelector('.dropdown-moins');
+
+    //             // Fermer les autres dropdowns
+    //             var otherTitleItemDrops = document.querySelectorAll('.title-item-drop.active-dropdown');
+    //             otherTitleItemDrops.forEach(function (otherTitleItemDrop) {
+    //                 var otherDropdownContent = otherTitleItemDrop.nextElementSibling;
+    //                 var otherDropdownPlus = otherTitleItemDrop.querySelector('.dropdown-plus');
+    //                 var otherDropdownMoins = otherTitleItemDrop.querySelector('.dropdown-moins');
+
+    //                 otherDropdownContent.classList.remove('active-dropdown');
+    //                 otherDropdownPlus.classList.remove('hide-opacity');
+    //                 otherDropdownMoins.classList.remove('show-opacity');
+    //             });
+
+    //             // Toggle les classes pour le .container-dropdown-content associé
+    //             dropdownContent.classList.toggle('active-dropdown');
+
+    //             // Toggle les classes pour le .dropdown-plus et .dropdown-moins actuels
+    //             currentDropdownPlus.classList.toggle('hide-opacity');
+    //             currentDropdownMoins.classList.toggle('show-opacity');
+    //         });
+    //     });
+
+    //     // ... (le reste de votre code)
+    // });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var titleItemDrops = document.querySelectorAll('.title-item-drop');
+
+        function removeDropdownClasses() {
+            // Supprimer les classes des dropdowns
+            var allDropdownContents = document.querySelectorAll('.container-dropdown-content');
+            allDropdownContents.forEach(function (dropdownContent) {
+                dropdownContent.classList.remove('active-dropdown');
+            });
+
+            var allDropdownPluses = document.querySelectorAll('.dropdown-plus');
+            var allDropdownMoins = document.querySelectorAll('.dropdown-moins');
+            allDropdownPluses.forEach(function (dropdownPlus) {
+                dropdownPlus.classList.remove('hide-opacity');
+            });
+            allDropdownMoins.forEach(function (dropdownMoins) {
+                dropdownMoins.classList.remove('show-opacity');
+            });
+
+            var allTitleItemDrops = document.querySelectorAll('.title-item-drop');
+            allTitleItemDrops.forEach(function (titleItemDrop) {
+                titleItemDrop.classList.remove('active-dropdown');
+            });
+        }
+
+        titleItemDrops.forEach(function (titleItemDrop) {
+            titleItemDrop.addEventListener('click', function () {
+                var dropdownContent = titleItemDrop.nextElementSibling;
+                var currentDropdownPlus = titleItemDrop.querySelector('.dropdown-plus');
+                var currentDropdownMoins = titleItemDrop.querySelector('.dropdown-moins');
+
+                // Fermer les autres dropdowns et retirer les classes ajoutées
+                var otherTitleItemDrops = document.querySelectorAll('.title-item-drop');
+                otherTitleItemDrops.forEach(function (otherTitleItemDrop) {
+                    if (otherTitleItemDrop !== titleItemDrop) {
+                        var otherDropdownContent = otherTitleItemDrop.nextElementSibling;
+                        var otherDropdownPlus = otherTitleItemDrop.querySelector('.dropdown-plus');
+                        var otherDropdownMoins = otherTitleItemDrop.querySelector('.dropdown-moins');
+
+                        if (otherDropdownContent) {
+                            otherDropdownContent.classList.remove('active-dropdown');
+                        }
+                        if (otherDropdownPlus) {
+                            otherDropdownPlus.classList.remove('hide-opacity');
+                        }
+                        if (otherDropdownMoins) {
+                            otherDropdownMoins.classList.remove('show-opacity');
+                        }
+
+                        otherTitleItemDrop.classList.remove('active-dropdown');
+                    }
+                });
+
+                // Ajouter/retirer les classes pour le .container-dropdown-content associé
+                if (dropdownContent) {
+                    dropdownContent.classList.toggle('active-dropdown');
+                }
+
+                // Ajouter/retirer les classes pour le .dropdown-plus et .dropdown-moins actuels
+                if (currentDropdownPlus) {
+                    currentDropdownPlus.classList.toggle('hide-opacity');
+                }
+                if (currentDropdownMoins) {
+                    currentDropdownMoins.classList.toggle('show-opacity');
+                }
+
+                titleItemDrop.classList.toggle('active-dropdown');
+            });
+        });
+        // // Supprimer les classes lorsque .to-left-mobile-menu est retirée
+        // var closeSidebarButton = document.querySelector('.close-sidebar-mobile');
+
+        // closeSidebarButton.addEventListener('click', function () {
+        //     var sidebar = document.querySelector('.sidebar-mobile');
+
+        //     // Ajoutez ici le reste de votre code existant pour gérer la fermeture de la sidebar
+
+        //     // Supprimer les classes des dropdowns
+        //     removeDropdownClasses();
+        // });
+        var closeSidebarButton = document.querySelector('.close-sidebar-mobile');
+        var backButton = document.querySelectorAll('.back'); // Sélectionnez tous les boutons .back
+
+        function handleBackButtonClick() {
+            var sidebar = document.querySelector('.sidebar-mobile');
+
+            // Ajoutez ici le reste de votre code existant pour gérer la fermeture de la sidebar
+
+            // Supprimer les classes des dropdowns
+            removeDropdownClasses();
+        }
+
+        closeSidebarButton.addEventListener('click', handleBackButtonClick);
+
+        // Ajoutez un gestionnaire d'événement à chaque bouton .back
+        backButton.forEach(function (backButton) {
+            backButton.addEventListener('click', handleBackButtonClick);
+        });
+
+
+
+
+    });
+
+</script><h1>About page</h1>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum natus inventore ipsam numquam nihil? Alias
     repellendus laborum placeat porro earum necessitatibus. Velit numquam repudiandae consequatur voluptatem, et
     consectetur culpa perferendis!
@@ -1019,5 +1929,74 @@
     laborum placeat porro earum necessitatibus. Velit numquam repudiandae consequatur voluptatem, et consectetur culpa
     perferendis!
 </p><footer>
+    <div class="line-top-header"></div>
+    <div class="heading-header">
+        <img src="../../public/media/svg-assets/logo-donzelli-white.svg" alt="">
+        <p class="subtitle">Elevate your space <br>
+            with exceptional furniture</p>
+    </div>
 
+    <div class="container-links-footer">
+        <div class="group-columns-footer">
+            <div class="column-footer-links">
+                <p class="title-footer-list thirdtitle">Infos</p>
+                <div class="list-link-column nav-item-typo">
+                    <a href="">About</a>
+                    <a href="">Vision</a>
+                    <a href="">Engagements</a>
+                    <a href="">Verified Program</a>
+                    <a href="">Project & Features</a>
+                    <a href="">Press</a>
+                    <a href="">Careers</a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+            <div class="column-footer-links">
+                <p class="title-footer-list thirdtitle">Studio Pro</p>
+                <div class="list-link-column nav-item-typo">
+                    <a href="">Concept</a>
+                    <a href="">Offers</a>
+                    <a href="">Engagements</a>
+                    <a href="">Contact for Professionals</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="group-columns-footer">
+            <div class="column-footer-links">
+                <p class="title-footer-list thirdtitle">Ressources</p>
+                <div class="list-link-column nav-item-typo">
+                    <a href="">Guide</a>
+                    <a href="">Feed</a>
+                    <a href="">Spaces</a>
+                    <a href="">Collections</a>
+                    <a href="">Type of Items</a>
+                    <a href="">Brands & Studios</a>
+                    <a href="">Creators</a>
+
+
+                </div>
+            </div>
+            <div class="column-footer-links">
+                <p class="title-footer-list thirdtitle">Magazine</p>
+                <div class="list-link-column nav-item-typo">
+                    <a href="">Article 1</a>
+                    <a href="">Article 2</a>
+                    <a href="">Article 3</a>
+                    <a href="">Article 4</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="extra-links-footer">
+        <p class="nav-item-typo">
+            Donzelli® <br>
+            <span>
+                An UTOPIA Project™ Company
+            </span>
+        </p>
+        <a class="nav-item-typo" href="">Privacy</a>
+    </div>
 </footer>

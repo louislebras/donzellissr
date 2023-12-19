@@ -1,0 +1,51 @@
+<header class="header-mobile">
+    <a class="logo-header-mobile" href="">
+        <img src="../../public/media/svg-assets/logo-donzelli-black.svg" alt="">
+    </a>
+    <div class="close-sidebar-mobile">
+        <p class="nav-item-typo">Close Menu</p>
+        <img src="../../public/media/svg-assets/cross-white.svg" alt="">
+    </div>
+
+    <div class="burger-mobile">
+        <p class="nav-item-typo">Menu</p>
+        <div class="lines-burger-mobile">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+
+    <div class="line-color-bottom-header-mobile"></div>
+
+</header>
+
+
+<script>
+    window.addEventListener("load", function () {
+        var burgerMobile = document.querySelector(".burger-mobile");
+        var closeCrossMobile = document.querySelector(".close-sidebar-mobile");
+        var sidebarMobile = document.querySelector(".sidebar-mobile");
+        var bodyHey = document.querySelector("body");
+        var headerMob = document.querySelector(".header-mobile");
+
+        burgerMobile.onclick = function () {
+
+            burgerMobile.classList.add("diseappearBurger");
+            closeCrossMobile.classList.add("appearClose");
+            sidebarMobile.classList.add("to-left-mobile-menu");
+            bodyHey.classList.add("fix-scroll");
+            headerMob.classList.add("scroll-mobile-header-home");
+
+        };
+
+        closeCrossMobile.onclick = function () {
+            closeCrossMobile.classList.remove("appearClose");
+            sidebarMobile.classList.remove("to-left-mobile-menu");
+            burgerMobile.classList.remove("diseappearBurger");
+            bodyHey.classList.remove("fix-scroll");
+            headerMob.classList.remove("scroll-mobile-header-home");
+
+        };
+    });
+</script>

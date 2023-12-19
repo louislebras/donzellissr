@@ -11,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $donzelli3;
+  overflow-x: hidden;
 }
 
 a {
@@ -42,4 +43,26 @@ main {
   margin-top: 50px;
   // border: 1px solid red;
   padding: 0px 10px;
+}
+
+.arrow-typo {
+  font-family: Calibri;
+}
+
+@media (max-width: 800px) {
+  .header-desktop {
+    display: none;
+  }
+}
+
+.header-mobile,
+.sidebar-mobile {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .header-mobile,
+  .sidebar-mobile {
+    display: flex;
+  }
 }
