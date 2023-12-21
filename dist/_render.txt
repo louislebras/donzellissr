@@ -2186,12 +2186,124 @@
 
         </div>
     </div>
+    <div class="items-container-home">
+        <div class="container-title-items">
+            <div class="title-items heavytitle">Brands</div>
+            <div class="description-items-home">
+                <p class="thirdtitle">Explore the finest iconic brands
+                </p>
+                <div class="button-type-1">
+                    <div class="dotbutton"></div>
+                    <p class="nav-item-typo">Explore Brands</p>
+                    <img src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="line-flux"></div>
+
+        <div class="container-types-items-home">
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <a href="" class="swiper-slide">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="thirdtitle">Cassina</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/cassina-donzelli.svg" alt="">
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="thirdtitle">Flos</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/flos-donzelli.svg" alt="">
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide ">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="thirdtitle">Moooi</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/moooi-donzelli.svg" alt="">
+
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="thirdtitle">B&B Italia</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/bebitalia-donzelli.svg" alt="">
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide">
+                        <div class="swiper-slide-container">
+
+                            <div class="container-title-item-swiper-home">
+                                <p class="thirdtitle">Gubi</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/gubi-donzelli.svg" alt="">
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="thirdtitle">Knoll</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/knoll-donzelli.svg" alt="">
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide last-slide">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="thirdtitle">Ligne Roset</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/ligneroset-donzelli.svg" alt="">
+
+
+                        </div>
+                    </a>
+
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+
+
+        </div>
+    </div>
 
 </main>
 
 
 
 <script>
+
     var swiper = new Swiper(".swiper-container", {
         // pagination: ".swiper-pagination",
         slidesPerView: 'auto',
