@@ -3,7 +3,8 @@
 .sidebar-desk {
   width: 40vw;
   height: 100vh;
-  background: rgba(250, 249, 248, 0.82);
+  // background: rgba(250, 249, 248, 0.82);
+  background-color: $donzelli1;
   backdrop-filter: blur(20px);
   border-left: 1px solid $donzelli2;
   position: fixed;

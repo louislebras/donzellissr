@@ -6,11 +6,13 @@
   }
 
   .main-container-feed-infos-content {
-    margin-top: 30px;
+    margin-top: 15px;
 
     .container-products-feed-home {
       .product-feed-home {
         width: 27vw !important;
+        margin-left: 0;
+        margin-right: 10px;
         .container-img-product-feed-home {
           height: 50vh;
         }
@@ -52,6 +54,7 @@
         margin-top: 0px;
         .product-feed-home {
           width: calc(50% - 5px) !important;
+          margin-right: 0;
           .container-img-product-feed-home {
             height: 35vh;
           }
