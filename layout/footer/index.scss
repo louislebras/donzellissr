@@ -4,13 +4,14 @@ footer {
   padding: 0px 10px;
   position: relative;
   background-color: $donzelli1;
+  margin-top: 50px;
   .line-top-header {
     position: absolute;
     width: 100vw;
     height: 1px;
     left: 0;
     top: 0;
-    background-color: $donzelli1bis;
+    background-color: $donzelli2;
   }
 }
 
@@ -101,7 +102,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
-    
+
     .column-footer-links {
       width: 40%;
       .list-link-column {

@@ -13,6 +13,65 @@
   }
 }
 
+.button-type-1 {
+  padding: 12px 15px;
+  border-radius: 400px;
+  border: 1px solid $donzelli3;
+  background-color: $donzelli3;
+  color: $donzelli1;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  width: fit-content;
+  .dotbutton {
+    width: 10px;
+    height: 10px;
+    background-color: $donzelli1;
+    border-radius: 200px;
+    margin-right: 10px;
+    animation: clignDotButton 2s linear infinite;
+  }
+
+  @keyframes clignDotButton {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  p {
+    line-height: 90%;
+  }
+  img {
+    mix-blend-mode: difference;
+    width: 10px;
+    margin-left: 10px;
+  }
+
+  &:hover {
+    background-color: $donzelli1;
+    color: $donzelli3;
+    .dotbutton {
+      background-color: $donzelli3;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .button-type-1 {
+    padding: 9px 13px;
+    .dotbutton {
+      width: 7px;
+      height: 7px;
+    }
+  }
+}
+
 .nav-item-typo {
   font-family: "Donzelli Main";
   letter-spacing: -0.01em;
@@ -26,7 +85,7 @@
 @media (min-width: 1500px) {
   .nav-item-typo {
     font-size: calc(
-      13px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+      16px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
     );
   }
 }
@@ -43,15 +102,20 @@
   font-size: calc(
     18px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
   );
-  line-height: 140%;
+  line-height: 140% !important;
   position: relative;
 }
-
 @media (min-width: 1500px) {
   .small-text {
     font-size: calc(
-      16px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+      13px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
     );
+  }
+}
+
+@media (max-width: 800px) {
+  .small-text {
+    font-size: 14px;
   }
 }
 
@@ -82,6 +146,38 @@
   line-height: 100%;
   position: relative;
   width: fit-content;
+}
+
+.heavytitle {
+  font-family: "Donzelli Main";
+  letter-spacing: -0.035em;
+  font-size: calc(
+    145px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+  );
+  line-height: 100%;
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  .heavytitle {
+    font-size: 75px;
+  }
+}
+
+.maintitle {
+  font-family: "Donzelli Main";
+  letter-spacing: -0.025em;
+  font-size: calc(
+    62px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+  );
+  line-height: 110%;
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  .maintitle {
+    font-size: 34px;
+  }
 }
 
 .subtitle {

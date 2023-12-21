@@ -1,14 +1,14 @@
 @import "../../scss/variables";
 
 .sidebar-desk {
-  width: 44vw;
+  width: 40vw;
   height: 100vh;
   background: rgba(250, 249, 248, 0.82);
   backdrop-filter: blur(20px);
   border-left: 1px solid $donzelli2;
   position: fixed;
   z-index: 150;
-  right: -44vw;
+  right: -40vw;
   top: 0;
   padding: 5vh 3vw;
   transition: 0.2s ease;

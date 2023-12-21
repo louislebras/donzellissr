@@ -9,7 +9,7 @@
     position: fixed;
     top: 0;
     left: 100vw;
-    transition: 0.2s;
+    transition: 0.3s ease;
     padding: 50px 10px;
     overflow: scroll;
     overflow-x: hidden;
@@ -17,7 +17,7 @@
 
   .to-left-mobile-menu {
     left: 0vw;
-    transition: 0.2s;
+    transition: 0.3s ease;
   }
 
   .main-container-sidebar-mobile {

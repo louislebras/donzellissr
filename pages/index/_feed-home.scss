@@ -1,0 +1,108 @@
+@import "../../scss/variables";
+
+.feed-container-home {
+  width: 100%;
+  //   border: 1px solid red;
+  .line-flux {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+.main-container-feed-infos-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-infos-feed-home {
+  display: flex;
+  flex-direction: column;
+  .thirdtitle {
+    width: 25vw;
+    max-width: 500px;
+  }
+  .button-type-1 {
+    margin-top: 15px;
+  }
+}
+
+.container-products-feed-home {
+  display: flex;
+  .product-feed-home {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+    .container-img-product-feed-home {
+      width: 100%;
+      border-radius: 5px;
+      height: 42vh;
+      background-color: $donzelli1bis;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+    }
+    .container-description-product-feed-home {
+      .title-product-feed {
+        position: relative;
+        margin-top: 20px;
+      }
+      .description-product-feed {
+        position: relative;
+        color: $donzelli4;
+        margin-top: 10px;
+      }
+      .link-product-feed {
+        position: relative;
+        color: $donzelli4;
+        margin-top: 30px;
+        transition: 0.3s ease;
+        text-underline-offset: 2px;
+        img {
+          width: 10px;
+          margin-left: 10px;
+          mix-blend-mode: difference;
+          position: relative;
+          top: -1px;
+          opacity: 0.5;
+        }
+        &:hover {
+          color: $donzelli3;
+
+          text-decoration: underline;
+          img {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .main-container-feed-infos-content {
+    flex-direction: column;
+  }
+  .container-infos-feed-home {
+    width: 100%;
+    .thirdtitle {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .container-products-feed-home {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+    .product-feed-home {
+      width: calc(50% - 5px);
+      margin-left: 0px;
+      .container-img-product-feed-home {
+        height: 35vh;
+      }
+    }
+  }
+}

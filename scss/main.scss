@@ -1,7 +1,6 @@
 @import "./fonts", "./reset", "./typography", "./variables";
 
-html,
-body {
+html {
   background-color: $donzelli1 !important;
 }
 
@@ -12,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: $donzelli3;
   overflow-x: hidden;
+  background-color: $donzelli1 !important;
 }
 
 a {
@@ -43,6 +43,13 @@ main {
   margin-top: 50px;
   // border: 1px solid red;
   padding: 0px 10px;
+
+  .line-flux {
+    width: 100vw;
+    margin-left: -10px;
+    height: 1px;
+    background-color: $donzelli2;
+  }
 }
 
 .arrow-typo {
@@ -60,9 +67,21 @@ main {
   display: none;
 }
 
+.only-mobile {
+  display: none !important;
+}
+
 @media (max-width: 800px) {
   .header-mobile,
   .sidebar-mobile {
     display: flex;
+  }
+
+  .no-mobile {
+    display: none !important;
+  }
+
+  .only-mobile {
+    display: block !important;
   }
 }
