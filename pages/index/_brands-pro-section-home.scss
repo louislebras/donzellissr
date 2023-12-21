@@ -3,7 +3,7 @@
 .brands-pro-container-home {
   width: calc(100vw);
   margin-left: -10px;
-  margin-top: 20vh;
+  margin-top: 10px;
   background-color: $donzelli3;
   color: $donzelli1;
   padding: 10vh 10px;
@@ -13,7 +13,7 @@
 }
 
 .brands-container-home {
-  margin-top: 0;
+  margin-top: 15vh;
   .line-flux {
     margin-top: 50px;
   }
@@ -47,7 +47,11 @@
 }
 
 @media (max-width: 800px) {
+  .brands-pro-container-home {
+    margin-top: 10px;
+  }
   .brands-container-home {
+    margin-top: 10vh;
     .swiper-container {
       width: calc(100vw);
       margin-top: 10px !important;
