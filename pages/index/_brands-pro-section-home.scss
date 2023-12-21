@@ -1,12 +1,13 @@
 @import "../../scss/variables";
 
 .brands-pro-container-home {
-  width: calc(100vw);
-  margin-left: -10px;
+  width: calc(100%);
+  //   margin-left: -10px;
   margin-top: 10px;
   background-color: $donzelli3;
   color: $donzelli1;
   padding: 10vh 10px;
+  border-radius: 5px;
   .line-flux {
     background-color: $donzelli2bis;
   }
