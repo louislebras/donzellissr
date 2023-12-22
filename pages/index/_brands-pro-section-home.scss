@@ -58,7 +58,6 @@
 
 .logo-studiopro-section {
   height: 60px;
-  left: 25%;
 }
 .description-studiopro-section {
   margin-top: 15px;
@@ -80,11 +79,13 @@
 
   .logo-studiopro-section {
     position: absolute;
-    top: -18vh;
+    top: -17vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .description-studiopro-section {
-    margin-top: -10px;
+    margin-top: -20px;
     margin-bottom: 30px;
   }
 }
@@ -161,7 +162,7 @@
 @media (max-width: 800px) {
   .brands-pro-container-home {
     margin-top: 0vh;
-    height: 60vh;
+    height: 70vh;
     .background-studio-pro {
       height: 50%;
       width: 100%;
