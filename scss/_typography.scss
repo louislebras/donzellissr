@@ -141,7 +141,7 @@
 
 @media (max-width: 800px) {
   .nav-item-typo {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -164,7 +164,7 @@
 
 @media (max-width: 800px) {
   .small-text {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -209,7 +209,7 @@
 
 @media (max-width: 800px) {
   .heavytitle {
-    font-size: 75px;
+    font-size: 65px;
   }
 }
 
@@ -251,12 +251,12 @@
   font-size: calc(
     26px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
   );
-  line-height: 120%;
+  line-height: 120% !important;
   position: relative;
 }
 
 @media (max-width: 800px) {
   .thirdtitle {
-    font-size: 22px;
+    font-size: 19px;
   }
 }

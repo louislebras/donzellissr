@@ -2069,7 +2069,7 @@
     </div>
     <div class="items-container-home">
         <div class="container-title-items">
-            <div class="title-items heavytitle">Items</div>
+            <div class="title-items heavytitle">All Items</div>
             <div class="description-items-home">
                 <p class="thirdtitle">Explore and navigate spaces <br> of luxury and design.
                 </p>
@@ -2323,7 +2323,19 @@
 
         </div>
     </div>
+    <p class="maintitle intro-studio-pro">
+        Welcome to <a href="">Studio Pro <img src="../../public/media/svg-assets/arrow-white.svg" alt=""></a> <br>
+        Cutting-edge design / business services.
+        For Private Clients, Architects, Designers, Brands, Studios and Companies.
 
+
+    </p>
+    <p class="subtitle intro-subtitle-studio-pro">Interior Design/Experience. Infinite Products Access. Furniture
+        Business Network
+        Facilities. Authentification
+        Services.
+        Partnerships. Distribution.
+        Collabs creation. Events. Brand Growth. And more.</p>
     <section class="brands-pro-container-home">
 
         <div class="studio-pro-section">

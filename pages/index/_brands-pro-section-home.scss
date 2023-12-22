@@ -3,7 +3,7 @@
 .brands-pro-container-home {
   width: calc(100%);
   //   margin-left: -10px;
-  margin-top: 15vh;
+  //   margin-top: 15vh;
   background-color: $donzelli3;
   color: $donzelli1;
   padding: 10vh 10px;
@@ -11,6 +11,38 @@
   .line-flux {
     background-color: $donzelli2bis;
   }
+}
+
+.intro-studio-pro {
+  margin-top: 20vh;
+  margin-bottom: 20px;
+  width: 90%;
+
+  a {
+    padding: 3px 16px;
+    border: 2px solid $donzelli3;
+    border-radius: 999px;
+    display: inline-block;
+    width: fit-content;
+    transition: 0.3s ease;
+    &:hover {
+      background-color: $donzelli3;
+      color: $donzelli1;
+    }
+
+    img {
+      width: 36px;
+      mix-blend-mode: difference;
+      position: relative;
+      top: -5px;
+    }
+  }
+}
+
+.intro-subtitle-studio-pro {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 75%;
 }
 
 .brands-container-home {
@@ -22,8 +54,8 @@
     width: 18vw !important;
   }
   .swiper-slide-container {
-    background-color: $donzelli3bis !important;
-    color: $donzelli1 !important;
+    // background-color: $donzelli3bis !important;
+    // color: $donzelli1 !important;
     img {
       mix-blend-mode: difference;
     }
@@ -49,7 +81,24 @@
 
 @media (max-width: 800px) {
   .brands-pro-container-home {
+    margin-top: 0vh;
+  }
+  .intro-studio-pro {
     margin-top: 15vh;
+    width: 100%;
+    a {
+      padding: 2px 12px;
+      position: relative;
+      left: -2px;
+      img {
+        width: 20px;
+        top: -2px;
+      }
+    }
+  }
+
+  .intro-subtitle-studio-pro {
+    width: 100%;
   }
   .brands-container-home {
     margin-top: 10vh;
@@ -64,7 +113,7 @@
       height: 30vh;
       .container-title-item-swiper-home {
         p {
-          font-size: 14px;
+          font-size: 12px;
         }
       }
     }
