@@ -2,6 +2,7 @@
 
 html {
   background-color: $donzelli1 !important;
+  overflow-x: hidden !important;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $donzelli3;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   background-color: $donzelli1 !important;
 }
 
@@ -43,6 +44,7 @@ main {
   margin-top: 50px;
   // border: 1px solid red;
   padding: 0px 10px;
+  overflow-x: hidden !important;
 
   .line-flux {
     width: 100vw;
