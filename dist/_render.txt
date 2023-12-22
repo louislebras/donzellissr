@@ -2330,7 +2330,8 @@
 
 
     </p>
-    <p class="subtitle intro-subtitle-studio-pro">Interior Design/Experience. Infinite Products Access. Furniture
+    <p class="subtitle intro-subtitle-studio-pro">Interior Design/Experience. Custom Furniture. Infinite Products
+        Access. Furniture
         Business Network
         Facilities. Authentification
         Services.
