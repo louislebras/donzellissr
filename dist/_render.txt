@@ -2224,7 +2224,7 @@
     </div>
     <div class="items-container-home brands-container-home">
         <div class="container-title-items">
-            <div class="title-items heavytitle">Brands</div>
+            <div class="title-items heavytitle">Our Brands</div>
             <div class="description-items-home">
                 <p class="thirdtitle">Explore the finest iconic brands <br> and those you've never heard of.
                 </p>
@@ -2263,8 +2263,6 @@
 
                         </div>
                     </a>
-
-
                     <a href="" class="swiper-slide">
                         <div class="swiper-slide-container">
                             <div class="container-title-item-swiper-home">
@@ -2299,7 +2297,7 @@
 
                         </div>
                     </a>
-                    <a href="" class="swiper-slide last-slide">
+                    <a href="" class="swiper-slide ">
                         <div class="swiper-slide-container">
                             <div class="container-title-item-swiper-home">
                                 <p class="nav-item-typo">Ligne Roset</p>
@@ -2311,6 +2309,79 @@
 
                         </div>
                     </a>
+                    <a href="" class="swiper-slide ">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Ethnicraft</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/ethnicraft-donzelli.svg" alt="">
+
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide ">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Muuto</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/muuto-donzelli.svg" alt="">
+
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide ">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Alessi</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/alessi-donzelli.svg" alt="">
+
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide ">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Rochebobois</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/rochebobois-donzelli.svg" alt="">
+
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide ">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Poltrona Frau</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/poltrona-frau-donzelli.svg" alt="">
+
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide last-slide">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Herman Miller</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+                            <img class="icon-img-items-swiper-home"
+                                src="../../public/media/brands-home-swiper/hermanmiller-donzelli.svg" alt="">
+
+
+                        </div>
+                    </a>
+
 
 
                 </div>
@@ -2339,9 +2410,9 @@
         Collabs creation. Events. Brand Growth. And more.</p>
     <section class="brands-pro-container-home">
 
-        <div class="studio-pro-section">
+        <img class="background-studio-pro" src="../../public/media/background-studiopro-home.png" alt="">
 
-        </div>
+        <img class="centered-logo-studiopro-home" src="../../public/media/svg-assets/logo-donzelli-white.svg" alt="">
 
     </section>
 
@@ -2405,7 +2476,7 @@
             <div class="column-footer-links">
                 <p class="title-footer-list thirdtitle">Studio Pro</p>
                 <div class="list-link-column nav-item-typo">
-                    <a href="">Concept</a>
+                    <a href="">What is / For who</a>
                     <a href="">Offers</a>
                     <a href="">Engagements</a>
                     <a href="">Contact for Professionals</a>

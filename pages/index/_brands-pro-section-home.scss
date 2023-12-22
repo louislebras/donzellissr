@@ -5,11 +5,31 @@
   //   margin-left: -10px;
   //   margin-top: 15vh;
   background-color: $donzelli3;
+  height: 70vh;
   color: $donzelli1;
-  padding: 10vh 10px;
   border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   .line-flux {
     background-color: $donzelli2bis;
+  }
+
+  .background-studio-pro {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .centered-logo-studiopro-home {
+    height: 45px;
+    position: relative;
+    top: -20px;
   }
 }
 
@@ -82,6 +102,10 @@
 @media (max-width: 800px) {
   .brands-pro-container-home {
     margin-top: 0vh;
+    height: 60vh;
+    .centered-logo-studiopro-home {
+      height: 30px;
+    }
   }
   .intro-studio-pro {
     margin-top: 15vh;
@@ -145,8 +169,4 @@
       }
     }
   }
-}
-
-.studio-pro-section {
-  height: 60vh;
 }
