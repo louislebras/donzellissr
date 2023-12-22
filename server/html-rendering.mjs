@@ -13,6 +13,7 @@ import {
 const dirName = process.env.DIR_NAME;
 
 // Make components in order
+makeComponent("/layout/loader");
 makeComponent("/layout/header-desk");
 makeComponent("/layout/header-mobile");
 makeComponent("/layout/sidebar-desk");
