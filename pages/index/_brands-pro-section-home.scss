@@ -5,7 +5,7 @@
   //   margin-left: -10px;
   //   margin-top: 15vh;
   background-color: $donzelli3;
-  height: 70vh;
+  height: 85vh;
   color: $donzelli1;
   border-radius: 5px;
   overflow: hidden;
@@ -18,7 +18,7 @@
   }
 
   .background-studio-pro {
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
     position: absolute;
@@ -33,14 +33,72 @@
   }
 }
 
+.container-info-studio-pro-section-inside {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $donzelli3;
+  //   border: 1px solid red;
+}
+
+.sub-container-studio-pro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  //   border: 1px solid blue;
+  margin-left: 5%;
+  width: 50%;
+}
+
+.logo-studiopro-section {
+  height: 60px;
+  left: 25%;
+}
+.description-studiopro-section {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+  .container-info-studio-pro-section-inside {
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 100%;
+  }
+
+  .sub-container-studio-pro-section {
+    width: 60%;
+    margin-left: 0;
+  }
+
+  .logo-studiopro-section {
+    position: absolute;
+    top: -18vh;
+  }
+
+  .description-studiopro-section {
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+}
+
 .intro-studio-pro {
   margin-top: 20vh;
   margin-bottom: 20px;
   width: 90%;
 
   a {
-    padding: 3px 16px;
+    padding: 0px 16px;
     border: 2px solid $donzelli3;
+    // background-color: $donzelli3;
+    // color: $donzelli1;
     border-radius: 999px;
     display: inline-block;
     width: fit-content;
@@ -66,7 +124,8 @@
 }
 
 .brands-container-home {
-  margin-top: 15vh;
+  margin-top: 20vh;
+
   .line-flux {
     margin-top: 40px;
   }
@@ -103,10 +162,15 @@
   .brands-pro-container-home {
     margin-top: 0vh;
     height: 60vh;
+    .background-studio-pro {
+      height: 50%;
+      width: 100%;
+    }
     .centered-logo-studiopro-home {
       height: 30px;
     }
   }
+
   .intro-studio-pro {
     margin-top: 15vh;
     width: 100%;
