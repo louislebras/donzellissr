@@ -49,7 +49,7 @@
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
             <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
-                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
+                src="../../public/media/svg-assets/arrow-white.svg" alt=""></p>
           </div>
         </a>
         <a class="product-feed pf2" href="">
@@ -60,7 +60,7 @@
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
             <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
-                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
+                src="../../public/media/svg-assets/arrow-white.svg" alt=""></p>
           </div>
         </a>
       </div>
@@ -87,7 +87,7 @@
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
             <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
-                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
+                src="../../public/media/svg-assets/arrow-white.svg" alt=""></p>
           </div>
         </a>
         <a class="product-feed pf2" href="">
@@ -98,7 +98,7 @@
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
             <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
-                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
+                src="../../public/media/svg-assets/arrow-white.svg" alt=""></p>
           </div>
         </a>
       </div>
@@ -169,7 +169,7 @@
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
             <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
-                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
+                src="../../public/media/svg-assets/arrow-white.svg" alt=""></p>
           </div>
         </a>
         <a class="product-feed pf2" href="">
@@ -180,7 +180,7 @@
             <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
             <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
             <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
-                src="../../public/media/svg-assets/arrow.svg" alt=""></p>
+                src="../../public/media/svg-assets/arrow-white.svg" alt=""></p>
           </div>
         </a>
       </div>
@@ -335,7 +335,8 @@
           </div>
         </div>
         <div class="link-view-more-rooms nav-item-typo">
-          <a href="">View more rooms <img class="arrow-item" src="../../public/media/svg-assets/arrow.svg" alt=""></a>
+          <a href="">View more rooms <img class="arrow-item" src="../../public/media/svg-assets/arrow-white.svg"
+              alt=""></a>
         </div>
       </div>
     </div>
@@ -358,7 +359,7 @@
           <div class="container-title-all-brands">
             <p class="thirdtitle ">All Brands</p>
             <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
-                src="../../public/media/svg-assets/arrow.svg" alt=""></a>
+                src="../../public/media/svg-assets/arrow-white.svg" alt=""></a>
           </div>
           <div class="all-brands-items">
             <div class="column-brands nav-item-typo">
@@ -388,7 +389,7 @@
           <div class="container-title-all-brands">
             <p class="thirdtitle ">Studios & Craftsmen</p>
             <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
-                src="../../public/media/svg-assets/arrow.svg" alt=""></a>
+                src="../../public/media/svg-assets/arrow-white.svg" alt=""></a>
           </div>
           <div class="all-brands-items">
             <div class="column-brands nav-item-typo">
@@ -431,7 +432,7 @@
           <div class="container-title-all-brands">
             <p class="thirdtitle ">All of them</p>
             <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
-                src="../../public/media/svg-assets/arrow.svg" alt=""></a>
+                src="../../public/media/svg-assets/arrow-white.svg" alt=""></a>
           </div>
           <div class="all-brands-items">
             <div class="column-brands nav-item-typo">
@@ -458,7 +459,7 @@
           <div class="container-title-all-brands">
             <p class="thirdtitle ">Architects</p>
             <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
-                src="../../public/media/svg-assets/arrow.svg" alt=""></a>
+                src="../../public/media/svg-assets/arrow-white.svg" alt=""></a>
           </div>
           <div class="all-brands-items">
             <div class="column-brands nav-item-typo">
@@ -1181,7 +1182,7 @@
 
 </script><header class="header-mobile">
     <a class="logo-header-mobile" href="">
-        <img src="../../public/media/svg-assets/logo-donzelli-black.svg" alt="">
+        <img src="../../public/media/svg-assets/logo-donzelli-white.svg" alt="">
     </a>
     <div class="close-sidebar-mobile">
         <p class="nav-item-typo">Close Menu</p>
@@ -1247,7 +1248,7 @@
 
             <a class="sidebar-item-desk" href="">Engagements</a>
             <a class="sidebar-item-desk" href="">Magazine</a>
-            <a class="sidebar-item-desk" href="">Contact</a>
+            <a class="sidebar-item-desk" href="[DIRECTORY_BASE_PATH]/contact/">Contact</a>
             <a class="sidebar-item-desk" href="">Press</a>
             <a class="sidebar-item-desk" href="">Careers</a>
         </div>
@@ -1298,7 +1299,7 @@
                 <a class="nav-item-typo" href="">About Us / Vision</a>
                 <a class="nav-item-typo grey" href="">Project & Features</a>
                 <a class="nav-item-typo grey" href="">Engagements</a>
-                <a class="nav-item-typo" href="">Contact</a>
+                <a class="nav-item-typo" href="[DIRECTORY_BASE_PATH]/contact/">Contact</a>
                 <a class="nav-item-typo grey" href="">Press</a>
                 <a class="nav-item-typo grey" href="">Careers</a>
 
@@ -1306,7 +1307,8 @@
         </div>
     </div>
     <div class="items-sidebar-submenu-mobile panelmobile1 panelmobilesub">
-        <div class="back nav-item-typo"> <img src="../../public/media/svg-assets/arrow-back.svg" alt=""> Back</div>
+        <div class="back nav-item-typo"> <img src="../../public/media/svg-assets/arrow-back-white.svg" alt=""> Back
+        </div>
         <p class="sidebar-item-mobile">Type of Items</p>
         <div class="container-items-dropdown">
             <div class="item-dropdown">
@@ -1542,7 +1544,8 @@
         </div>
     </div>
     <div class="brands-sidebar-submenu-mobile panelmobile2 panelmobilesub">
-        <div class="back nav-item-typo"> <img src="../../public/media/svg-assets/arrow-back.svg" alt=""> Back</div>
+        <div class="back nav-item-typo"> <img src="../../public/media/svg-assets/arrow-back-white.svg" alt=""> Back
+        </div>
         <p class="sidebar-item-mobile">Selected Brands</p>
         <div class="container-brands-list-mobile-sidebar">
             <div class="majors-brands-mobile">
@@ -1613,7 +1616,8 @@
                 alt=""></a>
     </div>
     <div class="creators-sidebar-submenu-mobile panelmobile3 panelmobilesub">
-        <div class="back nav-item-typo"> <img src="../../public/media/svg-assets/arrow-back.svg" alt=""> Back</div>
+        <div class="back nav-item-typo"> <img src="../../public/media/svg-assets/arrow-back-white.svg" alt=""> Back
+        </div>
         <p class="sidebar-item-mobile">Designers & Creators</p>
         <div class="container-brands-list-mobile-sidebar">
             <div class="majors-brands-mobile">
@@ -1969,22 +1973,22 @@
                 <form action="https://formspree.io/f/mdoqnvjv" method="POST" class="nav-item-typo">
                     <div class="line-contact-form ">
                         <label>
-                            First Name
-                            <input type="firstname" name="firstname" placeholder="Your First name">
+                            First Name*
+                            <input type="firstname" name="firstname" placeholder="Your First name" required>
                         </label>
                         <label>
-                            Last Name
-                            <input type="lastname" name="lastname" placeholder="Your Last name">
+                            Last Name*
+                            <input type="lastname" name="lastname" placeholder="Your Last name" required>
                         </label>
                     </div>
                     <label>
-                        Your email:
-                        <input type="email" name="email" placeholder="Type your e-mail">
+                        Your email*
+                        <input type="email" name="email" placeholder="Type your e-mail" required>
                     </label>
                     <div class="line-contact-form">
                         <label>
-                            Phone
-                            <input type="phone" name="phone" placeholder="+33 00 00 00 00 00">
+                            Phone*
+                            <input type="phone" name="phone" placeholder="+33 00 00 00 00 00" required>
                         </label>
                         <label>
                             Company
@@ -1998,14 +2002,14 @@
                         </label>
                         <label>
                             Object*
-                            <input type="object" name="object" placeholder="Title">
+                            <input type="object" name="object" placeholder="Title" required>
                         </label>
                     </div>
 
                     <label>
                         Write us some words*
                         <textarea placeholder="Send us your best news and ideas! We look forward to hearing from you."
-                            name="message"></textarea>
+                            name="message" required></textarea>
                     </label>
                     <!-- your other form fields go here -->
                     <button class="button-type-1" type="submit">Send your message</button>

@@ -24,14 +24,14 @@ makeComponent("/layout/footer");
 
 const metaFilePath = getComponentPath(`/pages${dirName}`) + "/" + metaFileName;
 
-const styleFilePath = join(
-  getDirname(import.meta.url),
-  `../dist${distPageDirPath}/${stylesFileName}`
-);
-
 const htmlRenderFilePath = join(
   getDirname(import.meta.url),
   `../dist${distPageDirPath}/${htmlRenderFileName}`
+);
+
+const styleFilePath = join(
+  getDirname(import.meta.url),
+  `../dist${distPageDirPath}/${stylesFileName}`
 );
 
 let serverSideRenderedHtml = readFileSync(

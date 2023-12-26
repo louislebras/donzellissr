@@ -55,22 +55,22 @@
                 <form action="https://formspree.io/f/mdoqnvjv" method="POST" class="nav-item-typo">
                     <div class="line-contact-form ">
                         <label>
-                            First Name
-                            <input type="firstname" name="firstname" placeholder="Your First name">
+                            First Name*
+                            <input type="firstname" name="firstname" placeholder="Your First name" required>
                         </label>
                         <label>
-                            Last Name
-                            <input type="lastname" name="lastname" placeholder="Your Last name">
+                            Last Name*
+                            <input type="lastname" name="lastname" placeholder="Your Last name" required>
                         </label>
                     </div>
                     <label>
-                        Your email:
-                        <input type="email" name="email" placeholder="Type your e-mail">
+                        Your email*
+                        <input type="email" name="email" placeholder="Type your e-mail" required>
                     </label>
                     <div class="line-contact-form">
                         <label>
-                            Phone
-                            <input type="phone" name="phone" placeholder="+33 00 00 00 00 00">
+                            Phone*
+                            <input type="phone" name="phone" placeholder="+33 00 00 00 00 00" required>
                         </label>
                         <label>
                             Company
@@ -84,14 +84,14 @@
                         </label>
                         <label>
                             Object*
-                            <input type="object" name="object" placeholder="Title">
+                            <input type="object" name="object" placeholder="Title" required>
                         </label>
                     </div>
 
                     <label>
                         Write us some words*
                         <textarea placeholder="Send us your best news and ideas! We look forward to hearing from you."
-                            name="message"></textarea>
+                            name="message" required></textarea>
                     </label>
                     <!-- your other form fields go here -->
                     <button class="button-type-1" type="submit">Send your message</button>

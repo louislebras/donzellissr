@@ -1,0 +1,390 @@
+$donzelli1: #151515 !important; // main color background
+$donzelli1bis: #2a2a2a !important; // second background color
+$donzelli2: #343333 !important; // lignes black
+$donzelli3: #efece9 !important; // main color text
+$donzelli3bis: #e7e4e0 !important; // black second background
+$donzelli4: #ada9a3 !important; // second color text
+
+html,
+body,
+main,
+header,
+footer {
+  background-color: $donzelli1;
+  color: $donzelli3;
+}
+
+.line-header-grey {
+  background-color: $donzelli2;
+}
+
+.other-links-header {
+  color: $donzelli4;
+  // border: 1px solid red;
+  a {
+    &:hover {
+      color: $donzelli3;
+    }
+  }
+}
+
+footer {
+  background-color: $donzelli1;
+
+  .line-top-header {
+    background-color: $donzelli2;
+  }
+}
+
+.container-links-footer {
+  .column-footer-links {
+    .list-link-column {
+      a {
+        color: $donzelli4;
+
+        &:hover {
+          color: $donzelli3;
+        }
+      }
+    }
+  }
+}
+
+.extra-links-footer {
+  p {
+    span {
+      color: $donzelli4;
+    }
+  }
+}
+
+.burger-sidebar-desk {
+  color: $donzelli1;
+
+  background-color: $donzelli3;
+  border: 1px solid $donzelli3;
+
+  &:hover {
+    background-color: $donzelli1;
+    color: $donzelli3;
+  }
+}
+
+.studiopro-button-header {
+  border: 1px solid $donzelli3;
+
+  .point {
+    background-color: $donzelli3;
+  }
+
+  &:hover {
+    background-color: $donzelli3;
+    color: $donzelli1;
+    .point {
+      background-color: red !important;
+    }
+  }
+}
+
+.container-menu-dropdown-elements {
+  .element {
+    &:hover {
+      color: $donzelli4;
+    }
+  }
+}
+
+.panel {
+  background-color: $donzelli1;
+  border-bottom: 1px solid $donzelli2;
+}
+
+.button-border-inside-panel {
+  border: 1px solid $donzelli3;
+  background-color: $donzelli3;
+  color: $donzelli1;
+
+  .point {
+    background-color: $donzelli1;
+  }
+
+  &:hover {
+    background-color: $donzelli1;
+    color: $donzelli3;
+    .point {
+      background-color: $donzelli3;
+    }
+  }
+}
+
+.container-panel,
+.container-panel {
+  background-color: $donzelli1;
+}
+
+.img-container-pf {
+  background-color: $donzelli1bis;
+}
+
+.about-pf-header {
+  .description-pf-header {
+    color: $donzelli4;
+  }
+
+  .link-pf-header {
+    color: $donzelli4;
+
+    &:hover {
+      color: $donzelli3;
+    }
+  }
+}
+
+.column-collections-list {
+  ul {
+    a li {
+      color: $donzelli4;
+
+      &:hover {
+        color: $donzelli3;
+      }
+    }
+  }
+}
+
+.panel-container-items-header {
+  .container-bycategories-items-header {
+    span {
+      &:hover {
+        color: $donzelli4;
+      }
+    }
+  }
+}
+
+.grey-active {
+  color: $donzelli4;
+}
+
+.subcategories-containers {
+  .subcategory-items {
+    background-color: $donzelli1;
+
+    a {
+      color: $donzelli4;
+
+      &:hover {
+        color: $donzelli3;
+      }
+    }
+
+    .all-items-sub {
+      color: $donzelli3;
+    }
+  }
+}
+
+.name-room-header {
+  color: $donzelli3;
+}
+
+.list-items-inner-room {
+  a {
+    color: $donzelli4;
+
+    &:hover {
+      color: $donzelli3;
+    }
+  }
+}
+
+.subtitle-brands-header {
+  color: $donzelli4;
+}
+
+.container-main-brands {
+  a {
+    &:hover {
+      color: $donzelli4;
+    }
+  }
+}
+
+.all-brands-items {
+  a {
+    color: $donzelli4;
+    &:hover {
+      color: $donzelli3;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .header-mobile {
+    background-color: $donzelli1;
+
+    .close-sidebar-mobile {
+      background-color: $donzelli1;
+    }
+
+    .line-color-bottom-header-mobile {
+      background-color: $donzelli2;
+    }
+
+    .burger-mobile {
+      .lines-burger-mobile {
+        .line {
+          background-color: $donzelli3;
+        }
+      }
+    }
+  }
+}
+
+.loader {
+  background-color: $donzelli1;
+
+  .container-img-loader {
+    background-color: $donzelli1;
+  }
+}
+
+.sidebar-desk {
+  background-color: $donzelli1;
+
+  border-left: 1px solid $donzelli2;
+}
+
+.close-sidebar-desk {
+  color: $donzelli1;
+
+  background-color: $donzelli3;
+  border: 1px solid $donzelli3;
+
+  &:hover {
+    background-color: transparent;
+    color: $donzelli3;
+  }
+}
+
+.indiction-menu-sidebar-desk {
+  color: $donzelli4;
+}
+
+.list-menu-sidebar-desk {
+  a {
+    color: $donzelli3;
+
+    &:hover {
+      color: $donzelli4;
+    }
+  }
+}
+
+.studiopro-item-sidebar-desk {
+  border: 2px solid $donzelli3;
+
+  &:hover {
+    background-color: $donzelli3;
+    color: $donzelli1 !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .sidebar-mobile {
+    background-color: $donzelli1;
+  }
+
+  .main-container-sidebar-mobile {
+    background-color: $donzelli1;
+  }
+
+  .container-items-nav-mobile-sidebar {
+    .new-tick {
+      border: 1px solid $donzelli3;
+    }
+  }
+
+  .studiopro-sidebar-mobile {
+    .sidebar-item-mobile {
+      border: 2px solid $donzelli3;
+
+      &:hover {
+        background-color: $donzelli3;
+        color: $donzelli1 !important;
+      }
+    }
+  }
+
+  .secondary-nav-sidebar-mobile {
+    .list-secondary-nav-sidebar-mobile {
+      .grey {
+        color: $donzelli4;
+      }
+    }
+  }
+
+  .panelmobilesub {
+    background-color: $donzelli1;
+  }
+
+  .back {
+    background-color: $donzelli1bis;
+  }
+
+  .container-dropdown-content.active-dropdown {
+    .first-all-button {
+      color: $donzelli3;
+    }
+    a {
+      color: $donzelli4;
+    }
+  }
+
+  .dropdown-plus {
+    background-color: $donzelli1;
+  }
+
+  .dropdown-moins {
+    background-color: $donzelli1;
+  }
+
+  .rooms-container-sidebar-menu-items {
+    .container-rooms-sidebar-mobile {
+      .room-container-mobile {
+        .column-list-room-mobile {
+          a {
+            color: $donzelli4;
+          }
+        }
+      }
+    }
+  }
+
+  .brands-sidebar-submenu-mobile,
+  .creators-sidebar-submenu-mobile {
+    .container-brands-list-mobile-sidebar {
+      .majors-brands-mobile {
+        p {
+          color: $donzelli4;
+        }
+      }
+
+      .all-brands-mobile {
+        .container-double-list-all-brands {
+          .column-allbrands-mobile {
+            a {
+              color: $donzelli4;
+            }
+          }
+        }
+      }
+    }
+
+    .column-studio-list {
+      a {
+        color: $donzelli4;
+      }
+    }
+  }
+}
