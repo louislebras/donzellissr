@@ -13,6 +13,11 @@
   }
 }
 
+.underlined1 {
+  text-underline-offset: 2px;
+  text-decoration: underline;
+}
+
 .button-type-1 {
   padding: 12px 15px;
   border-radius: 400px;
@@ -134,7 +139,7 @@
 @media (min-width: 1500px) {
   .nav-item-typo {
     font-size: calc(
-      16px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+      13px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
     );
   }
 }

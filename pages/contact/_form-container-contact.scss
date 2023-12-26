@@ -1,0 +1,84 @@
+@import "../../scss/variables";
+
+.form-contact-page-container {
+  margin-top: 15vh;
+  .subtitle {
+    width: 80%;
+  }
+
+  .line-flux {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+.container-title-form {
+  width: 100%;
+  display: flex;
+  //   justify-content: space-between;
+  .maintitle {
+    width: calc(50% - 7.5px);
+    margin-right: 15px;
+    // border: 1px solid red;
+  }
+}
+
+.container-form-contact {
+  width: calc(40%);
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    input {
+      margin-top: 7px;
+      border: 0;
+      outline: none;
+      padding-bottom: 4px;
+      border-bottom: 1px solid $donzelli2 !important;
+    }
+
+    textarea {
+      margin-top: 7px;
+      outline: none;
+      padding-bottom: 4px;
+      border: 1px solid $donzelli2 !important;
+      min-height: 150px;
+      border-radius: 5px;
+      padding: 10px;
+    }
+  }
+
+  .line-contact-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    label {
+      display: flex;
+      flex-direction: column;
+
+      width: calc(50% - 7.5px);
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .container-title-form {
+    flex-direction: column;
+    .maintitle {
+      width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .container-form-contact {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

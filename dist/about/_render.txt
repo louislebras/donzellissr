@@ -1,5 +1,5 @@
 <header class="header-desktop">
-  <a class="logo-header" href="">
+  <a class="logo-header" href="[DIRECTORY_BASE_PATH]">
     <img src="../../public/media/svg-assets/logo-donzelli-white.svg" alt="">
   </a>
   <div class="container-menu-dropdown-elements">
@@ -264,9 +264,9 @@
           <a href="">Vases & Trays</a>
           <a href="">Candles</a>
           <a href="">Books</a>
-          <a href="">Screens</a>
+          <a href="">Folding Screens</a>
           <a href="">Mirrors</a>
-          <a href="">Luggage & Chests</a>
+          <a href="">Luggage, Bags & Chests</a>
         </div>
         <!-- <div class="subcategory-items category7-subcategory nav-item-typo "><a class="all-items-sub" href="">All Art &
             Paintings</a>
@@ -1440,9 +1440,9 @@
                     <a href="">Vases & Trays</a>
                     <a href="">Candles</a>
                     <a href="">Books</a>
-                    <a href="">Screens</a>
+                    <a href="">Folding Screens</a>
                     <a href="">Mirrors</a>
-                    <a href="">Luggage & Chests</a>
+                    <a href="">Luggage, Bags, & Chests</a>
                 </div>
             </div>
             <!-- <div class="item-dropdown">

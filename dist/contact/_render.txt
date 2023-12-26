@@ -1,5 +1,5 @@
 <header class="header-desktop">
-  <a class="logo-header" href="">
+  <a class="logo-header" href="[DIRECTORY_BASE_PATH]">
     <img src="../../public/media/svg-assets/logo-donzelli-white.svg" alt="">
   </a>
   <div class="container-menu-dropdown-elements">
@@ -264,9 +264,9 @@
           <a href="">Vases & Trays</a>
           <a href="">Candles</a>
           <a href="">Books</a>
-          <a href="">Screens</a>
+          <a href="">Folding Screens</a>
           <a href="">Mirrors</a>
-          <a href="">Luggage & Chests</a>
+          <a href="">Luggage, Bags & Chests</a>
         </div>
         <!-- <div class="subcategory-items category7-subcategory nav-item-typo "><a class="all-items-sub" href="">All Art &
             Paintings</a>
@@ -1440,9 +1440,9 @@
                     <a href="">Vases & Trays</a>
                     <a href="">Candles</a>
                     <a href="">Books</a>
-                    <a href="">Screens</a>
+                    <a href="">Folding Screens</a>
                     <a href="">Mirrors</a>
-                    <a href="">Luggage & Chests</a>
+                    <a href="">Luggage, Bags, & Chests</a>
                 </div>
             </div>
             <!-- <div class="item-dropdown">
@@ -1912,8 +1912,151 @@
 
     });
 
-</script><h1>Contact page</h1>
-<footer>
+</script><div class="grid">
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+</div>
+
+<main>
+    <div class="main-container-heading-contact">
+        <div class="container-heading-meetus">
+            <h1 class="maintitle">Meet us</h1>
+            <p class="thirdtitle">Your inquiry becomes our new inspiration.
+                Feel free to contact us.</p>
+
+        </div>
+        <div class="line-flux"></div>
+        <div class="container-cities-contact-map">
+            <p class="nav-item-typo"> London <br>
+                Paris <br>
+                Monaco <br>
+                New York <br> Los Angeles <br>
+                Dubai</p>
+            <img class="map-meetus-heading" src="../../public/media/svg-assets/map-offices-donzelli.svg" alt="">
+
+        </div>
+        <div class="global-contact-container">
+            <h2 class="maintitle"> Global Contact <br>
+                — Headquarters</h2>
+            <div class="infos-global-contact">
+                <p class="small-text">
+                    hello@donzelli.com <br>
+                    +33 6 59 23 56 95
+                </p>
+                <p class="small-text">15 Rue Crébillon <br> Nantes 44000 <br>France</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="form-contact-page-container">
+        <p class="subtitle">Elegance begins with conversation. If you're ready to start a conversation with us®, we'd
+            love to hear about your
+            desires, your questions and even your most audacious ideas.</p>
+        <div class="line-flux"></div>
+        <div class="container-title-form">
+            <h3 class="maintitle">Write Us</h3>
+            <div class="container-form-contact">
+                <form action="https://formspree.io/f/mdoqnvjv" method="POST" class="nav-item-typo">
+                    <div class="line-contact-form ">
+                        <label>
+                            First Name
+                            <input type="firstname" name="firstname" placeholder="Your First name">
+                        </label>
+                        <label>
+                            Last Name
+                            <input type="lastname" name="lastname" placeholder="Your Last name">
+                        </label>
+                    </div>
+                    <label>
+                        Your email:
+                        <input type="email" name="email" placeholder="Type your e-mail">
+                    </label>
+                    <div class="line-contact-form">
+                        <label>
+                            Phone
+                            <input type="phone" name="phone" placeholder="+33 00 00 00 00 00">
+                        </label>
+                        <label>
+                            Company
+                            <input type="company" name="company" placeholder="Business Name">
+                        </label>
+                    </div>
+                    <div class="line-contact-form">
+                        <label>
+                            Location
+                            <input type="location" name="location" placeholder="City, Country">
+                        </label>
+                        <label>
+                            Object*
+                            <input type="object" name="object" placeholder="Title">
+                        </label>
+                    </div>
+
+                    <label>
+                        Write us some words*
+                        <textarea placeholder="Send us your best news and ideas! We look forward to hearing from you."
+                            name="message"></textarea>
+                    </label>
+                    <!-- your other form fields go here -->
+                    <button class="button-type-1" type="submit">Send your message</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="line-flux subsection-infos-flex-line-flux"></div>
+    <div class="subsection-infos-flex">
+
+        <h4 class="maintitle">Become Partner <br>
+            / New Business</h4>
+        <div class="infos-subsection-container">
+            <p class="thirdtitle">
+                Ryadh Zitouni <br>
+                Founder <br>
+                <a class="underlined1" href="">ryadh@donzelli.com</a> <br> <br>
+                Private Line — Whatsapp <br>
+                +33 6 59 23 56 95
+            </p>
+            <p class="thirdtitle">
+                Louis Le Bras <br>
+                Founder <br>
+                <a href="" class="underlined1">louis@donzelli.com</a> <br> <br>
+                Private Line — Whatsapp <br>
+                +33 6 59 23 56 95
+            </p>
+        </div>
+    </div>
+    <div class="line-flux subsection-infos-flex-line-flux"></div>
+    <div class="subsection-infos-flex">
+
+        <h4 class="maintitle">Specific enquiries</h4>
+        <div class="infos-subsection-container">
+            <p class="small-text">
+                Press Enquiries <br>
+
+                <a class="underlined1" href="">Visit Page</a>
+
+            </p>
+            <p class="small-text">
+                Careers Enquiries <br>
+
+                <a class="underlined1" href="">Visit Page</a>
+
+            </p>
+        </div>
+    </div>
+
+</main><footer>
     <div class="line-top-header"></div>
     <div class="heading-header">
         <img src="../../public/media/svg-assets/logo-donzelli-white.svg" alt="">
