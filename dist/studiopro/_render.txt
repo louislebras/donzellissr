@@ -1181,7 +1181,10 @@
 
 
 </script><header class="header-mobile">
-    <a class="logo-header-mobile" href="">
+    <a class="logo-header-mobile logo-header-mobile-white" href="">
+        <img src="../../public/media/svg-assets/logo-donzelli-black.svg" alt="">
+    </a>
+    <a class="logo-header-mobile logo-header-mobile-black" href="">
         <img src="../../public/media/svg-assets/logo-donzelli-white.svg" alt="">
     </a>
     <div class="close-sidebar-mobile">
@@ -1243,7 +1246,7 @@
             <a class="sidebar-item-desk verified-sidebar-desk" href="">
                 <img src="../../public/media/svg-assets/verified-icon-white.svg" alt="">
                 Verified Program</a>
-            <a class="sidebar-item-desk studiopro-item-sidebar-desk" href="">Studio Pro <img
+            <a id="studiopro-item-sidebar-desk" class="sidebar-item-desk " href=""><span>Studio Pro</span> <img
                     src="../../public/media/svg-assets/arrow-white.svg" alt=""></a>
 
             <a class="sidebar-item-desk" href="">Engagements</a>
@@ -1916,7 +1919,203 @@
 
     });
 
-</script><link rel="stylesheet" href="../../css/black.css"><footer>
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css" />
+
+<main>
+    <div class="heading-studiopro">
+        <h1 class="maintitle intro-studio-pro">
+            Welcome to <a href="">Studio Pro</a> <br>
+            Cutting-edge design and business services.
+            For Private Clients, Architects, Designers, Brands, Studios and Companies.
+
+
+        </h1>
+        <p class="intro-subtitle-studio-pro thirdtitle">Interior Design/Experience. Infinite Products
+            Access. Authentification
+            Services.
+            Brand Growth. Partnerships. Distribution.
+            Collabs creation. Furniture Business Network
+            Facilities. And more.</p>
+
+        <div class="heading-img-studiopro">
+            <img class="background-heading-studiopro" src="../../public/media/background-studiopro-home.png" alt="">
+            <!-- <img class="logo-studiopro-heading" src="../../public/media/svg-assets/logo-donzelli-studio-pro-white.svg"
+                alt=""> -->
+        </div>
+        <h2 class="subtitle intro-subtitle-studio-pro">We believe that the spaces we inhabit shape who we are and who we
+            become. Our aim is to help individuals and
+            organizations design environments that enable them to build a more empowered, sustainable and visionary
+            future. <br> <br>
+            Studio Pro aspires to be that unshakeable pillar, the one on which these
+            visionaries rely
+            to shape spaces with a unique soul, mirroring the identity of each customer.
+
+        </h2>
+
+
+    </div>
+
+    <div class="offers-studiopro-triptyque">
+        <h3 class="heavytitle">
+            Our solutions
+        </h3>
+        <p class="thirdtitle intro-subtitle-studio-pro">
+            Studio Pro is dedicated to revitalizing the market of interior design with inspiring ideas,
+            making project
+            management easier for architects and boosting brand development.
+
+        </p>
+        <div class="line-flux"></div>
+        <div class="triptyque-container">
+            <div class="card-offer-studiopro"></div>
+            <div class="card-offer-studiopro"></div>
+            <div class="card-offer-studiopro"></div>
+        </div>
+    </div>
+    <div class="items-container-home brands-container-home">
+        <div class="container-title-items">
+            <div class="title-items maintitle"> Studio Pro <br> Engagements</div>
+            <div class="description-items-home">
+                <p class="thirdtitle">Explore the finest iconic brands <br> and those you've never heard of.
+                </p>
+                <div class="button-type-1">
+                    <div class="dotbutton"></div>
+                    <p class="nav-item-typo">Explore Brands</p>
+                    <img src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="line-flux"></div>
+
+        <div class="container-types-items-home">
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <a href="" class="swiper-slide">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Cassina</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Flos</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">B&B Italia</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide">
+                        <div class="swiper-slide-container">
+
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Gubi</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Knoll</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+
+
+                        </div>
+                    </a>
+                    <a href="" class="swiper-slide ">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Ligne Roset</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+
+
+
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide last-slide">
+                        <div class="swiper-slide-container">
+                            <div class="container-title-item-swiper-home">
+                                <p class="nav-item-typo">Herman Miller</p>
+                                <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                            </div>
+
+
+
+                        </div>
+                    </a>
+
+
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+
+
+        </div>
+        <div class="heading-img-studiopro">
+            <img class="background-heading-studiopro" src="../../public/media/background-studiopro-home.png" alt="">
+            <!-- <img class="logo-studiopro-heading" src="../../public/media/svg-assets/logo-donzelli-studio-pro-white.svg"
+                        alt=""> -->
+        </div>
+    </div>
+</main>
+
+<script>
+
+    var swiper = new Swiper(".swiper-container", {
+        // pagination: ".swiper-pagination",
+        slidesPerView: 'auto',
+        centeredSlides: false,
+        // paginationClickable: true,
+        loop: false,
+        spaceBetween: 0,
+        speed: 300,
+        freeMode: true, // Défilement fluide sans snap
+        bounce: false,
+        touchRatio: 0.8,
+
+        breakpoints: {
+            // when window width is >= 320px
+            800: {
+                touchRatio: 0.8,
+            },
+        },
+    });
+
+    var thumb = document.querySelectorAll(".thumbContainer");
+
+    thumb.forEach(function (image, index) {
+        var delay = index * 90;
+        image.classList.add("fadeInSlide");
+        image.style.animationDelay = delay + "ms";
+    });
+</script><footer>
     <div class="line-top-header"></div>
     <div class="heading-header">
         <img src="../../public/media/svg-assets/logo-donzelli-white.svg" alt="">

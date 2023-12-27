@@ -43,7 +43,11 @@
 
     img {
       height: 23px;
-      mix-blend-mode: difference;
+      // mix-blend-mode: difference;
+    }
+
+    .logo-header-mobile-black {
+      display: none !important;
     }
 
     .burger-mobile {

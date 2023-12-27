@@ -1,6 +1,6 @@
-$donzelli1: #151515 !important; // main color background
-$donzelli1bis: #2a2a2a !important; // second background color
-$donzelli2: #343333 !important; // lignes black
+$donzelli1: #0d0d0d !important; // main color background
+$donzelli1bis: #1c1c1c !important; // second background color
+$donzelli2: #262626 !important; // lignes black
 $donzelli3: #efece9 !important; // main color text
 $donzelli3bis: #e7e4e0 !important; // black second background
 $donzelli4: #ada9a3 !important; // second color text
@@ -12,6 +12,12 @@ header,
 footer {
   background-color: $donzelli1;
   color: $donzelli3;
+}
+
+main {
+  .line-flux {
+    background-color: $donzelli2;
+  }
 }
 
 .line-header-grey {
@@ -223,6 +229,14 @@ footer {
   .header-mobile {
     background-color: $donzelli1;
 
+    .logo-header-mobile-black {
+      display: block !important;
+    }
+
+    .logo-header-mobile-white {
+      display: none !important;
+    }
+
     .close-sidebar-mobile {
       background-color: $donzelli1;
     }
@@ -281,12 +295,12 @@ footer {
   }
 }
 
-.studiopro-item-sidebar-desk {
+#studiopro-item-sidebar-desk {
   border: 2px solid $donzelli3;
 
   &:hover {
     background-color: $donzelli3;
-    color: $donzelli1 !important;
+    color: #151515 !important;
   }
 }
 

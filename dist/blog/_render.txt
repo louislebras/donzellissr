@@ -1181,7 +1181,10 @@
 
 
 </script><header class="header-mobile">
-    <a class="logo-header-mobile" href="">
+    <a class="logo-header-mobile logo-header-mobile-white" href="">
+        <img src="../../public/media/svg-assets/logo-donzelli-black.svg" alt="">
+    </a>
+    <a class="logo-header-mobile logo-header-mobile-black" href="">
         <img src="../../public/media/svg-assets/logo-donzelli-white.svg" alt="">
     </a>
     <div class="close-sidebar-mobile">
@@ -1243,7 +1246,7 @@
             <a class="sidebar-item-desk verified-sidebar-desk" href="">
                 <img src="../../public/media/svg-assets/verified-icon-white.svg" alt="">
                 Verified Program</a>
-            <a class="sidebar-item-desk studiopro-item-sidebar-desk" href="">Studio Pro <img
+            <a id="studiopro-item-sidebar-desk" class="sidebar-item-desk " href=""><span>Studio Pro</span> <img
                     src="../../public/media/svg-assets/arrow-white.svg" alt=""></a>
 
             <a class="sidebar-item-desk" href="">Engagements</a>
