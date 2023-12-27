@@ -1213,6 +1213,7 @@
         var closeCrossMobile = document.querySelector(".close-sidebar-mobile");
         var sidebarMobile = document.querySelector(".sidebar-mobile");
         var bodyHey = document.querySelector("body");
+        var htmlHey = document.querySelector("html");
         var headerMob = document.querySelector(".header-mobile");
 
         burgerMobile.onclick = function () {
@@ -1220,6 +1221,7 @@
             closeCrossMobile.classList.add("appearClose");
             sidebarMobile.classList.add("to-left-mobile-menu");
             bodyHey.classList.add("fix-scroll");
+            htmlHey.classList.add("fix-scroll");
             headerMob.classList.add("scroll-mobile-header-home");
         };
 
@@ -1227,6 +1229,7 @@
             closeCrossMobile.classList.remove("appearClose");
             sidebarMobile.classList.remove("to-left-mobile-menu");
             burgerMobile.classList.remove("diseappearBurger");
+            htmlHey.classList.remove("fix-scroll");
             bodyHey.classList.remove("fix-scroll");
 
             // Calcul du pourcentage de défilement
@@ -1967,7 +1970,7 @@
         <h3 class="heavytitle">
             Our solutions
         </h3>
-        <p class="thirdtitle intro-subtitle-studio-pro">
+        <p class="small-text intro-subtitle-studio-pro">
             Studio Pro is dedicated to revitalizing the market of interior design with inspiring ideas,
             making project
             management easier for architects and boosting brand development.
@@ -1982,7 +1985,7 @@
     </div>
     <div class="items-container-home brands-container-home">
         <div class="container-title-items">
-            <div class="title-items heavytitle"> Studio Pro <br> Engagements</div>
+            <div class="title-items heavytitle"> More on <br> Studio Pro </div>
             <!-- <div class="description-items-home">
                 <p class="small-text">Explore the finest iconic brands <br> and those you've never heard of.
                 </p>

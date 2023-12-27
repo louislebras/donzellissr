@@ -31,6 +31,7 @@
         var closeCrossMobile = document.querySelector(".close-sidebar-mobile");
         var sidebarMobile = document.querySelector(".sidebar-mobile");
         var bodyHey = document.querySelector("body");
+        var htmlHey = document.querySelector("html");
         var headerMob = document.querySelector(".header-mobile");
 
         burgerMobile.onclick = function () {
@@ -38,6 +39,7 @@
             closeCrossMobile.classList.add("appearClose");
             sidebarMobile.classList.add("to-left-mobile-menu");
             bodyHey.classList.add("fix-scroll");
+            htmlHey.classList.add("fix-scroll");
             headerMob.classList.add("scroll-mobile-header-home");
         };
 
@@ -45,6 +47,7 @@
             closeCrossMobile.classList.remove("appearClose");
             sidebarMobile.classList.remove("to-left-mobile-menu");
             burgerMobile.classList.remove("diseappearBurger");
+            htmlHey.classList.remove("fix-scroll");
             bodyHey.classList.remove("fix-scroll");
 
             // Calcul du pourcentage de défilement
