@@ -2061,7 +2061,7 @@
             <p class="small-text">
                 Press Enquiries <br>
 
-                <a class="underlined1" href="">Visit Page</a>
+                <a class="underlined1" href="[DIRECTORY_BASE_PATH]/press/">Visit Page</a>
 
             </p>
             <p class="small-text">
@@ -2091,7 +2091,7 @@
                     <a href="">Engagements</a>
                     <a href="">Verified Program</a>
                     <a href="">Project & Features</a>
-                    <a href="">Press</a>
+                    <a href="[DIRECTORY_BASE_PATH]/press/">Press</a>
                     <a href="">Careers</a>
                     <a href="[DIRECTORY_BASE_PATH]/contact/">Contact</a>
                 </div>

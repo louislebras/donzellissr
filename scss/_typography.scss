@@ -117,8 +117,59 @@
   }
 }
 
+.button-type-3 {
+  padding: 12px 15px 11px;
+  border-radius: 400px;
+  border: 1px solid $donzelli1;
+  background-color: $donzelli1;
+  color: $donzelli3;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  width: fit-content;
+  .dotbutton {
+    width: 10px;
+    height: 10px;
+    background-color: $donzelli3;
+    border-radius: 200px;
+    margin-right: 10px;
+    animation: clignDotButton 2s linear infinite;
+  }
+
+  @keyframes clignDotButton {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  p {
+    line-height: 90%;
+  }
+  img {
+    mix-blend-mode: difference;
+    width: 15px;
+    margin-left: 10px;
+  }
+
+  &:hover {
+    background-color: $donzelli3;
+    color: $donzelli1;
+    .dotbutton {
+      background-color: $donzelli1;
+    }
+  }
+}
+
 @media (max-width: 800px) {
-  .button-type-1 {
+  .button-type-1,
+  .button-type-2,
+  .button-type-3 {
     padding: 9px 13px;
     .dotbutton {
       width: 7px;
