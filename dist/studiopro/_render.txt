@@ -15,7 +15,7 @@
     <a class="nav-item-typo" href="">Project & Features</a>
   </div>
   <div class="container-sidebar-studiopro">
-    <a href="" class="studiopro-button-header nav-item-typo">
+    <a href="[DIRECTORY_BASE_PATH]/studiopro/" class="studiopro-button-header nav-item-typo">
       <div class="point"></div>
       Studio Pro
     </a>
@@ -1181,7 +1181,7 @@
 
 
 </script><header class="header-mobile">
-    <a class="logo-header-mobile logo-header-mobile-white" href="">
+    <a class="logo-header-mobile logo-header-mobile-white" href="[DIRECTORY_BASE_PATH]">
         <img src="../../public/media/svg-assets/logo-donzelli-black.svg" alt="">
     </a>
     <a class="logo-header-mobile logo-header-mobile-black" href="">
@@ -1252,7 +1252,8 @@
             <a class="sidebar-item-desk verified-sidebar-desk" href="">
                 <img src="../../public/media/svg-assets/verified-icon-white.svg" alt="">
                 Verified Program</a>
-            <a id="studiopro-item-sidebar-desk" class="sidebar-item-desk " href=""><span>Studio Pro</span> <img
+            <a id="studiopro-item-sidebar-desk" class="sidebar-item-desk "
+                href="[DIRECTORY_BASE_PATH]/studiopro/"><span>Studio Pro</span> <img
                     src="../../public/media/svg-assets/arrow-white.svg" alt=""></a>
 
             <a class="sidebar-item-desk" href="">Engagements</a>
@@ -1288,7 +1289,7 @@
             </div>
         </div>
         <div class="studiopro-sidebar-mobile">
-            <a href="">
+            <a href="[DIRECTORY_BASE_PATH]/studiopro/">
                 <div class="sidebar-item-mobile ">Studio Pro
                     <img src="../../public/media/svg-assets/arrow-white.svg" alt="">
                 </div>
@@ -1981,12 +1982,12 @@
     </div>
     <div class="items-container-home brands-container-home">
         <div class="container-title-items">
-            <div class="title-items maintitle"> Studio Pro <br> Engagements</div>
-            <div class="description-items-home">
+            <div class="title-items heavytitle"> Studio Pro <br> Engagements</div>
+            <!-- <div class="description-items-home">
                 <p class="small-text">Explore the finest iconic brands <br> and those you've never heard of.
                 </p>
 
-            </div>
+            </div> -->
         </div>
         <div class="line-flux"></div>
 
