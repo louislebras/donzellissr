@@ -70,7 +70,7 @@
 
 @media (max-width: 800px) {
   .intro-studio-pro {
-    margin-top: 2vh;
+    margin-top: 15vh;
     width: 100%;
     a {
       padding: 2px 12px;
@@ -140,6 +140,33 @@
   border-radius: 5px;
 }
 
+@media (max-width: 800px) {
+  .offers-studiopro-triptyque {
+    .thirdtitle {
+      position: relative;
+      left: 0;
+      max-width: 100%;
+      margin-top: 15px;
+    }
+
+    .line-flux {
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+  }
+  .triptyque-container {
+    margin-top: 0px;
+    margin-left: 0;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card-offer-studiopro {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
 .items-container-home {
   display: flex;
   flex-direction: column;
@@ -186,7 +213,7 @@
     .description-items-home {
       position: relative;
       left: 0;
-      margin-top: 5px !important;
+      margin-top: 10px !important;
       padding-left: 20%;
     }
   }

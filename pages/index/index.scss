@@ -26,6 +26,7 @@
 .header-mobile {
   background-color: transparent;
   transition: 0.3s ease;
+  top: 20px;
   .logo-header-mobile {
     opacity: 0;
     transition: 0.3s ease;
@@ -39,6 +40,8 @@
 
 .scroll-mobile-header-home {
   background-color: $donzelli1;
+  top: 0px;
+  transition: 0s ease;
   .logo-header-mobile {
     opacity: 1;
     transition: 0.3s ease;

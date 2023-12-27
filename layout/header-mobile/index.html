@@ -25,6 +25,7 @@
 
 
 <script>
+
     window.addEventListener("load", function () {
         var burgerMobile = document.querySelector(".burger-mobile");
         var closeCrossMobile = document.querySelector(".close-sidebar-mobile");
@@ -33,13 +34,11 @@
         var headerMob = document.querySelector(".header-mobile");
 
         burgerMobile.onclick = function () {
-
             burgerMobile.classList.add("diseappearBurger");
             closeCrossMobile.classList.add("appearClose");
             sidebarMobile.classList.add("to-left-mobile-menu");
             bodyHey.classList.add("fix-scroll");
             headerMob.classList.add("scroll-mobile-header-home");
-
         };
 
         closeCrossMobile.onclick = function () {
@@ -47,8 +46,15 @@
             sidebarMobile.classList.remove("to-left-mobile-menu");
             burgerMobile.classList.remove("diseappearBurger");
             bodyHey.classList.remove("fix-scroll");
-            headerMob.classList.remove("scroll-mobile-header-home");
 
+            // Calcul du pourcentage de défilement
+            var scrollPercentage = (window.scrollY / document.documentElement.clientHeight) * 100;
+
+            // Retirer la classe seulement si le scroll est inférieur à 10%
+            if (scrollPercentage < 10) {
+                headerMob.classList.remove("scroll-mobile-header-home");
+            }
         };
     });
+
 </script>
