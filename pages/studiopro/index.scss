@@ -10,19 +10,15 @@
   margin-bottom: 20px;
   width: 85%;
 
-  a {
-    padding: 0px 16px;
+  span {
+    padding: 0px 12px;
     border: 2px solid $donzelli3;
-    // background-color: $donzelli3;
-    // color: $donzelli1;
+    background-color: $donzelli3;
+    color: $donzelli1;
     border-radius: 999px;
     display: inline-block;
     width: fit-content;
     transition: 0.3s ease;
-    &:hover {
-      background-color: $donzelli3;
-      color: $donzelli1;
-    }
 
     img {
       width: 36px;
@@ -68,12 +64,17 @@
   }
 }
 
+.intro-vision-studiopro {
+  margin-top: 10px;
+  // width: 90%;
+}
+
 @media (max-width: 800px) {
   .intro-studio-pro {
-    margin-top: 15vh;
+    margin-top: 5vh;
     width: 100%;
-    a {
-      padding: 2px 12px;
+    span {
+      padding: 2px 8px;
       position: relative;
       left: -2px;
       img {
@@ -86,6 +87,10 @@
   .intro-subtitle-studio-pro {
     width: 100%;
     margin-top: 0px;
+  }
+
+  .intro-vision-studiopro {
+    margin-top: 10px;
   }
 }
 
@@ -111,7 +116,7 @@
   // margin-left: calc((8.33vw * 1) - 2px);
   //   }
 
-  .small-text {
+  .intro-subtitle-studio-pro {
     position: absolute;
     left: calc((8.33vw * 8) - 18px);
     top: 0;
@@ -120,29 +125,70 @@
 
   .line-flux {
     margin-top: 10vh;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 }
 
 .triptyque-container {
-  width: calc(100% - ((8.33vw * 2) - 2px));
+  // width: calc(100% - ((8.33vw * 2) - 2px));
+  width: 100%;
   //   border: 1px solid red;
   display: flex;
   justify-content: space-between;
-  margin-left: calc((8.33vw * 2) - 2px);
-  margin-top: 50px;
+  // margin-left: calc((8.33vw * 2) - 2px);
+  margin-top: 0px;
+  background-color: $donzelli1bis;
+  padding: 80px;
+  border-radius: 5px;
 }
 
 .card-offer-studiopro {
-  background-color: $donzelli1bis;
+  background-color: $donzelli1bisbis;
+  // color: $donzelli1;
   width: calc(33% - 5px);
-  height: 55vh;
+  height: fit-content;
   border-radius: 5px;
+  padding: 23px 25px;
+  padding-bottom: 40px;
+
+  .thirdtitle {
+    width: 100%;
+    color: $donzelli4;
+    margin-top: 10px;
+  }
+
+  .maintitle {
+    position: relative;
+    left: -5px;
+  }
+
+  .button-type-3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  .container-benefits-list-offers-studiopro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefit-line-container {
+    .line-benefit {
+      width: 100%;
+      height: 1px;
+      background-color: $donzelli2bis;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
 }
 
 @media (max-width: 800px) {
   .offers-studiopro-triptyque {
-    .thirdtitle {
+    .intro-subtitle-studio-pro {
       position: relative;
       left: 0;
       max-width: 100%;
@@ -159,18 +205,22 @@
     margin-left: 0;
     flex-direction: column;
     width: 100%;
+    padding: 0px;
+    padding-bottom: 0;
+    background-color: $donzelli1;
   }
 
   .card-offer-studiopro {
     width: 100%;
     margin-bottom: 10px;
+    // background-color: $donzelli1bis;
   }
 }
 
 .items-container-home {
   display: flex;
   flex-direction: column;
-  margin-top: 25vh;
+  margin-top: 15vh;
 
   .line-flux {
     margin-top: 40px;

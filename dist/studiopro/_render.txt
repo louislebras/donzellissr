@@ -1262,7 +1262,7 @@
             <a class="sidebar-item-desk" href="">Engagements</a>
             <a class="sidebar-item-desk" href="">Magazine</a>
             <a class="sidebar-item-desk" href="[DIRECTORY_BASE_PATH]/contact/">Contact</a>
-            <a class="sidebar-item-desk" href="">Press</a>
+            <a class="sidebar-item-desk" href="[DIRECTORY_BASE_PATH]/press/">Press</a>
             <a class="sidebar-item-desk" href="">Careers</a>
         </div>
     </div>
@@ -1313,7 +1313,7 @@
                 <a class="nav-item-typo grey" href="">Project & Features</a>
                 <a class="nav-item-typo grey" href="">Engagements</a>
                 <a class="nav-item-typo" href="[DIRECTORY_BASE_PATH]/contact/">Contact</a>
-                <a class="nav-item-typo grey" href="">Press</a>
+                <a class="nav-item-typo grey" href="[DIRECTORY_BASE_PATH]/press/">Press</a>
                 <a class="nav-item-typo grey" href="">Careers</a>
 
             </div>
@@ -1935,9 +1935,9 @@
 <main>
     <div class="heading-studiopro">
         <h1 class="maintitle intro-studio-pro">
-            Welcome to <a href="">Studio Pro</a> <br>
+            Welcome to <span>Studio Pro</span> <br>
             Cutting-edge design and business services.
-            For Private Clients, Architects, Designers, Brands, Studios and Companies.
+            For Private Clients, Hotels, Architects, Brands, Studios and Companies.
 
 
         </h1>
@@ -1953,13 +1953,14 @@
             <!-- <img class="logo-studiopro-heading" src="../../public/media/svg-assets/logo-donzelli-studio-pro-white.svg"
                 alt=""> -->
         </div>
-        <h2 class="subtitle intro-subtitle-studio-pro">We believe that the spaces we inhabit shape who we are and who we
+        <h2 class="maintitle intro-subtitle-studio-pro intro-vision-studiopro">We believe that the spaces we inhabit
+            shape who we are and who we
             become. Our aim is to help individuals and
             organizations design environments that enable them to build a more empowered, sustainable and visionary
             future. <br> <br>
-            Studio Pro aspires to be that unshakeable pillar, the one on which these
+            Studio Pro by Donzelli® aspires to be that unshakeable pillar, the one on which these
             visionaries rely
-            to shape spaces with a unique soul, mirroring the identity of each customer.
+            to shape spaces with a unique soul, mirroring the identity of each client, project, collab.
 
         </h2>
 
@@ -1968,9 +1969,9 @@
 
     <div class="offers-studiopro-triptyque">
         <h3 class="heavytitle">
-            Our solutions
+            Solutions
         </h3>
-        <p class="small-text intro-subtitle-studio-pro">
+        <p class="thirdtitle intro-subtitle-studio-pro">
             Studio Pro is dedicated to revitalizing the market of interior design with inspiring ideas,
             making project
             management easier for architects and boosting brand development.
@@ -1978,9 +1979,128 @@
         </p>
         <div class="line-flux"></div>
         <div class="triptyque-container">
-            <div class="card-offer-studiopro"></div>
-            <div class="card-offer-studiopro"></div>
-            <div class="card-offer-studiopro"></div>
+            <div class="card-offer-studiopro">
+
+                <p class="sidebar-item-desk">Design</p>
+
+                <h4 class="thirdtitle">For Private Clients, Hotels, <br> Restaurants, Offices.</h4>
+                <a href="" class="button-type-3">
+
+                    <p class="nav-item-typo">Read more</p>
+                    <img src="../../public/media/svg-assets/plus-icon-white.svg" alt="">
+                </a>
+                <div class="container-benefits-list-offers-studiopro">
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">On-demand (Launching early 2024)</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Go at your own pace</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Coaching calls available ($250/hr)</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Weekly group calls and feedback</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Go at your own pace</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Coaching calls available ($250/hr)</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Weekly group calls and feedback</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-offer-studiopro">
+                <p class="sidebar-item-desk">Management</p>
+
+                <h4 class="thirdtitle">For Architects, Creators <br> & Designers.</h4>
+                <a href="" class="button-type-3">
+
+                    <p class="nav-item-typo">Read more</p>
+                    <img src="../../public/media/svg-assets/plus-icon-white.svg" alt="">
+                </a>
+                <div class="container-benefits-list-offers-studiopro">
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">On-demand (Launching early 2024)</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Go at your own pace</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Coaching calls available ($250/hr)</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Weekly group calls and feedback</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Go at your own pace</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Coaching calls available ($250/hr)</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Weekly group calls and feedback</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-offer-studiopro">
+                <p class="sidebar-item-desk">Growth</p>
+
+                <h4 class="thirdtitle">For Brands, Distributors, & Companies.</h4>
+                <a href="" class="button-type-3">
+
+                    <p class="nav-item-typo">Read more</p>
+                    <img src="../../public/media/svg-assets/plus-icon-white.svg" alt="">
+                </a>
+                <div class="container-benefits-list-offers-studiopro">
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">On-demand (Launching early 2024)</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Go at your own pace</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Coaching calls available ($250/hr)</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Weekly group calls and feedback</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Go at your own pace</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Coaching calls available ($250/hr)</p>
+                    </div>
+                    <div class="benefit-line-container">
+                        <div class="line-benefit"></div>
+                        <p class="small-text">Weekly group calls and feedback</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="items-container-home brands-container-home">
