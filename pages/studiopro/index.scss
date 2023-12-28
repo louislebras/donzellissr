@@ -107,11 +107,19 @@
   }
 }
 
+.cadregris {
+  width: 100%;
+  height: 80vh;
+  background-color: $donzelli1bis;
+  border-radius: 5px;
+  margin-top: 15vh;
+}
+
 .container-titles-accordion-studiopro {
   display: flex;
   flex-direction: column;
-  margin-top: 20vh;
-  padding-left: calc((8.33vw * 2) - 2px);
+  margin-top: 15vh;
+  // padding-left: calc((8.33vw * 2) - 2px);
 
   p {
     color: $donzelli4;
