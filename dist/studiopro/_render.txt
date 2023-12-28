@@ -1936,13 +1936,13 @@
     <div class="heading-studiopro">
         <h1 class="maintitle intro-studio-pro">
             Welcome to <span>Studio Pro</span> <br>
-            Cutting-edge design and business services.
-            For Private Clients, Hotels, Architects, Brands, Studios and Companies.
+            Cutting-edge design and business services. <br class="only-mobile">
+            For Private Clients, Architects, Brands, Studios and Companies.
 
 
         </h1>
         <p class="intro-subtitle-studio-pro thirdtitle">Interior Design/Experience. Infinite Products
-            Access. Authentification
+            Access. Product Authentification
             Services.
             Brand Growth. Partnerships. Distribution.
             Collabs creation. Furniture Business Network
@@ -1971,7 +1971,7 @@
         <h3 class="heavytitle">
             Solutions
         </h3>
-        <p class="thirdtitle intro-subtitle-studio-pro">
+        <p class="small-text intro-subtitle-studio-pro">
             Studio Pro is dedicated to revitalizing the market of interior design with inspiring ideas,
             making project
             management easier for architects and boosting brand development.
@@ -1979,11 +1979,34 @@
         </p>
         <div class="line-flux"></div>
         <div class="triptyque-container">
-            <div class="card-offer-studiopro">
+            <div class="card-offer-studiopro firstoffer">
 
-                <p class="sidebar-item-desk">Design</p>
+                <p class="thirdtitle">Design</p>
 
-                <h4 class="thirdtitle">For Private Clients, Hotels, <br> Restaurants, Offices.</h4>
+                <h4 class="small-text people-categorie">For Private Clients, Hotels, <br> Boutiques, Restaurants,
+                    Offices.
+                </h4>
+
+                <div class="global-benefits-main-container">
+                    <div class=" mainbenefitscontainers">
+                        <img src="../../public/media/svg-assets/benefit-arrow-white.svg" alt="">
+                        <p class="thirdtitle ">
+                            Infinite Product Access
+                        </p>
+                    </div>
+                    <div class="mainbenefitscontainers">
+                        <img src="../../public/media/svg-assets/benefit-arrow-white.svg" alt="">
+                        <p class="thirdtitle ">
+                            Interior Design Services
+                        </p>
+                    </div>
+                    <div class="mainbenefitscontainers">
+                        <img src="../../public/media/svg-assets/benefit-arrow-white.svg" alt="">
+                        <p class="thirdtitle ">
+                            Private Support
+                        </p>
+                    </div>
+                </div>
                 <a href="" class="button-type-3">
 
                     <p class="nav-item-typo">Read more</p>
@@ -2020,11 +2043,32 @@
                     </div>
                 </div>
 
-            </div>
-            <div class="card-offer-studiopro">
-                <p class="sidebar-item-desk">Management</p>
 
-                <h4 class="thirdtitle">For Architects, Creators <br> & Designers.</h4>
+            </div>
+            <div class="card-offer-studiopro secondoffer">
+                <p class="thirdtitle">Management</p>
+
+                <h4 class="small-text people-categorie">For Architects, Creators & Designers.</h4>
+                <div class="global-benefits-main-container">
+                    <div class=" mainbenefitscontainers">
+                        <img src="../../public/media/svg-assets/benefit-arrow-white.svg" alt="">
+                        <p class="thirdtitle ">
+                            Private Inspo Board
+                        </p>
+                    </div>
+                    <div class="mainbenefitscontainers">
+                        <img src="../../public/media/svg-assets/benefit-arrow-white.svg" alt="">
+                        <p class="thirdtitle ">
+                            Concierge and Management
+                        </p>
+                    </div>
+                    <div class="mainbenefitscontainers">
+                        <img src="../../public/media/svg-assets/benefit-arrow-white.svg" alt="">
+                        <p class="thirdtitle ">
+                            Marketing & Visibility
+                        </p>
+                    </div>
+                </div>
                 <a href="" class="button-type-3">
 
                     <p class="nav-item-typo">Read more</p>
@@ -2061,15 +2105,37 @@
                     </div>
                 </div>
             </div>
-            <div class="card-offer-studiopro">
-                <p class="sidebar-item-desk">Growth</p>
+            <div class="card-offer-studiopro thirdoffer">
+                <p class="thirdtitle">Growth</p>
 
-                <h4 class="thirdtitle">For Brands, Distributors, & Companies.</h4>
-                <a href="" class="button-type-3">
+                <h4 class="small-text people-categorie">For Brands, Distributors, & Companies.</h4>
+                <div class="global-benefits-main-container">
+                    <div class=" mainbenefitscontainers">
+                        <img src="../../public/media/svg-assets/benefit-arrow-white.svg" alt="">
+                        <p class="thirdtitle ">
+                            Verified Products Program
+                        </p>
+                    </div>
+                    <div class="mainbenefitscontainers">
+                        <img src="../../public/media/svg-assets/benefit-arrow-white.svg" alt="">
+                        <p class="thirdtitle ">
+                            Grow Sales & Engagement
+                        </p>
+                    </div>
+                    <div class="mainbenefitscontainers">
+                        <img src="../../public/media/svg-assets/benefit-arrow-white.svg" alt="">
+                        <p class="thirdtitle ">
+                            Boost Digital Experience
+                        </p>
+                    </div>
+                </div>
+                <a href="" class="button-type-1">
 
                     <p class="nav-item-typo">Read more</p>
                     <img src="../../public/media/svg-assets/plus-icon-white.svg" alt="">
                 </a>
+
+
                 <div class="container-benefits-list-offers-studiopro">
                     <div class="benefit-line-container">
                         <div class="line-benefit"></div>
@@ -2103,14 +2169,10 @@
             </div>
         </div>
     </div>
-    <div class="items-container-home brands-container-home">
+    <!-- <div class="items-container-home brands-container-home">
         <div class="container-title-items">
             <div class="title-items heavytitle"> More on <br> Studio Pro </div>
-            <!-- <div class="description-items-home">
-                <p class="small-text">Explore the finest iconic brands <br> and those you've never heard of.
-                </p>
-
-            </div> -->
+            
         </div>
         <div class="line-flux"></div>
 
@@ -2206,10 +2268,9 @@
         </div>
         <div class="heading-img-studiopro">
             <img class="background-heading-studiopro" src="../../public/media/background-studiopro-home.png" alt="">
-            <!-- <img class="logo-studiopro-heading" src="../../public/media/svg-assets/logo-donzelli-studio-pro-white.svg"
-                        alt=""> -->
+          
         </div>
-    </div>
+    </div> -->
 </main>
 
 <script>

@@ -32,7 +32,7 @@
 .intro-subtitle-studio-pro {
   margin-top: 10px;
   margin-bottom: 20px;
-  width: 75%;
+  width: 80%;
 }
 
 .heading-img-studiopro {
@@ -112,15 +112,15 @@
   //   border: 1px solid red;
   margin-top: 15vh;
   position: relative;
-  //   .heavytitle {
-  // margin-left: calc((8.33vw * 1) - 2px);
-  //   }
+  .heavytitle {
+    margin-left: calc((8.33vw * 2) - 2px);
+  }
 
   .intro-subtitle-studio-pro {
     position: absolute;
     left: calc((8.33vw * 8) - 18px);
     top: 0;
-    max-width: 30%;
+    max-width: 20%;
   }
 
   .line-flux {
@@ -146,15 +146,32 @@
   background-color: $donzelli1bisbis;
   // color: $donzelli1;
   width: calc(33% - 5px);
-  height: fit-content;
+  height: 100%;
   border-radius: 5px;
   padding: 23px 25px;
   padding-bottom: 40px;
 
-  .thirdtitle {
+  .people-categorie {
     width: 100%;
     color: $donzelli4;
-    margin-top: 10px;
+    margin-top: 5px;
+    height: 40px;
+    // border: 1px solid red;
+  }
+
+  .global-benefits-main-container {
+    margin-top: 20px;
+  }
+
+  .mainbenefitscontainers {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    img {
+      width: 13px;
+      margin-right: 10px;
+      mix-blend-mode: difference;
+    }
   }
 
   .maintitle {
@@ -162,7 +179,8 @@
     left: -5px;
   }
 
-  .button-type-3 {
+  .button-type-3,
+  .button-type-1 {
     margin-top: 20px;
     margin-bottom: 50px;
     &:hover {
@@ -176,12 +194,29 @@
   }
 
   .benefit-line-container {
+    p {
+      height: 20px;
+    }
     .line-benefit {
       width: 100%;
       height: 1px;
       background-color: $donzelli2bis;
-      margin-top: 15px;
-      margin-bottom: 15px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      opacity: 1;
+    }
+  }
+}
+
+.thirdoffer {
+  background-color: $donzelli3;
+  color: $donzelli1;
+  .people-categorie {
+    color: $donzelli2bis;
+  }
+  .benefit-line-container {
+    .line-benefit {
+      background-color: $donzelli5;
     }
   }
 }
@@ -214,6 +249,10 @@
     width: 100%;
     margin-bottom: 10px;
     // background-color: $donzelli1bis;
+    .button-type-3,
+    .button-type-1 {
+      margin-bottom: 30px;
+    }
   }
 }
 

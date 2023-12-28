@@ -170,7 +170,7 @@
   .button-type-1,
   .button-type-2,
   .button-type-3 {
-    padding: 9px 13px;
+    padding: 9px 13px 8px 15px;
     .dotbutton {
       width: 7px;
       height: 7px;
@@ -191,7 +191,7 @@
 @media (min-width: 1500px) {
   .nav-item-typo {
     font-size: calc(
-      13px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+      14.5px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
     );
   }
 }
@@ -214,7 +214,7 @@
 @media (min-width: 1500px) {
   .small-text {
     font-size: calc(
-      13px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+      14.5px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
     );
   }
 }
