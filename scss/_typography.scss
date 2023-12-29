@@ -225,6 +225,29 @@
   }
 }
 
+.small-text-bigger-in-mobile {
+  font-family: "Donzelli Main";
+  letter-spacing: -0.01em;
+  font-size: calc(
+    18px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+  );
+  line-height: 140% !important;
+  position: relative;
+}
+@media (min-width: 1500px) {
+  .small-text-bigger-in-mobile {
+    font-size: calc(
+      14.5px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+    );
+  }
+}
+
+@media (max-width: 800px) {
+  .small-text-bigger-in-mobile {
+    font-size: 13px;
+  }
+}
+
 .sidebar-item-desk {
   font-family: "Donzelli Main";
   letter-spacing: -0.03em;
