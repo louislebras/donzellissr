@@ -1,5 +1,7 @@
 @import "./fonts", "./reset", "./typography", "./variables";
 
+@import "./common-assets/dyptique-people-module";
+
 html {
   background-color: $donzelli1 !important;
   overflow-x: hidden !important;

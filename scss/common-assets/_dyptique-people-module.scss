@@ -1,0 +1,93 @@
+@import "../variables";
+
+.dyptique-people-module {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vh;
+
+  .line-flux {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .dyptique-people-module {
+    margin-top: 10vh;
+    .line-flux {
+      margin-top: 15px;
+    }
+  }
+}
+
+.title-team {
+  display: flex;
+  width: 100%;
+  padding-left: calc((8.33vw * 2) - 2px);
+}
+
+@media (max-width: 800px) {
+  .title-team {
+    padding-left: 0;
+  }
+}
+
+.double-container-people {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+  .double-container-people {
+    flex-direction: column;
+  }
+}
+
+.container-people {
+  width: calc(50% - 5px);
+  height: 70vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+
+  * {
+    position: relative;
+  }
+
+  h4 {
+    margin-bottom: 10px;
+  }
+
+  .infos-people-container-dyptique {
+    width: 50%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .people-portrait {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-people {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 10px;
+
+    .infos-people-container-dyptique {
+      width: 80%;
+    }
+  }
+}

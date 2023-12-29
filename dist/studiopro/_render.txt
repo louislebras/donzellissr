@@ -1934,6 +1934,8 @@
 
 <main>
     <div class="heading-studiopro">
+        <!-- <img class="logo-inline-donzelli-studiopro"
+            src="../../public/media/svg-assets/logo-inline-studiopro-donzelli.svg" alt=""> -->
         <h1 class="maintitle intro-studio-pro">
             Welcome to <span>Studio Pro</span> <br>
             Cutting-edge design and business services. <br class="only-mobile">
@@ -1941,15 +1943,15 @@
 
 
         </h1>
-        <p class="intro-subtitle-studio-pro thirdtitle">Interior Design/Experience. Infinite Products
+        <!-- <p class="intro-subtitle-studio-pro thirdtitle">Interior Design/Experience. Infinite Products
             Access. Product Authentification
             Services.
             Brand Growth. Partnerships. Distribution.
             Collabs creation. Furniture Business Network
-            Facilities. And more.</p>
+            Facilities. And more.</p> -->
 
         <div class="heading-img-studiopro">
-            <img class="background-heading-studiopro" src="../../public/media/background-studiopro-home.png" alt="">
+            <img class="background-heading-studiopro" src="../../public/media/background-studiopro-home2.png" alt="">
             <!-- <img class="logo-studiopro-heading" src="../../public/media/svg-assets/logo-donzelli-studio-pro-white.svg"
                 alt=""> -->
         </div>
@@ -1957,7 +1959,8 @@
             shape who we are and who we
             become. Our aim is to help individuals and
             organizations design environments that enable them to build a more empowered, sustainable and visionary
-            future.
+            future. <br> <br>
+            We are here now, to help you <br class="no-mobile"> to craft your vision.
 
         </h2>
 
@@ -1967,8 +1970,9 @@
     <!-- <div class="cadregris"></div> -->
 
     <div class="container-titles-accordion-studiopro">
-        <p class="small-text">Features</p>
-        <h3 class="heavytitle">All you need. <br> One platform. </h3>
+        <p class="small-text">What you will find inside Studio Pro.</p>
+        <h3 class="heavytitle">Find in one place, <br class="no-mobile">
+            all you need to. </h3>
     </div>
     <div class="line-flux line-accordion"></div>
     <div class="accordion-studiopro-advantages">
@@ -1977,7 +1981,7 @@
             <div class="accordion-studiopro">
                 <div class="item-accordion item-accordion1">
                     <div class="container-title-accordion-item">
-                        <p class="thirdtitle">Find Extended Inspiration </p>
+                        <p class="subtitle">Find Extended Inspiration </p>
                         <img class="plus-accordion-studiopro" src="../../public/media/svg-assets/plus-icon-white.svg"
                             alt="">
                         <img class="moins-accordion-studiopro" src="../../public/media/svg-assets/moins-icon.svg"
@@ -1996,7 +2000,7 @@
                 </div>
                 <div class="item-accordion item-accordion2">
                     <div class="container-title-accordion-item">
-                        <p class="thirdtitle">Obtain Custom Guidance </p>
+                        <p class="subtitle">Obtain Custom Guidance </p>
                         <img class="plus-accordion-studiopro" src="../../public/media/svg-assets/plus-icon-white.svg"
                             alt="">
                         <img class="moins-accordion-studiopro" src="../../public/media/svg-assets/moins-icon.svg"
@@ -2015,7 +2019,7 @@
                 </div>
                 <div class="item-accordion item-accordion3">
                     <div class="container-title-accordion-item">
-                        <p class="thirdtitle">Save Time and Effort</p>
+                        <p class="subtitle">Save Time and Effort</p>
                         <img class="plus-accordion-studiopro" src="../../public/media/svg-assets/plus-icon-white.svg"
                             alt="">
                         <img class="moins-accordion-studiopro" src="../../public/media/svg-assets/moins-icon.svg"
@@ -2034,7 +2038,7 @@
                 </div>
                 <div class="item-accordion item-accordion4">
                     <div class="container-title-accordion-item">
-                        <p class="thirdtitle">Get Growth & Visibility</p>
+                        <p class="subtitle">Get Growth & Visibility</p>
                         <img class="plus-accordion-studiopro" src="../../public/media/svg-assets/plus-icon-white.svg"
                             alt="">
                         <img class="moins-accordion-studiopro" src="../../public/media/svg-assets/moins-icon.svg"
@@ -2053,7 +2057,7 @@
                 </div>
                 <div class="item-accordion item-accordion5">
                     <div class="container-title-accordion-item">
-                        <p class="thirdtitle">
+                        <p class="subtitle">
                             Save & Certify Products Value
                         </p>
                         <img class="plus-accordion-studiopro" src="../../public/media/svg-assets/plus-icon-white.svg"
@@ -2089,7 +2093,7 @@
 
     <div class="offers-studiopro-triptyque">
         <h3 class="heavytitle">
-            Solutions
+            Start now
         </h3>
         <p class="small-text intro-subtitle-studio-pro">
             Studio Pro is dedicated to revitalizing the market of interior design with inspiring ideas,
@@ -2179,7 +2183,7 @@
                     <div class="mainbenefitscontainers">
                         <img src="../../public/media/svg-assets/benefit-arrow-white.svg" alt="">
                         <p class="thirdtitle ">
-                            Concierge and Management
+                            Concierge / Management
                         </p>
                     </div>
                     <div class="mainbenefitscontainers">
@@ -2292,6 +2296,73 @@
                 Reach out, we don't bite. <br> <br>
                 <a class="underlined1" href="">Get in touch <img src="../../public/media/svg-assets/arrow-white.svg"
                         alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="infos-company-studiopro-container">
+        <img class="back-why-studiopro" src="../../public/media/back-infos-company-studiopro-donzelli.png" alt="">
+        <div class="container-titles-infos-company-studiopro">
+            <span class="small-text">Why Studio Pro by Donzelli®</span>
+            <h3 class="maintitle">Built by designers <br> & digital natives</h3>
+        </div>
+        <div class="container-advantages-studiopro-why">
+            <div class="group-advantages-why-studiopro">
+                <h5 class="thirdtitle">We put equity first</h5>
+                <p class="small-text">Studio Pro is dedicated to revitalizing the market of interior design with
+                    inspiring ideas,
+                    making project
+                    management easier for architects and boosting brand development.</p>
+            </div>
+            <div class="group-advantages-why-studiopro">
+                <h5 class="thirdtitle">We put equity first</h5>
+                <p class="small-text">Studio Pro is dedicated to revitalizing the market of interior design with
+                    inspiring ideas,
+                    making project
+                    management easier for architects and boosting brand development.</p>
+            </div>
+            <div class="group-advantages-why-studiopro">
+                <h5 class="thirdtitle">We put equity first</h5>
+                <p class="small-text">Studio Pro is dedicated to revitalizing the market of interior design with
+                    inspiring ideas,
+                    making project
+                    management easier for architects and boosting brand development.</p>
+            </div>
+        </div>
+        <img alt="" src="../../public/media/home-test-heading.png" class="image-why-company-studiopro">
+
+
+    </div>
+    <div class="dyptique-people-module">
+        <h3 class="heavytitle title-team">Studio Pro</h3>
+        <div class="line-flux"></div>
+        <div class="double-container-people">
+            <div class="container-people">
+                <img class="people-portrait" src="../../public/media/people-donzelli-1.png" alt="">
+                <h4 class="thirdtitle">Louis Le Bras</h4>
+                <p class="small-text infos-people-container-dyptique">
+                    Studio Pro is dedicated to revitalizing the market of interior design with inspiring ideas,
+                    making project
+                    management easier for architects and boosting brand development.
+                </p>
+                <a href="" class="button-type-3">
+
+                    <p class="nav-item-typo">Read more</p>
+                    <img src="../../public/media/svg-assets/plus-icon-white.svg" alt="">
+                </a>
+            </div>
+            <div class="container-people">
+                <img class="people-portrait" src="../../public/media/people-donzelli-2.png" alt="">
+                <h4 class="thirdtitle">Ryadh Zitouni</h4>
+                <p class="small-text infos-people-container-dyptique">
+                    Studio Pro is dedicated to revitalizing the market of interior design with inspiring ideas,
+                    making project
+                    management easier for architects and boosting brand development.
+                </p>
+                <a href="" class="button-type-3">
+
+                    <p class="nav-item-typo">Read more</p>
+                    <img src="../../public/media/svg-assets/plus-icon-white.svg" alt="">
+                </a>
             </div>
         </div>
     </div>
