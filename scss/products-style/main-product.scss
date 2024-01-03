@@ -1,0 +1,62 @@
+@import "./heading-product", "../variables";
+
+main {
+  margin-top: 0;
+}
+
+header {
+  transition: 0.55s ease;
+
+  .line-header-grey {
+    transition: 0.55s ease;
+  }
+}
+
+.background-product-page-header {
+  background-color: rgba(255, 255, 255, 0) !important;
+  mix-blend-mode: difference;
+  transition: 0s ease;
+
+  .element {
+    color: $donzelli1;
+    transition: 0s ease;
+  }
+
+  .other-links-header a {
+    color: $donzelli4;
+  }
+
+  .line-header-grey {
+    opacity: 0;
+    transition: 0s ease !important;
+  }
+
+  .studiopro-button-header {
+    border: 1px solid $donzelli1;
+    color: $donzelli1;
+
+    .point {
+      background-color: $donzelli1;
+    }
+
+    &:hover {
+      background-color: $donzelli1;
+      color: $donzelli3;
+
+      .point {
+        background-color: cyan;
+      }
+    }
+  }
+
+  .burger-sidebar-desk {
+    background-color: $donzelli1;
+    border: 1px solid $donzelli1;
+    color: $donzelli3;
+
+    &:hover {
+      background-color: transparent;
+      color: $donzelli1;
+    }
+  }
+}

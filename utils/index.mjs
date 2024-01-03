@@ -19,20 +19,41 @@ export const appendCustomFile = (filePath, string) => {
   });
 };
 
+// export const addCustomHtmlFile = (dirPath) => {
+//   const filePath = join(dirPath, "./index.html");
+
+//   const fileString = readFileSync(filePath, {
+//     encoding: "utf-8",
+//   });
+
+//   appendCustomFile(
+//     join(
+//       getDirname(import.meta.url),
+//       `../dist${distPageDirPath}/${htmlRenderFileName}`
+//     ),
+//     fileString
+//   );
+// };
+
 export const addCustomHtmlFile = (dirPath) => {
   const filePath = join(dirPath, "./index.html");
 
-  const fileString = readFileSync(filePath, {
-    encoding: "utf-8",
-  });
+  // Check if the file exists before reading it
+  if (existsSync(filePath)) {
+    const fileString = readFileSync(filePath, {
+      encoding: "utf-8",
+    });
 
-  appendCustomFile(
-    join(
-      getDirname(import.meta.url),
-      `../dist${distPageDirPath}/${htmlRenderFileName}`
-    ),
-    fileString
-  );
+    appendCustomFile(
+      join(
+        getDirname(import.meta.url),
+        `../dist${distPageDirPath}/${htmlRenderFileName}`
+      ),
+      fileString
+    );
+  } else {
+    console.log(`Warning: No index.html file found in ${dirPath}`);
+  }
 };
 
 export const addCustomCssFile = (dirPath) => {

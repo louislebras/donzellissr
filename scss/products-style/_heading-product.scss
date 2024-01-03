@@ -1,0 +1,126 @@
+@import "../variables";
+body,
+main {
+  overflow-x: initial !important;
+}
+
+.other-links-header {
+  left: calc((8.33vw * 7.67) - 9px);
+}
+
+.heading-product-page {
+  width: calc(100vw);
+  margin-left: -10px;
+  flex-flow: row wrap;
+  position: relative;
+  display: flex;
+}
+
+.container-images-heading-product-page {
+  width: 55%;
+  position: sticky;
+
+  top: 0;
+  //   overflow: hidden;
+  z-index: 1;
+}
+
+.sub-container-heading-product {
+  //   display: flex;
+  //   flex-direction: column;
+  img {
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+    position: relative;
+    // margin-bottom: 0.3px;
+
+    // border: 1px solid red;
+  }
+}
+
+.fixed-heading-product-head {
+  width: 45%;
+  box-sizing: border-box;
+  position: relative;
+  //   border: 1px solid blue;
+}
+
+.container-main-infos-product-heading {
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: flex-end;
+}
+
+.maincontent-heading-product {
+  width: fit-content;
+  // border: 1px solid blue;
+  width: calc((8.33vw * 4.35) + 8px);
+  padding-top: 12vh;
+}
+
+.priceproduct {
+  margin-top: 5px;
+}
+
+.introdescription-subprice {
+  margin-top: 20px;
+  width: 70%;
+  max-width: 350px;
+  color: $donzelli4;
+}
+
+.container-description-cta-options {
+  margin-top: 7vh;
+  //   border: 1px solid red;
+  width: 70%;
+  max-width: 350px;
+  .description-heading-product {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+.options-product-heading {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid $donzelli2;
+}
+
+.line-option-product-heading {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  //   border: 1px solid red;
+  padding: 14px 0px;
+  border-bottom: 1px solid $donzelli2;
+  .differents-options-product-heading {
+    display: flex;
+    a,
+    p {
+      margin-left: 15px;
+    }
+    a {
+      color: $donzelli4;
+      transition: 0.3s ease;
+      &:hover {
+        color: $donzelli3;
+      }
+    }
+  }
+}
+
+.container-links-onpage-products-heading {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7vh;
+  a {
+    margin-bottom: 20px;
+  }
+}

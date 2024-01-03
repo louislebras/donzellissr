@@ -1,0 +1,150 @@
+<link rel="stylesheet" href="[DIRECTORY_BASE_PATH]/css/products-style/main-product.css">
+<div class="grid">
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+</div>
+<main>
+    <div class="heading-product-page">
+        <div class="container-images-heading-product-page">
+            <div class="sub-container-heading-product">
+                <img src="../../../../public/products/flos/taccia/taccia-lamp-flos-by-donzelli.png" alt="">
+                <img src="../../../../public/products/flos/taccia/heading-2-taccia-lamp-flos-by-donzelli.png" alt="">
+                <img src="../../../../public/products/flos/taccia/taccia-lamp-flos-by-donzelli.png" alt="">
+            </div>
+
+        </div>
+        <div class="fixed-heading-product-head">
+            <div class="container-main-infos-product-heading">
+                <div class="maincontent-heading-product">
+                    <h1 class="semititle">Taccia by Flos</h1>
+                    <p class="nav-item-typo priceproduct">1290,00€</p>
+                    <p class="introdescription-subprice small-text">Its blown-glass shade recalls the soft, warm glow of
+                        a candle,
+                        creating an intimate,
+                        romantic atmosphere.</p>
+                    <div class="container-description-cta-options">
+                        <div class="button-type-1 nav-item-typo">
+                            <div class="dotbutton"></div>Add to the cart <img
+                                src="../../../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <p class="small-text description-heading-product">
+                            The Taccia lamp by Flos is an iconic piece of design that combines vintage style with
+                            contemporary elegance. Imagined by
+                            renowned Italian designers Achille and Pier Giacomo Castiglioni in the 1960s, this lamp is a
+                            true masterpiece of
+                            functionality and aesthetics.
+                        </p>
+                        <div class="options-product-heading">
+                            <div class="line-option-product-heading">
+                                <p class="nav-item-typo">Colors</p>
+                                <div class="differents-options-product-heading nav-item-typo">
+                                    <p>Black</p>
+                                    <p>Silver</p>
+                                    <a class="underlined" href="">And More</a>
+
+                                </div>
+                            </div>
+                            <div class="line-option-product-heading">
+                                <p class="nav-item-typo">Sizes</p>
+                                <div class="differents-options-product-heading nav-item-typo">
+                                    <p>Small</p>
+                                    <p>Large</p>
+                                    <a class="underlined" href="">View</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-links-onpage-products-heading nav-item-typo">
+                        <a class="underlined1" href="">Story & Design</a>
+                        <a class="underlined1" href="">Product Details</a>
+                        <a class="underlined1" href="">Talk to a Donzelli® Advisor</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</main>
+
+
+<script>
+
+    window.addEventListener('scroll', () => {
+        // Calculez la distance de défilement en tant que pourcentage de la hauteur de la vue
+        const scrollDistance = window.scrollY / window.innerHeight;
+
+        // Obtenez l'élément d'en-tête par son sélecteur (ajustez le sélecteur selon votre besoin)
+        const header = document.querySelector('header');
+
+        // Vérifiez si la distance de défilement est supérieure à 270vh (2.7 fois la hauteur de la vue)
+        if (scrollDistance < 1.90) {
+            // Ajoutez la classe souhaitée à l'élément d'en-tête
+            header.classList.add('background-product-page-header');
+        } else {
+            // Supprimez la classe si la distance de défilement est inférieure à 270vh
+            header.classList.remove('background-product-page-header');
+        }
+    });
+
+    // document.querySelector('header').addEventListener('mouseover', () => {
+    //     // Retirez la classe lorsque l'en-tête est survolé
+    //     document.querySelector('header').classList.remove('background-product-page-header');
+    //     document.querySelector('.container-panels').classList.remove('background-product-page-header');
+    // });
+    // document.querySelector('header').addEventListener('mouseout', () => {
+    //     // Retirez la classe lorsque l'en-tête est survolé
+    //     document.querySelector('header').classList.add('background-product-page-header');
+    //     document.querySelector('.container-panels').classList.add('background-product-page-header');
+    // });
+    // Variable pour suivre si la souris est sur l'en-tête ou le conteneur
+    let isMouseOverHeaderOrContainer = false;
+
+    // Ajoutez un écouteur d'événements pour le survol sur l'en-tête
+    document.querySelector('header').addEventListener('mouseover', () => {
+        isMouseOverHeaderOrContainer = true;
+        document.querySelector('header').classList.remove('background-product-page-header');
+    });
+
+    // Ajoutez un écouteur d'événements pour le survol sur .container-panels
+    document.querySelector('.container-panels').addEventListener('mouseover', () => {
+        isMouseOverHeaderOrContainer = true;
+    });
+
+    // Ajoutez un écouteur d'événements pour le mouseout sur l'en-tête
+    document.querySelector('header').addEventListener('mouseout', () => {
+        isMouseOverHeaderOrContainer = false;
+        // Utilisez setTimeout pour donner le temps à la souris de passer à .container-panels
+        setTimeout(() => {
+            if (!isMouseOverHeaderOrContainer) {
+                document.querySelector('header').classList.add('background-product-page-header');
+            }
+        }, 10);
+    });
+
+    // Ajoutez un écouteur d'événements pour le mouseout sur .container-panels
+    document.querySelector('.container-panels').addEventListener('mouseout', () => {
+        isMouseOverHeaderOrContainer = false;
+        // Utilisez setTimeout de la même manière que pour l'en-tête
+        setTimeout(() => {
+            if (!isMouseOverHeaderOrContainer) {
+                document.querySelector('header').classList.add('background-product-page-header');
+            }
+        }, 10);
+    });
+
+
+</script>

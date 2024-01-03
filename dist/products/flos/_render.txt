@@ -1,0 +1,2014 @@
+<header class="header-desktop">
+  <a class="logo-header" href="[DIRECTORY_BASE_PATH]/">
+    <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/logo-donzelli-white.svg" alt="">
+  </a>
+  <div class="container-menu-dropdown-elements">
+    <div class="element nav-item-typo" data-panel="1">Feed</div>
+    <div class="element nav-item-typo" data-panel="2">Spaces</div>
+    <div class="element nav-item-typo" data-panel="3">Collections</div>
+    <div class="element nav-item-typo" data-panel="4">Type of Items</div>
+    <div class="element nav-item-typo" data-panel="5">Brands & Studios</div>
+    <div class="element nav-item-typo" data-panel="6">Creators</div>
+  </div>
+  <div class="other-links-header">
+    <a class="nav-item-typo" href="">Guide</a>
+    <a class="nav-item-typo" href="">Company & Features</a>
+  </div>
+  <div class="container-sidebar-studiopro">
+    <a href="[DIRECTORY_BASE_PATH]/studiopro/" class="studiopro-button-header nav-item-typo">
+      <div class="point"></div>
+      Studio Pro
+    </a>
+    <div class="burger-sidebar-desk nav-item-typo">
+      Menu
+    </div>
+  </div>
+  <div class="line-header-grey"></div>
+</header>
+
+<div class="container-panels header-desktop">
+  <div class="panel panel1" data-panel="1">
+    <div class="container-panel container-panel1">
+      <div class="infos-feed-panel-header ">
+        <p class="sidebar-item-desk ">Feed <br>
+          by Donzelli®
+        </p>
+        <a class="button-border-inside-panel nav-item-typo">
+          <span class="point"></span>
+          Découvrir le Feed
+        </a>
+        <p class="small-text text-info-feed">Dive into our Inspiration Feed. <br>
+          Legendary products captives, designs inspires. Welcome to a world where elegance meets refinement.</p>
+      </div>
+      <div class="products-feed-showcase-header">
+        <a class="product-feed pf1" href="">
+          <div class="img-container-pf">
+            <img src="[DIRECTORY_BASE_PATH]/public/media/products/lamp-taccia-flos-donzelli.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></p>
+          </div>
+        </a>
+        <a class="product-feed pf2" href="">
+          <div class="img-container-pf">
+            <img src="[DIRECTORY_BASE_PATH]/public/media/products/chair-pierre-jeanneret-donzelli.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel2" data-panel="2">
+    <div class="container-panel container-panel2">
+      <div class="infos-feed-panel-header ">
+        <p class="sidebar-item-desk ">Our Spaces
+        </p>
+        <a class="button-border-inside-panel nav-item-typo">
+          <span class="point"></span>
+          Découvrir le Feed
+        </a>
+        <p class="small-text text-info-feed">Dive into our Inspiration Feed. <br>
+          Legendary products captives, designs inspires. Welcome to a world where elegance meets refinement.</p>
+      </div>
+      <div class="products-feed-showcase-header">
+        <a class="product-feed pf1" href="">
+          <div class="img-container-pf">
+            <img src="[DIRECTORY_BASE_PATH]/public/media/header-spaces1.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></p>
+          </div>
+        </a>
+        <a class="product-feed pf2" href="">
+          <div class="img-container-pf">
+            <img src="[DIRECTORY_BASE_PATH]/public/media//header-spaces2.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel3" data-panel="3">
+    <div class="container-panel container-panel3">
+      <div class="infos-collections-panel-header">
+        <p class="sidebar-item-desk ">Collections
+        </p>
+
+        <div class="container-double-list-collections">
+          <div class="column-collections-list">
+            <p class="nav-item-typo">Nos Collections Phares</p>
+            <ul class="nav-item-typo">
+              <a href="">
+                <li>Height</li>
+              </a>
+              <a href="">
+                <li>Elven</li>
+              </a>
+              <a href="">
+                <li>Yamaha</li>
+              </a>
+              <a href="">
+                <li>Manhattan</li>
+              </a>
+            </ul>
+          </div>
+          <div class="column-collections-list">
+            <p class="nav-item-typo">All the collections</p>
+            <ul class="nav-item-typo">
+              <a href="">
+                <li>Height</li>
+              </a>
+              <a href="">
+                <li>Elven</li>
+              </a>
+              <a href="">
+                <li>Yamaha</li>
+              </a>
+              <a href="">
+                <li>Manhattan</li>
+              </a>
+              <a href="">
+                <li>Height</li>
+              </a>
+              <a href="">
+                <li>Elven</li>
+              </a>
+              <a href="">
+                <li>Yamaha</li>
+              </a>
+              <a href="">
+                <li>Manhattan</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div class="products-feed-showcase-header">
+        <a class="product-feed pf1" href="">
+          <div class="img-container-pf">
+            <img src="[DIRECTORY_BASE_PATH]/public/media/header-spaces1.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></p>
+          </div>
+        </a>
+        <a class="product-feed pf2" href="">
+          <div class="img-container-pf">
+            <img src="[DIRECTORY_BASE_PATH]/public/media//header-spaces2.png" alt="">
+          </div>
+          <div class="about-pf-header">
+            <p class="title-pf-header nav-item-typo">Collection Hamer™</p>
+            <p class="description-pf-header small-text">David Chipperfield is an acclaimed British architect.</p>
+            <p class="nav-item-typo link-pf-header">Discover <img class="arrow-item"
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel4" data-panel="4">
+    <div class="container-panel container-panel4">
+      <div class="panel-container-items-header">
+        <p class="sidebar-item-desk">All Items</p>
+        <div class="container-bycategories-items-header categoryOriginTop">
+          <span class="thirdtitle category1 hover-effect">Sofas & Armchairs</span>
+          <span class="thirdtitle category2 hover-effect">Chairs</span>
+          <span class="thirdtitle category3 hover-effect">Tables</span>
+          <span class="thirdtitle category4 hover-effect">Furniture & Storage</span>
+          <span class="thirdtitle category5 hover-effect">Lamps & Lightning</span>
+          <span class="thirdtitle category6 hover-effect">Objects & Accessories</span>
+          <!-- <span class="thirdtitle category7 hover-effect">Art & Frames</span> -->
+          <span class="thirdtitle category8 hover-effect">Technology</span>
+          <span class="thirdtitle category9 hover-effect">Outdoor</span>
+        </div>
+      </div>
+      <div class="subcategories-containers subcategoryNewTop">
+        <div class="subcategory-items category1-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Sofas & Armchairs</a>
+          <a href="">Sofas</a>
+          <a href="">Armchairs</a>
+          <a href="">Corner sofas</a>
+          <a href="">Modular sofas</a>
+          <a href="">Convertible sofas</a>
+          <a href="">Chaise longues / Méridiennes</a>
+          <a href="">Daybeds</a>
+          <a href="">Poufs & Ottomans</a>
+        </div>
+        <div class="subcategory-items category2-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Chairs</a>
+          <a href="">Armchairs</a>
+          <a href="">Sidechairs</a>
+          <a href="">Dining Chairs</a>
+          <a href="">Desk Chairs</a>
+          <a href="">Lounge Chairs</a>
+          <a href="">Stools</a>
+          <a href="">Benches</a>
+          <a href="">Daybeds</a>
+          <a href="">Poufs & Ottomans</a>
+        </div>
+        <div class="subcategory-items category3-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Tables</a>
+          <a href="">Big Tables</a>
+          <a href="">Dining Tables</a>
+          <a href="">Desks</a>
+          <a href="">Lowtables</a>
+          <a href="">Side & End Tables</a>
+          <a href="">Console & sideboard</a>
+
+        </div>
+        <div class="subcategory-items category4-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Furniture & Storage</a>
+          <a href="">Wardrobes, Shelves & Drawers</a>
+          <a href="">Buffets & Consoles</a>
+          <a href="">Libraries</a>
+          <a href="">Office Storage</a>
+          <a href="">TV Furniture</a>
+          <a href="">Dressing and closets</a>
+          <a href="">Beds and accessories</a>
+        </div>
+        <div class="subcategory-items category5-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Lights and Lightning</a>
+          <a href="">Table Lamps</a>
+          <a href="">Floor Lamps</a>
+          <a href="">Suspended Lamps</a>
+          <a href="">Wall & Ceiling Lamps</a>
+          <a href="">Portable Lamps</a>
+          <a href="">Outdoor Lamps</a>
+        </div>
+        <div class="subcategory-items category6-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Objects & Accessories</a>
+          <a href="">Office Accessories</a>
+          <a href="">Kitchen & Vaiselle</a>
+          <a href="">Living room, Cushion, Plaid</a>
+          <a href="">Rugs</a>
+          <a href="">Vases & Trays</a>
+          <a href="">Candles</a>
+          <a href="">Books</a>
+          <a href="">Folding Screens</a>
+          <a href="">Mirrors</a>
+          <a href="">Luggage, Bags & Chests</a>
+        </div>
+        <!-- <div class="subcategory-items category7-subcategory nav-item-typo "><a class="all-items-sub" href="">All Art &
+            Paintings</a>
+          <a href="">Art Paintings</a>
+          <a href="">Scultures</a>
+          <a href="">Iconic Pieces</a>
+          <a href="">Statues</a>
+
+        </div> -->
+        <div class="subcategory-items category8-subcategory nav-item-typo ">
+          <a class="all-items-sub" href="">All Technology</a>
+          <a href="">Electrical Goods, Fridges, Caves</a>
+          <a href="">Speakers, Vinyl, Hi-Fi</a>
+          <a href="">Connected Objects and Lighting</a>
+          <a href="">TV Accessories</a>
+          <a href="">Domestic Accessories</a>
+        </div>
+        <div class="subcategory-items category9-subcategory nav-item-typo">
+          <a class="all-items-sub" href="">All Outdoor</a>
+          <a href="">Tables & Chairs</a>
+          <a href="">Garden furniture</a>
+          <a href="">Lighting</a>
+          <a href="">Accessories</a>
+          <a href="">Loungers & Hammocks</a>
+          <a href="">Barbecues and plancha</a>
+        </div>
+      </div>
+      <div class="panel-container-rooms-header">
+        <p class="sidebar-item-desk">Rooms</p>
+        <div class="container-rooms-types">
+          <div class="room-type-header nav-item-typo">
+            <a class="nav-item-typo name-room-header" href="">Office</a>
+            <div class="list-items-inner-room">
+              <a class="nav-item-typo" href="">Desks</a>
+              <a class="nav-item-typo" href="">Seating</a>
+              <a class="nav-item-typo" href="">Lights</a>
+              <a class="nav-item-typo" href="">Storage</a>
+              <a class="nav-item-typo" href="">Sofas</a>
+              <a class="nav-item-typo" href="">Tables</a>
+              <a class="nav-item-typo" href="">Pro Furniture</a>
+            </div>
+          </div>
+          <div class="room-type-header nav-item-typo">
+            <a class="nav-item-typo name-room-header" href="">Bedroom</a>
+            <div class="list-items-inner-room">
+              <a class="nav-item-typo" href="">Desks</a>
+              <a class="nav-item-typo" href="">Seating</a>
+              <a class="nav-item-typo" href="">Lights</a>
+              <a class="nav-item-typo" href="">Storage</a>
+              <a class="nav-item-typo" href="">Sofas</a>
+              <a class="nav-item-typo" href="">Tables</a>
+              <a class="nav-item-typo" href="">Pro Furniture</a>
+            </div>
+          </div>
+          <div class="room-type-header nav-item-typo">
+            <a class="nav-item-typo name-room-header" href="">Bathroom</a>
+            <div class="list-items-inner-room">
+              <a class="nav-item-typo" href="">Desks</a>
+              <a class="nav-item-typo" href="">Seating</a>
+              <a class="nav-item-typo" href="">Lights</a>
+              <a class="nav-item-typo" href="">Storage</a>
+              <a class="nav-item-typo" href="">Sofas</a>
+              <a class="nav-item-typo" href="">Tables</a>
+              <a class="nav-item-typo" href="">Pro Furniture</a>
+            </div>
+          </div>
+        </div>
+        <div class="link-view-more-rooms nav-item-typo">
+          <a href="">View more rooms <img class="arrow-item"
+              src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel5" data-panel="5">
+    <div class="container-panel container-panel5">
+      <div class="panel-container-brands-header">
+        <p class="sidebar-item-desk">Selected Brands</p>
+        <p class="subtitle-brands-header thirdtitle categoryOriginTop2 categoryOriginTop3 ">Majors</p>
+        <div class="container-main-brands">
+          <a class="thirdtitle" href="">Cassina</a>
+          <a class="thirdtitle" href="">Knoll</a>
+          <a class="thirdtitle" href="">Flos</a>
+          <a class="thirdtitle" href="">B&B Italia</a>
+          <a class="thirdtitle" href="">Ligne Roset</a>
+          <a class="thirdtitle" href="">Rochebobois</a>
+          <a class="thirdtitle" href="">Vitra</a>
+        </div>
+        <div class="container-all-brands subcategoryNewTop2 categoryOriginTop3">
+          <div class="container-title-all-brands">
+            <p class="thirdtitle ">All Brands</p>
+            <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></a>
+          </div>
+          <div class="all-brands-items">
+            <div class="column-brands nav-item-typo">
+              <a href="">Kartell</a>
+              <a href="">Herman Miller</a>
+              <a href="">Muuto</a>
+              <a href="">Moooi</a>
+              <a href="">Ethnicraft</a>
+              <a href="">Poltrona Frau</a>
+              <a href="">Cinna</a>
+              <a href="">Alessi</a>
+
+            </div>
+            <div class="column-brands nav-item-typo">
+              <a href="">Driade</a>
+              <a href="">Foscarini</a>
+              <a href="">Gubi</a>
+              <a href="">Poliform</a>
+              <a href="">Zanotta</a>
+              <a href="">USM</a>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="container-all-studios subcategoryNewTop3">
+          <div class="container-title-all-brands">
+            <p class="thirdtitle ">Studios & Craftsmen</p>
+            <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></a>
+          </div>
+          <div class="all-brands-items">
+            <div class="column-brands nav-item-typo">
+              <a href="">Casagitane</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+            <div class="column-brands nav-item-typo">
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel6" data-panel="6">
+    <div class="container-panel container-panel6">
+      <div class="panel-container-brands-header">
+        <p class="sidebar-item-desk">Designers & Creators</p>
+        <p class="subtitle-brands-header thirdtitle categoryOriginTop4  ">Majors</p>
+        <div class="container-main-brands">
+          <a class="thirdtitle" href="">Charles & Ray Eames</a>
+          <a class="thirdtitle" href="">Flos</a>
+          <a class="thirdtitle" href="">B&B Italia</a>
+          <a class="thirdtitle" href="">Cassina</a>
+          <a class="thirdtitle" href="">Kartell</a>
+          <a class="thirdtitle" href="">Ligne Roset</a>
+        </div>
+        <div class="container-all-brands subcategoryNewTop4 categoryOriginTop5">
+          <div class="container-title-all-brands">
+            <p class="thirdtitle ">All of them</p>
+            <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></a>
+          </div>
+          <div class="all-brands-items">
+            <div class="column-brands nav-item-typo">
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+            <div class="column-brands nav-item-typo">
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="container-all-studios subcategoryNewTop5">
+          <div class="container-title-all-brands">
+            <p class="thirdtitle ">Architects</p>
+            <a href="" class="nav-item-typo discover-more-brands underlined">See All <img class="arrow-item"
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></a>
+          </div>
+          <div class="all-brands-items">
+            <div class="column-brands nav-item-typo">
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+            <div class="column-brands nav-item-typo">
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+              <a href="">Knoll</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Script Menu Hover Panels -->
+<script class="header-desktop">
+  document.addEventListener("DOMContentLoaded", function () {
+    const containerMenu = document.querySelector(".container-menu-dropdown-elements");
+    const containerPanels = document.querySelector(".container-panels");
+    const panels = document.querySelectorAll('.panel');
+
+    containerMenu.addEventListener("mouseover", function () {
+      containerPanels.classList.add("active");
+    });
+    containerMenu.addEventListener("mouseout", function () {
+      containerPanels.classList.remove("active");
+    });
+
+    containerPanels.addEventListener("mouseover", function () {
+      containerPanels.classList.add("active");
+    });
+
+    containerPanels.addEventListener("mouseout", function () {
+      containerPanels.classList.remove("active");
+    });
+
+    const elements = document.querySelectorAll('.element');
+    elements.forEach(element => {
+      element.addEventListener("mouseover", function () {
+        const panelIndex = this.getAttribute('data-panel');
+        panels.forEach((panel, index) => {
+          panel.style.zIndex = index + 1 == panelIndex ? "101" : "99";
+        });
+      });
+    });
+
+    panels.forEach(panel => {
+      panel.addEventListener("mouseover", function () {
+        containerPanels.classList.add("active");
+      });
+    });
+  });
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const panels = document.querySelectorAll('.panel');
+    const elements = document.querySelectorAll('.element');
+    const containerPanels = document.querySelector('.container-panels');
+    let isFirstTabHovered = false;
+    let isFirstElementHovered = false;
+    let timeout;
+
+    containerPanels.addEventListener("mouseleave", function (event) {
+      if (!event.relatedTarget || !containerPanels.contains(event.relatedTarget)) {
+        clearTimeout(timeout);
+        containerPanels.classList.remove('active');
+        containerPanels.dataset.hovered = 'false'; // Réinitialiser la propriété de dataset
+        isFirstTabHovered = false;
+        isFirstElementHovered = false;
+        removePanelActiveClass(); // Retirer panel-active de tous les container-panel
+      }
+    });
+
+    document.addEventListener("mousemove", function (event) {
+      // Réinitialiser les états si la souris quitte la fenêtre
+      if (event.target === document.documentElement) {
+        isFirstTabHovered = false;
+        isFirstElementHovered = false;
+      }
+    });
+
+    function removePanelActiveClass() {
+      const activePanels = document.querySelectorAll('.container-panel.panel-active');
+      activePanels.forEach(panel => {
+        panel.classList.remove('panel-active');
+      });
+    }
+
+    function handleMouseover(target, panelIndex, delay) {
+      if (!containerPanels.classList.contains('active') || (!isFirstTabHovered && !isFirstElementHovered)) {
+        clearTimeout(timeout);
+        containerPanels.classList.add('active');
+        containerPanels.dataset.hovered = 'true'; // Ajouter une propriété de dataset pour indiquer le survol
+
+        timeout = setTimeout(() => {
+          // Vérifier si la souris est toujours sur .container-panels
+          if (containerPanels.dataset.hovered === 'true') {
+            const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+            containerPanel.classList.add('panel-active');
+            isFirstTabHovered = true;
+          }
+        }, 400); // Ajuster le delai de l'arrivée de l'interieur du panneau
+      }
+    }
+    function handleMouseout(panelIndex, relatedTarget) {
+      if (containerPanels.classList.contains('active') && isFirstTabHovered) {
+        clearTimeout(timeout);
+
+        // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
+        if (relatedTarget && relatedTarget.classList.contains('element')) {
+          timeout = setTimeout(() => {
+            const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+            containerPanel.classList.remove('panel-active');
+            isFirstElementHovered = false;
+          }, 0);
+        } else {
+          isFirstElementHovered = true;
+        }
+      }
+    }
+
+    // function handleMouseout(panelIndex, relatedTarget) {
+    //   if (containerPanels.classList.contains('active') && isFirstTabHovered) {
+    //     clearTimeout(timeout);
+
+    //     // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
+    //     if (relatedTarget && relatedTarget.classList.contains('element')) {
+    //       timeout = setTimeout(() => {
+    //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+    //         containerPanel.classList.remove('panel-active');
+    //         isFirstElementHovered = false;
+    //       }, 0);
+    //     } else {
+    //       isFirstElementHovered = true;
+    //     }
+    //   }
+    // }
+
+    elements.forEach(element => {
+      element.addEventListener("mouseover", function () {
+        const panelIndex = this.getAttribute('data-panel');
+        handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 300);
+      });
+
+      element.addEventListener("mouseout", function (event) {
+        const panelIndex = this.getAttribute('data-panel');
+        handleMouseout(panelIndex, event.relatedTarget);
+      });
+    });
+
+    panels.forEach(panel => {
+      panel.addEventListener("mouseover", function () {
+        const panelIndex = this.getAttribute('data-panel');
+        if (!isChildOf(event.relatedTarget, containerPanels)) {
+          handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 300);
+        }
+      });
+
+      panel.addEventListener("mouseout", function (event) {
+        const panelIndex = this.getAttribute('data-panel');
+        handleMouseout(panelIndex, event.relatedTarget);
+      });
+    });
+
+    function isChildOf(child, parent) {
+      while (child !== null) {
+        if (child === parent) {
+          return true;
+        }
+        child = child.parentNode;
+      }
+      return false;
+    }
+  });
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const panels = document.querySelectorAll('.panel');
+  //   const elements = document.querySelectorAll('.element');
+  //   const containerPanels = document.querySelector('.container-panels');
+  //   let isFirstTabHovered = false;
+  //   let isFirstElementHovered = false;
+  //   let timeout;
+
+  //   containerPanels.addEventListener("mouseleave", function (event) {
+  //     if (!event.relatedTarget || !containerPanels.contains(event.relatedTarget)) {
+  //       clearTimeout(timeout);
+  //       containerPanels.classList.remove('active');
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //       removePanelActiveClass(); // Retirer panel-active de tous les container-panel
+  //     }
+  //   });
+
+  //   document.addEventListener("mousemove", function (event) {
+  //     // Réinitialiser les états si la souris quitte la fenêtre
+  //     if (event.target === document.documentElement) {
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //     }
+  //   });
+
+  //   function removePanelActiveClass() {
+  //     const activePanels = document.querySelectorAll('.container-panel.panel-active');
+  //     activePanels.forEach(panel => {
+  //       panel.classList.remove('panel-active');
+  //     });
+  //   }
+
+  //   function handleMouseover(target, panelIndex, delay) {
+  //     if (!containerPanels.classList.contains('active') || (!isFirstTabHovered && !isFirstElementHovered)) {
+  //       clearTimeout(timeout);
+  //       containerPanels.classList.add('active');
+  //       timeout = setTimeout(() => {
+  //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //         containerPanel.classList.add('panel-active');
+  //         isFirstTabHovered = true;
+  //       }, 600); // Changer la valeur de délai à 1000 millisecondes (1 seconde)
+  //     }
+  //   }
+
+
+  //   function handleMouseout(panelIndex, relatedTarget) {
+  //     if (containerPanels.classList.contains('active') && isFirstTabHovered) {
+  //       clearTimeout(timeout);
+
+  //       // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
+  //       if (relatedTarget && relatedTarget.classList.contains('element')) {
+  //         timeout = setTimeout(() => {
+  //           const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //           containerPanel.classList.remove('panel-active');
+  //           isFirstElementHovered = false;
+  //         }, 0);
+  //       } else {
+  //         isFirstElementHovered = true;
+  //       }
+  //     }
+  //   }
+
+  //   elements.forEach(element => {
+  //     element.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //     });
+
+  //     element.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   panels.forEach(panel => {
+  //     panel.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       if (!isChildOf(event.relatedTarget, containerPanels)) {
+  //         handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //       }
+  //     });
+
+  //     panel.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   function isChildOf(child, parent) {
+  //     while (child !== null) {
+  //       if (child === parent) {
+  //         return true;
+  //       }
+  //       child = child.parentNode;
+  //     }
+  //     return false;
+  //   }
+  // });
+
+
+
+  // CA MARCHE
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const panels = document.querySelectorAll('.panel');
+  //   const elements = document.querySelectorAll('.element');
+  //   const containerPanels = document.querySelector('.container-panels');
+  //   let isFirstTabHovered = false;
+  //   let isFirstElementHovered = false;
+  //   let timeout;
+
+  //   containerPanels.addEventListener("mouseleave", function (event) {
+  //     if (!event.relatedTarget || !containerPanels.contains(event.relatedTarget)) {
+  //       clearTimeout(timeout);
+  //       containerPanels.classList.remove('active');
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //       removePanelActiveClass(); // Retirer panel-active de tous les container-panel
+  //     }
+  //   });
+
+  //   document.addEventListener("mousemove", function (event) {
+  //     // Réinitialiser les états si la souris quitte la fenêtre
+  //     if (event.target === document.documentElement) {
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //     }
+  //   });
+
+  //   function removePanelActiveClass() {
+  //     const activePanels = document.querySelectorAll('.container-panel.panel-active');
+  //     activePanels.forEach(panel => {
+  //       panel.classList.remove('panel-active');
+  //     });
+  //   }
+
+  //   function handleMouseover(target, panelIndex, delay) {
+  //     if (!containerPanels.classList.contains('active') || (!isFirstTabHovered && !isFirstElementHovered)) {
+  //       clearTimeout(timeout);
+  //       containerPanels.classList.add('active');
+  //       timeout = setTimeout(() => {
+  //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //         containerPanel.classList.add('panel-active');
+  //         isFirstTabHovered = true;
+  //       }, delay);
+  //     }
+  //   }
+
+  //   function handleMouseout(panelIndex, relatedTarget) {
+  //     if (containerPanels.classList.contains('active') && isFirstTabHovered) {
+  //       clearTimeout(timeout);
+
+  //       // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
+  //       if (relatedTarget && relatedTarget.classList.contains('element')) {
+  //         timeout = setTimeout(() => {
+  //           const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //           containerPanel.classList.remove('panel-active');
+  //           isFirstElementHovered = false;
+  //         }, 0);
+  //       } else {
+  //         isFirstElementHovered = true;
+  //       }
+  //     }
+  //   }
+
+  //   elements.forEach(element => {
+  //     element.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //     });
+
+  //     element.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   panels.forEach(panel => {
+  //     panel.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       if (!isChildOf(event.relatedTarget, containerPanels)) {
+  //         handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //       }
+  //     });
+
+  //     panel.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   function isChildOf(child, parent) {
+  //     while (child !== null) {
+  //       if (child === parent) {
+  //         return true;
+  //       }
+  //       child = child.parentNode;
+  //     }
+  //     return false;
+  //   }
+  // });
+
+
+
+  // SANS CLIGNOTEMENT
+
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const panels = document.querySelectorAll('.panel');
+  //   const elements = document.querySelectorAll('.element');
+  //   const containerPanels = document.querySelector('.container-panels');
+  //   let isFirstTabHovered = false;
+  //   let isFirstElementHovered = false;
+  //   let timeout;
+
+  //   containerPanels.addEventListener("mouseleave", function (event) {
+  //     if (!event.relatedTarget || !containerPanels.contains(event.relatedTarget)) {
+  //       clearTimeout(timeout);
+  //       containerPanels.classList.remove('active');
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //     }
+  //   });
+
+  //   // Ajout du gestionnaire d'événements sur le document
+  //   document.addEventListener("mousemove", function (event) {
+  //     // Réinitialiser les états si la souris quitte la fenêtre
+  //     if (event.target === document.documentElement) {
+  //       isFirstTabHovered = false;
+  //       isFirstElementHovered = false;
+  //     }
+  //   });
+
+  //   function handleMouseover(target, panelIndex, delay) {
+  //     if (!containerPanels.classList.contains('active') || (!isFirstTabHovered && !isFirstElementHovered)) {
+  //       containerPanels.classList.add('active');
+  //       clearTimeout(timeout);
+  //       timeout = setTimeout(() => {
+  //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //         containerPanel.classList.add('panel-active');
+  //         isFirstTabHovered = true;
+  //       }, delay);
+  //     }
+  //   }
+
+  //   function handleMouseout(panelIndex, relatedTarget) {
+  //     if (containerPanels.classList.contains('active') && isFirstTabHovered) {
+  //       clearTimeout(timeout);
+
+  //       // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
+  //       if (relatedTarget && relatedTarget.classList.contains('element')) {
+  //         timeout = setTimeout(() => {
+  //           const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
+  //           containerPanel.classList.remove('panel-active');
+  //           isFirstElementHovered = false;
+  //         }, 0);
+  //       } else {
+  //         isFirstElementHovered = true;
+  //       }
+  //     }
+  //   }
+
+  //   elements.forEach(element => {
+  //     element.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //     });
+
+  //     element.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   panels.forEach(panel => {
+  //     panel.addEventListener("mouseover", function () {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       // Ajoutons une condition pour éviter de déclencher l'événement lorsque la souris entre dans .container-panel
+  //       if (!isChildOf(event.relatedTarget, containerPanels)) {
+  //         handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
+  //       }
+  //     });
+
+  //     panel.addEventListener("mouseout", function (event) {
+  //       const panelIndex = this.getAttribute('data-panel');
+  //       handleMouseout(panelIndex, event.relatedTarget);
+  //     });
+  //   });
+
+  //   function isChildOf(child, parent) {
+  //     while (child !== null) {
+  //       if (child === parent) {
+  //         return true;
+  //       }
+  //       child = child.parentNode;
+  //     }
+  //     return false;
+  //   }
+  // });
+
+
+
+
+
+</script>
+
+<!-- Script Inner Menu Items -->
+<script class="header-desktop">
+
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const categories = document.querySelectorAll('.container-bycategories-items-header span');
+  //   const subcategories = document.querySelectorAll('.subcategory-items');
+  //   const containerPanels = document.querySelector('.container-panels');
+
+  //   categories.forEach(category => {
+  //     category.addEventListener('click', function () {
+  //       const categoryNumber = this.classList[1].replace('category', '');
+  //       toggleCategory(categoryNumber);
+  //     });
+  //   });
+
+  //   function toggleCategory(categoryNumber) {
+  //     // Ajoute le style de transition
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.transition = 'opacity 600ms';
+  //     });
+
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.opacity = '0'; // Réinitialise l'opacité pour tous les éléments
+  //       subcategory.style.zIndex = '-1'; // Réinitialise le z-index pour tous les éléments
+  //       subcategory.classList.remove('hovered');
+  //     });
+
+  //     const correspondingSubcategory = document.querySelector(`.category${categoryNumber}-subcategory`);
+  //     correspondingSubcategory.style.opacity = '1'; // Fixe l'opacité pour la sous-catégorie correspondante
+  //     correspondingSubcategory.style.zIndex = '10'; // Définit le z-index à -10 pour la sous-catégorie correspondante
+  //     correspondingSubcategory.classList.add('hovered');
+  //   }
+
+  //   function resetClickLogic() {
+  //     // Supprime le style de transition
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.transition = '';
+  //       subcategory.style.opacity = '0';
+  //       subcategory.style.zIndex = '-1';
+  //       subcategory.classList.remove('hovered');
+  //     });
+  //   }
+
+  //   containerPanels.addEventListener('transitionend', function (event) {
+  //     if (event.propertyName === 'opacity' && !containerPanels.classList.contains('active')) {
+  //       // Si la propriété en transition est l'opacité et la classe .active a été retirée
+  //       resetClickLogic();
+  //     }
+  //   });
+
+  //   // Assurez-vous d'appeler resetClickLogic() si vous retirez la classe .active de .container-panels à un autre endroit de votre code
+  // });
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const categories = document.querySelectorAll('.container-bycategories-items-header span');
+  //   const subcategories = document.querySelectorAll('.subcategory-items');
+  //   const containerPanels = document.querySelector('.container-panels');
+
+  //   let activeCategory = null; // Garde une trace du span actuellement actif
+
+  //   categories.forEach(category => {
+  //     category.addEventListener('click', function () {
+  //       const categoryNumber = this.classList[1].replace('category', '');
+  //       toggleCategory(categoryNumber, this); // Passe l'élément span actuel comme argument
+  //     });
+  //   });
+
+  //   function toggleCategory(categoryNumber, clickedCategory) {
+  //     // Ajoute le style de transition
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.transition = 'opacity 600ms';
+  //     });
+
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.opacity = '0'; // Réinitialise l'opacité pour tous les éléments
+  //       subcategory.style.zIndex = '-1'; // Réinitialise le z-index pour tous les éléments
+  //       subcategory.classList.remove('hovered');
+  //     });
+
+  //     const correspondingSubcategory = document.querySelector(`.category${categoryNumber}-subcategory`);
+  //     correspondingSubcategory.style.opacity = '1'; // Fixe l'opacité pour la sous-catégorie correspondante
+  //     correspondingSubcategory.style.zIndex = '10'; // Définit le z-index à -10 pour la sous-catégorie correspondante
+  //     correspondingSubcategory.classList.add('hovered');
+
+  //     // Retire la classe grey-active du span précédemment actif
+  //     if (activeCategory) {
+  //       activeCategory.classList.remove('grey-active');
+  //     }
+
+  //     // Ajoute la classe grey-active au span cliqué
+  //     clickedCategory.classList.add('grey-active');
+
+  //     // Met à jour le span actuellement actif
+  //     activeCategory = clickedCategory;
+  //   }
+
+  //   function resetClickLogic() {
+  //     // Supprime le style de transition
+  //     subcategories.forEach(subcategory => {
+  //       subcategory.style.transition = '';
+  //       subcategory.style.opacity = '0';
+  //       subcategory.style.zIndex = '-1';
+  //       subcategory.classList.remove('hovered');
+  //     });
+
+  //     // Supprime la classe grey-active de tous les spans
+  //     categories.forEach(category => {
+  //       category.classList.remove('grey-active');
+  //     });
+
+  //     activeCategory = null; // Réinitialise le span actuellement actif
+  //   }
+
+  //   containerPanels.addEventListener('transitionend', function (event) {
+  //     if (event.propertyName === 'opacity' && !containerPanels.classList.contains('active')) {
+  //       // Si la propriété en transition est l'opacité et la classe .active a été retirée
+  //       resetClickLogic();
+  //     }
+  //   });
+
+  //   // Assurez-vous d'appeler resetClickLogic() si vous retirez la classe .active de .container-panels à un autre endroit de votre code
+  // });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const categories = document.querySelectorAll('.container-bycategories-items-header span');
+    const subcategories = document.querySelectorAll('.subcategory-items');
+    const containerPanels = document.querySelector('.container-panels');
+
+    let activeCategory = null;
+
+    categories.forEach(category => {
+      category.addEventListener('click', function () {
+        const categoryNumber = this.classList[1].replace('category', '');
+        toggleCategory(categoryNumber, this);
+      });
+    });
+
+    function toggleCategory(categoryNumber, clickedCategory) {
+      subcategories.forEach(subcategory => {
+        subcategory.style.transition = 'opacity 600ms';
+      });
+
+      subcategories.forEach(subcategory => {
+        subcategory.style.opacity = '0';
+        subcategory.style.zIndex = '-1';
+        subcategory.classList.remove('hovered');
+      });
+
+      const correspondingSubcategory = document.querySelector(`.category${categoryNumber}-subcategory`);
+      correspondingSubcategory.style.opacity = '1';
+      correspondingSubcategory.style.zIndex = '10';
+      correspondingSubcategory.classList.add('hovered');
+
+      if (activeCategory && activeCategory !== clickedCategory) {
+        activeCategory.classList.remove('grey-active');
+      }
+
+      clickedCategory.classList.add('grey-active');
+      activeCategory = clickedCategory;
+    }
+
+    function resetClickLogic() {
+      subcategories.forEach(subcategory => {
+        subcategory.style.transition = '';
+        subcategory.style.opacity = '0';
+        subcategory.style.zIndex = '-1';
+        subcategory.classList.remove('hovered');
+      });
+
+      categories.forEach(category => {
+        category.classList.remove('grey-active');
+      });
+
+      activeCategory = null;
+    }
+
+    containerPanels.addEventListener('transitionend', function (event) {
+      if (event.propertyName === 'opacity' && !containerPanels.classList.contains('active')) {
+        resetClickLogic();
+      }
+    });
+
+    // Ajoutez le code pour simuler le clic sur .category1 uniquement si aucun span n'est actuellement cliqué
+    containerPanels.addEventListener('transitionstart', function (event) {
+      if (event.propertyName === 'opacity' && containerPanels.classList.contains('active') && !activeCategory) {
+        // Simule un clic sur .category1
+        const category1 = document.querySelector('.category1');
+        category1.click();
+      }
+    });
+  });
+
+
+  window.addEventListener('DOMContentLoaded', function () {
+    const categoryOriginTop = document.querySelector('.categoryOriginTop');
+    const subcategoryNewTop = document.querySelector('.subcategoryNewTop');
+    const categoryOriginTop2 = document.querySelector('.categoryOriginTop2');
+    const subcategoryNewTop2 = document.querySelector('.subcategoryNewTop2');
+    const categoryOriginTop3 = document.querySelector('.categoryOriginTop3');
+    const subcategoryNewTop3 = document.querySelector('.subcategoryNewTop3');
+    const categoryOriginTop4 = document.querySelector('.categoryOriginTop4');
+    const subcategoryNewTop4 = document.querySelector('.subcategoryNewTop4');
+    const categoryOriginTop5 = document.querySelector('.categoryOriginTop5');
+    const subcategoryNewTop5 = document.querySelector('.subcategoryNewTop5');
+
+    // Calcule la distance entre le haut de la fenêtre et categoryOriginTop
+    const distanceFromTop = categoryOriginTop.offsetTop;
+    const distanceFromTop2 = categoryOriginTop2.offsetTop;
+    const distanceFromTop3 = categoryOriginTop2.offsetTop;
+    const distanceFromTop4 = categoryOriginTop3.offsetTop;
+    const distanceFromTop5 = categoryOriginTop4.offsetTop;
+
+    // Applique la distance comme top pour subcategoryNewTop
+    subcategoryNewTop.style.top = distanceFromTop + 'px';
+    subcategoryNewTop2.style.top = distanceFromTop2 + 'px';
+    subcategoryNewTop3.style.top = distanceFromTop3 + 'px';
+    subcategoryNewTop4.style.top = distanceFromTop4 + 'px';
+    subcategoryNewTop5.style.top = distanceFromTop5 + 'px';
+  });
+
+
+
+
+
+</script><header class="header-mobile">
+    <a class="logo-header-mobile logo-header-mobile-white" href="[DIRECTORY_BASE_PATH]/">
+        <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/logo-donzelli-black.svg" alt="">
+    </a>
+    <a class="logo-header-mobile logo-header-mobile-black" href="[DIRECTORY_BASE_PATH]/">
+        <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/logo-donzelli-white.svg" alt="">
+    </a>
+    <div class="close-sidebar-mobile">
+        <p class="nav-item-typo">Close Menu</p>
+        <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/cross-white.svg" alt="">
+    </div>
+
+    <div class="burger-mobile">
+        <p class="nav-item-typo">Menu</p>
+        <div class="lines-burger-mobile">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+
+    <div class="line-color-bottom-header-mobile"></div>
+
+</header>
+
+
+<script>
+
+    window.addEventListener("load", function () {
+        var burgerMobile = document.querySelector(".burger-mobile");
+        var closeCrossMobile = document.querySelector(".close-sidebar-mobile");
+        var sidebarMobile = document.querySelector(".sidebar-mobile");
+        var bodyHey = document.querySelector("body");
+        var htmlHey = document.querySelector("html");
+        var headerMob = document.querySelector(".header-mobile");
+
+        burgerMobile.onclick = function () {
+            burgerMobile.classList.add("diseappearBurger");
+            closeCrossMobile.classList.add("appearClose");
+            sidebarMobile.classList.add("to-left-mobile-menu");
+            bodyHey.classList.add("fix-scroll");
+            htmlHey.classList.add("fix-scroll");
+            headerMob.classList.add("scroll-mobile-header-home");
+        };
+
+        closeCrossMobile.onclick = function () {
+            closeCrossMobile.classList.remove("appearClose");
+            sidebarMobile.classList.remove("to-left-mobile-menu");
+            burgerMobile.classList.remove("diseappearBurger");
+            htmlHey.classList.remove("fix-scroll");
+            bodyHey.classList.remove("fix-scroll");
+
+            // Calcul du pourcentage de défilement
+            var scrollPercentage = (window.scrollY / document.documentElement.clientHeight) * 100;
+
+            // Retirer la classe seulement si le scroll est inférieur à 10%
+            if (scrollPercentage < 10) {
+                headerMob.classList.remove("scroll-mobile-header-home");
+            }
+        };
+    });
+
+</script><div class="sidebar-desk">
+    <div class="close-sidebar-desk nav-item-typo">
+        Fermer
+    </div>
+    <div class="container-items-sidebar-desk">
+        <p class="indiction-menu-sidebar-desk nav-item-typo">Menu</p>
+        <div class="list-menu-sidebar-desk">
+            <a class="sidebar-item-desk" href="">About us</a>
+            <a class="sidebar-item-desk" href="">Vision</a>
+            <a class="sidebar-item-desk" href="">Project & Features</a>
+            <a class="sidebar-item-desk verified-sidebar-desk" href="">
+                <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/verified-icon-white.svg" alt="">
+                Verified Program</a>
+            <a id="studiopro-item-sidebar-desk" class="sidebar-item-desk "
+                href="[DIRECTORY_BASE_PATH]/studiopro/"><span>Studio Pro</span> <img
+                    src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></a>
+
+            <a class="sidebar-item-desk" href="">Engagements</a>
+            <a class="sidebar-item-desk" href="">Magazine</a>
+            <a class="sidebar-item-desk" href="[DIRECTORY_BASE_PATH]/contact/">Contact</a>
+            <a class="sidebar-item-desk" href="[DIRECTORY_BASE_PATH]/press/">Press</a>
+            <a class="sidebar-item-desk" href="">Careers</a>
+        </div>
+    </div>
+</div>
+
+<div class="back-invisible-sidebar">
+
+</div><div class="sidebar-mobile">
+    <div class="main-container-sidebar-mobile">
+        <div class="main-nav-sidebar-mobile">
+            <p class="nav-item-typo">Discover</p>
+            <div class="container-items-nav-mobile-sidebar">
+                <a class="sidebar-item-mobile" href="">Feed <div class="new-tick nav-item-typo">New <div
+                            class="redpoint"></div>
+                    </div> </a>
+                <a class="sidebar-item-mobile" href="">Spaces</a>
+                <a class="sidebar-item-mobile" href="">Collections</a>
+                <div class="sidebar-item-mobile buttonpanelmobile1">Type of Items <img
+                        src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon.svg" alt=""></div>
+                <div class="sidebar-item-mobile buttonpanelmobile2">Brands
+                    <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon.svg" alt="">
+                </div>
+                <div class="sidebar-item-mobile buttonpanelmobile3">Creators
+                    <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon.svg" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="studiopro-sidebar-mobile">
+            <a href="[DIRECTORY_BASE_PATH]/studiopro/">
+                <div class="sidebar-item-mobile ">Studio Pro
+                    <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt="">
+                </div>
+                <p class="nav-item-typo">Design, Management & Consulting Services</p>
+            </a>
+        </div>
+        <div class="secondary-nav-sidebar-mobile">
+            <div class="list-secondary-nav-sidebar-mobile">
+                <a class="nav-item-typo" href="">Guide</a>
+                <a class="nav-item-typo" href="">Magazine</a>
+                <a class="nav-item-typo verified-sidebar" href="">
+                    <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/verified-icon-white.svg" alt="">
+                    Verified Program</a>
+
+            </div>
+            <div class="list-secondary-nav-sidebar-mobile">
+                <a class="nav-item-typo" href="">About Us / Vision</a>
+                <a class="nav-item-typo grey" href="">Company & Features</a>
+                <a class="nav-item-typo grey" href="">Engagements</a>
+                <a class="nav-item-typo" href="[DIRECTORY_BASE_PATH]/contact/">Contact</a>
+                <a class="nav-item-typo grey" href="[DIRECTORY_BASE_PATH]/press/">Press</a>
+                <a class="nav-item-typo grey" href="">Careers</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="items-sidebar-submenu-mobile panelmobile1 panelmobilesub">
+        <div class="back nav-item-typo"> <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-back-white.svg"
+                alt=""> Back
+        </div>
+        <p class="sidebar-item-mobile">Type of Items</p>
+        <div class="container-items-dropdown">
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Sofas & Armchairs</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img
+                                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Sofas & Armchairs</a>
+                    <a href="">Sofas</a>
+                    <a href="">Armchairs</a>
+                    <a href="">Corner sofas</a>
+                    <a href="">Modular sofas</a>
+                    <a href="">Convertible sofas</a>
+                    <a href="">Chaise longues / Méridiennes</a>
+                    <a href="">Daybeds</a>
+                    <a href="">Poufs & Ottomans</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Chairs</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img
+                                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Chairs</a>
+                    <a href="">Armchairs</a>
+                    <a href="">Sidechairs</a>
+                    <a href="">Dining Chairs</a>
+                    <a href="">Desk Chairs</a>
+                    <a href="">Lounge Chairs</a>
+                    <a href="">Stools</a>
+                    <a href="">Benches</a>
+                    <a href="">Daybeds</a>
+                    <a href="">Poufs & Ottomans</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Tables</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img
+                                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Tables</a>
+                    <a href="">Big Tables</a>
+                    <a href="">Dining Tables</a>
+                    <a href="">Desks</a>
+                    <a href="">Lowtables</a>
+                    <a href="">Side & End Tables</a>
+                    <a href="">Console & sideboard</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Furniture & Storage</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img
+                                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Furniture & Storage</a>
+                    <a href="">Wardrobes, Shelves & Drawers</a>
+                    <a href="">Buffets & Consoles</a>
+                    <a href="">Libraries</a>
+                    <a href="">Office Storage</a>
+                    <a href="">TV Furniture</a>
+                    <a href="">Dressing and closets</a>
+                    <a href="">Beds and accessories</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Lamps & Lightning</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img
+                                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Lights and Lightning</a>
+                    <a href="">Table Lamps</a>
+                    <a href="">Floor Lamps</a>
+                    <a href="">Suspended Lamps</a>
+                    <a href="">Wall & Ceiling Lamps</a>
+                    <a href="">Portable Lamps</a>
+                    <a href="">Outdoor Lamps</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Objects & Accessories</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img
+                                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Objects & Accessories</a>
+                    <a href="">Office Accessories</a>
+                    <a href="">Kitchen & Vaiselle</a>
+                    <a href="">Living room, Cushion, Plaid</a>
+                    <a href="">Rugs</a>
+                    <a href="">Vases & Trays</a>
+                    <a href="">Candles</a>
+                    <a href="">Books</a>
+                    <a href="">Folding Screens</a>
+                    <a href="">Mirrors</a>
+                    <a href="">Luggage, Bags, & Chests</a>
+                </div>
+            </div>
+            <!-- <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile ">Art & Frames</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Art &
+                        Paintings</a>
+                    <a href="">Art Paintings</a>
+                    <a href="">Scultures</a>
+                    <a href="">Iconic Pieces</a>
+                    <a href="">Statues</a>
+                </div>
+            </div> -->
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Technology</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img
+                                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Technology</a>
+                    <a href="">Electrical Goods, Fridges, Caves</a>
+                    <a href="">Speakers, Vinyl, Hi-Fi</a>
+                    <a href="">Connected Objects and Lighting</a>
+                    <a href="">TV Accessories</a>
+                    <a href="">Domestic Accessories</a>
+                </div>
+            </div>
+            <div class="item-dropdown">
+                <div class="title-item-drop">
+                    <p class="second-sidebar-item-mobile">Outdoor</p>
+                    <div class="container-button-dropdown">
+                        <div class="dropdown-plus"><img
+                                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/plus-icon-grey.svg" alt="">
+                        </div>
+                        <div class="dropdown-moins">
+                            <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/moins-icon-grey.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-dropdown-content nav-item-typo">
+                    <a class="first-all-button" href="">All Outdoor</a>
+                    <a href="">Tables & Chairs</a>
+                    <a href="">Garden furniture</a>
+                    <a href="">Lighting</a>
+                    <a href="">Accessories</a>
+                    <a href="">Loungers & Hammocks</a>
+                    <a href="">Barbecues and plancha</a>
+                </div>
+            </div>
+        </div>
+        <div class="rooms-container-sidebar-menu-items">
+            <p class="sidebar-item-mobile">Rooms</p>
+            <div class="container-rooms-sidebar-mobile">
+                <div class="room-container-mobile">
+                    <p class="second-sidebar-item-mobile">Office</p>
+                    <div class="column-list-room-mobile nav-item-typo">
+                        <a class="nav-item-typo" href="">Desks</a>
+                        <a class="nav-item-typo" href="">Seating</a>
+                        <a class="nav-item-typo" href="">Lights</a>
+                        <a class="nav-item-typo" href="">Storage</a>
+                        <a class="nav-item-typo" href="">Sofas</a>
+                        <a class="nav-item-typo" href="">Tables</a>
+                        <a class="nav-item-typo" href="">Pro Furniture</a>
+                    </div>
+                </div>
+                <div class="room-container-mobile">
+                    <p class="second-sidebar-item-mobile">Bedroom</p>
+                    <div class="column-list-room-mobile nav-item-typo">
+                        <a class="nav-item-typo" href="">Desks</a>
+                        <a class="nav-item-typo" href="">Seating</a>
+                        <a class="nav-item-typo" href="">Lights</a>
+                        <a class="nav-item-typo" href="">Storage</a>
+                        <a class="nav-item-typo" href="">Sofas</a>
+                        <a class="nav-item-typo" href="">Tables</a>
+                        <a class="nav-item-typo" href="">Pro Furniture</a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="" class="view-more-rooms-link nav-item-typo">
+                View more Rooms <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="brands-sidebar-submenu-mobile panelmobile2 panelmobilesub">
+        <div class="back nav-item-typo"> <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-back-white.svg"
+                alt=""> Back
+        </div>
+        <p class="sidebar-item-mobile">Selected Brands</p>
+        <div class="container-brands-list-mobile-sidebar">
+            <div class="majors-brands-mobile">
+                <p class="nav-item-typo">Majors</p>
+                <div class="list-majors-mobile">
+                    <a class="second-sidebar-item-mobile" href="">Cassina</a>
+                    <a class="second-sidebar-item-mobile" href="">Knoll</a>
+                    <a class="second-sidebar-item-mobile" href="">Flos</a>
+                    <a class="second-sidebar-item-mobile" href="">B&B Italia</a>
+                    <a class="second-sidebar-item-mobile" href="">Ligne Roset</a>
+                    <a class="second-sidebar-item-mobile" href="">Rochebobois</a>
+                    <a class="second-sidebar-item-mobile" href="">Vitra</a>
+                </div>
+            </div>
+            <div class="all-brands-mobile">
+                <a class="nav-item-typo all-brands-link-mobile" href="">All Brands <img
+                        src=" [DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></a>
+                <div class="container-double-list-all-brands">
+                    <div class="column-allbrands-mobile nav-item-typo">
+                        <a href="">Kartell</a>
+                        <a href="">Herman Miller</a>
+                        <a href="">Muuto</a>
+                        <a href="">Moooi</a>
+                        <a href="">Ethnicraft</a>
+                        <a href="">Poltrona Frau</a>
+                        <a href="">Cinna</a>
+                        <a href="">Alessi</a>
+                    </div>
+                    <div class="column-allbrands-mobile nav-item-typo">
+                        <a href="">Driade</a>
+                        <a href="">Foscarini</a>
+                        <a href="">Gubi</a>
+                        <a href="">Poliform</a>
+                        <a href="">Zanotta</a>
+                        <a href="">USM</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="second-sidebar-item-mobile studios-craftmens-title">Studios & Craftsmen</p>
+        <div class="container-list-studios-mobile">
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+        </div>
+        <a class="see-more-studios nav-item-typo">See All <img
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></a>
+    </div>
+    <div class="creators-sidebar-submenu-mobile panelmobile3 panelmobilesub">
+        <div class="back nav-item-typo"> <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-back-white.svg"
+                alt=""> Back
+        </div>
+        <p class="sidebar-item-mobile">Designers & Creators</p>
+        <div class="container-brands-list-mobile-sidebar">
+            <div class="majors-brands-mobile">
+                <p class="nav-item-typo">Majors</p>
+                <div class="list-majors-mobile">
+                    <a class="second-sidebar-item-mobile" href="">Cassina</a>
+                    <a class="second-sidebar-item-mobile" href="">Knoll</a>
+                    <a class="second-sidebar-item-mobile" href="">Flos</a>
+                    <a class="second-sidebar-item-mobile" href="">B&B Italia</a>
+                    <a class="second-sidebar-item-mobile" href="">Ligne Roset</a>
+                    <a class="second-sidebar-item-mobile" href="">Rochebobois</a>
+                    <a class="second-sidebar-item-mobile" href="">Vitra</a>
+                </div>
+            </div>
+            <div class="all-brands-mobile">
+                <a class="nav-item-typo all-brands-link-mobile" href="">All Designers / Creators <img
+                        src=" [DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></a>
+                <div class="container-double-list-all-brands">
+                    <div class="column-allbrands-mobile nav-item-typo">
+                        <a href="">Kartell</a>
+                        <a href="">Herman Miller</a>
+                        <a href="">Muuto</a>
+                        <a href="">Moooi</a>
+                        <a href="">Ethnicraft</a>
+                        <a href="">Poltrona Frau</a>
+                        <a href="">Cinna</a>
+                        <a href="">Alessi</a>
+                    </div>
+                    <div class="column-allbrands-mobile nav-item-typo">
+                        <a href="">Driade</a>
+                        <a href="">Foscarini</a>
+                        <a href="">Gubi</a>
+                        <a href="">Poliform</a>
+                        <a href="">Zanotta</a>
+                        <a href="">USM</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="second-sidebar-item-mobile studios-craftmens-title">Architects</p>
+        <div class="container-list-studios-mobile">
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+            <div class="column-studio-list nav-item-typo">
+                <a href="">Driade</a>
+                <a href="">Moooi</a>
+                <a href="">Ethnicraft</a>
+                <a href="">Poltrona Frau</a>
+                <a href="">Cinna</a>
+                <a href="">Alessi</a>
+            </div>
+        </div>
+        <a class="see-more-studios nav-item-typo">See All <img
+                src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/arrow-white.svg" alt=""></a>
+    </div>
+
+</div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var buttons = document.querySelectorAll('.buttonpanelmobile1, .buttonpanelmobile2, .buttonpanelmobile3');
+        var mainContainer = document.querySelector('.main-container-sidebar-mobile');
+
+        buttons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                // Ajoutez une classe avec opacité 0 à .main-container-sidebar-mobile
+                mainContainer.classList.add('hide-container');
+
+                var panelNumber = button.classList[1].replace('buttonpanelmobile', '');
+                var panel = document.querySelector('.panelmobile' + panelNumber);
+
+                // Ajoutez la classe active-panel au panneau correspondant
+                panel.classList.add('active-panel');
+
+                // Ajoutez la classe active-transition après un délai pour la transition d'opacité
+                setTimeout(function () {
+                    panel.classList.add('active-transition');
+                }, 50); // ajustez la durée du délai en fonction de la durée de votre transition
+            });
+        });
+
+        var backButton = document.querySelectorAll('.back');
+
+        backButton.forEach(function (backButton) {
+            backButton.addEventListener('click', function () {
+                var activePanel = document.querySelector('.panelmobilesub.active-panel');
+
+                // Ajoutez la classe pour gérer le z-index après un délai
+                activePanel.classList.add('z-index-transition');
+
+                // Supprimez la classe active-transition pour désactiver la transition d'opacité
+                activePanel.classList.remove('active-transition');
+
+                // Ajoutez un délai avant de supprimer la classe active-panel pour laisser la transition se terminer
+                setTimeout(function () {
+                    activePanel.classList.remove('active-panel', 'z-index-transition');
+                    // Retirez la classe avec opacité 0 à .main-container-sidebar-mobile après la transition
+                    mainContainer.classList.remove('hide-container');
+                }, 0); // ajustez la durée du délai en fonction de la durée de votre transition
+            });
+        });
+
+        var closeSidebarButton = document.querySelector('.close-sidebar-mobile');
+
+        closeSidebarButton.addEventListener('click', function () {
+            var sidebar = document.querySelector('.sidebar-mobile');
+
+            // Retirez la classe "to-left-mobile-menu" du menu latéral
+            sidebar.classList.remove('to-left-mobile-menu');
+
+            // Retirez la classe "active-panel" et "active-transition" de tous les panneaux
+            var activePanels = document.querySelectorAll('.panelmobilesub.active-panel');
+
+            activePanels.forEach(function (panel) {
+                panel.classList.remove('active-panel', 'active-transition', 'z-index-transition');
+            });
+
+            // Retirez la classe avec opacité 0 à .main-container-sidebar-mobile après la transition
+            setTimeout(function () {
+                mainContainer.classList.remove('hide-container');
+            }, 0); // ajustez la durée du délai en fonction de la durée de votre transition
+        });
+
+        var sidebar = document.querySelector('.sidebar-mobile');
+
+        sidebar.addEventListener('transitionend', function (event) {
+            if (event.propertyName === 'left' && !sidebar.classList.contains('to-left-mobile-menu')) {
+                // Retirez la classe "active-panel" et "active-transition" de tous les panneaux
+                var activePanels = document.querySelectorAll('.panelmobilesub.active-panel');
+
+                activePanels.forEach(function (panel) {
+                    panel.classList.remove('active-panel', 'active-transition', 'z-index-transition');
+                });
+
+                // Retirez la classe avec opacité 0 à .main-container-sidebar-mobile après la transition
+                setTimeout(function () {
+                    mainContainer.classList.remove('hide-container');
+                }, 300); // ajustez la durée du délai en fonction de la durée de votre transition
+            }
+        });
+
+    });
+
+    // document.addEventListener('DOMContentLoaded', function () {
+    //     // ... (votre code existant)
+
+    //     var titleItemDrops = document.querySelectorAll('.title-item-drop');
+
+    //     titleItemDrops.forEach(function (titleItemDrop) {
+    //         titleItemDrop.addEventListener('click', function () {
+    //             var dropdownContent = titleItemDrop.nextElementSibling;
+    //             var currentDropdownPlus = titleItemDrop.querySelector('.dropdown-plus');
+    //             var currentDropdownMoins = titleItemDrop.querySelector('.dropdown-moins');
+
+    //             // Fermer les autres dropdowns
+    //             var otherTitleItemDrops = document.querySelectorAll('.title-item-drop.active-dropdown');
+    //             otherTitleItemDrops.forEach(function (otherTitleItemDrop) {
+    //                 var otherDropdownContent = otherTitleItemDrop.nextElementSibling;
+    //                 var otherDropdownPlus = otherTitleItemDrop.querySelector('.dropdown-plus');
+    //                 var otherDropdownMoins = otherTitleItemDrop.querySelector('.dropdown-moins');
+
+    //                 otherDropdownContent.classList.remove('active-dropdown');
+    //                 otherDropdownPlus.classList.remove('hide-opacity');
+    //                 otherDropdownMoins.classList.remove('show-opacity');
+    //             });
+
+    //             // Toggle les classes pour le .container-dropdown-content associé
+    //             dropdownContent.classList.toggle('active-dropdown');
+
+    //             // Toggle les classes pour le .dropdown-plus et .dropdown-moins actuels
+    //             currentDropdownPlus.classList.toggle('hide-opacity');
+    //             currentDropdownMoins.classList.toggle('show-opacity');
+    //         });
+    //     });
+
+    //     // ... (le reste de votre code)
+    // });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var titleItemDrops = document.querySelectorAll('.title-item-drop');
+
+        function removeDropdownClasses() {
+            // Supprimer les classes des dropdowns
+            var allDropdownContents = document.querySelectorAll('.container-dropdown-content');
+            allDropdownContents.forEach(function (dropdownContent) {
+                dropdownContent.classList.remove('active-dropdown');
+            });
+
+            var allDropdownPluses = document.querySelectorAll('.dropdown-plus');
+            var allDropdownMoins = document.querySelectorAll('.dropdown-moins');
+            allDropdownPluses.forEach(function (dropdownPlus) {
+                dropdownPlus.classList.remove('hide-opacity');
+            });
+            allDropdownMoins.forEach(function (dropdownMoins) {
+                dropdownMoins.classList.remove('show-opacity');
+            });
+
+            var allTitleItemDrops = document.querySelectorAll('.title-item-drop');
+            allTitleItemDrops.forEach(function (titleItemDrop) {
+                titleItemDrop.classList.remove('active-dropdown');
+            });
+        }
+
+        titleItemDrops.forEach(function (titleItemDrop) {
+            titleItemDrop.addEventListener('click', function () {
+                var dropdownContent = titleItemDrop.nextElementSibling;
+                var currentDropdownPlus = titleItemDrop.querySelector('.dropdown-plus');
+                var currentDropdownMoins = titleItemDrop.querySelector('.dropdown-moins');
+
+                // Fermer les autres dropdowns et retirer les classes ajoutées
+                var otherTitleItemDrops = document.querySelectorAll('.title-item-drop');
+                otherTitleItemDrops.forEach(function (otherTitleItemDrop) {
+                    if (otherTitleItemDrop !== titleItemDrop) {
+                        var otherDropdownContent = otherTitleItemDrop.nextElementSibling;
+                        var otherDropdownPlus = otherTitleItemDrop.querySelector('.dropdown-plus');
+                        var otherDropdownMoins = otherTitleItemDrop.querySelector('.dropdown-moins');
+
+                        if (otherDropdownContent) {
+                            otherDropdownContent.classList.remove('active-dropdown');
+                        }
+                        if (otherDropdownPlus) {
+                            otherDropdownPlus.classList.remove('hide-opacity');
+                        }
+                        if (otherDropdownMoins) {
+                            otherDropdownMoins.classList.remove('show-opacity');
+                        }
+
+                        otherTitleItemDrop.classList.remove('active-dropdown');
+                    }
+                });
+
+                // Ajouter/retirer les classes pour le .container-dropdown-content associé
+                if (dropdownContent) {
+                    dropdownContent.classList.toggle('active-dropdown');
+                }
+
+                // Ajouter/retirer les classes pour le .dropdown-plus et .dropdown-moins actuels
+                if (currentDropdownPlus) {
+                    currentDropdownPlus.classList.toggle('hide-opacity');
+                }
+                if (currentDropdownMoins) {
+                    currentDropdownMoins.classList.toggle('show-opacity');
+                }
+
+                titleItemDrop.classList.toggle('active-dropdown');
+            });
+        });
+        // // Supprimer les classes lorsque .to-left-mobile-menu est retirée
+        // var closeSidebarButton = document.querySelector('.close-sidebar-mobile');
+
+        // closeSidebarButton.addEventListener('click', function () {
+        //     var sidebar = document.querySelector('.sidebar-mobile');
+
+        //     // Ajoutez ici le reste de votre code existant pour gérer la fermeture de la sidebar
+
+        //     // Supprimer les classes des dropdowns
+        //     removeDropdownClasses();
+        // });
+        var closeSidebarButton = document.querySelector('.close-sidebar-mobile');
+        var backButton = document.querySelectorAll('.back'); // Sélectionnez tous les boutons .back
+
+        function handleBackButtonClick() {
+            var sidebar = document.querySelector('.sidebar-mobile');
+
+            // Ajoutez ici le reste de votre code existant pour gérer la fermeture de la sidebar
+
+            // Supprimer les classes des dropdowns
+            removeDropdownClasses();
+        }
+
+        closeSidebarButton.addEventListener('click', handleBackButtonClick);
+
+        // Ajoutez un gestionnaire d'événement à chaque bouton .back
+        backButton.forEach(function (backButton) {
+            backButton.addEventListener('click', handleBackButtonClick);
+        });
+
+
+
+
+    });
+
+</script><footer>
+    <div class="line-top-header"></div>
+    <div class="heading-header">
+        <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/logo-donzelli-white.svg" alt="">
+        <p class="subtitle">Elevate your space <br>
+            with exceptional furniture</p>
+    </div>
+
+    <div class="container-links-footer">
+        <div class="group-columns-footer">
+            <div class="column-footer-links">
+                <p class="title-footer-list thirdtitle">Infos</p>
+                <div class="list-link-column nav-item-typo">
+                    <a href="">About</a>
+                    <a href="">Vision</a>
+                    <a href="">Engagements</a>
+                    <a href="">Verified Program</a>
+                    <a href="">Project & Features</a>
+                    <a href="[DIRECTORY_BASE_PATH]/press/">Press</a>
+                    <a href="">Careers</a>
+                    <a href="[DIRECTORY_BASE_PATH]/contact/">Contact</a>
+                </div>
+            </div>
+            <div class="column-footer-links">
+                <p class="title-footer-list thirdtitle">Studio Pro</p>
+                <div class="list-link-column nav-item-typo">
+                    <a href="[DIRECTORY_BASE_PATH]/studiopro/">What is / For who</a>
+                    <a href="[DIRECTORY_BASE_PATH]/studiopro/">Offers</a>
+                    <a href="[DIRECTORY_BASE_PATH]/studiopro/">Engagements</a>
+                    <a href="[DIRECTORY_BASE_PATH]/contact/">Contact for Professionals</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="group-columns-footer">
+            <div class="column-footer-links">
+                <p class="title-footer-list thirdtitle">Ressources</p>
+                <div class="list-link-column nav-item-typo">
+                    <a href="">Guide</a>
+                    <a href="">Feed</a>
+                    <a href="">Spaces</a>
+                    <a href="">Collections</a>
+                    <a href="">Type of Items</a>
+                    <a href="">Brands & Studios</a>
+                    <a href="">Creators</a>
+
+
+                </div>
+            </div>
+            <div class="column-footer-links">
+                <p class="title-footer-list thirdtitle">Magazine</p>
+                <div class="list-link-column nav-item-typo">
+                    <a href="">Article 1</a>
+                    <a href="">Article 2</a>
+                    <a href="">Article 3</a>
+                    <a href="">Article 4</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="extra-links-footer">
+        <p class="nav-item-typo">
+            Donzelli® <br>
+            <span>
+                An UTOPIA Project™ Company
+            </span>
+        </p>
+        <a class="nav-item-typo" href="">Privacy</a>
+    </div>
+</footer>

@@ -182,7 +182,7 @@
   font-family: "Donzelli Main";
   letter-spacing: -0.01em;
   font-size: calc(
-    18px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+    17px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
   );
   line-height: 100%;
   position: relative;
@@ -206,7 +206,7 @@
   font-family: "Donzelli Main";
   letter-spacing: -0.01em;
   font-size: calc(
-    18px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+    17px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
   );
   line-height: 140% !important;
   position: relative;
@@ -305,6 +305,22 @@
 
 @media (max-width: 800px) {
   .maintitle {
+    font-size: 34px;
+  }
+}
+
+.semititle {
+  font-family: "Donzelli Main";
+  letter-spacing: -0.03em;
+  font-size: calc(
+    54px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+  );
+  line-height: 110%;
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  .semititle {
     font-size: 34px;
   }
 }
