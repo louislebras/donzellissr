@@ -60,3 +60,18 @@ header {
     }
   }
 }
+
+.background-product-page-headerM {
+  background-color: transparent;
+  mix-blend-mode: difference;
+  .line-color-bottom-header-mobile {
+    opacity: 0;
+  }
+
+  .burger-mobile {
+    color: $donzelli1;
+    .line {
+      background-color: $donzelli1 !important;
+    }
+  }
+}

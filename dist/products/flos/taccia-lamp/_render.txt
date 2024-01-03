@@ -1187,6 +1187,9 @@
     <a class="logo-header-mobile logo-header-mobile-black" href="[DIRECTORY_BASE_PATH]/">
         <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/logo-donzelli-white.svg" alt="">
     </a>
+    <a class="logo-header-mobile logo-header-mobile-mix" href="[DIRECTORY_BASE_PATH]/">
+        <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/logo-donzelli-white.svg" alt="">
+    </a>
     <div class="close-sidebar-mobile">
         <p class="nav-item-typo">Close Menu</p>
         <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/cross-white.svg" alt="">
@@ -1959,17 +1962,21 @@
     <div class="heading-product-page">
         <div class="container-images-heading-product-page">
             <div class="sub-container-heading-product">
+
                 <img src="../../../../public/products/flos/taccia/taccia-lamp-flos-by-donzelli.png" alt="">
                 <img src="../../../../public/products/flos/taccia/heading-2-taccia-lamp-flos-by-donzelli.png" alt="">
                 <img src="../../../../public/products/flos/taccia/taccia-lamp-flos-by-donzelli.png" alt="">
+                <img class="w-back-photo-product-heading"
+                    src="../../../../public/products/flos/taccia/w-background-taccia-flos-donzelli.png" alt="">
             </div>
-
+            <img class="arrow-slide-pics-product-heading-mobile"
+                src="../../../../public/media/svg-assets/arrow-white.svg" alt="">
         </div>
         <div class="fixed-heading-product-head">
             <div class="container-main-infos-product-heading">
                 <div class="maincontent-heading-product">
                     <h1 class="semititle">Taccia by Flos</h1>
-                    <p class="nav-item-typo priceproduct">1290,00€</p>
+                    <p class="nav-item-typo priceproduct">Start at 1290,00€</p>
                     <p class="introdescription-subprice small-text">Its blown-glass shade recalls the soft, warm glow of
                         a candle,
                         creating an intimate,
@@ -2041,6 +2048,24 @@
             header.classList.remove('background-product-page-header');
         }
     });
+
+    window.addEventListener('scroll', () => {
+        // Calculez la distance de défilement en tant que pourcentage de la hauteur de la vue
+        const scrollDistance = window.scrollY / window.innerHeight;
+
+        // Obtenez l'élément d'en-tête par son sélecteur (ajustez le sélecteur selon votre besoin)
+        const headerM = document.querySelector('.header-mobile');
+
+        // Vérifiez si la distance de défilement est supérieure à 270vh (2.7 fois la hauteur de la vue)
+        if (scrollDistance < 0.5) {
+            // Ajoutez la classe souhaitée à l'élément d'en-tête
+            headerM.classList.add('background-product-page-headerM');
+        } else {
+            // Supprimez la classe si la distance de défilement est inférieure à 270vh
+            headerM.classList.remove('background-product-page-headerM');
+        }
+    });
+
 
     // document.querySelector('header').addEventListener('mouseover', () => {
     //     // Retirez la classe lorsque l'en-tête est survolé
