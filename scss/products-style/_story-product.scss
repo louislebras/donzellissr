@@ -6,6 +6,12 @@
   margin-top: 20vh;
 }
 
+@media (max-width: 800px) {
+  .story-container-product-page {
+    margin-top: 10vh;
+  }
+}
+
 .intro-story-product-page {
   margin-bottom: 5vh;
 }
@@ -20,6 +26,12 @@
   width: calc(80%);
 }
 
+@media (max-width: 800px) {
+  .history-part1-text-product {
+    width: 100%;
+  }
+}
+
 .history-part2-text-product {
   display: flex;
   margin-top: 50px;
@@ -28,5 +40,19 @@
     width: 18%;
     max-width: 200px;
     margin-right: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .history-part2-text-product {
+    padding-left: 0;
+    flex-direction: column;
+    margin-top: 40px;
+    p {
+      width: 100%;
+      max-width: fit-content;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
   }
 }
