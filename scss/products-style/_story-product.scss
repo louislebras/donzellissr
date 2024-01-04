@@ -4,11 +4,20 @@
   display: flex;
   flex-direction: column;
   margin-top: 20vh;
+
+  .heavytitle {
+    margin-bottom: 20px;
+    margin-left: calc(8.33vw * 2);
+  }
 }
 
 @media (max-width: 800px) {
   .story-container-product-page {
     margin-top: 10vh;
+
+    .heavytitle {
+      margin-left: 0;
+    }
   }
 }
 

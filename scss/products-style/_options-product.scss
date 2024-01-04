@@ -158,6 +158,13 @@
       margin-top: 10px;
       display: flex;
       justify-content: space-between;
+
+      .underlined1 {
+        transition: 0.3s ease;
+        &:hover {
+          color: $donzelli4;
+        }
+      }
     }
 
     .badge-verified-options {
@@ -170,11 +177,16 @@
       display: flex;
       align-items: center;
       cursor: pointer;
-      transition: 0.3s;
+      transition: 0.3s ease;
       width: fit-content;
       img {
         mix-blend-mode: difference;
         margin-right: 10px;
+      }
+
+      &:hover {
+        background-color: $donzelli3;
+        color: $donzelli1;
       }
     }
 
@@ -217,11 +229,30 @@
         width: 100%;
         right: 0;
         margin-top: 20px;
-        margin-bottom: 10vh;
+        margin-bottom: 20px;
+      }
+
+      .container-verified-program-product-page {
+        background-color: $donzelli1bis;
+        padding: 20px 25px 25px;
+        border-radius: 5px;
+
+        .options-product-heading {
+          margin-top: 80px;
+        }
+      }
+
+      .container-badge-options-product-page {
+        margin-top: 15px;
       }
 
       .description-verified-brand {
         margin-top: 20px;
+      }
+
+      .badge-verified-options {
+        background-color: $donzelli3;
+        color: $donzelli1;
       }
     }
   }

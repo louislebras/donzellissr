@@ -1541,6 +1541,8 @@
     });
 
 </script><link rel="stylesheet" href="[DIRECTORY_BASE_PATH]/css/products-style/main-product.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css" />
 <div class="grid">
     <div class="column"></div>
     <div class="column"></div>
@@ -1741,7 +1743,7 @@
                         </div>
                     </div>
                     <div class="container-create-options-product-page">
-                        <h4 class="subtitle">More infos</h4>
+                        <h4 class="subtitle">Fabrication infos</h4>
                         <div class="container-create-bullets nav-item-typo">
                             <p>• Surface : Leather & Velour</p>
                             <p>• Materials : Polyether</p>
@@ -1767,9 +1769,9 @@
                         <h4 class="subtitle">Ligne Roset <br>
                             part of Verified Program</h4>
                         <div class="container-badge-options-product-page">
-                            <div class="badge-verified-options nav-item-typo"><img
+                            <a href="" class="badge-verified-options nav-item-typo"><img
                                     src="../../../../public/media/svg-assets/verified-icon-white.svg" alt=""> Verified
-                                Program</div>
+                                Program</a>
                             <a class="nav-item-typo underlined1" href="">More infos</a>
                         </div>
                         <p class="description-verified-brand small-text">
@@ -1839,6 +1841,7 @@
         </div>
     </div>
     <div class="story-container-product-page">
+        <!-- <h3 class="heavytitle">Design</h3> -->
         <p class="maintitle intro-story-product-page">The Togo sofa features low, clean lines and generous polyurethane
             foam padding. Its deep
             seat and soft cushions offer
@@ -1890,12 +1893,264 @@
 
 
     </div>
+    <div class="options-product-section brand-section-product-page">
+
+        <div class="container-infos-options-table-product-page">
+            <div class="scroll-options-container">
+                <div class="maincontent-heading-product">
+                    <h1 class="semititle">About Ligne Roset</h1>
+
+                    <div class="container-description-cta-options">
+
+                        <p class="small-text description-heading-product">
+                            Its original design consists of polyether foam cushions that rest directly on the floor,
+                            offering an informal, relaxed
+                            seating experience. The cushions are specially designed to mould to the shape of the body,
+                            offering optimum support
+                            while providing a feeling of lightness. <br> <br>
+                            Its original design consists of polyether foam cushions that rest directly on the floor,
+                            offering an informal, relaxed
+                            seating experience. The cushions are specially designed to mould to the shape of the body,
+                            offering optimum support
+                            while providing a feeling of lightness.
+                        </p>
+
+                    </div>
+                    <div class="container-create-options-product-page">
+                        <a href="" class="button-type-1 small-text">
+                            <div class="dotbutton"></div>
+                            Discover all brand products
+                            <img src="../../../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container-img-options-product-page">
+            <img src="../../../../public/products/ligneroset/ligneroset-brand-cover-product-donzell-club.jpg" alt="">
+        </div>
+    </div>
+    <div class="line-flux line-flux-swiper-product"></div>
+    <div class="container-types-items-home">
+        <h3 class="heavytitle">Related</h3>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Sofas & Armchairs</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../../../public/media/items-home-swiper/icon-items-home-sofas.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Chairs</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-chairs.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Tables</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-tables.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Furniture & Storage</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-storage.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Lamps & Lightning</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-lamps.png" alt="">
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Object & Accessories</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-objects.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Technology</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-technology.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide last-slide">
+                    <div class="swiper-slide-container">
+
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Outdoor</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-outdoor.png" alt="">
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+
+
+    </div>
+    <div class="line-flux line-flux-swiper-product"></div>
+    <div class="container-types-items-home same-mood-swiper">
+        <h3 class="heavytitle">Same mood</h3>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Sofas & Armchairs</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../../../public/media/items-home-swiper/icon-items-home-sofas.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Chairs</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-chairs.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Tables</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-tables.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Furniture & Storage</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-storage.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Lamps & Lightning</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-lamps.png" alt="">
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Object & Accessories</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-objects.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide">
+                    <div class="swiper-slide-container">
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Technology</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-technology.png" alt="">
+
+                    </div>
+                </a>
+                <a href="" class="swiper-slide last-slide">
+                    <div class="swiper-slide-container">
+
+                        <div class="container-title-item-swiper-home">
+                            <p class="nav-item-typo">Outdoor</p>
+                            <img class="arrow" src="../../public/media/svg-assets/arrow-white.svg" alt="">
+                        </div>
+                        <img class="icon-img-items-swiper-home"
+                            src="../../public/media/items-home-swiper/icon-items-home-outdoor.png" alt="">
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+
+
+    </div>
+
+
+
 
 
 
 
 </main>
 
+
+<script src="../../../../js/swiper.js"></script>
 <script src="../../../../js/product-header.js"></script><footer>
     <div class="line-top-header"></div>
     <div class="heading-header">
