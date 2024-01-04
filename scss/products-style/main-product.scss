@@ -69,6 +69,11 @@ header {
     opacity: 0;
   }
 
+  .close-sidebar-mobile {
+    background-color: #000;
+    color: $donzelli1;
+  }
+
   .burger-mobile {
     color: $donzelli1;
     .line {
