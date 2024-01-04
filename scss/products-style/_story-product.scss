@@ -1,0 +1,32 @@
+@import "../variables";
+
+.story-container-product-page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+
+.intro-story-product-page {
+  margin-bottom: 5vh;
+}
+
+.full-width-story-img {
+  width: 100vw;
+  margin-left: -10px;
+}
+
+.history-part1-text-product {
+  margin-top: 20px;
+  width: calc(80%);
+}
+
+.history-part2-text-product {
+  display: flex;
+  margin-top: 50px;
+  padding-left: calc((8.33vw * 2) - 0px);
+  p {
+    width: 18%;
+    max-width: 200px;
+    margin-right: 50px;
+  }
+}

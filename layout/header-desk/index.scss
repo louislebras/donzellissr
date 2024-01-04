@@ -36,6 +36,10 @@ header {
   left: 0;
 }
 
+.opacity-line-header-hover {
+  opacity: 0;
+}
+
 .other-links-header {
   position: absolute;
   left: calc((8.33vw * 8) - 9px);

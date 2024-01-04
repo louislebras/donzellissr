@@ -594,22 +594,6 @@
       }
     }
 
-    // function handleMouseout(panelIndex, relatedTarget) {
-    //   if (containerPanels.classList.contains('active') && isFirstTabHovered) {
-    //     clearTimeout(timeout);
-
-    //     // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
-    //     if (relatedTarget && relatedTarget.classList.contains('element')) {
-    //       timeout = setTimeout(() => {
-    //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
-    //         containerPanel.classList.remove('panel-active');
-    //         isFirstElementHovered = false;
-    //       }, 0);
-    //     } else {
-    //       isFirstElementHovered = true;
-    //     }
-    //   }
-    // }
 
     elements.forEach(element => {
       element.addEventListener("mouseover", function () {
@@ -648,309 +632,6 @@
     }
   });
 
-  // document.addEventListener("DOMContentLoaded", function () {
-  //   const panels = document.querySelectorAll('.panel');
-  //   const elements = document.querySelectorAll('.element');
-  //   const containerPanels = document.querySelector('.container-panels');
-  //   let isFirstTabHovered = false;
-  //   let isFirstElementHovered = false;
-  //   let timeout;
-
-  //   containerPanels.addEventListener("mouseleave", function (event) {
-  //     if (!event.relatedTarget || !containerPanels.contains(event.relatedTarget)) {
-  //       clearTimeout(timeout);
-  //       containerPanels.classList.remove('active');
-  //       isFirstTabHovered = false;
-  //       isFirstElementHovered = false;
-  //       removePanelActiveClass(); // Retirer panel-active de tous les container-panel
-  //     }
-  //   });
-
-  //   document.addEventListener("mousemove", function (event) {
-  //     // Réinitialiser les états si la souris quitte la fenêtre
-  //     if (event.target === document.documentElement) {
-  //       isFirstTabHovered = false;
-  //       isFirstElementHovered = false;
-  //     }
-  //   });
-
-  //   function removePanelActiveClass() {
-  //     const activePanels = document.querySelectorAll('.container-panel.panel-active');
-  //     activePanels.forEach(panel => {
-  //       panel.classList.remove('panel-active');
-  //     });
-  //   }
-
-  //   function handleMouseover(target, panelIndex, delay) {
-  //     if (!containerPanels.classList.contains('active') || (!isFirstTabHovered && !isFirstElementHovered)) {
-  //       clearTimeout(timeout);
-  //       containerPanels.classList.add('active');
-  //       timeout = setTimeout(() => {
-  //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
-  //         containerPanel.classList.add('panel-active');
-  //         isFirstTabHovered = true;
-  //       }, 600); // Changer la valeur de délai à 1000 millisecondes (1 seconde)
-  //     }
-  //   }
-
-
-  //   function handleMouseout(panelIndex, relatedTarget) {
-  //     if (containerPanels.classList.contains('active') && isFirstTabHovered) {
-  //       clearTimeout(timeout);
-
-  //       // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
-  //       if (relatedTarget && relatedTarget.classList.contains('element')) {
-  //         timeout = setTimeout(() => {
-  //           const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
-  //           containerPanel.classList.remove('panel-active');
-  //           isFirstElementHovered = false;
-  //         }, 0);
-  //       } else {
-  //         isFirstElementHovered = true;
-  //       }
-  //     }
-  //   }
-
-  //   elements.forEach(element => {
-  //     element.addEventListener("mouseover", function () {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
-  //     });
-
-  //     element.addEventListener("mouseout", function (event) {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       handleMouseout(panelIndex, event.relatedTarget);
-  //     });
-  //   });
-
-  //   panels.forEach(panel => {
-  //     panel.addEventListener("mouseover", function () {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       if (!isChildOf(event.relatedTarget, containerPanels)) {
-  //         handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
-  //       }
-  //     });
-
-  //     panel.addEventListener("mouseout", function (event) {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       handleMouseout(panelIndex, event.relatedTarget);
-  //     });
-  //   });
-
-  //   function isChildOf(child, parent) {
-  //     while (child !== null) {
-  //       if (child === parent) {
-  //         return true;
-  //       }
-  //       child = child.parentNode;
-  //     }
-  //     return false;
-  //   }
-  // });
-
-
-
-  // CA MARCHE
-
-  // document.addEventListener("DOMContentLoaded", function () {
-  //   const panels = document.querySelectorAll('.panel');
-  //   const elements = document.querySelectorAll('.element');
-  //   const containerPanels = document.querySelector('.container-panels');
-  //   let isFirstTabHovered = false;
-  //   let isFirstElementHovered = false;
-  //   let timeout;
-
-  //   containerPanels.addEventListener("mouseleave", function (event) {
-  //     if (!event.relatedTarget || !containerPanels.contains(event.relatedTarget)) {
-  //       clearTimeout(timeout);
-  //       containerPanels.classList.remove('active');
-  //       isFirstTabHovered = false;
-  //       isFirstElementHovered = false;
-  //       removePanelActiveClass(); // Retirer panel-active de tous les container-panel
-  //     }
-  //   });
-
-  //   document.addEventListener("mousemove", function (event) {
-  //     // Réinitialiser les états si la souris quitte la fenêtre
-  //     if (event.target === document.documentElement) {
-  //       isFirstTabHovered = false;
-  //       isFirstElementHovered = false;
-  //     }
-  //   });
-
-  //   function removePanelActiveClass() {
-  //     const activePanels = document.querySelectorAll('.container-panel.panel-active');
-  //     activePanels.forEach(panel => {
-  //       panel.classList.remove('panel-active');
-  //     });
-  //   }
-
-  //   function handleMouseover(target, panelIndex, delay) {
-  //     if (!containerPanels.classList.contains('active') || (!isFirstTabHovered && !isFirstElementHovered)) {
-  //       clearTimeout(timeout);
-  //       containerPanels.classList.add('active');
-  //       timeout = setTimeout(() => {
-  //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
-  //         containerPanel.classList.add('panel-active');
-  //         isFirstTabHovered = true;
-  //       }, delay);
-  //     }
-  //   }
-
-  //   function handleMouseout(panelIndex, relatedTarget) {
-  //     if (containerPanels.classList.contains('active') && isFirstTabHovered) {
-  //       clearTimeout(timeout);
-
-  //       // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
-  //       if (relatedTarget && relatedTarget.classList.contains('element')) {
-  //         timeout = setTimeout(() => {
-  //           const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
-  //           containerPanel.classList.remove('panel-active');
-  //           isFirstElementHovered = false;
-  //         }, 0);
-  //       } else {
-  //         isFirstElementHovered = true;
-  //       }
-  //     }
-  //   }
-
-  //   elements.forEach(element => {
-  //     element.addEventListener("mouseover", function () {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
-  //     });
-
-  //     element.addEventListener("mouseout", function (event) {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       handleMouseout(panelIndex, event.relatedTarget);
-  //     });
-  //   });
-
-  //   panels.forEach(panel => {
-  //     panel.addEventListener("mouseover", function () {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       if (!isChildOf(event.relatedTarget, containerPanels)) {
-  //         handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
-  //       }
-  //     });
-
-  //     panel.addEventListener("mouseout", function (event) {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       handleMouseout(panelIndex, event.relatedTarget);
-  //     });
-  //   });
-
-  //   function isChildOf(child, parent) {
-  //     while (child !== null) {
-  //       if (child === parent) {
-  //         return true;
-  //       }
-  //       child = child.parentNode;
-  //     }
-  //     return false;
-  //   }
-  // });
-
-
-
-  // SANS CLIGNOTEMENT
-
-
-  // document.addEventListener("DOMContentLoaded", function () {
-  //   const panels = document.querySelectorAll('.panel');
-  //   const elements = document.querySelectorAll('.element');
-  //   const containerPanels = document.querySelector('.container-panels');
-  //   let isFirstTabHovered = false;
-  //   let isFirstElementHovered = false;
-  //   let timeout;
-
-  //   containerPanels.addEventListener("mouseleave", function (event) {
-  //     if (!event.relatedTarget || !containerPanels.contains(event.relatedTarget)) {
-  //       clearTimeout(timeout);
-  //       containerPanels.classList.remove('active');
-  //       isFirstTabHovered = false;
-  //       isFirstElementHovered = false;
-  //     }
-  //   });
-
-  //   // Ajout du gestionnaire d'événements sur le document
-  //   document.addEventListener("mousemove", function (event) {
-  //     // Réinitialiser les états si la souris quitte la fenêtre
-  //     if (event.target === document.documentElement) {
-  //       isFirstTabHovered = false;
-  //       isFirstElementHovered = false;
-  //     }
-  //   });
-
-  //   function handleMouseover(target, panelIndex, delay) {
-  //     if (!containerPanels.classList.contains('active') || (!isFirstTabHovered && !isFirstElementHovered)) {
-  //       containerPanels.classList.add('active');
-  //       clearTimeout(timeout);
-  //       timeout = setTimeout(() => {
-  //         const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
-  //         containerPanel.classList.add('panel-active');
-  //         isFirstTabHovered = true;
-  //       }, delay);
-  //     }
-  //   }
-
-  //   function handleMouseout(panelIndex, relatedTarget) {
-  //     if (containerPanels.classList.contains('active') && isFirstTabHovered) {
-  //       clearTimeout(timeout);
-
-  //       // Si la souris quitte .container-panels et entre dans .element, alors délai = 0
-  //       if (relatedTarget && relatedTarget.classList.contains('element')) {
-  //         timeout = setTimeout(() => {
-  //           const containerPanel = document.querySelector(`.container-panel${panelIndex}`);
-  //           containerPanel.classList.remove('panel-active');
-  //           isFirstElementHovered = false;
-  //         }, 0);
-  //       } else {
-  //         isFirstElementHovered = true;
-  //       }
-  //     }
-  //   }
-
-  //   elements.forEach(element => {
-  //     element.addEventListener("mouseover", function () {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
-  //     });
-
-  //     element.addEventListener("mouseout", function (event) {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       handleMouseout(panelIndex, event.relatedTarget);
-  //     });
-  //   });
-
-  //   panels.forEach(panel => {
-  //     panel.addEventListener("mouseover", function () {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       // Ajoutons une condition pour éviter de déclencher l'événement lorsque la souris entre dans .container-panel
-  //       if (!isChildOf(event.relatedTarget, containerPanels)) {
-  //         handleMouseover(this, panelIndex, isFirstTabHovered ? 0 : 500);
-  //       }
-  //     });
-
-  //     panel.addEventListener("mouseout", function (event) {
-  //       const panelIndex = this.getAttribute('data-panel');
-  //       handleMouseout(panelIndex, event.relatedTarget);
-  //     });
-  //   });
-
-  //   function isChildOf(child, parent) {
-  //     while (child !== null) {
-  //       if (child === parent) {
-  //         return true;
-  //       }
-  //       child = child.parentNode;
-  //     }
-  //     return false;
-  //   }
-  // });
-
-
-
 
 
 </script>
@@ -958,126 +639,6 @@
 <!-- Script Inner Menu Items -->
 <script class="header-desktop">
 
-
-  // document.addEventListener("DOMContentLoaded", function () {
-  //   const categories = document.querySelectorAll('.container-bycategories-items-header span');
-  //   const subcategories = document.querySelectorAll('.subcategory-items');
-  //   const containerPanels = document.querySelector('.container-panels');
-
-  //   categories.forEach(category => {
-  //     category.addEventListener('click', function () {
-  //       const categoryNumber = this.classList[1].replace('category', '');
-  //       toggleCategory(categoryNumber);
-  //     });
-  //   });
-
-  //   function toggleCategory(categoryNumber) {
-  //     // Ajoute le style de transition
-  //     subcategories.forEach(subcategory => {
-  //       subcategory.style.transition = 'opacity 600ms';
-  //     });
-
-  //     subcategories.forEach(subcategory => {
-  //       subcategory.style.opacity = '0'; // Réinitialise l'opacité pour tous les éléments
-  //       subcategory.style.zIndex = '-1'; // Réinitialise le z-index pour tous les éléments
-  //       subcategory.classList.remove('hovered');
-  //     });
-
-  //     const correspondingSubcategory = document.querySelector(`.category${categoryNumber}-subcategory`);
-  //     correspondingSubcategory.style.opacity = '1'; // Fixe l'opacité pour la sous-catégorie correspondante
-  //     correspondingSubcategory.style.zIndex = '10'; // Définit le z-index à -10 pour la sous-catégorie correspondante
-  //     correspondingSubcategory.classList.add('hovered');
-  //   }
-
-  //   function resetClickLogic() {
-  //     // Supprime le style de transition
-  //     subcategories.forEach(subcategory => {
-  //       subcategory.style.transition = '';
-  //       subcategory.style.opacity = '0';
-  //       subcategory.style.zIndex = '-1';
-  //       subcategory.classList.remove('hovered');
-  //     });
-  //   }
-
-  //   containerPanels.addEventListener('transitionend', function (event) {
-  //     if (event.propertyName === 'opacity' && !containerPanels.classList.contains('active')) {
-  //       // Si la propriété en transition est l'opacité et la classe .active a été retirée
-  //       resetClickLogic();
-  //     }
-  //   });
-
-  //   // Assurez-vous d'appeler resetClickLogic() si vous retirez la classe .active de .container-panels à un autre endroit de votre code
-  // });
-
-  // document.addEventListener("DOMContentLoaded", function () {
-  //   const categories = document.querySelectorAll('.container-bycategories-items-header span');
-  //   const subcategories = document.querySelectorAll('.subcategory-items');
-  //   const containerPanels = document.querySelector('.container-panels');
-
-  //   let activeCategory = null; // Garde une trace du span actuellement actif
-
-  //   categories.forEach(category => {
-  //     category.addEventListener('click', function () {
-  //       const categoryNumber = this.classList[1].replace('category', '');
-  //       toggleCategory(categoryNumber, this); // Passe l'élément span actuel comme argument
-  //     });
-  //   });
-
-  //   function toggleCategory(categoryNumber, clickedCategory) {
-  //     // Ajoute le style de transition
-  //     subcategories.forEach(subcategory => {
-  //       subcategory.style.transition = 'opacity 600ms';
-  //     });
-
-  //     subcategories.forEach(subcategory => {
-  //       subcategory.style.opacity = '0'; // Réinitialise l'opacité pour tous les éléments
-  //       subcategory.style.zIndex = '-1'; // Réinitialise le z-index pour tous les éléments
-  //       subcategory.classList.remove('hovered');
-  //     });
-
-  //     const correspondingSubcategory = document.querySelector(`.category${categoryNumber}-subcategory`);
-  //     correspondingSubcategory.style.opacity = '1'; // Fixe l'opacité pour la sous-catégorie correspondante
-  //     correspondingSubcategory.style.zIndex = '10'; // Définit le z-index à -10 pour la sous-catégorie correspondante
-  //     correspondingSubcategory.classList.add('hovered');
-
-  //     // Retire la classe grey-active du span précédemment actif
-  //     if (activeCategory) {
-  //       activeCategory.classList.remove('grey-active');
-  //     }
-
-  //     // Ajoute la classe grey-active au span cliqué
-  //     clickedCategory.classList.add('grey-active');
-
-  //     // Met à jour le span actuellement actif
-  //     activeCategory = clickedCategory;
-  //   }
-
-  //   function resetClickLogic() {
-  //     // Supprime le style de transition
-  //     subcategories.forEach(subcategory => {
-  //       subcategory.style.transition = '';
-  //       subcategory.style.opacity = '0';
-  //       subcategory.style.zIndex = '-1';
-  //       subcategory.classList.remove('hovered');
-  //     });
-
-  //     // Supprime la classe grey-active de tous les spans
-  //     categories.forEach(category => {
-  //       category.classList.remove('grey-active');
-  //     });
-
-  //     activeCategory = null; // Réinitialise le span actuellement actif
-  //   }
-
-  //   containerPanels.addEventListener('transitionend', function (event) {
-  //     if (event.propertyName === 'opacity' && !containerPanels.classList.contains('active')) {
-  //       // Si la propriété en transition est l'opacité et la classe .active a été retirée
-  //       resetClickLogic();
-  //     }
-  //   });
-
-  //   // Assurez-vous d'appeler resetClickLogic() si vous retirez la classe .active de .container-panels à un autre endroit de votre code
-  // });
 
   document.addEventListener("DOMContentLoaded", function () {
     const categories = document.querySelectorAll('.container-bycategories-items-header span');
@@ -1180,4 +741,40 @@
 
 
 
+</script>
+
+<script>
+  // Function to be executed when mutations are observed
+  const callback = function (mutationsList, observer) {
+    // Use traditional 'for loops' for IE 11
+    for (let mutation of mutationsList) {
+      if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+        let containerPanels = document.querySelector('.container-panels');
+        let lineHeaderGrey = document.querySelector('.line-header-grey');
+
+        if (containerPanels.classList.contains('active')) {
+          // Add the class if .container-panels has the specific class
+          lineHeaderGrey.classList.add('opacity-line-header-hover');
+        } else {
+          // Remove the class if it doesn't
+          lineHeaderGrey.classList.remove('opacity-line-header-hover');
+        }
+      }
+    }
+  };
+
+  // Select the node that will be observed for mutations
+  const targetNode = document.querySelector('.container-panels');
+
+  // Options for the observer (which mutations to observe)
+  const config = { attributes: true };
+
+  // Create an instance of MutationObserver with the callback
+  const observer = new MutationObserver(callback);
+
+  // Start observing the target node for configured mutations
+  observer.observe(targetNode, config);
+
+  // Later, you can stop observing
+  // observer.disconnect();
 </script>
