@@ -12,7 +12,8 @@
     transition: 0.3s ease;
     padding: 50px 10px;
     overflow: scroll;
-    overflow-x: hidden;
+    // overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   .to-left-mobile-menu {
@@ -26,6 +27,7 @@
     background-color: $donzelli1;
     z-index: 200;
     transition: opacity 0.3s ease;
+    height: fit-content;
   }
 
   .hide-container {
@@ -130,10 +132,11 @@
   .secondary-nav-sidebar-mobile {
     margin-top: 40px;
     display: flex;
+    margin-bottom: 100px;
     .list-secondary-nav-sidebar-mobile {
       display: flex;
       flex-direction: column;
-      margin-right: 70px;
+      margin-right: 50px;
 
       .grey {
         color: $donzelli4;

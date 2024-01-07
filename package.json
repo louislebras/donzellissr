@@ -3,8 +3,5 @@
   "scripts": {
     "build-ssr": "node ./server/ssr.mjs",
     "copy-static": "cp -r ./public ./js ./css ./dist"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  }
 }
-

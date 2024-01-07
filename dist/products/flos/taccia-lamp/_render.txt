@@ -1540,7 +1540,10 @@
 
     });
 
-</script><link rel="stylesheet" href="[DIRECTORY_BASE_PATH]/css/products-style/main-product.css">
+</script><a target="_blank" href="https://wa.me/message/BLOO34ZKHOCIC1" class="fixed-button-whatsapp nav-item-typo">
+    <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/whatsapp-logo-white.svg" alt="">
+    <p>Talk with a Donzelli Advisor</p>
+</a><link rel="stylesheet" href="[DIRECTORY_BASE_PATH]/css/products-style/main-product.css">
 <div class="grid">
     <div class="column"></div>
     <div class="column"></div>

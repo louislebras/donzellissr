@@ -1,0 +1,52 @@
+@import "../../scss/variables";
+
+.fixed-button-whatsapp {
+  padding: 12px 15px 11.5px;
+  border-radius: 400px;
+  background-color: $donzelli1bisbis;
+  color: $donzelli3;
+  border: 1px solid $donzelli1bisbis;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: fit-content;
+  position: fixed;
+  right: 25px;
+  bottom: -250px;
+  z-index: 40;
+  opacity: 0;
+  display: none;
+  img {
+    margin-right: 5px;
+    width: 17px;
+    mix-blend-mode: difference;
+  }
+
+  &:hover {
+    border: 1px solid $donzelli3;
+    background-color: $donzelli3;
+    color: $donzelli1;
+  }
+}
+
+.appearWhatsappButton {
+  // z-index: 300;
+  opacity: 1;
+  transition: 0.3s ease;
+  bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .fixed-button-whatsapp {
+    // right: 0%;
+    left: 50%;
+    height: fit-content;
+    transform: translate(-50%, -50%);
+    padding: 13px 15px 13px 17px;
+  }
+
+  .appearWhatsappButton {
+    bottom: 0px;
+  }
+}

@@ -1,5 +1,6 @@
 @import "./heading-product", "./story-product", "./options-product",
-  "./brand-section-product", "./swiper-product", "../variables";
+  "./brands-verified-class", "./brand-section-product", "./swiper-product",
+  "../variables";
 
 main {
   margin-top: 0;
@@ -80,4 +81,8 @@ header {
       background-color: $donzelli1 !important;
     }
   }
+}
+
+.fixed-button-whatsapp {
+  display: flex;
 }

@@ -53,7 +53,7 @@
 
 .scroll-options-container {
   width: 100%;
-  padding-bottom: 25vh;
+
   .maincontent-heading-product {
     padding-top: 15vh;
     margin-left: calc(8.33vw * 1);
@@ -152,6 +152,7 @@
       width: 90%;
       //   margin-top: 12vh;
       max-width: fit-content;
+      padding-bottom: 25vh;
     }
 
     .container-badge-options-product-page {
@@ -170,7 +171,7 @@
     .badge-verified-options {
       background-color: $donzelli1bis;
       border-radius: 300px;
-      padding: 12px 15px;
+      padding: 12px 15px 11.5px;
       border-radius: 400px;
       //   border: 1px solid $donzelli3;
       color: $donzelli3;
@@ -253,6 +254,7 @@
       .badge-verified-options {
         background-color: $donzelli3;
         color: $donzelli1;
+        padding: 13px 15px 13px 17px;
       }
     }
   }

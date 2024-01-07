@@ -211,12 +211,20 @@ main {
 .container-description-cta-options {
   margin-top: 5vh;
   //   border: 1px solid red;
-  width: 70%;
-  max-width: 350px;
-  .button-type-1 {
+  width: 80%;
+  max-width: 375px;
+
+  .container-buttons-products-heading {
     margin-top: 2vh;
     margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    a {
+      margin-right: 10px;
+      width: fit-content;
+    }
   }
+
   .description-heading-product {
     width: 100%;
   }
@@ -230,7 +238,7 @@ main {
     display: flex;
     flex-direction: column;
     // align-items: flex-end;
-    .button-type-1 {
+    .container-buttons-products-heading {
       margin-top: 0vh;
       margin-bottom: 15px;
     }

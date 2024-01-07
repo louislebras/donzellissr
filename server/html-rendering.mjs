@@ -19,6 +19,7 @@ makeComponent("/layout/header-desk");
 makeComponent("/layout/header-mobile");
 makeComponent("/layout/sidebar-desk");
 makeComponent("/layout/sidebar-mobile");
+makeComponent("/layout/whatsappbutton");
 makeComponent(`/pages${dirName}`);
 makeComponent("/layout/footer");
 
