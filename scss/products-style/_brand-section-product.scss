@@ -1,9 +1,10 @@
 @import "../variables";
 
 .brand-section-product-page {
-  margin-top: 15vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   .container-img-options-product-page {
-    height: 100vh;
+    height: 65vh;
     position: relative;
     right: 10px;
     border-radius: 5px;
@@ -35,10 +36,12 @@
 @media (max-width: 800px) {
   .brand-section-product-page {
     margin-top: 5vh;
+    flex-direction: column;
     .container-img-options-product-page {
       height: 50vh;
       right: 0;
       border-radius: 0;
+      margin-top: 40px;
     }
   }
 }

@@ -8,21 +8,90 @@
   position: relative;
 }
 
+.optionproductsectiondetails {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  margin-left: -10px;
+  margin-top: 0vh;
+  position: fixed;
+  right: -50vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+  top: 0;
+  background-color: $donzelli1;
+  z-index: 800;
+  transition: 0.3s ease;
+  padding-bottom: 50px;
+
+  .scroll-options-container .maincontent-heading-product {
+    padding-top: 8vh;
+    margin-left: 6.33vw;
+  }
+
+  .container-img-options-product-page {
+    width: 100%;
+    height: 47vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .optionproductsectiondetails {
+    right: -100vw;
+    .container-infos-options-table-product-page {
+      width: calc(100%);
+    }
+    .scroll-options-container .maincontent-heading-product {
+      padding-top: 3vh;
+      margin-left: 0vw;
+    }
+  }
+}
+
+.opened-details {
+  right: 0;
+}
+
+.close-button-details {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  &:hover {
+    color: $donzelli4;
+  }
+}
+
+@media (max-width: 800px) {
+  .close-button-details {
+    right: auto;
+    left: 20px;
+    top: 20px;
+  }
+}
+
+.open-product-details {
+  cursor: pointer;
+}
+
 @media (max-width: 800px) {
   .options-product-section {
-    flex-direction: column-reverse;
-    margin-top: 10vh;
+    width: 100vw;
+    margin-top: 0vh;
   }
 }
 
 .container-img-options-product-page {
   width: 45%;
   background-color: $donzelli1bis;
+
   //   border: 1px solid red;
   box-sizing: border-box;
-  position: relative;
-  height: 100vh;
-  position: sticky;
+
+  // height: 100vh;
+  // position: sticky;
   top: 0;
   display: flex;
   align-items: center;
@@ -77,67 +146,6 @@
       }
     }
 
-    .container-consultation-product-page {
-      width: 90%;
-      height: 40vh;
-      border-radius: 5px;
-      background-color: $donzelli1bis;
-      //   border: 1px solid $donzelli4;
-      padding: 20px 25px;
-      margin-top: 5vh;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .book-description {
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
-
-    .book-link {
-      img {
-        margin-left: 7px;
-        mix-blend-mode: difference;
-        width: 10px;
-      }
-    }
-
-    .back-consultation-img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .container-two-buttons-devis-whatsapp {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: calc(100% + 0px);
-      //   margin-left: -25px;
-      height: 40px;
-      border-top: 1px solid $donzelli1bisbis;
-      display: flex;
-
-      .button-consultation {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        // padding-left: 10px;
-        transition: 0.3s ease;
-
-        &:hover {
-          background-color: $donzelli1bisbis;
-        }
-      }
-
-      .button-consultation1 {
-        border-right: 1px solid $donzelli1bisbis;
-      }
-    }
-
     .line-flux-sticky {
       width: 55vw;
       position: relative;
@@ -146,54 +154,6 @@
       background-color: $donzelli2;
       margin-top: 12vh;
       margin-bottom: 12vh;
-    }
-
-    .container-verified-program-product-page {
-      width: 90%;
-      //   margin-top: 12vh;
-      max-width: fit-content;
-      padding-bottom: 25vh;
-    }
-
-    .container-badge-options-product-page {
-      margin-top: 10px;
-      display: flex;
-      justify-content: space-between;
-
-      .underlined1 {
-        transition: 0.3s ease;
-        &:hover {
-          color: $donzelli4;
-        }
-      }
-    }
-
-    .badge-verified-options {
-      background-color: $donzelli1bis;
-      border-radius: 300px;
-      padding: 12px 15px 11.5px;
-      border-radius: 400px;
-      //   border: 1px solid $donzelli3;
-      color: $donzelli3;
-      display: flex;
-      align-items: center;
-      cursor: pointer;
-      transition: 0.3s ease;
-      width: fit-content;
-      img {
-        mix-blend-mode: difference;
-        margin-right: 10px;
-      }
-
-      &:hover {
-        background-color: $donzelli3;
-        color: $donzelli1;
-      }
-    }
-
-    .description-verified-brand {
-      width: 100%;
-      margin-top: 40px;
     }
 
     .differents-options-product-heading {
@@ -209,6 +169,115 @@
         }
       }
     }
+  }
+}
+
+.container-verified-program-product-page {
+  width: 90%;
+  //   margin-top: 12vh;
+  max-width: fit-content;
+  padding-bottom: 25vh;
+}
+
+.container-badge-options-product-page {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+
+  .underlined1 {
+    transition: 0.3s ease;
+    &:hover {
+      color: $donzelli4;
+    }
+  }
+}
+
+.badge-verified-options {
+  background-color: $donzelli1bis;
+  border-radius: 300px;
+  padding: 12px 15px 11.5px;
+  border-radius: 400px;
+  //   border: 1px solid $donzelli3;
+  color: $donzelli3;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: fit-content;
+  img {
+    mix-blend-mode: difference;
+    margin-right: 10px;
+  }
+
+  &:hover {
+    background-color: $donzelli3;
+    color: $donzelli1;
+  }
+}
+
+.description-verified-brand {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.container-consultation-product-page {
+  width: 90%;
+  height: 40vh;
+  border-radius: 5px;
+  background-color: $donzelli1bis;
+  //   border: 1px solid $donzelli4;
+  padding: 20px 25px;
+  margin-top: 5vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.book-description {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.book-link {
+  img {
+    margin-left: 7px;
+    mix-blend-mode: difference;
+    width: 10px;
+  }
+}
+
+.back-consultation-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-two-buttons-devis-whatsapp {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% + 0px);
+  //   margin-left: -25px;
+  height: 40px;
+  border-top: 1px solid $donzelli1bisbis;
+  display: flex;
+
+  .button-consultation {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // padding-left: 10px;
+    transition: 0.3s ease;
+
+    &:hover {
+      background-color: $donzelli1bisbis;
+    }
+  }
+
+  .button-consultation1 {
+    border-right: 1px solid $donzelli1bisbis;
   }
 }
 
@@ -232,30 +301,35 @@
         margin-top: 20px;
         margin-bottom: 20px;
       }
-
-      .container-verified-program-product-page {
-        background-color: $donzelli1bis;
-        padding: 20px 25px 25px;
-        border-radius: 5px;
-
-        .options-product-heading {
-          margin-top: 80px;
-        }
-      }
-
-      .container-badge-options-product-page {
-        margin-top: 15px;
-      }
-
-      .description-verified-brand {
-        margin-top: 20px;
-      }
-
-      .badge-verified-options {
-        background-color: $donzelli3;
-        color: $donzelli1;
-        padding: 13px 15px 13px 17px;
-      }
     }
+  }
+
+  .container-verified-program-product-page {
+    background-color: $donzelli1bis;
+    padding: 20px 25px 25px;
+    border-radius: 5px;
+    width: 100%;
+
+    .options-product-heading {
+      margin-top: 80px;
+    }
+  }
+
+  .container-badge-options-product-page {
+    margin-top: 15px;
+  }
+
+  .description-verified-brand {
+    margin-top: 20px;
+  }
+
+  .badge-verified-options {
+    background-color: $donzelli3;
+    color: $donzelli1;
+    padding: 13px 15px 13px 17px;
+  }
+
+  .container-consultation-product-page {
+    width: 100%;
   }
 }

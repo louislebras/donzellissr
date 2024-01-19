@@ -1,0 +1,141 @@
+.main-container-other-products {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25vh;
+}
+
+@media (max-width: 800px) {
+  .main-container-other-products {
+    margin-top: 10vh;
+  }
+}
+
+.selector-other-products {
+  width: 100%;
+  display: flex;
+  gap: 70px;
+  padding-left: calc(8.33vw * 1);
+}
+
+@media (max-width: 800px) {
+  .selector-other-products {
+    padding-left: 0;
+    gap: 50px;
+  }
+}
+
+.selector-item-group-products {
+  width: fit-content;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  .line-selector-other {
+    width: 0px;
+    height: 1px;
+    background-color: $donzelli3;
+    position: relative;
+    top: 5px;
+    transition: 0.4s ease;
+  }
+
+  .line-selector-other-active {
+    width: 100%;
+  }
+
+  &:hover {
+    .line-selector-other {
+      width: 100%;
+    }
+  }
+}
+
+.container-double-other-product {
+  width: calc(100vw);
+  margin-left: -10px;
+  margin-top: 30px;
+  position: relative;
+  height: 37vh;
+}
+
+@media (max-width: 800px) {
+  .container-double-other-product {
+    height: 66vh;
+  }
+}
+
+.container-related-products {
+  width: 100%;
+  display: flex;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+@media (max-width: 800px) {
+  .container-related-products {
+    flex-wrap: wrap;
+  }
+}
+
+.active-all-related-products {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.product-container-img-txt {
+  width: 25%;
+  height: 37vh;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-color: $donzelli1bis;
+  padding: 10px 15px;
+  border-right: 1px solid #dcd6d1;
+  .related-product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: $donzelli1bis;
+    z-index: 10;
+    transition: 0.3s ease;
+  }
+
+  p {
+    // opacity: 1;
+    z-index: 20;
+  }
+
+  .hover-image-product-related {
+    z-index: 0 !important;
+    opacity: 0;
+    transition: 0.3s ease;
+    height: 80%;
+  }
+
+  &:hover {
+    .related-product-image {
+      opacity: 0;
+      transition: 0.3s ease;
+    }
+    .hover-image-product-related {
+      opacity: 1 !important;
+      transition: 0.3s ease;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .product-container-img-txt {
+    width: 50%;
+    height: 33vh;
+    border-bottom: 1px solid #dcd6d1;
+  }
+}

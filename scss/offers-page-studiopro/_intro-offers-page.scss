@@ -1,0 +1,41 @@
+.container-intro-offers {
+  display: flex;
+  align-items: center;
+  //   justify-content: center;
+  flex-direction: column;
+}
+
+.text-intro-offers {
+  max-width: 70%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title-intro-offers-page {
+  margin-top: 20vh;
+  width: 65%;
+  text-align: center;
+}
+
+.container-services-offer-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container-list-services {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item-list-offer-service {
+  padding: 17px 26px;
+  border: 1px solid $donzelli2bis;
+  border-radius: 600px;
+}
+
+.triptyque-container {
+  margin-top: 50px !important;
+}

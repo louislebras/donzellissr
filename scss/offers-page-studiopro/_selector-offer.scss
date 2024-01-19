@@ -1,0 +1,52 @@
+.selector-offer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selector-bar {
+  background-color: $donzelli1bis;
+  display: flex;
+  padding: 7.5px 7.5px;
+  border-radius: 100px;
+  margin-top: 40px;
+  gap: 10px;
+
+  .item-selector {
+    padding: 15px 20px;
+    border-radius: 300px;
+    cursor: pointer;
+    &:hover {
+      background-color: $donzelli3;
+      color: $donzelli1;
+    }
+  }
+}
+
+.container-details-offers {
+  width: 100%;
+  height: 80vh;
+  background-color: $donzelli1bis;
+  margin-top: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.offer-detail-container {
+  position: absolute;
+  width: 50%;
+  top: 20px;
+  left: 25%;
+  height: 120vh;
+  //   background-color: rgba(255, 0, 0, 0.254);
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+
+  h4 {
+    text-align: center;
+  }
+}

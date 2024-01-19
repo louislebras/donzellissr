@@ -19,9 +19,9 @@
   text-decoration: underline;
   opacity: 1;
   transition: 0.3s;
-  &:hover {
-    opacity: 0.6;
-  }
+  // &:hover {
+  //   opacity: 0.6;
+  // }
 }
 
 .button-type-1 {
@@ -346,6 +346,22 @@
 @media (max-width: 800px) {
   .heavytitle {
     font-size: 65px;
+  }
+}
+
+.semiheavytitle {
+  font-family: "Donzelli Main";
+  letter-spacing: -0.035em;
+  font-size: calc(
+    88px + (100vw - ((100vw - 850px) / 6 + 15px) * 2 - 1600px) * 0.0005 * 20
+  );
+  line-height: 100%;
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  .semiheavytitle {
+    font-size: 55px;
   }
 }
 

@@ -288,26 +288,36 @@ main {
   flex-direction: column;
   margin-top: 7vh;
   margin-bottom: 20px;
-  a {
+  a,
+  div {
     margin-bottom: 20px;
     color: $donzelli3;
     width: fit-content;
     transition: 0.3s ease;
+    cursor: pointer;
     &:hover {
       color: $donzelli4;
+    }
+  }
+
+  a {
+    color: $donzelli4;
+    &:hover {
+      color: $donzelli3;
     }
   }
 }
 
 @media (max-width: 800px) {
   .container-links-onpage-products-heading {
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 40px;
     width: 100%;
     // justify-content: space-between;
-    a {
-      margin-bottom: 0;
-      margin-right: 20px;
+    a,
+    div {
+      margin-bottom: 20px;
+      margin-left: 40px;
     }
   }
 }

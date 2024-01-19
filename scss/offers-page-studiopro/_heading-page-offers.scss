@@ -1,0 +1,37 @@
+.container-offer-page-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //   justify-content: center;
+  padding-top: 10vh;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .button-type-3 {
+    margin-top: 20px;
+    img {
+      width: 12px;
+    }
+  }
+}
+
+.heading-cover-offer {
+  width: 100%;
+  margin-top: 50px;
+  height: 80vh;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.description-heading-offer {
+  max-width: 40%;
+  text-align: center;
+  line-height: 140% !important;
+}
+
+.subtitle-info-title-offer {
+  color: $donzelli4;
+}
