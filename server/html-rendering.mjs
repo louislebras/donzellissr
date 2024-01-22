@@ -12,6 +12,7 @@ import {
 
 const dirName = process.env.DIR_NAME;
 
+const allowedPages = ["/feed"];
 // Make components in order
 // makeComponent("/layout/loader");
 // makeComponent("/layout/noise");
@@ -21,6 +22,9 @@ makeComponent("/layout/sidebar-desk");
 makeComponent("/layout/sidebar-mobile");
 makeComponent("/layout/whatsappbutton");
 makeComponent(`/pages${dirName}`);
+if (allowedPages.includes(dirName)) {
+  makeComponent("/layout/product-table");
+}
 makeComponent("/layout/footer");
 
 const metaFilePath = getComponentPath(`/pages${dirName}`) + "/" + metaFileName;

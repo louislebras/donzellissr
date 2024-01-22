@@ -3,7 +3,7 @@
     <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/logo-donzelli-white.svg" alt="">
   </a>
   <div class="container-menu-dropdown-elements">
-    <div class="element nav-item-typo" data-panel="1">Feed</div>
+    <a href="[DIRECTORY_BASE_PATH]/feed/" class="element nav-item-typo" data-panel="1">Feed</a>
     <div class="element nav-item-typo" data-panel="2">Spaces</div>
     <div class="element nav-item-typo" data-panel="3">Collections</div>
     <div class="element nav-item-typo" data-panel="4">Type of Items</div>

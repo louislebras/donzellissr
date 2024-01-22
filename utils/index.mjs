@@ -78,9 +78,33 @@ export const getComponentPath = (componentUrl) => {
   return join(getDirname(import.meta.url), `..${componentUrl}`);
 };
 
-export const makeComponent = (componentUrl) => {
+// export const makeComponent = (componentUrl) => {
+//   const componentPath = getComponentPath(componentUrl);
+
+//   addCustomHtmlFile(componentPath);
+//   addCustomCssFile(componentPath);
+// };
+
+// ...
+
+export const makeComponent = (componentUrl, allowedPages = []) => {
   const componentPath = getComponentPath(componentUrl);
 
   addCustomHtmlFile(componentPath);
   addCustomCssFile(componentPath);
+
+  // If the current page is in the allowedPages list, add components for other pages
+  if (allowedPages.includes(dirName)) {
+    addComponentsForOtherPages();
+  }
+};
+
+const addComponentsForOtherPages = () => {
+  // Add components for other pages as needed
+  makeComponent("/layout/header");
+  makeComponent("/layout/nav");
+  makeComponent("/layout/sidebar");
+  makeComponent("/layout/backblursidebar");
+  makeComponent(`/pages${dirName}`);
+  makeComponent("/layout/footerlight");
 };
