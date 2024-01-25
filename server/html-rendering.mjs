@@ -12,7 +12,7 @@ import {
 
 const dirName = process.env.DIR_NAME;
 
-const allowedPages = ["/feed"];
+const allowedPages = ["/feed", "/products"];
 // Make components in order
 // makeComponent("/layout/loader");
 // makeComponent("/layout/noise");

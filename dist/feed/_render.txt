@@ -1564,10 +1564,206 @@
 <main>
 
     <div class="heading-feed">
-        <img src="../../public/media/svg-assets/feed.svg" alt="">
+        <img class="logo-heading-home" src="../../public/media/svg-assets/feed.svg" alt="">
+        <p class="thirdtitle">
+            Elevate your soul, mind & space <br>
+            with exceptional furniture
+        </p>
     </div>
 
-</main><div class="main-wrapper-products-table">
+
+
+</main>
+
+<div class="nav-feed">
+    <div id="shuffleButton" class="shuffleButtonFeed small-text">Shuffle</div>
+    <div class="button-in-context-image small-text">Switch</div>
+    <div class="w-context-button small-text">Switch</div>
+    <div class="small-text filters-feed-button">Filters</div>
+</div>
+
+<div class="sidebar-filters">
+    <div id="filters">
+        <div class="filter-category">
+            <h3>Brands</h3>
+            <button class="filter-btn" data-filter=".flos">Flos</button>
+            <button class="filter-btn" data-filter=".ligneroset">Ligne Roset</button>
+
+        </div>
+        <div class="filter-category">
+            <h3>Type of items</h3>
+            <button class="filter-btn" data-filter=".chair">Chair</button>
+            <button class="filter-btn" data-filter=".lamp">Lamp</button>
+        </div>
+        <div class="filter-category">
+            <h3>Rooms</h3>
+            <button class="filter-btn" data-filter=".living-room">Living Room</button>
+            <button class="filter-btn" data-filter=".bathroom">Bathroom</button>
+        </div>
+        <div class="filter-category">
+            <h3>Materials</h3>
+            <button class="filter-btn" data-filter=".wood">Wood</button>
+            <button class="filter-btn" data-filter=".metal">Metal</button>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const products = document.querySelectorAll('.main-wrapper-products-table .card-product-donzelli');
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', function () {
+                const filter = this.getAttribute('data-filter');
+
+                // Toggle du bouton actif
+                this.classList.toggle('activeFilter');
+
+                // Mise à jour de l'affichage des produits
+                updateProductDisplay();
+            });
+        });
+
+
+        function updateProductDisplay() {
+            const activeFilters = document.querySelectorAll('.filter-btn.activeFilter');
+
+            // Groupement des filtres actifs par catégorie
+            let filtersByCategory = {
+                'Brands': new Set(),
+                'Type of items': new Set(),
+                'Rooms': new Set(),
+                'Materials': new Set()
+            };
+
+            // Remplir les ensembles de filtres par catégorie
+            activeFilters.forEach(btn => {
+                const category = btn.closest('.filter-category').querySelector('h3').innerText;
+                const filterClass = btn.getAttribute('data-filter').substring(1);
+                filtersByCategory[category].add(filterClass);
+            });
+
+            products.forEach(product => {
+                let shouldBeVisible = true;
+
+                Object.keys(filtersByCategory).forEach(category => {
+                    if (filtersByCategory[category].size > 0) {
+                        const matchesCategory = [...filtersByCategory[category]].some(filterClass => product.classList.contains(filterClass));
+                        shouldBeVisible = shouldBeVisible && matchesCategory;
+                    }
+                });
+
+                product.classList.toggle('hidden', !shouldBeVisible);
+            });
+        }
+
+
+        // function updateProductDisplay() {
+        //     const activeFilters = document.querySelectorAll('.filter-btn.activeFilter');
+        //     const activeFiltersClasses = Array.from(activeFilters).map(btn => btn.getAttribute('data-filter').substring(1));
+
+        //     products.forEach(product => {
+        //         let shouldBeVisible = activeFiltersClasses.every(filterClass =>
+        //             product.classList.contains(filterClass)
+        //         );
+
+        //         product.classList.toggle('hidden', !shouldBeVisible || activeFiltersClasses.length === 0);
+        //     });
+        // }
+
+    });
+
+</script>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var wrapper = document.querySelector('.main-wrapper-products-table');
+        var cards = Array.prototype.slice.call(wrapper.getElementsByClassName('card-product-donzelli'));
+
+        for (var i = cards.length; i >= 0; i--) {
+            wrapper.appendChild(cards[Math.random() * i | 0]);
+        }
+    });
+
+    function shuffleProducts() {
+        var wrapper = document.querySelector('.main-wrapper-products-table');
+        var cards = Array.prototype.slice.call(wrapper.getElementsByClassName('card-product-donzelli'));
+        var wContextButton = document.querySelector(".w-context-button");
+
+        for (var i = cards.length; i >= 0; i--) {
+            wrapper.appendChild(cards[Math.random() * i | 0]);
+        }
+    }
+
+    document.getElementById('shuffleButton').addEventListener('click', shuffleProducts);
+
+
+    window.addEventListener("load", function () {
+        var contextButton = document.querySelector('.button-in-context-image');
+        var wContextButton = document.querySelector('.w-context-button'); // Define wContextButton here
+        var cards = document.querySelectorAll('.card-product-donzelli'); // Select all cards
+
+        contextButton.onclick = function () {
+            cards.forEach(function (card) {
+                card.classList.add('showincontextclass'); // Add class for each card
+            });
+            contextButton.classList.add("hide-switch-button");
+            wContextButton.classList.add("add-w-context-button");
+        };
+
+        wContextButton.onclick = function () {
+            cards.forEach(function (card) {
+                card.classList.remove('showincontextclass'); // Remove class for each card
+            });
+            contextButton.classList.remove("hide-switch-button");
+            wContextButton.classList.remove("add-w-context-button");
+        };
+    });
+
+
+
+
+</script><div class="main-wrapper-products-table">
+    <a class="card-product-donzelli flos lamp wood">
+        <p class="small-text">Taccia Lamp by Flos <br>
+            <span>Start at 899$</span>
+        </p>
+        <img src="../../public/products/flos/taccia-lamp/cover-feed-taccia-lamp-flos-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/flos/taccia-lamp/sub-cover-feed-taccia-flos-donzelli.webp" alt="">
+    </a>
+    <a class="card-product-donzelli ligneroset chair metal">
+        <p class="small-text">Togo Sofa by Ligne Roset <br>
+            <span>Start at 1299$</span>
+        </p>
+        <img src="../../public/products/ligneroset/togo-sofa/cover-feed-togo-sofa-flos-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/ligneroset/togo-sofa/togo-heading-ligneroset-donzelli.png" alt="">
+    </a>
+    <a class="card-product-donzelli cassina chair wood">
+        <p class="small-text">Capitol Complex Chair by Cassina <br>
+            <span>Start at 1399$</span>
+        </p>
+        <img src="../../public/products/cassina/capitol-complex-chair/cover-feed-capitol-chair-pierre-jeanneret-cassina-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/cassina/capitol-complex-chair/sub-cover-feed-capitol-complex-chair-cassina-donzelli.jpg"
+            alt="">
+    </a>
+    <a class="card-product-donzelli oluce lamp metal">
+        <p class="small-text">Atollo Lamp by Oluce <br>
+            <span>Start at 999$</span>
+        </p>
+        <img src="../../public/products/oluce/atollo-lamp/cover-feed-atollo-lamp-oluce-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/oluce/atollo-lamp/sub-cover-feed-atollo-oluce-donzelli.webp" alt="">
+    </a>
+
 
 </div><footer>
     <div class="line-top-header"></div>
