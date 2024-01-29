@@ -1,13 +1,95 @@
 .sidebar-filters {
-  width: 30vw;
-  height: 30vh;
-  top: 10vh;
+  width: 35vw;
+  height: 65vh;
   left: 50%;
-  position: absolute;
-  background-color: $donzelli1;
-  display: none;
+  bottom: 10px;
+  transform: translate(-50%, 0%);
+  position: fixed;
+  background-color: $donzelli3;
+  z-index: 15;
+  border-radius: 5px;
+  // display: none;
+  padding: 20px 25px;
+  transition: 0.2s ease;
+  bottom: -70vh;
+  // opacity: 0;
+
+  .cross-close-filters {
+    cursor: pointer;
+    img {
+      width: 15px;
+      position: absolute;
+      right: 22px;
+      top: 22px;
+    }
+  }
+
+  h3 {
+    color: $donzelli1;
+    margin-bottom: 10px;
+  }
+
+  .filter-category {
+    margin-bottom: 25px;
+  }
+
+  button {
+    outline: 0;
+    border: 1px solid rgb(77, 77, 77);
+    color: $donzelli1;
+    background-color: transparent;
+    padding: 4px 10px;
+    border-radius: 1000px;
+    margin: 0;
+    &:hover {
+      background-color: $donzelli1;
+      color: $donzelli3;
+      border: 1px solid white;
+    }
+  }
+
+  .container-buttons-filters {
+    // border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    gap: 10px;
+  }
+
+  .filter-btn.activeFilter {
+    background-color: $donzelli1;
+    color: $donzelli3;
+    border: 1px solid white;
+  }
+
+  .view-more-brands-button-filters-sidebar {
+    margin-top: 10px;
+    color: $donzelli1;
+    text-decoration: underline;
+  }
 }
 
 .hidden {
   display: none !important;
+}
+
+.blank-click-layout-sidebar {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -200;
+  // background-color: red;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.activeBlankLayoutSidebar {
+  z-index: 14;
+}
+
+.activeSidebarFilter {
+  bottom: 10px;
+  transition: 0.2s ease;
+  // opacity: 1;
 }

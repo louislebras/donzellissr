@@ -39,31 +39,59 @@
 
 <div class="sidebar-filters">
     <div id="filters">
+
         <div class="filter-category">
-            <h3>Brands</h3>
-            <button class="filter-btn" data-filter=".flos">Flos</button>
-            <button class="filter-btn" data-filter=".ligneroset">Ligne Roset</button>
+            <h3 class="thirdtitle">Type of items</h3>
+            <div class="container-buttons-filters">
+                <button class="filter-btn small-text" data-filter=".sofas-armchairs">Sofas & Armchairs</button>
+
+                <button class="filter-btn small-text" data-filter=".chairs">Chairs</button>
+                <button class="filter-btn small-text" data-filter=".tables">Tables</button>
+                <button class="filter-btn small-text" data-filter=".furniture-storage">Furniture & Storage</button>
+                <button class="filter-btn small-text" data-filter=".lamps-lighting">Lamps & Lighting</button>
+                <button class="filter-btn small-text" data-filter=".objectss-accessories">Objects & Accessories</button>
+                <button class="filter-btn small-text" data-filter=".technology">Technology</button>
+                <button class="filter-btn small-text" data-filter=".outdoor">Outdoor</button>
+            </div>
 
         </div>
+
         <div class="filter-category">
-            <h3>Type of items</h3>
-            <button class="filter-btn" data-filter=".chair">Chair</button>
-            <button class="filter-btn" data-filter=".lamp">Lamp</button>
+            <h3 class="thirdtitle">Materials</h3>
+            <div class="container-buttons-filters">
+                <button class="filter-btn small-text" data-filter=".wood">Wood</button>
+                <button class="filter-btn small-text" data-filter=".metal">Metal</button>
+                <button class="filter-btn small-text" data-filter=".fabric">Fabric</button>
+                <button class="filter-btn small-text" data-filter=".velvet">Velvet</button>
+                <button class="filter-btn small-text" data-filter=".leather">Leather</button>
+            </div>
         </div>
         <div class="filter-category">
-            <h3>Rooms</h3>
-            <button class="filter-btn" data-filter=".living-room">Living Room</button>
-            <button class="filter-btn" data-filter=".bathroom">Bathroom</button>
+            <h3 class="thirdtitle">Brands</h3>
+            <div class="container-buttons-filters">
+                <button class="filter-btn small-text" data-filter=".flos">Flos</button>
+                <button class="filter-btn small-text" data-filter=".ligneroset">Ligne Roset</button>
+                <button class="filter-btn small-text" data-filter=".b&bitalia">B&B Italia</button>
+                <button class="filter-btn small-text" data-filter=".knoll">Knoll</button>
+            </div>
+            <div class="view-more-brands-button-filters-sidebar small-text">View more</div>
         </div>
         <div class="filter-category">
-            <h3>Materials</h3>
-            <button class="filter-btn" data-filter=".wood">Wood</button>
-            <button class="filter-btn" data-filter=".metal">Metal</button>
+            <h3 class="thirdtitle">Rooms</h3>
+            <div class="container-buttons-filters">
+                <button class="filter-btn small-text" data-filter=".living-room">Living Room</button>
+                <button class="filter-btn small-text" data-filter=".bathroom">Bathroom</button>
+            </div>
+
         </div>
 
     </div>
-
+    <div class="cross-close-filters">
+        <img src="../../public/media/svg-assets/cross-white.svg" alt="">
+    </div>
 </div>
+<div class="blank-click-layout-sidebar"></div>
+
 
 
 <script>
@@ -73,8 +101,6 @@
 
         filterButtons.forEach(btn => {
             btn.addEventListener('click', function () {
-                const filter = this.getAttribute('data-filter');
-
                 // Toggle du bouton actif
                 this.classList.toggle('activeFilter');
 
@@ -82,7 +108,6 @@
                 updateProductDisplay();
             });
         });
-
 
         function updateProductDisplay() {
             const activeFilters = document.querySelectorAll('.filter-btn.activeFilter');
@@ -115,26 +140,9 @@
                 product.classList.toggle('hidden', !shouldBeVisible);
             });
         }
-
-
-        // function updateProductDisplay() {
-        //     const activeFilters = document.querySelectorAll('.filter-btn.activeFilter');
-        //     const activeFiltersClasses = Array.from(activeFilters).map(btn => btn.getAttribute('data-filter').substring(1));
-
-        //     products.forEach(product => {
-        //         let shouldBeVisible = activeFiltersClasses.every(filterClass =>
-        //             product.classList.contains(filterClass)
-        //         );
-
-        //         product.classList.toggle('hidden', !shouldBeVisible || activeFiltersClasses.length === 0);
-        //     });
-        // }
-
     });
 
 </script>
-
-
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var wrapper = document.querySelector('.main-wrapper-products-table');
@@ -184,3 +192,4 @@
 
 
 </script>
+<script src="../../js/sidebar-filter.js"></script>

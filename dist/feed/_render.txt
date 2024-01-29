@@ -1584,31 +1584,59 @@
 
 <div class="sidebar-filters">
     <div id="filters">
+
         <div class="filter-category">
-            <h3>Brands</h3>
-            <button class="filter-btn" data-filter=".flos">Flos</button>
-            <button class="filter-btn" data-filter=".ligneroset">Ligne Roset</button>
+            <h3 class="thirdtitle">Type of items</h3>
+            <div class="container-buttons-filters">
+                <button class="filter-btn small-text" data-filter=".sofas-armchairs">Sofas & Armchairs</button>
+
+                <button class="filter-btn small-text" data-filter=".chairs">Chairs</button>
+                <button class="filter-btn small-text" data-filter=".tables">Tables</button>
+                <button class="filter-btn small-text" data-filter=".furniture-storage">Furniture & Storage</button>
+                <button class="filter-btn small-text" data-filter=".lamps-lighting">Lamps & Lighting</button>
+                <button class="filter-btn small-text" data-filter=".objectss-accessories">Objects & Accessories</button>
+                <button class="filter-btn small-text" data-filter=".technology">Technology</button>
+                <button class="filter-btn small-text" data-filter=".outdoor">Outdoor</button>
+            </div>
 
         </div>
+
         <div class="filter-category">
-            <h3>Type of items</h3>
-            <button class="filter-btn" data-filter=".chair">Chair</button>
-            <button class="filter-btn" data-filter=".lamp">Lamp</button>
+            <h3 class="thirdtitle">Materials</h3>
+            <div class="container-buttons-filters">
+                <button class="filter-btn small-text" data-filter=".wood">Wood</button>
+                <button class="filter-btn small-text" data-filter=".metal">Metal</button>
+                <button class="filter-btn small-text" data-filter=".fabric">Fabric</button>
+                <button class="filter-btn small-text" data-filter=".velvet">Velvet</button>
+                <button class="filter-btn small-text" data-filter=".leather">Leather</button>
+            </div>
         </div>
         <div class="filter-category">
-            <h3>Rooms</h3>
-            <button class="filter-btn" data-filter=".living-room">Living Room</button>
-            <button class="filter-btn" data-filter=".bathroom">Bathroom</button>
+            <h3 class="thirdtitle">Brands</h3>
+            <div class="container-buttons-filters">
+                <button class="filter-btn small-text" data-filter=".flos">Flos</button>
+                <button class="filter-btn small-text" data-filter=".ligneroset">Ligne Roset</button>
+                <button class="filter-btn small-text" data-filter=".b&bitalia">B&B Italia</button>
+                <button class="filter-btn small-text" data-filter=".knoll">Knoll</button>
+            </div>
+            <div class="view-more-brands-button-filters-sidebar small-text">View more</div>
         </div>
         <div class="filter-category">
-            <h3>Materials</h3>
-            <button class="filter-btn" data-filter=".wood">Wood</button>
-            <button class="filter-btn" data-filter=".metal">Metal</button>
+            <h3 class="thirdtitle">Rooms</h3>
+            <div class="container-buttons-filters">
+                <button class="filter-btn small-text" data-filter=".living-room">Living Room</button>
+                <button class="filter-btn small-text" data-filter=".bathroom">Bathroom</button>
+            </div>
+
         </div>
 
     </div>
-
+    <div class="cross-close-filters">
+        <img src="../../public/media/svg-assets/cross-white.svg" alt="">
+    </div>
 </div>
+<div class="blank-click-layout-sidebar"></div>
+
 
 
 <script>
@@ -1618,8 +1646,6 @@
 
         filterButtons.forEach(btn => {
             btn.addEventListener('click', function () {
-                const filter = this.getAttribute('data-filter');
-
                 // Toggle du bouton actif
                 this.classList.toggle('activeFilter');
 
@@ -1627,7 +1653,6 @@
                 updateProductDisplay();
             });
         });
-
 
         function updateProductDisplay() {
             const activeFilters = document.querySelectorAll('.filter-btn.activeFilter');
@@ -1660,26 +1685,9 @@
                 product.classList.toggle('hidden', !shouldBeVisible);
             });
         }
-
-
-        // function updateProductDisplay() {
-        //     const activeFilters = document.querySelectorAll('.filter-btn.activeFilter');
-        //     const activeFiltersClasses = Array.from(activeFilters).map(btn => btn.getAttribute('data-filter').substring(1));
-
-        //     products.forEach(product => {
-        //         let shouldBeVisible = activeFiltersClasses.every(filterClass =>
-        //             product.classList.contains(filterClass)
-        //         );
-
-        //         product.classList.toggle('hidden', !shouldBeVisible || activeFiltersClasses.length === 0);
-        //     });
-        // }
-
     });
 
 </script>
-
-
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var wrapper = document.querySelector('.main-wrapper-products-table');
@@ -1728,8 +1736,9 @@
 
 
 
-</script><div class="main-wrapper-products-table">
-    <a class="card-product-donzelli flos lamp wood">
+</script>
+<script src="../../js/sidebar-filter.js"></script><div class="main-wrapper-products-table">
+    <a class="card-product-donzelli flos lamps-lighting metal glass">
         <p class="small-text">Taccia Lamp by Flos <br>
             <span>Start at 899$</span>
         </p>
@@ -1737,7 +1746,8 @@
         <img class="hover-card-product-image"
             src="../../public/products/flos/taccia-lamp/sub-cover-feed-taccia-flos-donzelli.webp" alt="">
     </a>
-    <a class="card-product-donzelli ligneroset chair metal">
+    <a href="[DIRECTORY_BASE_PATH]/products/ligneroset/togo-sofa/"
+        class="card-product-donzelli ligneroset sofas-armchairs velvet leather fabric">
         <p class="small-text">Togo Sofa by Ligne Roset <br>
             <span>Start at 1299$</span>
         </p>
@@ -1745,7 +1755,7 @@
         <img class="hover-card-product-image"
             src="../../public/products/ligneroset/togo-sofa/togo-heading-ligneroset-donzelli.png" alt="">
     </a>
-    <a class="card-product-donzelli cassina chair wood">
+    <a class="card-product-donzelli cassina chairs wood">
         <p class="small-text">Capitol Complex Chair by Cassina <br>
             <span>Start at 1399$</span>
         </p>
@@ -1755,7 +1765,15 @@
             src="../../public/products/cassina/capitol-complex-chair/sub-cover-feed-capitol-complex-chair-cassina-donzelli.jpg"
             alt="">
     </a>
-    <a class="card-product-donzelli oluce lamp metal">
+    <a class="card-product-donzelli gubi sofas-armchairs fabric">
+        <p class="small-text">Pacha Armchair by Gubi <br>
+            <span>Start at 1999$</span>
+        </p>
+        <img src="../../public/products/gubi/pacha-armchair/cover-feed-pacha-armchair-gubi-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/gubi/pacha-armchair/subcover-feed-pacha-armchair-gubi-donzelli.jpg" alt="">
+    </a>
+    <a class="card-product-donzelli oluce lamps-lighting metal">
         <p class="small-text">Atollo Lamp by Oluce <br>
             <span>Start at 999$</span>
         </p>
@@ -1763,6 +1781,36 @@
         <img class="hover-card-product-image"
             src="../../public/products/oluce/atollo-lamp/sub-cover-feed-atollo-oluce-donzelli.webp" alt="">
     </a>
+    <a class="card-product-donzelli b&bitalia sofas-armchairs velvet fabric">
+        <p class="small-text">Cameleonda Sofa by B&B Italia <br>
+            <span>Start at 14 999$</span>
+        </p>
+        <img src="../../public/products/b&bitalia/cameleonda-sofa/cover-feed-cameleonda-sofa-b&bitalia-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/b&bitalia/cameleonda-sofa/subcover-feed-camelonda-sofa-b&bitalia-donzelli.png"
+            alt="">
+    </a>
+    <a class="card-product-donzelli ethnicraft sofas-armchairs leather fabric">
+        <p class="small-text">N701 Sofa by Ethnicraft <br>
+            <span>Start at 2 309$</span>
+        </p>
+        <img src="../../public/products/ethnicraft/n701/cover-feed-n701-sofa-ethnicraft-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/ethnicraft/n701/subcover-feed-n701-sofa-ethnicraft-donzelli.jpg" alt="">
+    </a>
+    <a class="card-product-donzelli knoll sofas-armchairs leather wood">
+        <p class="small-text">Barcelona Couch by Knoll <br>
+            <span>Start at 14 999$</span>
+        </p>
+        <img src="../../public/products/knoll/barcelona-daybed-couch/cover-feed-barcelona-daybed-couch-knoll-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/knoll/barcelona-daybed-couch/subcover-feed-barcelona-daybed-couch-knoll-donzelli.jpg"
+            alt="">
+    </a>
+
+
 
 
 </div><footer>

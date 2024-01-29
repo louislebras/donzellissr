@@ -1544,7 +1544,7 @@
     <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/whatsapp-logo-white.svg" alt="">
     <p>Talk with a Donzelli Advisor</p>
 </a><div class="main-wrapper-products-table">
-    <a class="card-product-donzelli flos lamp wood">
+    <a class="card-product-donzelli flos lamps-lighting metal glass">
         <p class="small-text">Taccia Lamp by Flos <br>
             <span>Start at 899$</span>
         </p>
@@ -1552,7 +1552,8 @@
         <img class="hover-card-product-image"
             src="../../public/products/flos/taccia-lamp/sub-cover-feed-taccia-flos-donzelli.webp" alt="">
     </a>
-    <a class="card-product-donzelli ligneroset chair metal">
+    <a href="[DIRECTORY_BASE_PATH]/products/ligneroset/togo-sofa/"
+        class="card-product-donzelli ligneroset sofas-armchairs velvet leather fabric">
         <p class="small-text">Togo Sofa by Ligne Roset <br>
             <span>Start at 1299$</span>
         </p>
@@ -1560,7 +1561,7 @@
         <img class="hover-card-product-image"
             src="../../public/products/ligneroset/togo-sofa/togo-heading-ligneroset-donzelli.png" alt="">
     </a>
-    <a class="card-product-donzelli cassina chair wood">
+    <a class="card-product-donzelli cassina chairs wood">
         <p class="small-text">Capitol Complex Chair by Cassina <br>
             <span>Start at 1399$</span>
         </p>
@@ -1570,7 +1571,15 @@
             src="../../public/products/cassina/capitol-complex-chair/sub-cover-feed-capitol-complex-chair-cassina-donzelli.jpg"
             alt="">
     </a>
-    <a class="card-product-donzelli oluce lamp metal">
+    <a class="card-product-donzelli gubi sofas-armchairs fabric">
+        <p class="small-text">Pacha Armchair by Gubi <br>
+            <span>Start at 1999$</span>
+        </p>
+        <img src="../../public/products/gubi/pacha-armchair/cover-feed-pacha-armchair-gubi-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/gubi/pacha-armchair/subcover-feed-pacha-armchair-gubi-donzelli.jpg" alt="">
+    </a>
+    <a class="card-product-donzelli oluce lamps-lighting metal">
         <p class="small-text">Atollo Lamp by Oluce <br>
             <span>Start at 999$</span>
         </p>
@@ -1578,6 +1587,36 @@
         <img class="hover-card-product-image"
             src="../../public/products/oluce/atollo-lamp/sub-cover-feed-atollo-oluce-donzelli.webp" alt="">
     </a>
+    <a class="card-product-donzelli b&bitalia sofas-armchairs velvet fabric">
+        <p class="small-text">Cameleonda Sofa by B&B Italia <br>
+            <span>Start at 14 999$</span>
+        </p>
+        <img src="../../public/products/b&bitalia/cameleonda-sofa/cover-feed-cameleonda-sofa-b&bitalia-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/b&bitalia/cameleonda-sofa/subcover-feed-camelonda-sofa-b&bitalia-donzelli.png"
+            alt="">
+    </a>
+    <a class="card-product-donzelli ethnicraft sofas-armchairs leather fabric">
+        <p class="small-text">N701 Sofa by Ethnicraft <br>
+            <span>Start at 2 309$</span>
+        </p>
+        <img src="../../public/products/ethnicraft/n701/cover-feed-n701-sofa-ethnicraft-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/ethnicraft/n701/subcover-feed-n701-sofa-ethnicraft-donzelli.jpg" alt="">
+    </a>
+    <a class="card-product-donzelli knoll sofas-armchairs leather wood">
+        <p class="small-text">Barcelona Couch by Knoll <br>
+            <span>Start at 14 999$</span>
+        </p>
+        <img src="../../public/products/knoll/barcelona-daybed-couch/cover-feed-barcelona-daybed-couch-knoll-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/knoll/barcelona-daybed-couch/subcover-feed-barcelona-daybed-couch-knoll-donzelli.jpg"
+            alt="">
+    </a>
+
+
 
 
 </div><footer>
