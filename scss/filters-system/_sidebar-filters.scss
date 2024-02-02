@@ -12,16 +12,28 @@
   padding: 20px 25px;
   transition: 0.2s ease;
   bottom: -70vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 15vh;
   // opacity: 0;
 
   .cross-close-filters {
     cursor: pointer;
     img {
-      width: 15px;
+      width: 10px;
       position: absolute;
       right: 22px;
       top: 22px;
     }
+  }
+
+  #resetButton {
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    color: $donzelli1;
+    cursor: pointer;
+    z-index: 30;
   }
 
   h3 {

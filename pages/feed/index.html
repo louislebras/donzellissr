@@ -38,8 +38,8 @@
 </div>
 
 <div class="sidebar-filters">
+    <div id="resetButton" class="small-text">Reset filters</div>
     <div id="filters">
-
         <div class="filter-category">
             <h3 class="thirdtitle">Type of items</h3>
             <div class="container-buttons-filters">
@@ -61,9 +61,13 @@
             <div class="container-buttons-filters">
                 <button class="filter-btn small-text" data-filter=".wood">Wood</button>
                 <button class="filter-btn small-text" data-filter=".metal">Metal</button>
+                <button class="filter-btn small-text" data-filter=".metal">Plastic</button>
                 <button class="filter-btn small-text" data-filter=".fabric">Fabric</button>
                 <button class="filter-btn small-text" data-filter=".velvet">Velvet</button>
                 <button class="filter-btn small-text" data-filter=".leather">Leather</button>
+                <button class="filter-btn small-text" data-filter=".nylon">Nylon</button>
+                <button class="filter-btn small-text" data-filter=".coton">Coton</button>
+
             </div>
         </div>
         <div class="filter-category">
@@ -73,6 +77,11 @@
                 <button class="filter-btn small-text" data-filter=".ligneroset">Ligne Roset</button>
                 <button class="filter-btn small-text" data-filter=".b&bitalia">B&B Italia</button>
                 <button class="filter-btn small-text" data-filter=".knoll">Knoll</button>
+                <button class="filter-btn small-text" data-filter=".ethnicraft">Ethnicraft</button>
+                <button class="filter-btn small-text" data-filter=".carlhansen">Carl Hansen</button>
+                <button class="filter-btn small-text" data-filter=".fatboy">Fatboy</button>
+                <button class="filter-btn small-text" data-filter=".oluce">Oluce</button>
+                <button class="filter-btn small-text" data-filter=".cassina">Cassina</button>
             </div>
             <div class="view-more-brands-button-filters-sidebar small-text">View more</div>
         </div>
@@ -98,6 +107,7 @@
     document.addEventListener('DOMContentLoaded', function () {
         const filterButtons = document.querySelectorAll('.filter-btn');
         const products = document.querySelectorAll('.main-wrapper-products-table .card-product-donzelli');
+        const resetButton = document.getElementById('resetButton'); // Assurez-vous que l'ID correspond à votre bouton Reset dans le HTML
 
         filterButtons.forEach(btn => {
             btn.addEventListener('click', function () {
@@ -107,6 +117,16 @@
                 // Mise à jour de l'affichage des produits
                 updateProductDisplay();
             });
+        });
+
+        resetButton.addEventListener('click', function () {
+            // Enlever la classe 'activeFilter' de tous les boutons de filtre
+            filterButtons.forEach(btn => {
+                btn.classList.remove('activeFilter');
+            });
+
+            // Mise à jour de l'affichage des produits
+            updateProductDisplay();
         });
 
         function updateProductDisplay() {
