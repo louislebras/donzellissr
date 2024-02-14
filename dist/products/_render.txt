@@ -1713,7 +1713,7 @@
             src="../../public/products/vitra/nelson-bench/subcover-feed-nelson-bench-vitra-donzelli.jpg" alt="">
     </a>
     <!-- Bloon Pouf Paris -->
-    <a class="card-product-donzelli vitra chairs tables wood">
+    <a class="card-product-donzelli bloonparis chairs fabric velvet">
         <p class="small-text">Pouf by Bloon Paris<br>
             <span>Start at 199$</span>
         </p>
@@ -1721,6 +1721,197 @@
         <img class="hover-card-product-image"
             src="../../public/products/bloonparis/pouf-round/subcover-feed-bloon-paris-pouf-donzelli.jpeg" alt="">
     </a>
+    <!-- Complex Capitol Table by Cassina -->
+    <a class="card-product-donzelli cassina tables wood glass">
+        <p class="small-text">Complex Capitol Table by Cassina<br>
+            <span>Start at 7999$</span>
+        </p>
+        <img src="../../public/products/cassina/capitol-complex-table/cover-feed-capitol-complex-table-pierre-jeanneret-cassina-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/cassina/capitol-complex-table/subcover-feed-capitol-complex-table-pierre-jeanneret-cassina-donzelli.jpg.webp"
+            alt="">
+    </a>
+    <!-- S.A.M Table Jean prouvé by Vitra -->
+    <a class="card-product-donzelli vitra tables wood">
+        <p class="small-text">S.A.M Table Jean prouvé by Vitra<br>
+            <span>Start at 4999$</span>
+        </p>
+        <img src="../../public/products/vitra/sam-table/cover-feed-sam-table-jeanprouvé-vitra-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/vitra/sam-table/subcover-feed-sam-table-jeanprouvé-vitra-donzelli.jpg" alt="">
+    </a>
+    <!-- Table en forme libre by Cassina -->
+    <a class="card-product-donzelli cassina tables wood">
+        <p class="small-text">Table en forme libre by Cassina<br>
+            <span>Start at 14999$</span>
+        </p>
+        <img src="../../public/products/cassina/table-en-forme-libre-cassina/cover-feed-table-en-forme-libre-charlotte-perriand-cassina-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/cassina/table-en-forme-libre-cassina/subcover-feed-table-en-forme-libre-charlotte-perriand-cassina-donzelli.png"
+            alt="">
+    </a>
+    <!-- Noguchi Table by Vitra -->
+    <a class="card-product-donzelli vitra tables wood glass">
+        <p class="small-text">Noguchi Table by Vitra<br>
+            <span>Start at 2399$</span>
+        </p>
+        <img src="../../public/products/vitra/noguchi-table/cover-feed-noguchi-table-vitra-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/vitra/noguchi-table/subcover-feed-noguchi-table-vitra-donzelli.jpg" alt="">
+    </a>
+    <!-- Saarineen Side Table by Knoll -->
+    <a class="card-product-donzelli knoll tables marble metal">
+        <p class="small-text">Saarineen Side Table by Knoll<br>
+            <span>Start at 999$</span>
+        </p>
+        <img src="../../public/products/knoll/saarineen-side-table/cover-feed-saarineen-side-tables-knoll-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/knoll/saarineen-side-table/subcover-feed-saarineen-side-tables-knoll-donzelli.png"
+            alt="">
+    </a>
+    <!-- Console SHARK by Rochebobois -->
+    <a class="card-product-donzelli rochebobois tables glass wood">
+        <p class="small-text">Console SHARK by Rochebobois<br>
+            <span>Start at 2399$</span>
+        </p>
+        <img src="../../public/products/rochebobois/shark-console/cover-feed-shark-console-rochebobois-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/rochebobois/shark-console/subcover-feed-shark-console-rochebobois-donzelli.jpeg"
+            alt="">
+    </a>
+    <!-- Ribbon Armchair by Artifort -->
+    <a class="card-product-donzelli artifort sofas-armchairs velvet fabric metal">
+        <p class="small-text">Ribbon Armchair by Artifort<br>
+            <span>Start at 6400$</span>
+        </p>
+        <img src="../../public/products/artifort/ribbon-armchair/cover-feed-ribbon-armchair-artifort-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/artifort/ribbon-armchair/subcover-feed-ribbon-armchair-artifort-donzelli.png"
+            alt="">
+    </a>
+    <!-- Eracle Wardrobe by Maxalto -->
+    <a class="card-product-donzelli maxalto furniture-storage wood glass">
+        <p class="small-text">Eracle Wardrobe by Maxalto<br>
+            <span>Request a price</span>
+        </p>
+        <img src="../../public/products/maxalto/eracle-wardrobe/cover-feed-eracle-wardrobe-maxalto-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/maxalto/eracle-wardrobe/subcover-feed-eracle-wardrobe-maxalto-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Speed Up by Rochebobois-->
+    <a class="card-product-donzelli rochebobois furniture-storage wood">
+        <p class="small-text">Speed Up by Rochebobois<br>
+            <span>Start at 7399$</span>
+        </p>
+        <img src="../../public/products/rochebobois/speedup-buffets/cover-feed-speedup-bois-buffet-rochebobois-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/rochebobois/speedup-buffets/subcover-feed-speedup-bois-buffet-rochebobois-donzelli.png"
+            alt="">
+    </a>
+    <!-- Meuble 64 by USM-->
+    <a class="card-product-donzelli usm furniture-storage metal plastic">
+        <p class="small-text">Meuble 64 by USM<br>
+            <span>Start at 2899$</span>
+        </p>
+        <img src="../../public/products/usm/meuble-m64/cover-feed-meuble-m64-buffet-usm-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/usm/meuble-m64/subcover-feed-meuble-m64-buffet-usm-donzelli.jpg.webp" alt="">
+    </a>
+
+    <!-- Claustra by Red Editions -->
+    <a class="card-product-donzelli red-editions furniture-storage wood">
+        <p class="small-text">Claustra by Red Editios<br>
+            <span>Start at 1599$</span>
+        </p>
+        <img src="../../public/products/red-editions/claustra-shelves/cover-feed-claustra-shelves-red-editions-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/red-editions/claustra-shelves/subcover-feed-claustra-shelves-red-editions-donzelli.jpg"
+            alt="">
+    </a>
+
+    <!-- Riflesso Charlotte Perriand by  Cassina -->
+    <a class="card-product-donzelli red-editions furniture-storage wood">
+        <p class="small-text">Riflesso Charlotte Perriand by Cassina<br>
+            <span>Start at 8499$</span>
+        </p>
+        <img src="../../public/products/cassina/513-riflesso/cover-feed-513-riflesso-storage-charlotte-perriand-cassina-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/cassina/513-riflesso/subcover-feed-513-riflesso-storage-charlotte-perriand-cassina-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Tripod Tv Stand by One For All -->
+    <a class="card-product-donzelli one-for-all furniture-storage wood">
+        <p class="small-text">Tripod Tv Stand by One For All<br>
+            <span>Start at 149$</span>
+        </p>
+        <img src="../../public/products/one-for-all/tv-stand-one-for-all/cover-feed-one-for-all-tv-stand-furniture-one-for-all-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/one-for-all/tv-stand-one-for-all/subcover-feed-one-for-all-tv-stand-furniture-one-for-all-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Bubble Bed by Rochebobois -->
+    <a class="card-product-donzelli rochebobois furniture-storage fabric velvet">
+        <p class="small-text">Bubble Bed by Rochebobois<br>
+            <span>Start at 6299$</span>
+        </p>
+        <img src="../../public/products/rochebobois/bubble-bed/cover-feed-bubble-bed-rochebobois-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/rochebobois/bubble-bed/subcover-feed-bubble-bed-rochebobois-donzelli.jpeg"
+            alt="">
+    </a>
+
+    <!-- Arco Lamp by Flos -->
+    <a class="card-product-donzelli flos lamps-lighting marble metal">
+        <p class="small-text">Arco Lamp by Flos<br>
+            <span>Start at 2299$</span>
+        </p>
+        <img src="../../public/products/flos/arco-lamp/cover-feed-arco-lamp-flos-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/flos/arco-lamp/subcover-feed-arco-lamp-flos-donzelli.jpg.webp" alt="">
+    </a>
+
+    <!-- Belleville by Sammode -->
+    <a class="card-product-donzelli sammode lamps-lighting glass metal">
+        <p class="small-text">Belleville by Sammode<br>
+            <span>Start at 1199$</span>
+        </p>
+        <img src="../../public/products/sammode/belleville-main-lamp/cover-feed-belleville-lamp-sammode-donzelli.png"
+            alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/sammode/belleville-main-lamp/subcover-feed-belleville-lamp-sammode-donzelli.webp"
+            alt="">
+    </a>
+    <!-- Bellhop Table by Flos -->
+    <a class="card-product-donzelli flos lamps-lighting plastic metal">
+        <p class="small-text">Bellhop Table by Flos<br>
+            <span>Start at 249$</span>
+        </p>
+        <img src="../../public/products/flos/bellhop-table-lamp/cover-feed-bellhop-lamp-flos-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/flos/bellhop-table-lamp/subcover-feed-bellhop-lamp-flos-donzelli.jpg" alt="">
+    </a>
+    <!-- Mooon Lamp by Fermob -->
+    <a class="card-product-donzelli flos lamps-lighting plastic metal">
+        <p class="small-text">Mooon Lamp by Fermob<br>
+            <span>Start at 99$</span>
+        </p>
+        <img src="../../public/products/fermob/outdoor-lamp-mooon/cover-feed-mooon-lamp-fermob-donzelli.png" alt="">
+        <img class="hover-card-product-image"
+            src="../../public/products/fermob/outdoor-lamp-mooon/subcover-feed-mooon-lamp-fermob-donzelli.jpg" alt="">
+    </a>
+
+
+
 
 
 

@@ -64,9 +64,11 @@
                 <button class="filter-btn small-text" data-filter=".metal">Plastic</button>
                 <button class="filter-btn small-text" data-filter=".fabric">Fabric</button>
                 <button class="filter-btn small-text" data-filter=".velvet">Velvet</button>
+                <button class="filter-btn small-text" data-filter=".marble">Marble</button>
                 <button class="filter-btn small-text" data-filter=".leather">Leather</button>
                 <button class="filter-btn small-text" data-filter=".nylon">Nylon</button>
                 <button class="filter-btn small-text" data-filter=".coton">Coton</button>
+                <button class="filter-btn small-text" data-filter=".glass">Glass</button>
 
             </div>
         </div>
@@ -76,12 +78,19 @@
                 <button class="filter-btn small-text" data-filter=".flos">Flos</button>
                 <button class="filter-btn small-text" data-filter=".ligneroset">Ligne Roset</button>
                 <button class="filter-btn small-text" data-filter=".b&bitalia">B&B Italia</button>
+                <button class="filter-btn small-text" data-filter=".b&bitalia">Rochebobois</button>
                 <button class="filter-btn small-text" data-filter=".knoll">Knoll</button>
                 <button class="filter-btn small-text" data-filter=".ethnicraft">Ethnicraft</button>
                 <button class="filter-btn small-text" data-filter=".carlhansen">Carl Hansen</button>
+                <button class="filter-btn small-text" data-filter=".artifort">Artifort</button>
                 <button class="filter-btn small-text" data-filter=".fatboy">Fatboy</button>
                 <button class="filter-btn small-text" data-filter=".oluce">Oluce</button>
                 <button class="filter-btn small-text" data-filter=".cassina">Cassina</button>
+                <button class="filter-btn small-text" data-filter=".bloonparis">Bloon Paris</button>
+                <button class="filter-btn small-text" data-filter=".maxalto">Maxalto</button>
+                <button class="filter-btn small-text" data-filter=".red-editions">Red Editions</button>
+                <button class="filter-btn small-text" data-filter=".one-for-all">One For All</button>
+                <button class="filter-btn small-text" data-filter=".sammode">Sammode</button>
             </div>
             <div class="view-more-brands-button-filters-sidebar small-text">View more</div>
         </div>
@@ -165,25 +174,26 @@
 </script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        var wrapper = document.querySelector('.main-wrapper-products-table');
-        var cards = Array.prototype.slice.call(wrapper.getElementsByClassName('card-product-donzelli'));
+        shuffleProducts(); // Mélange les produits au chargement de la page
 
-        for (var i = cards.length; i >= 0; i--) {
-            wrapper.appendChild(cards[Math.random() * i | 0]);
-        }
+        // Associe l'événement de clic au bouton pour mélanger les produits à nouveau
+        document.getElementById('shuffleButton').addEventListener('click', shuffleProducts);
     });
 
     function shuffleProducts() {
         var wrapper = document.querySelector('.main-wrapper-products-table');
-        var cards = Array.prototype.slice.call(wrapper.getElementsByClassName('card-product-donzelli'));
-        var wContextButton = document.querySelector(".w-context-button");
+        var cards = Array.from(wrapper.getElementsByClassName('card-product-donzelli'));
 
-        for (var i = cards.length; i >= 0; i--) {
-            wrapper.appendChild(cards[Math.random() * i | 0]);
+        // Algorithme de Fisher-Yates pour mélanger
+        for (let i = cards.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [cards[i], cards[j]] = [cards[j], cards[i]];
         }
+
+        // Ajoute chaque carte mélangée à wrapper
+        cards.forEach(card => wrapper.appendChild(card));
     }
 
-    document.getElementById('shuffleButton').addEventListener('click', shuffleProducts);
 
 
     window.addEventListener("load", function () {
