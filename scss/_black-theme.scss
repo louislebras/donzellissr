@@ -277,11 +277,11 @@ footer {
 
   background-color: $donzelli3;
   border: 1px solid $donzelli3;
+}
 
-  &:hover {
-    background-color: transparent;
-    color: $donzelli3;
-  }
+.close-sidebar-desk:hover {
+  background-color: $donzelli1;
+  color: $donzelli3;
 }
 
 .indiction-menu-sidebar-desk {
@@ -303,7 +303,7 @@ footer {
 
   &:hover {
     background-color: $donzelli3;
-    color: #151515 !important;
+    color: #151515;
   }
 }
 
@@ -328,7 +328,7 @@ footer {
 
       &:hover {
         background-color: $donzelli3;
-        color: $donzelli1 !important;
+        color: $donzelli1;
       }
     }
   }
