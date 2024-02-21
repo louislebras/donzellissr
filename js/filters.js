@@ -4,12 +4,22 @@ document.addEventListener("DOMContentLoaded", function () {
     ".main-wrapper-products-table .card-product-donzelli"
   );
   const resetButton = document.getElementById("resetButton");
+  let lastTouchEventTime = 0; // Drapeau pour gérer les événements touchend/click
 
   const handleFilterButtonClick = function (event) {
-    // Prévenir le comportement par défaut pour les événements tactiles
-    event.preventDefault();
+    // Pour les événements tactiles, marquer le temps et prévenir le comportement par défaut
+    if (event.type === "touchend") {
+      lastTouchEventTime = Date.now();
+      event.preventDefault();
+    } else if (
+      event.type === "click" &&
+      Date.now() - lastTouchEventTime < 400
+    ) {
+      // Ignorer les clics qui suivent immédiatement un touchend
+      return;
+    }
 
-    const btn = event.target.closest(".filter-btn"); // Assurez-vous d'obtenir le bouton si l'événement vient d'un enfant
+    const btn = this; // Utiliser 'this' pour référencer le bouton directement
     // Déterminer si le bouton est pour une marque
     const isBrandFilter =
       btn.closest(".sidebar-brands-filter") ||
@@ -22,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
       // Pour les filtres de marque, vérifier l'état actif avant de synchroniser
       const filter = btn.getAttribute("data-filter");
       const wasActive = btn.classList.contains("activeFilter");
-      // Synchroniser l'état pour tous les boutons correspondants
       synchronizeBrandFilters(filter, !wasActive);
     } else {
       // Basculer l'état actif du bouton pour les autres filtres
@@ -80,7 +89,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document
       .querySelectorAll(`.filter-btn[data-filter="${selectedFilter}"]`)
       .forEach((btn) => {
-        // Basculer l'état actif/inactif en fonction de shouldActivate
         btn.classList.toggle("activeFilter", shouldActivate);
       });
   }
@@ -93,6 +101,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (categoryText.includes("Type of items")) return "Type of items";
     if (categoryText.includes("Rooms")) return "Rooms";
     if (categoryText.includes("Materials")) return "Materials";
-    return null;
+    return null; // ou une gestion spécifique si nécessaire
   }
 });
