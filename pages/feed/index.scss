@@ -1,12 +1,7 @@
 @import "../../scss/variables";
 
-@import "../../scss/filters-system/main-filters.scss";
-
 .heading-feed {
-  img {
-    height: 10vh;
-    margin-top: 5vh;
-  }
+  margin-top: 3vh;
   p {
     margin-left: calc((8.33vw * 1) - 5px);
     width: 45vw;
@@ -23,60 +18,6 @@
       width: 100%;
     }
   }
-}
-
-.nav-feed {
-  position: fixed;
-  left: 50%;
-  bottom: 0px;
-  transform: translate(-50%, -50%);
-  padding: 4px 5px;
-  border-radius: 500px;
-  background: rgba(228, 225, 222, 0.397);
-  backdrop-filter: blur(12.5px);
-  z-index: 20;
-  display: flex;
-  gap: 5px;
-  div {
-    background-color: $donzelli1;
-    // color: $donzelli1;
-    padding: 9px 15px 8.5px;
-    border-radius: 400px;
-    cursor: pointer;
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 800px) {
-  .nav-feed {
-    bottom: 0px;
-    div {
-      width: 80px;
-    }
-  }
-}
-
-.hide-switch-button {
-  display: none !important;
-}
-
-.w-context-button {
-  background-color: $donzelli3 !important;
-  color: $donzelli1;
-  display: none !important;
-}
-
-.add-w-context-button {
-  display: flex !important;
-}
-
-.filters-feed-button {
-  background-color: $donzelli3 !important;
-  color: $donzelli1;
 }
 
 main {

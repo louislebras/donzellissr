@@ -1560,13 +1560,11 @@
     <div class="column"></div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css" />
 
 <main>
 
     <div class="heading-feed">
-        <img class="logo-heading-home" src="../../public/media/svg-assets/feed.svg" alt="">
+        <h1 class="heavytitle">Feed</h1>
         <p class="thirdtitle">
             Elevate your soul, mind & space <br>
             with exceptional furniture
@@ -1575,9 +1573,654 @@
 
 
 
-</main>
+</main><div class="main-wrapper-products-table">
+    <!-- Taccia Lamp -->
+    <a href="" class="card-product-donzelli flos lamps-lighting metal glass">
+        <p class="small-text">Taccia Lamp by Flos <br>
+            <span>Start at 899$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/flos/taccia-lamp/cover-feed-taccia-lamp-flos-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/flos/taccia-lamp/sub-cover-feed-taccia-flos-donzelli.webp" alt="">
+    </a>
+    <!-- Togo Sofa -->
+    <a href="[DIRECTORY_BASE_PATH]/products/ligneroset/togo-sofa/"
+        class="card-product-donzelli ligneroset sofas-armchairs velvet leather fabric">
+        <p class="small-text">Togo Sofa by Ligne Roset <br>
+            <span>Start at 1299$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/ligneroset/togo-sofa/cover-feed-togo-sofa-flos-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/ligneroset/togo-sofa/togo-heading-ligneroset-donzelli.png" alt="">
+    </a>
+    <!-- Complex Capitol Pierre Jeanneret Chair -->
+    <a href="" class="card-product-donzelli cassina chairs wood">
+        <p class="small-text">Capitol Complex Chair by Cassina <br>
+            <span>Start at 1399$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/cassina/capitol-complex-chair/cover-feed-capitol-chair-pierre-jeanneret-cassina-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/cassina/capitol-complex-chair/sub-cover-feed-capitol-complex-chair-cassina-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Pacha Gubi Armchair -->
+    <a href="" class="card-product-donzelli gubi sofas-armchairs fabric">
+        <p class="small-text">Pacha Armchair by Gubi <br>
+            <span>Start at 1999$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/gubi/pacha-armchair/cover-feed-pacha-armchair-gubi-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/gubi/pacha-armchair/subcover-feed-pacha-armchair-gubi-donzelli.jpg" alt="">
+    </a>
 
-<div class="nav-feed">
+    <!-- Atollo Lamp Oluce -->
+    <a href="" class="card-product-donzelli oluce lamps-lighting metal">
+        <p class="small-text">Atollo Lamp by Oluce <br>
+            <span>Start at 999$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/oluce/atollo-lamp/cover-feed-atollo-lamp-oluce-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/oluce/atollo-lamp/sub-cover-feed-atollo-oluce-donzelli.jpg" alt="">
+    </a>
+    <!-- Cameleonda Sofa B&B Italia -->
+    <a href="" class="card-product-donzelli b&bitalia sofas-armchairs velvet fabric">
+        <p class="small-text">Cameleonda Sofa by B&B Italia <br>
+            <span>Start at 14 999$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/b&bitalia/cameleonda-sofa/cover-feed-cameleonda-sofa-b&bitalia-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/b&bitalia/cameleonda-sofa/subcover-feed-camelonda-sofa-b&bitalia-donzelli.png"
+            alt="">
+    </a>
+    <!-- N701 Sofa Ethnicraft -->
+    <a href="" class="card-product-donzelli ethnicraft sofas-armchairs leather fabric">
+        <p class="small-text">N701 Sofa by Ethnicraft <br>
+            <span>Start at 2 309$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/ethnicraft/n701/cover-feed-n701-sofa-ethnicraft-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/ethnicraft/n701/subcover-feed-n701-sofa-ethnicraft-donzelli.jpg" alt="">
+    </a>
+    <!--Barcelona Daybed Couch Knoll Sofa -->
+    <a href="" class="card-product-donzelli knoll sofas-armchairs chairs leather wood">
+        <p class="small-text">Barcelona Couch by Knoll <br>
+            <span>Start at 14 999$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/knoll/barcelona-daybed-couch/cover-feed-barcelona-daybed-couch-knoll-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/knoll/barcelona-daybed-couch/subcover-feed-barcelona-daybed-couch-knoll-donzelli.jpg"
+            alt="">
+    </a>
+    <!--Barcelona Daybed Couch Knoll Sofa -->
+    <a href="" class="card-product-donzelli knoll sofas-armchairs chairs leather metal">
+        <p class="small-text">Barcelona Chair by Knoll <br>
+            <span>Start at 7 999$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/knoll/barcelona-chair/cover-feed-barcelona-chair-knoll-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/knoll/barcelona-chair/subcover-feed-barcelona-chair-knoll-donzelli.jpg" alt="">
+    </a>
+    <!--Diamond Chair Knoll Sofa -->
+    <a href="" class="card-product-donzelli knoll sofas-armchairs chairs leather metal">
+        <p class="small-text">Diamond Chair by Knoll <br>
+            <span>Start at 1 799$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/knoll/diamond-chair-bertoia/cover-feed-diamond-chair-knoll-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/knoll/diamond-chair-bertoia/subcover-feed-diamond-chair-knoll-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Pouf Original Fatboy -->
+    <a href="" class="card-product-donzelli fatboy sofas-armchairs chairs velvet fabric nylon coton">
+        <p class="small-text">Original Pouf by Fatboy <br>
+            <span>Start at 199$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/fatboy/original-pouf/cover-feed-pouf-fatboy-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/fatboy/original-pouf/subcover-feed-pouf-original-fatboy-donzelli.jpg" alt="">
+    </a>
+    <!-- CH24 Carl Hansen -->
+    <a href="" class="card-product-donzelli carlhansen chairs wood">
+        <p class="small-text">CH24 by Carl Hansen <br>
+            <span>Start at 549$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/carlhansen/ch24-chair/cover-feed-ch24-chair-carlhansen-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/carlhansen/ch24-chair/subcover-feed-ch24-chair-carlhansen-donzelli.jpg" alt="">
+    </a>
+    <!-- Aeron Chair Herman Miller -->
+    <a href="" class="card-product-donzelli hermanmiller chairs plastic fabric">
+        <p class="small-text">Aeron by Herman Miller <br>
+            <span>Start at 1499$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/hermanmiller/aeron-chair/cover-feed-aeron-chair-hermanmiller-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/hermanmiller/aeron-chair/subcover-feed-aeron-chair-hermanmiller-donzelli.png"
+            alt="">
+    </a>
+    <!-- Sayl Chair Herman Miller -->
+    <a href="" class="card-product-donzelli hermanmiller chairs plastic fabric">
+        <p class="small-text">Sayl by Herman Miller <br>
+            <span>Start at 699$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/hermanmiller/sayl-chair/cover-feed-sayl-chair-hermanmiller-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/hermanmiller/sayl-chair/subcover-feed-sayl-chair-hermanmiller-donzelli.webp"
+            alt="">
+    </a>
+    <!-- Eames Lounge Chair Vitra -->
+    <a href="" class="card-product-donzelli vitra chairs leather velvet wood">
+        <p class="small-text">Eames Lounge Chair by Vitra<br>
+            <span>Start at 7999$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/vitra/lounge-chair-eames/cover-feed-lounge-chair-eames-vitra-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/vitra/lounge-chair-eames/subcover-feed-lounge-chair-eames-vitra-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Butterfly Stool Vitra -->
+    <a href="" class="card-product-donzelli vitra chairs wood">
+        <p class="small-text">Butterfly Stool by Vitra<br>
+            <span>Start at 799$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/vitra/butterfly-stool/cover-feed-butterfly-stool-vitra-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/vitra/butterfly-stool/subcover-feed-butterfly-stool-vitra-donzelli.jpg.webp"
+            alt="">
+    </a>
+    <!-- Nelson Bench Vitra -->
+    <a href="" class="card-product-donzelli vitra chairs tables wood">
+        <p class="small-text">Nelson Bench by Vitra<br>
+            <span>Start at 809$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/vitra/nelson-bench/cover-feed-nelson-bench-vitra-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/vitra/nelson-bench/subcover-feed-nelson-bench-vitra-donzelli.jpg" alt="">
+    </a>
+    <!-- Bloon Pouf Paris -->
+    <a href="" class="card-product-donzelli bloonparis chairs fabric velvet">
+        <p class="small-text">Pouf by Bloon Paris<br>
+            <span>Start at 199$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/bloonparis/pouf-round/cover-feed-bloon-paris-pouf-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/bloonparis/pouf-round/subcover-feed-bloon-paris-pouf-donzelli.jpeg" alt="">
+    </a>
+    <!-- Complex Capitol Table by Cassina -->
+    <a href="" class="card-product-donzelli cassina tables wood glass">
+        <p class="small-text">Complex Capitol Table by Cassina<br>
+            <span>Start at 7999$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/cassina/capitol-complex-table/cover-feed-capitol-complex-table-pierre-jeanneret-cassina-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/cassina/capitol-complex-table/subcover-feed-capitol-complex-table-pierre-jeanneret-cassina-donzelli.jpg.webp"
+            alt="">
+    </a>
+    <!-- S.A.M Table Jean prouvé by Vitra -->
+    <a href="" class="card-product-donzelli vitra tables wood">
+        <p class="small-text">S.A.M Table Jean prouvé by Vitra<br>
+            <span>Start at 4999$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/vitra/sam-table/cover-feed-sam-table-jeanprouvé-vitra-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/vitra/sam-table/subcover-feed-sam-table-jeanprouvé-vitra-donzelli.jpg" alt="">
+    </a>
+    <!-- Table en forme libre by Cassina -->
+    <a href="" class="card-product-donzelli cassina tables wood">
+        <p class="small-text">Table en forme libre by Cassina<br>
+            <span>Start at 14999$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/cassina/table-en-forme-libre-cassina/cover-feed-table-en-forme-libre-charlotte-perriand-cassina-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/cassina/table-en-forme-libre-cassina/subcover-feed-table-en-forme-libre-charlotte-perriand-cassina-donzelli.png"
+            alt="">
+    </a>
+    <!-- Noguchi Table by Vitra -->
+    <a href="" class="card-product-donzelli vitra tables wood glass">
+        <p class="small-text">Noguchi Table by Vitra<br>
+            <span>Start at 2399$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/vitra/noguchi-table/cover-feed-noguchi-table-vitra-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/vitra/noguchi-table/subcover-feed-noguchi-table-vitra-donzelli.jpg" alt="">
+    </a>
+    <!-- Saarineen Side Table by Knoll -->
+    <a href="" class="card-product-donzelli knoll tables marble metal">
+        <p class="small-text">Saarineen Side Table by Knoll<br>
+            <span>Start at 999$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/knoll/saarineen-side-table/cover-feed-saarineen-side-tables-knoll-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/knoll/saarineen-side-table/subcover-feed-saarineen-side-tables-knoll-donzelli.png"
+            alt="">
+    </a>
+    <!-- Console SHARK by Rochebobois -->
+    <a href="" class="card-product-donzelli rochebobois tables glass wood">
+        <p class="small-text">Console SHARK by Rochebobois<br>
+            <span>Start at 2399$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/rochebobois/shark-console/cover-feed-shark-console-rochebobois-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/rochebobois/shark-console/subcover-feed-shark-console-rochebobois-donzelli.jpeg"
+            alt="">
+    </a>
+    <!-- Ribbon Armchair by Artifort -->
+    <a href="" class="card-product-donzelli artifort sofas-armchairs velvet fabric metal">
+        <p class="small-text">Ribbon Armchair by Artifort<br>
+            <span>Start at 6400$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/artifort/ribbon-armchair/cover-feed-ribbon-armchair-artifort-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/artifort/ribbon-armchair/subcover-feed-ribbon-armchair-artifort-donzelli.png"
+            alt="">
+    </a>
+    <!-- Eracle Wardrobe by Maxalto -->
+    <a href="" class="card-product-donzelli maxalto furniture-storage wood glass">
+        <p class="small-text">Eracle Wardrobe by Maxalto<br>
+            <span>Request a price</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/maxalto/eracle-wardrobe/cover-feed-eracle-wardrobe-maxalto-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/maxalto/eracle-wardrobe/subcover-feed-eracle-wardrobe-maxalto-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Speed Up by Rochebobois-->
+    <a href="" class="card-product-donzelli rochebobois furniture-storage wood">
+        <p class="small-text">Speed Up by Rochebobois<br>
+            <span>Start at 7399$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/rochebobois/speedup-buffets/cover-feed-speedup-bois-buffet-rochebobois-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/rochebobois/speedup-buffets/subcover-feed-speedup-bois-buffet-rochebobois-donzelli.png"
+            alt="">
+    </a>
+    <!-- Meuble 64 by USM-->
+    <a href="" class="card-product-donzelli usm furniture-storage metal plastic">
+        <p class="small-text">Meuble 64 by USM<br>
+            <span>Start at 2899$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/usm/meuble-m64/cover-feed-meuble-m64-buffet-usm-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/usm/meuble-m64/subcover-feed-meuble-m64-buffet-usm-donzelli.jpg.webp" alt="">
+    </a>
+
+    <!-- Claustra by Red Editions -->
+    <a href="" class="card-product-donzelli red-editions furniture-storage wood">
+        <p class="small-text">Claustra by Red Editios<br>
+            <span>Start at 1599$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/red-editions/claustra-shelves/cover-feed-claustra-shelves-red-editions-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/red-editions/claustra-shelves/subcover-feed-claustra-shelves-red-editions-donzelli.jpg"
+            alt="">
+    </a>
+
+    <!-- Riflesso Charlotte Perriand by  Cassina -->
+    <a href="" class="card-product-donzelli red-editions furniture-storage wood">
+        <p class="small-text">Riflesso Charlotte Perriand by Cassina<br>
+            <span>Start at 8499$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/cassina/513-riflesso/cover-feed-513-riflesso-storage-charlotte-perriand-cassina-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/cassina/513-riflesso/subcover-feed-513-riflesso-storage-charlotte-perriand-cassina-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Tripod Tv Stand by One For All -->
+    <a href="" class="card-product-donzelli one-for-all furniture-storage wood">
+        <p class="small-text">Tripod Tv Stand by One For All<br>
+            <span>Start at 149$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/one-for-all/tv-stand-one-for-all/cover-feed-one-for-all-tv-stand-furniture-one-for-all-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/one-for-all/tv-stand-one-for-all/subcover-feed-one-for-all-tv-stand-furniture-one-for-all-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Bubble Bed by Rochebobois -->
+    <a href="" class="card-product-donzelli rochebobois furniture-storage fabric velvet">
+        <p class="small-text">Bubble Bed by Rochebobois<br>
+            <span>Start at 6299$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/rochebobois/bubble-bed/cover-feed-bubble-bed-rochebobois-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/rochebobois/bubble-bed/subcover-feed-bubble-bed-rochebobois-donzelli.jpeg"
+            alt="">
+    </a>
+
+    <!-- Arco Lamp by Flos -->
+    <a href="" class="card-product-donzelli flos lamps-lighting marble metal">
+        <p class="small-text">Arco Lamp by Flos<br>
+            <span>Start at 2299$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/flos/arco-lamp/cover-feed-arco-lamp-flos-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/flos/arco-lamp/subcover-feed-arco-lamp-flos-donzelli.jpg.webp" alt="">
+    </a>
+
+    <!-- Belleville by Sammode -->
+    <a href="" class="card-product-donzelli sammode lamps-lighting glass metal">
+        <p class="small-text">Belleville by Sammode<br>
+            <span>Start at 1199$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/sammode/belleville-main-lamp/cover-feed-belleville-lamp-sammode-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/sammode/belleville-main-lamp/subcover-feed-belleville-lamp-sammode-donzelli.webp"
+            alt="">
+    </a>
+    <!-- Bellhop Table by Flos -->
+    <a href="" class="card-product-donzelli flos lamps-lighting plastic metal">
+        <p class="small-text">Bellhop Table by Flos<br>
+            <span>Start at 249$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/flos/bellhop-table-lamp/cover-feed-bellhop-lamp-flos-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/flos/bellhop-table-lamp/subcover-feed-bellhop-lamp-flos-donzelli.jpg" alt="">
+    </a>
+    <!-- Mooon Lamp by Fermob -->
+    <a href="" class="card-product-donzelli fermob lamps-lighting plastic metal">
+        <p class="small-text">Mooon Lamp by Fermob<br>
+            <span>Start at 99$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/fermob/outdoor-lamp-mooon/cover-feed-mooon-lamp-fermob-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/fermob/outdoor-lamp-mooon/subcover-feed-mooon-lamp-fermob-donzelli.jpg" alt="">
+    </a>
+    <!-- Boost Charge Station by Belkin -->
+    <a href="" class="card-product-donzelli belkin objects-accessories technology plastic metal">
+        <p class="small-text">Boost Charge Station by Belkin<br>
+            <span>Start at 149$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/belkin/boost-charge-pro-station/cover-feed-boost-charge-pro-station-belkin-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/belkin/boost-charge-pro-station/subcover-feed-boost-charge-pro-station-belkin-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- La Boule Black by Villeroy & Boch -->
+    <a href="" class="card-product-donzelli villeroy&boch objects-accessories porcelain">
+        <p class="small-text">La Boule Black by Villeroy & Boch<br>
+            <span>Start at 299$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/villeroy&boch/laboulenoire/cover-feed-la-boule-black-villeroy&boch-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/villeroy&boch/laboulenoire/subcover-feed-la-boule-black-villeroy&boch-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Avalon Cushion by Hermes -->
+    <a href="" class="card-product-donzelli hermes objects-accessories fabric coton">
+        <p class="small-text">Avalon Cushion by Hermes<br>
+            <span>Start at 650$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/hermes/avalon-cushion/cover-feed-avalon-cushion-hermes-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/hermes/avalon-cushion/subcover-feed-avalon-cushion-hermes-donzelli.webp" alt="">
+    </a>
+    <!-- Smoke Rug by Rochebobois -->
+    <a href="" class="card-product-donzelli rochebobois objects-accessories fabric coton">
+        <p class="small-text">Smoke Rug by Rochebobois<br>
+            <span>Start at 2499$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/rochebobois/smoke-rug/cover-feed-smoke-rug-rochebobois-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/rochebobois/smoke-rug/subcover-feed-smoke-rug-rochebobois-donzelli.jpeg" alt="">
+    </a>
+
+    <!-- Vide Poche Tray by Hermes -->
+    <a href="" class="card-product-donzelli hermes objects-accessories porcelain">
+        <p class="small-text">Vide Poche Tray by Hermes<br>
+            <span>Start at 600$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/hermes/vide-poche-hermes/cover-feed-vide-poche-hermes-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/hermes/vide-poche-hermes/subcover-feed-vide-poche-hermes-donzelli.jpg.webp"
+            alt="">
+    </a>
+
+    <!-- Betty Chair Series by &Tradition -->
+    <a href="" class="card-product-donzelli andtradition chairs wood">
+        <p class="small-text">Betty Chair TK10 by &Tradition<br>
+            <span>Start at 660$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/andtradition/betty-chair/cover-feed-betty-chair-series-andtradition-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/andtradition/betty-chair/subcover-feed-betty-chair-series-andtradition-donzelli.jpg"
+            alt="">
+    </a>
+
+    <!-- Baies Candle Series by Diptyque -->
+    <a href="" class="card-product-donzelli diptyque objects-accessories glass ceramic">
+        <p class="small-text">Baies Candle Series by Diptyque<br>
+            <span>Start at 58$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/diptyque/baies-candle/cover-feed-baies-candle-diptyque-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/diptyque/baies-candle/subcover-feed-baies-candle-diptyque-donzelli.jpg.webp"
+            alt="">
+    </a>
+    <!-- Living on Water Book by Phaidon -->
+    <a href="" class="card-product-donzelli phaidon objects-accessories paper">
+        <p class="small-text">Living on Water Book by Phaidon<br>
+            <span>Start at 49$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/phaidon/living-on-water/cover-feed-living-on-water-phaidon-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/phaidon/living-on-water/subcover-feed-living-on-water-phaidon-donzelli.png"
+            alt="">
+    </a>
+    <!-- Paravent Ambassade Charlotte Perriand by Cassina -->
+    <a href="" class="card-product-donzelli cassina objects-accessories wood">
+        <p class="small-text">Paravent Ambassade Charlotte Perriand by Cassina<br>
+            <span>Start at 8849$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/cassina/paravent-ambassade-charlotte-perriand/cover-feed-paravent-ambassade-charlotte-perriand-cassina-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/cassina/paravent-ambassade-charlotte-perriand/subcover-feed-paravent-ambassade-charlotte-perriand-cassina-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Framed Mirror by Muuto -->
+    <a href="" class="card-product-donzelli muuto objects-accessories glass metal">
+        <p class="small-text">Framed Mirror by Muuto<br>
+            <span>Start at 335$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/muuto/framed-mirror/cover-feed-framed-mirror-muuto-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/muuto/framed-mirror/subcover-feed-framed-mirror-muuto-donzelli.jpg" alt="">
+    </a>
+    <!-- Classic Cabin Line up by Rimowa -->
+    <a href="" class="card-product-donzelli rimowa objects-accessories plastic metal">
+        <p class="small-text">Classic Cabin Line up by Rimowa<br>
+            <span>Start at 499$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/rimowa/rimowa-cabin-line-up/cover-feed-classic-cabin-line-up-rimowa-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/rimowa/rimowa-cabin-line-up/subcover-feed-classic-cabin-line-up-rimowa-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- S Pure L Cave by Eurocave -->
+    <a href="" class="card-product-donzelli eurocave technology glass metal">
+        <p class="small-text">S Pure L Cave by Eurocave<br>
+            <span>Start at 4399$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/eurocave/s-pure-l/cover-feed-s-pure-l-eurocave-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/eurocave/s-pure-l/subcover-feed-s-pure-l-eurocave-donzelli.jpg" alt="">
+    </a>
+    <!-- Beosound 2 by Bang & Olufsen -->
+    <a href="" class="card-product-donzelli bangandolufsen technology  metal">
+        <p class="small-text">Beosound 2 by Bang & Olufsen<br>
+            <span>Start at 2999$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/bang&olufsen/beosound-two/cover-feed-beosound-two-bang&olufsen-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/bang&olufsen/beosound-two/subcover-feed-beosound-two-bang&olufsen-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Gradient Signe by Philips -->
+    <a href="" class="card-product-donzelli philips technology lamps-lighting plastic metal">
+        <p class="small-text">Gradient Signe by Philips<br>
+            <span>Start at 329$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/philips/gradient-signe/cover-feed-gradient-signe-philips-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/philips/gradient-signe/subcover-feed-gradient-signe-philips-donzelli.webp"
+            alt="">
+    </a>
+    <!-- Apple TV 4K by Apple -->
+    <a href="" class="card-product-donzelli apple technology  plastic">
+        <p class="small-text">Apple TV 4K by Apple<br>
+            <span>Start at 169$</span>
+        </p>
+        <img loading="lazy" src="../../public/products/apple/apple-tv/cover-feed-apple-tv-apple-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/apple/apple-tv/subcover-feed-apple-tv-apple-donzelli.jpg" alt="">
+    </a>
+
+    <!-- Fenc E Divano Philippe Starck by Cassina -->
+    <a href="" class="card-product-donzelli cassina outdoor sofas-armchairs wood fabric">
+        <p class="small-text">Fenc E Divano Philippe Starck by Cassina<br>
+            <span>Start at 8199$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/cassina/fenc-e-divano-starck/cover-feed-fenc-e-divano-phillipe-starck-cassina-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/cassina/fenc-e-divano-starck/subcover-feed-fenc-e-divano-phillipe-starck-cassina-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Esosoft Coffee Table by Cassina -->
+    <a href="" class="card-product-donzelli cassina outdoor wood metal">
+        <p class="small-text">Esosoft Coffee Table by Cassina<br>
+            <span>Start at 3199$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/cassina/esosoft-coffee-table/cover-feed-esosoft-coffee-table-cassina-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/cassina/esosoft-coffee-table/subcover-feed-esosoft-coffee-table-cassina-donzelli.jpeg.webp"
+            alt="">
+    </a>
+
+    <!-- Pure Lounger by Tribù -->
+    <a href="" class="card-product-donzelli tribu outdoor wood fabric coton">
+        <p class="small-text">Pure Lounger by Tribù<br>
+            <span>Request a price</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/tribù/pure-lounge-chair/cover-feed-pure-lounge-chair-tribu-donzelli.png" alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/tribù/pure-lounge-chair/subcover-feed-pure-lounge-chair-tribu-donzelli.jpg"
+            alt="">
+    </a>
+    <!-- Milos Antonio Citterio by Flexform -->
+    <a href="" class="card-product-donzelli flexform outdoor wood fabric coton">
+        <p class="small-text">Milos Antonio Citterio by Flexform<br>
+            <span>Request a price</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/flexform/milos-antonio-citterio/cover-feed-milos-antonio-citterio-flexform-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/flexform/milos-antonio-citterio/subcover-feed-milos-antonio-citterio-flexform-donzelli.webp"
+            alt="">
+    </a>
+
+    <!-- Gobi Basket by Tribù -->
+    <a href="" class="card-product-donzelli tribu outdoor objects-accessories fabric  coton">
+        <p class="small-text">Gobi Basket by Tribù<br>
+            <span>Request a price</span>
+        </p>
+        <img loading="lazy" src="../../public/products/tribù/gobi-basket/cover-feed-gobi-basket-tribu-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/tribù/gobi-basket/subcover-feed-gobi-basket-tribu-donzelli.png" alt="">
+    </a>
+
+    <!-- Ellipse Brasero Barbecue by Hofats -->
+    <a href="" class="card-product-donzelli hofats outdoor metal">
+        <p class="small-text">Ellipse Brasero Barbecue by Hofats<br>
+            <span>Start at 299$</span>
+        </p>
+        <img loading="lazy"
+            src="../../public/products/hofats/ellipse-brasero-barbecue/cover-feed-ellipse-brasero-barbecue-hofats-donzelli.png"
+            alt="">
+        <img loading="lazy" class="hover-card-product-image"
+            src="../../public/products/hofats/ellipse-brasero-barbecue/subcover-feed-ellipse-brasero-barbecue-hofats-donzelli.jpg"
+            alt="">
+    </a>
+
+
+
+
+
+
+</div><div class="nav-feed">
     <div id="shuffleButton" class="shuffleButtonFeed small-text">Shuffle</div>
     <div class="button-in-context-image small-text">Switch</div>
     <div class="w-context-button small-text">Switch</div>
@@ -1608,9 +2251,10 @@
             <div class="container-buttons-filters">
                 <button class="filter-btn small-text" data-filter=".wood">Wood</button>
                 <button class="filter-btn small-text" data-filter=".metal">Metal</button>
-                <button class="filter-btn small-text" data-filter=".metal">Plastic</button>
+                <button class="filter-btn small-text" data-filter=".plastic">Plastic</button>
                 <button class="filter-btn small-text" data-filter=".fabric">Fabric</button>
                 <button class="filter-btn small-text" data-filter=".velvet">Velvet</button>
+                <button class="filter-btn small-text" data-filter=".paper">Paper</button>
                 <button class="filter-btn small-text" data-filter=".marble">Marble</button>
                 <button class="filter-btn small-text" data-filter=".leather">Leather</button>
                 <button class="filter-btn small-text" data-filter=".nylon">Nylon</button>
@@ -1618,17 +2262,58 @@
                 <button class="filter-btn small-text" data-filter=".glass">Glass</button>
                 <button class="filter-btn small-text" data-filter=".porcelain">Porcelain</button>
                 <button class="filter-btn small-text" data-filter=".ceramic">Ceramic</button>
-                <button class="filter-btn small-text" data-filter=".paper">Paper</button>
+
 
             </div>
         </div>
         <div class="filter-category">
-            <h3 class="thirdtitle">Brands</h3>
+            <h3 class="thirdtitle">Selected Brands</h3>
             <div class="container-buttons-filters">
                 <button class="filter-btn small-text" data-filter=".flos">Flos</button>
                 <button class="filter-btn small-text" data-filter=".ligneroset">Ligne Roset</button>
                 <button class="filter-btn small-text" data-filter=".b&bitalia">B&B Italia</button>
-                <button class="filter-btn small-text" data-filter=".b&bitalia">Rochebobois</button>
+                <button class="filter-btn small-text" data-filter=".cassina">Cassina</button>
+                <button class="filter-btn small-text" data-filter=".rochebobois">Rochebobois</button>
+                <button class="filter-btn small-text" data-filter=".hermanmiller">Herman Miller</button>
+                <button class="filter-btn small-text" data-filter=".knoll">Knoll</button>
+                <button class="filter-btn small-text" data-filter=".ethnicraft">Ethnicraft</button>
+                <button class="filter-btn small-text" data-filter=".muuto">Muuto</button>
+                <button class="filter-btn small-text" data-filter=".maxalto">Maxalto</button>
+                <button class="filter-btn small-text" data-filter=".oluce">Oluce</button>
+
+            </div>
+            <div class="view-more-brands-button-filters-sidebar small-text">View more</div>
+        </div>
+        <div class="filter-category">
+            <h3 class="thirdtitle">Rooms</h3>
+            <div class="container-buttons-filters">
+                <button class="filter-btn small-text" data-filter=".living-room">Living Room</button>
+                <button class="filter-btn small-text" data-filter=".dining-room">Dining Room</button>
+                <button class="filter-btn small-text" data-filter=".office-room">Office</button>
+                <button class="filter-btn small-text" data-filter=".kitchen-room">Kitchen</button>
+                <button class="filter-btn small-text" data-filter=".bed-room">Bedroom</button>
+                <button class="filter-btn small-text" data-filter=".bath-room">Bathroom</button>
+                <button class="filter-btn small-text" data-filter=".outdoor">Outdoor</button>
+                <button class="filter-btn small-text" data-filter=".passing-places-room">
+                    Passing Places
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="cross-close-filters">
+        <img src="../../public/media/svg-assets/cross-white.svg" alt="">
+    </div>
+    <div class="sidebar-brands-filter">
+        <p class="small-text back-all-brands-filters-button">Back</p>
+        <div class="filter-category">
+            <h3 class="thirdtitle">All Our Brands</h3>
+            <div class="container-buttons-filters">
+                <button class="filter-btn small-text" data-filter=".flos">Flos</button>
+                <button class="filter-btn small-text" data-filter=".ligneroset">Ligne Roset</button>
+                <button class="filter-btn small-text" data-filter=".b&bitalia">B&B Italia</button>
+                <button class="filter-btn small-text" data-filter=".rochebobois">Rochebobois</button>
                 <button class="filter-btn small-text" data-filter=".knoll">Knoll</button>
                 <button class="filter-btn small-text" data-filter=".ethnicraft">Ethnicraft</button>
                 <button class="filter-btn small-text" data-filter=".carlhansen">Carl Hansen</button>
@@ -1647,716 +2332,25 @@
                 <button class="filter-btn small-text" data-filter=".andtradition">&Tradition</button>
                 <button class="filter-btn small-text" data-filter=".diptyque">Diptyque</button>
                 <button class="filter-btn small-text" data-filter=".phaidon">Phaidon</button>
-                <button class="filter-btn small-text" data-filter=".phaidon">Muuto</button>
-                <button class="filter-btn small-text" data-filter=".phaidon">Rimowa</button>
+                <button class="filter-btn small-text" data-filter=".muuto">Muuto</button>
+                <button class="filter-btn small-text" data-filter=".rimowa">Rimowa</button>
                 <button class="filter-btn small-text" data-filter=".eurocave">Eurocave</button>
                 <button class="filter-btn small-text" data-filter=".bangandolufsen">Bang & Olufsen</button>
                 <button class="filter-btn small-text" data-filter=".philips">Philips</button>
+                <button class="filter-btn small-text" data-filter=".tribu">Tribù</button>
+                <button class="filter-btn small-text" data-filter=".flexform">Flexform</button>
             </div>
-            <div class="view-more-brands-button-filters-sidebar small-text">View more</div>
         </div>
-        <div class="filter-category">
-            <h3 class="thirdtitle">Rooms</h3>
-            <div class="container-buttons-filters">
-                <button class="filter-btn small-text" data-filter=".living-room">Living Room</button>
-                <button class="filter-btn small-text" data-filter=".bathroom">Bathroom</button>
-            </div>
-
-        </div>
-
     </div>
-    <div class="cross-close-filters">
-        <img src="../../public/media/svg-assets/cross-white.svg" alt="">
-    </div>
+    <script src="../../js/brands-button-filters.js"></script>
 </div>
 <div class="blank-click-layout-sidebar"></div>
 
 
 
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        const products = document.querySelectorAll('.main-wrapper-products-table .card-product-donzelli');
-        const resetButton = document.getElementById('resetButton'); // Assurez-vous que l'ID correspond à votre bouton Reset dans le HTML
-
-        filterButtons.forEach(btn => {
-            btn.addEventListener('click', function () {
-                // Toggle du bouton actif
-                this.classList.toggle('activeFilter');
-
-                // Mise à jour de l'affichage des produits
-                updateProductDisplay();
-            });
-        });
-
-        resetButton.addEventListener('click', function () {
-            // Enlever la classe 'activeFilter' de tous les boutons de filtre
-            filterButtons.forEach(btn => {
-                btn.classList.remove('activeFilter');
-            });
-
-            // Mise à jour de l'affichage des produits
-            updateProductDisplay();
-        });
-
-        function updateProductDisplay() {
-            const activeFilters = document.querySelectorAll('.filter-btn.activeFilter');
-
-            // Groupement des filtres actifs par catégorie
-            let filtersByCategory = {
-                'Brands': new Set(),
-                'Type of items': new Set(),
-                'Rooms': new Set(),
-                'Materials': new Set()
-            };
-
-            // Remplir les ensembles de filtres par catégorie
-            activeFilters.forEach(btn => {
-                const category = btn.closest('.filter-category').querySelector('h3').innerText;
-                const filterClass = btn.getAttribute('data-filter').substring(1);
-                filtersByCategory[category].add(filterClass);
-            });
-
-            products.forEach(product => {
-                let shouldBeVisible = true;
-
-                Object.keys(filtersByCategory).forEach(category => {
-                    if (filtersByCategory[category].size > 0) {
-                        const matchesCategory = [...filtersByCategory[category]].some(filterClass => product.classList.contains(filterClass));
-                        shouldBeVisible = shouldBeVisible && matchesCategory;
-                    }
-                });
-
-                product.classList.toggle('hidden', !shouldBeVisible);
-            });
-        }
-    });
-
-</script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        shuffleProducts(); // Mélange les produits au chargement de la page
-
-        // Associe l'événement de clic au bouton pour mélanger les produits à nouveau
-        document.getElementById('shuffleButton').addEventListener('click', shuffleProducts);
-    });
-
-    function shuffleProducts() {
-        var wrapper = document.querySelector('.main-wrapper-products-table');
-        var cards = Array.from(wrapper.getElementsByClassName('card-product-donzelli'));
-
-        // Algorithme de Fisher-Yates pour mélanger
-        for (let i = cards.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [cards[i], cards[j]] = [cards[j], cards[i]];
-        }
-
-        // Ajoute chaque carte mélangée à wrapper
-        cards.forEach(card => wrapper.appendChild(card));
-    }
-
-
-
-    window.addEventListener("load", function () {
-        var contextButton = document.querySelector('.button-in-context-image');
-        var wContextButton = document.querySelector('.w-context-button'); // Define wContextButton here
-        var cards = document.querySelectorAll('.card-product-donzelli'); // Select all cards
-
-        contextButton.onclick = function () {
-            cards.forEach(function (card) {
-                card.classList.add('showincontextclass'); // Add class for each card
-            });
-            contextButton.classList.add("hide-switch-button");
-            wContextButton.classList.add("add-w-context-button");
-        };
-
-        wContextButton.onclick = function () {
-            cards.forEach(function (card) {
-                card.classList.remove('showincontextclass'); // Remove class for each card
-            });
-            contextButton.classList.remove("hide-switch-button");
-            wContextButton.classList.remove("add-w-context-button");
-        };
-    });
-
-
-
-
-</script>
-<script src="../../js/sidebar-filter.js"></script><div class="main-wrapper-products-table">
-    <!-- Taccia Lamp -->
-    <a class="card-product-donzelli flos lamps-lighting metal glass">
-        <p class="small-text">Taccia Lamp by Flos <br>
-            <span>Start at 899$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/flos/taccia-lamp/cover-feed-taccia-lamp-flos-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/flos/taccia-lamp/sub-cover-feed-taccia-flos-donzelli.webp" alt="">
-    </a>
-    <!-- Togo Sofa -->
-    <a href="[DIRECTORY_BASE_PATH]/products/ligneroset/togo-sofa/"
-        class="card-product-donzelli ligneroset sofas-armchairs velvet leather fabric">
-        <p class="small-text">Togo Sofa by Ligne Roset <br>
-            <span>Start at 1299$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/ligneroset/togo-sofa/cover-feed-togo-sofa-flos-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/ligneroset/togo-sofa/togo-heading-ligneroset-donzelli.png" alt="">
-    </a>
-    <!-- Complex Capitol Pierre Jeanneret Chair -->
-    <a class="card-product-donzelli cassina chairs wood">
-        <p class="small-text">Capitol Complex Chair by Cassina <br>
-            <span>Start at 1399$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/cassina/capitol-complex-chair/cover-feed-capitol-chair-pierre-jeanneret-cassina-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/cassina/capitol-complex-chair/sub-cover-feed-capitol-complex-chair-cassina-donzelli.jpg"
-            alt="">
-    </a>
-    <!-- Pacha Gubi Armchair -->
-    <a class="card-product-donzelli gubi sofas-armchairs fabric">
-        <p class="small-text">Pacha Armchair by Gubi <br>
-            <span>Start at 1999$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/gubi/pacha-armchair/cover-feed-pacha-armchair-gubi-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/gubi/pacha-armchair/subcover-feed-pacha-armchair-gubi-donzelli.jpg" alt="">
-    </a>
-
-    <!-- Atollo Lamp Oluce -->
-    <a class="card-product-donzelli oluce lamps-lighting metal">
-        <p class="small-text">Atollo Lamp by Oluce <br>
-            <span>Start at 999$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/oluce/atollo-lamp/cover-feed-atollo-lamp-oluce-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/oluce/atollo-lamp/sub-cover-feed-atollo-oluce-donzelli.jpg" alt="">
-    </a>
-    <!-- Cameleonda Sofa B&B Italia -->
-    <a class="card-product-donzelli b&bitalia sofas-armchairs velvet fabric">
-        <p class="small-text">Cameleonda Sofa by B&B Italia <br>
-            <span>Start at 14 999$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/b&bitalia/cameleonda-sofa/cover-feed-cameleonda-sofa-b&bitalia-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/b&bitalia/cameleonda-sofa/subcover-feed-camelonda-sofa-b&bitalia-donzelli.png"
-            alt="">
-    </a>
-    <!-- N701 Sofa Ethnicraft -->
-    <a class="card-product-donzelli ethnicraft sofas-armchairs leather fabric">
-        <p class="small-text">N701 Sofa by Ethnicraft <br>
-            <span>Start at 2 309$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/ethnicraft/n701/cover-feed-n701-sofa-ethnicraft-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/ethnicraft/n701/subcover-feed-n701-sofa-ethnicraft-donzelli.jpg" alt="">
-    </a>
-    <!--Barcelona Daybed Couch Knoll Sofa -->
-    <a class="card-product-donzelli knoll sofas-armchairs chairs leather wood">
-        <p class="small-text">Barcelona Couch by Knoll <br>
-            <span>Start at 14 999$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/knoll/barcelona-daybed-couch/cover-feed-barcelona-daybed-couch-knoll-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/knoll/barcelona-daybed-couch/subcover-feed-barcelona-daybed-couch-knoll-donzelli.jpg"
-            alt="">
-    </a>
-    <!--Barcelona Daybed Couch Knoll Sofa -->
-    <a class="card-product-donzelli knoll sofas-armchairs chairs leather metal">
-        <p class="small-text">Barcelona Chair by Knoll <br>
-            <span>Start at 7 999$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/knoll/barcelona-chair/cover-feed-barcelona-chair-knoll-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/knoll/barcelona-chair/subcover-feed-barcelona-chair-knoll-donzelli.jpg" alt="">
-    </a>
-    <!--Diamond Chair Knoll Sofa -->
-    <a class="card-product-donzelli knoll sofas-armchairs chairs leather metal">
-        <p class="small-text">Diamond Chair by Knoll <br>
-            <span>Start at 1 799$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/knoll/diamond-chair-bertoia/cover-feed-diamond-chair-knoll-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/knoll/diamond-chair-bertoia/subcover-feed-diamond-chair-knoll-donzelli.jpg"
-            alt="">
-    </a>
-    <!-- Pouf Original Fatboy -->
-    <a class="card-product-donzelli fatboy sofas-armchairs chairs velvet fabric nylon coton">
-        <p class="small-text">Original Pouf by Fatboy <br>
-            <span>Start at 199$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/fatboy/original-pouf/cover-feed-pouf-fatboy-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/fatboy/original-pouf/subcover-feed-pouf-original-fatboy-donzelli.jpg" alt="">
-    </a>
-    <!-- CH24 Carl Hansen -->
-    <a class="card-product-donzelli carlhansen chairs wood">
-        <p class="small-text">CH24 by Carl Hansen <br>
-            <span>Start at 549$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/carlhansen/ch24-chair/cover-feed-ch24-chair-carlhansen-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/carlhansen/ch24-chair/subcover-feed-ch24-chair-carlhansen-donzelli.jpg" alt="">
-    </a>
-    <!-- Aeron Chair Herman Miller -->
-    <a class="card-product-donzelli hermanmiller chairs plastic fabric">
-        <p class="small-text">Aeron by Herman Miller <br>
-            <span>Start at 1499$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/hermanmiller/aeron-chair/cover-feed-aeron-chair-hermanmiller-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/hermanmiller/aeron-chair/subcover-feed-aeron-chair-hermanmiller-donzelli.png"
-            alt="">
-    </a>
-    <!-- Sayl Chair Herman Miller -->
-    <a class="card-product-donzelli hermanmiller chairs plastic fabric">
-        <p class="small-text">Sayl by Herman Miller <br>
-            <span>Start at 699$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/hermanmiller/sayl-chair/cover-feed-sayl-chair-hermanmiller-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/hermanmiller/sayl-chair/subcover-feed-sayl-chair-hermanmiller-donzelli.webp"
-            alt="">
-    </a>
-    <!-- Eames Lounge Chair Vitra -->
-    <a class="card-product-donzelli vitra chairs leather velvet wood">
-        <p class="small-text">Eames Lounge Chair by Vitra<br>
-            <span>Start at 7999$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/vitra/lounge-chair-eames/cover-feed-lounge-chair-eames-vitra-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/vitra/lounge-chair-eames/subcover-feed-lounge-chair-eames-vitra-donzelli.jpg"
-            alt="">
-    </a>
-    <!-- Butterfly Stool Vitra -->
-    <a class="card-product-donzelli vitra chairs wood">
-        <p class="small-text">Butterfly Stool by Vitra<br>
-            <span>Start at 799$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/vitra/butterfly-stool/cover-feed-butterfly-stool-vitra-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/vitra/butterfly-stool/subcover-feed-butterfly-stool-vitra-donzelli.jpg.webp"
-            alt="">
-    </a>
-    <!-- Nelson Bench Vitra -->
-    <a class="card-product-donzelli vitra chairs tables wood">
-        <p class="small-text">Nelson Bench by Vitra<br>
-            <span>Start at 809$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/vitra/nelson-bench/cover-feed-nelson-bench-vitra-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/vitra/nelson-bench/subcover-feed-nelson-bench-vitra-donzelli.jpg" alt="">
-    </a>
-    <!-- Bloon Pouf Paris -->
-    <a class="card-product-donzelli bloonparis chairs fabric velvet">
-        <p class="small-text">Pouf by Bloon Paris<br>
-            <span>Start at 199$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/bloonparis/pouf-round/cover-feed-bloon-paris-pouf-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/bloonparis/pouf-round/subcover-feed-bloon-paris-pouf-donzelli.jpeg" alt="">
-    </a>
-    <!-- Complex Capitol Table by Cassina -->
-    <a class="card-product-donzelli cassina tables wood glass">
-        <p class="small-text">Complex Capitol Table by Cassina<br>
-            <span>Start at 7999$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/cassina/capitol-complex-table/cover-feed-capitol-complex-table-pierre-jeanneret-cassina-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/cassina/capitol-complex-table/subcover-feed-capitol-complex-table-pierre-jeanneret-cassina-donzelli.jpg.webp"
-            alt="">
-    </a>
-    <!-- S.A.M Table Jean prouvé by Vitra -->
-    <a class="card-product-donzelli vitra tables wood">
-        <p class="small-text">S.A.M Table Jean prouvé by Vitra<br>
-            <span>Start at 4999$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/vitra/sam-table/cover-feed-sam-table-jeanprouvé-vitra-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/vitra/sam-table/subcover-feed-sam-table-jeanprouvé-vitra-donzelli.jpg" alt="">
-    </a>
-    <!-- Table en forme libre by Cassina -->
-    <a class="card-product-donzelli cassina tables wood">
-        <p class="small-text">Table en forme libre by Cassina<br>
-            <span>Start at 14999$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/cassina/table-en-forme-libre-cassina/cover-feed-table-en-forme-libre-charlotte-perriand-cassina-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/cassina/table-en-forme-libre-cassina/subcover-feed-table-en-forme-libre-charlotte-perriand-cassina-donzelli.png"
-            alt="">
-    </a>
-    <!-- Noguchi Table by Vitra -->
-    <a class="card-product-donzelli vitra tables wood glass">
-        <p class="small-text">Noguchi Table by Vitra<br>
-            <span>Start at 2399$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/vitra/noguchi-table/cover-feed-noguchi-table-vitra-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/vitra/noguchi-table/subcover-feed-noguchi-table-vitra-donzelli.jpg" alt="">
-    </a>
-    <!-- Saarineen Side Table by Knoll -->
-    <a class="card-product-donzelli knoll tables marble metal">
-        <p class="small-text">Saarineen Side Table by Knoll<br>
-            <span>Start at 999$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/knoll/saarineen-side-table/cover-feed-saarineen-side-tables-knoll-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/knoll/saarineen-side-table/subcover-feed-saarineen-side-tables-knoll-donzelli.png"
-            alt="">
-    </a>
-    <!-- Console SHARK by Rochebobois -->
-    <a class="card-product-donzelli rochebobois tables glass wood">
-        <p class="small-text">Console SHARK by Rochebobois<br>
-            <span>Start at 2399$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/rochebobois/shark-console/cover-feed-shark-console-rochebobois-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/rochebobois/shark-console/subcover-feed-shark-console-rochebobois-donzelli.jpeg"
-            alt="">
-    </a>
-    <!-- Ribbon Armchair by Artifort -->
-    <a class="card-product-donzelli artifort sofas-armchairs velvet fabric metal">
-        <p class="small-text">Ribbon Armchair by Artifort<br>
-            <span>Start at 6400$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/artifort/ribbon-armchair/cover-feed-ribbon-armchair-artifort-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/artifort/ribbon-armchair/subcover-feed-ribbon-armchair-artifort-donzelli.png"
-            alt="">
-    </a>
-    <!-- Eracle Wardrobe by Maxalto -->
-    <a class="card-product-donzelli maxalto furniture-storage wood glass">
-        <p class="small-text">Eracle Wardrobe by Maxalto<br>
-            <span>Request a price</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/maxalto/eracle-wardrobe/cover-feed-eracle-wardrobe-maxalto-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/maxalto/eracle-wardrobe/subcover-feed-eracle-wardrobe-maxalto-donzelli.jpg"
-            alt="">
-    </a>
-    <!-- Speed Up by Rochebobois-->
-    <a class="card-product-donzelli rochebobois furniture-storage wood">
-        <p class="small-text">Speed Up by Rochebobois<br>
-            <span>Start at 7399$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/rochebobois/speedup-buffets/cover-feed-speedup-bois-buffet-rochebobois-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/rochebobois/speedup-buffets/subcover-feed-speedup-bois-buffet-rochebobois-donzelli.png"
-            alt="">
-    </a>
-    <!-- Meuble 64 by USM-->
-    <a class="card-product-donzelli usm furniture-storage metal plastic">
-        <p class="small-text">Meuble 64 by USM<br>
-            <span>Start at 2899$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/usm/meuble-m64/cover-feed-meuble-m64-buffet-usm-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/usm/meuble-m64/subcover-feed-meuble-m64-buffet-usm-donzelli.jpg.webp" alt="">
-    </a>
-
-    <!-- Claustra by Red Editions -->
-    <a class="card-product-donzelli red-editions furniture-storage wood">
-        <p class="small-text">Claustra by Red Editios<br>
-            <span>Start at 1599$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/red-editions/claustra-shelves/cover-feed-claustra-shelves-red-editions-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/red-editions/claustra-shelves/subcover-feed-claustra-shelves-red-editions-donzelli.jpg"
-            alt="">
-    </a>
-
-    <!-- Riflesso Charlotte Perriand by  Cassina -->
-    <a class="card-product-donzelli red-editions furniture-storage wood">
-        <p class="small-text">Riflesso Charlotte Perriand by Cassina<br>
-            <span>Start at 8499$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/cassina/513-riflesso/cover-feed-513-riflesso-storage-charlotte-perriand-cassina-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/cassina/513-riflesso/subcover-feed-513-riflesso-storage-charlotte-perriand-cassina-donzelli.jpg"
-            alt="">
-    </a>
-    <!-- Tripod Tv Stand by One For All -->
-    <a class="card-product-donzelli one-for-all furniture-storage wood">
-        <p class="small-text">Tripod Tv Stand by One For All<br>
-            <span>Start at 149$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/one-for-all/tv-stand-one-for-all/cover-feed-one-for-all-tv-stand-furniture-one-for-all-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/one-for-all/tv-stand-one-for-all/subcover-feed-one-for-all-tv-stand-furniture-one-for-all-donzelli.jpg"
-            alt="">
-    </a>
-    <!-- Bubble Bed by Rochebobois -->
-    <a class="card-product-donzelli rochebobois furniture-storage fabric velvet">
-        <p class="small-text">Bubble Bed by Rochebobois<br>
-            <span>Start at 6299$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/rochebobois/bubble-bed/cover-feed-bubble-bed-rochebobois-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/rochebobois/bubble-bed/subcover-feed-bubble-bed-rochebobois-donzelli.jpeg"
-            alt="">
-    </a>
-
-    <!-- Arco Lamp by Flos -->
-    <a class="card-product-donzelli flos lamps-lighting marble metal">
-        <p class="small-text">Arco Lamp by Flos<br>
-            <span>Start at 2299$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/flos/arco-lamp/cover-feed-arco-lamp-flos-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/flos/arco-lamp/subcover-feed-arco-lamp-flos-donzelli.jpg.webp" alt="">
-    </a>
-
-    <!-- Belleville by Sammode -->
-    <a class="card-product-donzelli sammode lamps-lighting glass metal">
-        <p class="small-text">Belleville by Sammode<br>
-            <span>Start at 1199$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/sammode/belleville-main-lamp/cover-feed-belleville-lamp-sammode-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/sammode/belleville-main-lamp/subcover-feed-belleville-lamp-sammode-donzelli.webp"
-            alt="">
-    </a>
-    <!-- Bellhop Table by Flos -->
-    <a class="card-product-donzelli flos lamps-lighting plastic metal">
-        <p class="small-text">Bellhop Table by Flos<br>
-            <span>Start at 249$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/flos/bellhop-table-lamp/cover-feed-bellhop-lamp-flos-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/flos/bellhop-table-lamp/subcover-feed-bellhop-lamp-flos-donzelli.jpg" alt="">
-    </a>
-    <!-- Mooon Lamp by Fermob -->
-    <a class="card-product-donzelli flos lamps-lighting plastic metal">
-        <p class="small-text">Mooon Lamp by Fermob<br>
-            <span>Start at 99$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/fermob/outdoor-lamp-mooon/cover-feed-mooon-lamp-fermob-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/fermob/outdoor-lamp-mooon/subcover-feed-mooon-lamp-fermob-donzelli.jpg" alt="">
-    </a>
-    <!-- Boost Charge Station by Belkin -->
-    <a class="card-product-donzelli belkin objects-accessories technology plastic metal">
-        <p class="small-text">Boost Charge Station by Belkin<br>
-            <span>Start at 149$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/belkin/boost-charge-pro-station/cover-feed-boost-charge-pro-station-belkin-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/belkin/boost-charge-pro-station/subcover-feed-boost-charge-pro-station-belkin-donzelli.jpg"
-            alt="">
-    </a>
-    <!-- La Boule Black by Villeroy & Boch -->
-    <a class="card-product-donzelli villeroy&boch objects-accessories porcelain">
-        <p class="small-text">La Boule Black by Villeroy & Boch<br>
-            <span>Start at 299$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/villeroy&boch/laboulenoire/cover-feed-la-boule-black-villeroy&boch-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/villeroy&boch/laboulenoire/subcover-feed-la-boule-black-villeroy&boch-donzelli.jpg"
-            alt="">
-    </a>
-    <!-- Avalon Cushion by Hermes -->
-    <a class="card-product-donzelli hermes objects-accessories fabric coton">
-        <p class="small-text">Avalon Cushion by Hermes<br>
-            <span>Start at 650$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/hermes/avalon-cushion/cover-feed-avalon-cushion-hermes-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/hermes/avalon-cushion/subcover-feed-avalon-cushion-hermes-donzelli.webp" alt="">
-    </a>
-    <!-- Smoke Rug by Rochebobois -->
-    <a class="card-product-donzelli rochebobois objects-accessories fabric coton">
-        <p class="small-text">Smoke Rug by Rochebobois<br>
-            <span>Start at 2499$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/rochebobois/smoke-rug/cover-feed-smoke-rug-rochebobois-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/rochebobois/smoke-rug/subcover-feed-smoke-rug-rochebobois-donzelli.jpeg" alt="">
-    </a>
-
-    <!-- Vide Poche Tray by Hermes -->
-    <a class="card-product-donzelli hermes objects-accessories porcelain">
-        <p class="small-text">Vide Poche Tray by Hermes<br>
-            <span>Start at 600$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/hermes/vide-poche-hermes/cover-feed-vide-poche-hermes-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/hermes/vide-poche-hermes/subcover-feed-vide-poche-hermes-donzelli.jpg.webp"
-            alt="">
-    </a>
-
-    <!-- Betty Chair Series by &Tradition -->
-    <a class="card-product-donzelli andtradition chairs wood">
-        <p class="small-text">Betty Chair TK10 by &Tradition<br>
-            <span>Start at 660$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/andtradition/betty-chair/cover-feed-betty-chair-series-andtradition-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/andtradition/betty-chair/subcover-feed-betty-chair-series-andtradition-donzelli.jpg"
-            alt="">
-    </a>
-
-    <!-- Baies Candle Series by Diptyque -->
-    <a class="card-product-donzelli diptyque objects-accessories glass ceramic">
-        <p class="small-text">Baies Candle Series by Diptyque<br>
-            <span>Start at 58$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/diptyque/baies-candle/cover-feed-baies-candle-diptyque-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/diptyque/baies-candle/subcover-feed-baies-candle-diptyque-donzelli.jpg.webp"
-            alt="">
-    </a>
-    <!-- Living on Water Book by Phaidon -->
-    <a class="card-product-donzelli phaidon objects-accessories paper">
-        <p class="small-text">Living on Water Book by Phaidon<br>
-            <span>Start at 49$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/phaidon/living-on-water/cover-feed-living-on-water-phaidon-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/phaidon/living-on-water/subcover-feed-living-on-water-phaidon-donzelli.png"
-            alt="">
-    </a>
-    <!-- Paravent Ambassade Charlotte Perriand by Cassina -->
-    <a class="card-product-donzelli cassina objects-accessories wood">
-        <p class="small-text">Paravent Ambassade Charlotte Perriand by Cassina<br>
-            <span>Start at 8849$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/cassina/paravent-ambassade-charlotte-perriand/cover-feed-paravent-ambassade-charlotte-perriand-cassina-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/cassina/paravent-ambassade-charlotte-perriand/subcover-feed-paravent-ambassade-charlotte-perriand-cassina-donzelli.jpg"
-            alt="">
-    </a>
-    <!-- Framed Mirror by Muuto -->
-    <a class="card-product-donzelli muuto objects-accessories glass metal">
-        <p class="small-text">Framed Mirror by Muuto<br>
-            <span>Start at 335$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/muuto/framed-mirror/cover-feed-framed-mirror-muuto-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/muuto/framed-mirror/subcover-feed-framed-mirror-muuto-donzelli.jpg" alt="">
-    </a>
-    <!-- Classic Cabin Line up by Rimowa -->
-    <a class="card-product-donzelli rimowa objects-accessories plastic metal">
-        <p class="small-text">Classic Cabin Line up by Rimowa<br>
-            <span>Start at 499$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/rimowa/rimowa-cabin-line-up/cover-feed-classic-cabin-line-up-rimowa-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/rimowa/rimowa-cabin-line-up/subcover-feed-classic-cabin-line-up-rimowa-donzelli.jpg"
-            alt="">
-    </a>
-    <!-- S Pure L Cave by Eurocave -->
-    <a class="card-product-donzelli eurocave technology glass metal">
-        <p class="small-text">S Pure L Cave by Eurocave<br>
-            <span>Start at 4399$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/eurocave/s-pure-l/cover-feed-s-pure-l-eurocave-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/eurocave/s-pure-l/subcover-feed-s-pure-l-eurocave-donzelli.jpg" alt="">
-    </a>
-    <!-- Beosound 2 by Bang & Olufsen -->
-    <a class="card-product-donzelli bangandolufsen technology  metal">
-        <p class="small-text">Beosound 2 by Bang & Olufsen<br>
-            <span>Start at 2999$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/bang&olufsen/beosound-two/cover-feed-beosound-two-bang&olufsen-donzelli.png"
-            alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/bang&olufsen/beosound-two/subcover-feed-beosound-two-bang&olufsen-donzelli.jpg"
-            alt="">
-    </a>
-    <!-- Gradient Signe by Philips -->
-    <a class="card-product-donzelli philips technology lamps-lighting plastic metal">
-        <p class="small-text">Gradient Signe by Philips<br>
-            <span>Start at 329$</span>
-        </p>
-        <img loading="lazy"
-            src="../../public/products/philips/gradient-signe/cover-feed-gradient-signe-philips-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/philips/gradient-signe/subcover-feed-gradient-signe-philips-donzelli.webp"
-            alt="">
-    </a>
-    <!-- Apple TV 4K by Apple -->
-    <a class="card-product-donzelli apple technology  plastic">
-        <p class="small-text">Apple TV 4K by Apple<br>
-            <span>Start at 169$</span>
-        </p>
-        <img loading="lazy" src="../../public/products/apple/apple-tv/cover-feed-apple-tv-apple-donzelli.png" alt="">
-        <img loading="lazy" class="hover-card-product-image"
-            src="../../public/products/apple/apple-tv/subcover-feed-apple-tv-apple-donzelli.jpg" alt="">
-    </a>
-
-
-
-
-
-</div><footer>
+<script src="../../js/filters.js"></script>
+<script src="../../js/shuffle-switch-button.js"></script>
+<script src="../../js/sidebar-filter.js"></script><footer>
     <div class="line-top-header"></div>
     <div class="heading-header">
         <img src="[DIRECTORY_BASE_PATH]/public/media/svg-assets/logo-donzelli-white.svg" alt="">

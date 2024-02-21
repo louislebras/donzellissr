@@ -1,0 +1,210 @@
+@import "../../scss/variables";
+
+@import "../../scss/filters-system/main-filters.scss";
+
+.nav-feed {
+  position: fixed;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, -50%);
+  padding: 4px 5px;
+  border-radius: 500px;
+  background: rgba(228, 225, 222, 0.397);
+  backdrop-filter: blur(12.5px);
+  z-index: 20;
+  display: flex;
+  gap: 5px;
+  div {
+    background-color: $donzelli1;
+    // color: $donzelli1;
+    padding: 9px 15px 8.5px;
+    border-radius: 400px;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-feed {
+    bottom: 0px;
+    div {
+      width: 80px;
+    }
+  }
+}
+
+.hide-switch-button {
+  display: none !important;
+}
+
+.w-context-button {
+  background-color: $donzelli3 !important;
+  color: $donzelli1;
+  display: none !important;
+}
+
+.add-w-context-button {
+  display: flex !important;
+}
+
+.filters-feed-button {
+  background-color: $donzelli3 !important;
+  color: $donzelli1;
+}
+
+.sidebar-filters {
+  width: 35vw;
+  height: 65vh;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%, 0%);
+  position: fixed;
+  background-color: $donzelli3;
+  z-index: 15;
+  border-radius: 5px;
+  // display: none;
+  padding: 20px 25px;
+  transition: 0.2s ease;
+  bottom: -70vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 15vh;
+  // opacity: 0;
+
+  .cross-close-filters {
+    cursor: pointer;
+    img {
+      width: 10px;
+      position: absolute;
+      right: 22px;
+      top: 22px;
+    }
+  }
+
+  #resetButton {
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    color: $donzelli1;
+    cursor: pointer;
+    z-index: 30;
+  }
+
+  h3 {
+    color: $donzelli1;
+    margin-bottom: 15px;
+  }
+
+  .filter-category {
+    margin-bottom: 35px;
+  }
+
+  button {
+    outline: 0;
+    border: 1px solid rgb(77, 77, 77);
+    color: $donzelli1;
+    background-color: transparent;
+    padding: 4px 10px;
+    border-radius: 1000px;
+    margin: 0;
+    &:hover {
+      background-color: $donzelli1;
+      color: $donzelli3;
+      border: 1px solid white;
+    }
+  }
+
+  .container-buttons-filters {
+    // border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    gap: 10px;
+  }
+
+  .filter-btn.activeFilter {
+    background-color: $donzelli1;
+    color: $donzelli3;
+    border: 1px solid white;
+  }
+
+  .view-more-brands-button-filters-sidebar {
+    margin-top: 10px;
+    color: $donzelli1;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 800px) {
+  .sidebar-filters {
+    width: 95vw;
+    .container-buttons-filters {
+      gap: 7px;
+      width: 95%;
+    }
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.blank-click-layout-sidebar {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -200;
+  // background-color: red;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.activeBlankLayoutSidebar {
+  z-index: 14;
+}
+
+.activeSidebarFilter {
+  bottom: 10px;
+  transition: 0.2s ease;
+  // opacity: 1;
+}
+
+// Sidebar Brands Filters
+
+.sidebar-brands-filter {
+  background-color: $donzelli3;
+  // background-color: red;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 40;
+  padding: 20px 25px;
+  transition: 0.3s ease;
+
+  .back-all-brands-filters-button {
+    color: $donzelli1;
+    margin-bottom: 25px;
+    cursor: pointer;
+  }
+
+  .container-buttons-filters {
+    margin-top: 15px;
+  }
+}
+
+.active-sidebar-brands-filters {
+  left: 0;
+  transition: 0.3s ease;
+}
+
+.fix-scroll-filters {
+  overflow: hidden !important;
+}

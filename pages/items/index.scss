@@ -1,0 +1,16 @@
+@import "../../scss/variables";
+
+@import "../../scss/filters-system/main-filters.scss";
+
+.heading-all-items {
+  margin-top: 3vh;
+  p {
+    margin-left: calc((8.33vw * 1) - 5px);
+    width: 45vw;
+    margin-top: 1.5vh;
+  }
+}
+
+main {
+  margin-bottom: 10vh;
+}
