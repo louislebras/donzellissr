@@ -5,30 +5,37 @@ document.addEventListener("DOMContentLoaded", function () {
   );
   const resetButton = document.getElementById("resetButton");
 
+  const handleFilterButtonClick = function (event) {
+    // Prévenir le comportement par défaut pour les événements tactiles
+    event.preventDefault();
+
+    const btn = event.target.closest(".filter-btn"); // Assurez-vous d'obtenir le bouton si l'événement vient d'un enfant
+    // Déterminer si le bouton est pour une marque
+    const isBrandFilter =
+      btn.closest(".sidebar-brands-filter") ||
+      btn
+        .closest(".filter-category")
+        .querySelector("h3")
+        .textContent.includes("Brands");
+
+    if (isBrandFilter) {
+      // Pour les filtres de marque, vérifier l'état actif avant de synchroniser
+      const filter = btn.getAttribute("data-filter");
+      const wasActive = btn.classList.contains("activeFilter");
+      // Synchroniser l'état pour tous les boutons correspondants
+      synchronizeBrandFilters(filter, !wasActive);
+    } else {
+      // Basculer l'état actif du bouton pour les autres filtres
+      btn.classList.toggle("activeFilter");
+    }
+
+    // Mise à jour de l'affichage des produits
+    updateProductDisplay();
+  };
+
   filterButtons.forEach((btn) => {
-    btn.addEventListener("click", function () {
-      // Déterminer si le bouton est pour une marque
-      const isBrandFilter =
-        btn.closest(".sidebar-brands-filter") ||
-        btn
-          .closest(".filter-category")
-          .querySelector("h3")
-          .textContent.includes("Brands");
-
-      if (isBrandFilter) {
-        // Pour les filtres de marque, vérifier l'état actif avant de synchroniser
-        const filter = this.getAttribute("data-filter");
-        const wasActive = this.classList.contains("activeFilter");
-        // Synchroniser l'état pour tous les boutons correspondants
-        synchronizeBrandFilters(filter, !wasActive);
-      } else {
-        // Basculer l'état actif du bouton pour les autres filtres
-        this.classList.toggle("activeFilter");
-      }
-
-      // Mise à jour de l'affichage des produits
-      updateProductDisplay();
-    });
+    btn.addEventListener("click", handleFilterButtonClick);
+    btn.addEventListener("touchend", handleFilterButtonClick);
   });
 
   resetButton.addEventListener("click", function () {
@@ -74,11 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .querySelectorAll(`.filter-btn[data-filter="${selectedFilter}"]`)
       .forEach((btn) => {
         // Basculer l'état actif/inactif en fonction de shouldActivate
-        if (shouldActivate) {
-          btn.classList.add("activeFilter");
-        } else {
-          btn.classList.remove("activeFilter");
-        }
+        btn.classList.toggle("activeFilter", shouldActivate);
       });
   }
 
@@ -90,6 +93,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (categoryText.includes("Type of items")) return "Type of items";
     if (categoryText.includes("Rooms")) return "Rooms";
     if (categoryText.includes("Materials")) return "Materials";
-    return null; // ou une gestion spécifique si nécessaire
+    return null;
   }
 });
