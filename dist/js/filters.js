@@ -5,58 +5,54 @@ document.addEventListener("DOMContentLoaded", function () {
   );
   const resetButton = document.getElementById("resetButton");
 
-  // Détection des appareils mobiles pour ajuster la gestion des événements
-  const isMobileDevice =
-    "ontouchstart" in window ||
-    navigator.maxTouchPoints > 0 ||
-    navigator.msMaxTouchPoints > 0;
+  function forceUpdate(element) {
+    // Technique pour forcer la mise à jour : manipulation des styles
+    element.style.display = "none";
+    element.offsetHeight; // Lecture forçant le reflow
+    element.style.display = "";
+  }
 
   filterButtons.forEach((btn) => {
-    const handleInteraction = function (event) {
-      // Pour les appareils mobiles, empêcher le comportement par défaut sur touchstart
-      if (event.type === "touchstart") {
-        event.preventDefault();
-      }
-
-      // Déterminer si le bouton appartient à la catégorie des marques
+    btn.addEventListener("click", function () {
       const isBrandFilter =
-        btn.closest(".sidebar-brands-filter") ||
-        btn
-          .closest(".filter-category")
+        this.closest(".sidebar-brands-filter") ||
+        this.closest(".filter-category")
           .querySelector("h3")
           .textContent.includes("Brands");
 
-      // Basculer l'état actif et synchroniser si nécessaire
       if (isBrandFilter) {
-        const filter = btn.getAttribute("data-filter");
-        const isActive = !btn.classList.contains("activeFilter");
-        synchronizeBrandFilters(filter, isActive);
+        const filter = this.getAttribute("data-filter");
+        if (this.classList.contains("activeFilter")) {
+          this.classList.remove("activeFilter");
+          synchronizeBrandFilters(filter, false);
+        } else {
+          this.classList.add("activeFilter");
+          synchronizeBrandFilters(filter, true);
+        }
       } else {
-        btn.classList.toggle("activeFilter");
+        // Basculer la classe sans délai
+        if (this.classList.contains("activeFilter")) {
+          this.classList.remove("activeFilter");
+        } else {
+          this.classList.add("activeFilter");
+        }
       }
 
-      // Mise à jour de l'affichage des produits
+      forceUpdate(this); // Forcer la mise à jour après modification de la classe
       updateProductDisplay();
-    };
-
-    // Écouteurs pour touchstart et click, en fonction du type d'appareil
-    if (isMobileDevice) {
-      btn.addEventListener("touchstart", handleInteraction, { passive: false });
-    } else {
-      btn.addEventListener("click", handleInteraction);
-    }
+    });
   });
 
   resetButton.addEventListener("click", function () {
     filterButtons.forEach((btn) => {
       btn.classList.remove("activeFilter");
+      forceUpdate(btn); // Appliquer la mise à jour forcée ici aussi
     });
     updateProductDisplay();
   });
 
   function updateProductDisplay() {
     const activeFilters = document.querySelectorAll(".filter-btn.activeFilter");
-
     let filtersByCategory = {
       Brands: new Set(),
       "Type of items": new Set(),
@@ -64,7 +60,6 @@ document.addEventListener("DOMContentLoaded", function () {
       Materials: new Set(),
     };
 
-    // Organiser les filtres actifs par catégorie
     activeFilters.forEach((btn) => {
       const category = getCategory(btn);
       if (category && filtersByCategory.hasOwnProperty(category)) {
@@ -90,6 +85,8 @@ document.addEventListener("DOMContentLoaded", function () {
       .querySelectorAll(`.filter-btn[data-filter="${selectedFilter}"]`)
       .forEach((btn) => {
         btn.classList.toggle("activeFilter", shouldActivate);
+        // Forcer le reflow après modification de la classe
+        forceReflow(btn);
       });
   }
 

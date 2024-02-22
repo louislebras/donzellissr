@@ -103,7 +103,7 @@
     margin-bottom: 35px;
   }
 
-  button {
+  button[data-active="false"] {
     outline: 0;
     border: 1px solid rgb(77, 77, 77);
     color: $donzelli1;
@@ -118,6 +118,16 @@
     }
   }
 
+  @media (max-width: 800px) {
+    button {
+      &:hover {
+        background-color: transparent;
+        color: $donzelli1;
+        border: 1px solid rgb(77, 77, 77);
+      }
+    }
+  }
+
   .container-buttons-filters {
     // border: 1px solid red;
     display: flex;
@@ -126,7 +136,7 @@
     gap: 10px;
   }
 
-  .filter-btn.activeFilter {
+  .activeFilter[data-active="true"] {
     background-color: $donzelli1;
     color: $donzelli3;
     border: 1px solid white;
