@@ -5,11 +5,20 @@ document.addEventListener("DOMContentLoaded", function () {
   );
   const resetButton = document.getElementById("resetButton");
 
+  // Détection des appareils mobiles pour ajuster la gestion des événements
+  const isMobileDevice =
+    "ontouchstart" in window ||
+    navigator.maxTouchPoints > 0 ||
+    navigator.msMaxTouchPoints > 0;
+
   filterButtons.forEach((btn) => {
     const handleInteraction = function (event) {
-      // Empêcher le comportement par défaut pour éviter les problèmes sur mobile
-      event.preventDefault();
+      // Pour les appareils mobiles, empêcher le comportement par défaut sur touchstart
+      if (event.type === "touchstart") {
+        event.preventDefault();
+      }
 
+      // Déterminer si le bouton appartient à la catégorie des marques
       const isBrandFilter =
         btn.closest(".sidebar-brands-filter") ||
         btn
@@ -17,13 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
           .querySelector("h3")
           .textContent.includes("Brands");
 
+      // Basculer l'état actif et synchroniser si nécessaire
       if (isBrandFilter) {
         const filter = btn.getAttribute("data-filter");
-        // Basculer l'état actif et synchroniser les filtres de marque
         const isActive = !btn.classList.contains("activeFilter");
         synchronizeBrandFilters(filter, isActive);
       } else {
-        // Basculer l'état actif du bouton pour les autres filtres
         btn.classList.toggle("activeFilter");
       }
 
@@ -31,9 +39,12 @@ document.addEventListener("DOMContentLoaded", function () {
       updateProductDisplay();
     };
 
-    // Écouteurs pour touchstart et click
-    btn.addEventListener("touchstart", handleInteraction, { passive: false });
-    btn.addEventListener("click", handleInteraction);
+    // Écouteurs pour touchstart et click, en fonction du type d'appareil
+    if (isMobileDevice) {
+      btn.addEventListener("touchstart", handleInteraction, { passive: false });
+    } else {
+      btn.addEventListener("click", handleInteraction);
+    }
   });
 
   resetButton.addEventListener("click", function () {
@@ -53,6 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
       Materials: new Set(),
     };
 
+    // Organiser les filtres actifs par catégorie
     activeFilters.forEach((btn) => {
       const category = getCategory(btn);
       if (category && filtersByCategory.hasOwnProperty(category)) {
@@ -77,7 +89,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document
       .querySelectorAll(`.filter-btn[data-filter="${selectedFilter}"]`)
       .forEach((btn) => {
-        // Basculer l'état actif/inactif en fonction de shouldActivate
         btn.classList.toggle("activeFilter", shouldActivate);
       });
   }
@@ -90,6 +101,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (categoryText.includes("Type of items")) return "Type of items";
     if (categoryText.includes("Rooms")) return "Rooms";
     if (categoryText.includes("Materials")) return "Materials";
-    return null;
+    return null; // ou une gestion spécifique si nécessaire
   }
 });
