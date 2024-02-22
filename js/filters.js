@@ -4,47 +4,36 @@ document.addEventListener("DOMContentLoaded", function () {
     ".main-wrapper-products-table .card-product-donzelli"
   );
   const resetButton = document.getElementById("resetButton");
-  let lastTouchEventTime = 0; // Drapeau pour gérer les événements touchend/click
-
-  const handleFilterButtonClick = function (event) {
-    // Pour les événements tactiles, marquer le temps et prévenir le comportement par défaut
-    if (event.type === "touchend") {
-      lastTouchEventTime = Date.now();
-      event.preventDefault();
-    } else if (
-      event.type === "click" &&
-      Date.now() - lastTouchEventTime < 400
-    ) {
-      // Ignorer les clics qui suivent immédiatement un touchend
-      return;
-    }
-
-    const btn = this; // Utiliser 'this' pour référencer le bouton directement
-    // Déterminer si le bouton est pour une marque
-    const isBrandFilter =
-      btn.closest(".sidebar-brands-filter") ||
-      btn
-        .closest(".filter-category")
-        .querySelector("h3")
-        .textContent.includes("Brands");
-
-    if (isBrandFilter) {
-      // Pour les filtres de marque, vérifier l'état actif avant de synchroniser
-      const filter = btn.getAttribute("data-filter");
-      const wasActive = btn.classList.contains("activeFilter");
-      synchronizeBrandFilters(filter, !wasActive);
-    } else {
-      // Basculer l'état actif du bouton pour les autres filtres
-      btn.classList.toggle("activeFilter");
-    }
-
-    // Mise à jour de l'affichage des produits
-    updateProductDisplay();
-  };
 
   filterButtons.forEach((btn) => {
-    btn.addEventListener("click", handleFilterButtonClick);
-    btn.addEventListener("touchend", handleFilterButtonClick);
+    const handleInteraction = function (event) {
+      // Empêcher le comportement par défaut pour éviter les problèmes sur mobile
+      event.preventDefault();
+
+      const isBrandFilter =
+        btn.closest(".sidebar-brands-filter") ||
+        btn
+          .closest(".filter-category")
+          .querySelector("h3")
+          .textContent.includes("Brands");
+
+      if (isBrandFilter) {
+        const filter = btn.getAttribute("data-filter");
+        // Basculer l'état actif et synchroniser les filtres de marque
+        const isActive = !btn.classList.contains("activeFilter");
+        synchronizeBrandFilters(filter, isActive);
+      } else {
+        // Basculer l'état actif du bouton pour les autres filtres
+        btn.classList.toggle("activeFilter");
+      }
+
+      // Mise à jour de l'affichage des produits
+      updateProductDisplay();
+    };
+
+    // Écouteurs pour touchstart et click
+    btn.addEventListener("touchstart", handleInteraction, { passive: false });
+    btn.addEventListener("click", handleInteraction);
   });
 
   resetButton.addEventListener("click", function () {
@@ -64,7 +53,6 @@ document.addEventListener("DOMContentLoaded", function () {
       Materials: new Set(),
     };
 
-    // Organiser les filtres actifs par catégorie
     activeFilters.forEach((btn) => {
       const category = getCategory(btn);
       if (category && filtersByCategory.hasOwnProperty(category)) {
@@ -89,6 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document
       .querySelectorAll(`.filter-btn[data-filter="${selectedFilter}"]`)
       .forEach((btn) => {
+        // Basculer l'état actif/inactif en fonction de shouldActivate
         btn.classList.toggle("activeFilter", shouldActivate);
       });
   }
@@ -101,6 +90,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (categoryText.includes("Type of items")) return "Type of items";
     if (categoryText.includes("Rooms")) return "Rooms";
     if (categoryText.includes("Materials")) return "Materials";
-    return null; // ou une gestion spécifique si nécessaire
+    return null;
   }
 });
